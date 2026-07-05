@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "ziemia-we-wszechswiecie",
+    "nazwa": "Ziemia we Wszechświecie: ruchy Ziemi, oświetlenie, wysokość Słońca",
+    "count": 7
+  },
+  {
+    "slug": "mapa-i-kartografia",
+    "nazwa": "Mapa i kartografia: skala, azymut, obliczenia na mapie topograficznej",
+    "count": 5
+  },
+  {
+    "slug": "atmosfera-i-klimat",
+    "nazwa": "Atmosfera i klimat: pogoda, fronty, mapy synoptyczne, klimatogramy",
+    "count": 12
+  },
+  {
+    "slug": "hydrosfera",
+    "nazwa": "Hydrosfera: rzeki, jeziora, morza i oceany",
+    "count": 17
+  },
+  {
+    "slug": "litosfera-i-geologia",
+    "nazwa": "Litosfera: budowa geologiczna, tektonika płyt, skały",
+    "count": 12
+  },
+  {
+    "slug": "geomorfologia-rzezba-terenu",
+    "nazwa": "Rzeźba terenu: procesy egzogeniczne i formy geomorfologiczne",
+    "count": 10
+  },
+  {
+    "slug": "gleby-i-biosfera",
+    "nazwa": "Gleby i biosfera: strefy roślinne, piętrowość, ochrona przyrody",
+    "count": 7
+  },
+  {
+    "slug": "ludnosc-i-osadnictwo",
+    "nazwa": "Ludność i osadnictwo: demografia, migracje, miasta i urbanizacja",
+    "count": 18
+  },
+  {
+    "slug": "rolnictwo",
+    "nazwa": "Rolnictwo i wyżywienie: rolnictwo Polski i świata, rybołówstwo",
+    "count": 16
+  },
+  {
+    "slug": "przemysl-i-energetyka",
+    "nazwa": "Przemysł i energetyka: surowce, górnictwo, produkcja energii",
+    "count": 10
+  },
+  {
+    "slug": "transport-i-handel",
+    "nazwa": "Transport i handel: usługi w Polsce i na świecie",
+    "count": 8
+  },
+  {
+    "slug": "rozwoj-i-problemy-globalne",
+    "nazwa": "Zróżnicowanie rozwoju: kraje świata, konflikty, problemy globalne",
+    "count": 9
+  }
+]

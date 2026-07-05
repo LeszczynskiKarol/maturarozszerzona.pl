@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "dowody",
+    "nazwa": "Dowody algebraiczne i geometryczne",
+    "count": 1
+  },
+  {
+    "slug": "rachunek-rozniczkowy",
+    "nazwa": "Rachunek różniczkowy: granice, pochodne, optymalizacja",
+    "count": 6
+  },
+  {
+    "slug": "stereometria",
+    "nazwa": "Stereometria: bryły, kąty w przestrzeni",
+    "count": 4
+  },
+  {
+    "slug": "geometria-analityczna",
+    "nazwa": "Geometria analityczna",
+    "count": 6
+  },
+  {
+    "slug": "kombinatoryka-i-prawdopodobienstwo",
+    "nazwa": "Kombinatoryka i rachunek prawdopodobieństwa",
+    "count": 4
+  },
+  {
+    "slug": "ciagi",
+    "nazwa": "Ciągi i szeregi: arytmetyczne, geometryczne, suma nieskończona",
+    "count": 6
+  },
+  {
+    "slug": "trygonometria",
+    "nazwa": "Trygonometria: równania, tożsamości, twierdzenia sinusów i cosinusów",
+    "count": 6
+  },
+  {
+    "slug": "planimetria",
+    "nazwa": "Planimetria: okręgi, trójkąty, czworokąty",
+    "count": 10
+  },
+  {
+    "slug": "funkcje",
+    "nazwa": "Funkcje: kwadratowa, wykładnicza, logarytmiczna, wymierna",
+    "count": 7
+  },
+  {
+    "slug": "rownania-i-nierownosci",
+    "nazwa": "Równania i nierówności, w tym z parametrem i wartością bezwzględną",
+    "count": 11
+  }
+]

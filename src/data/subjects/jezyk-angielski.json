@@ -1,0 +1,72 @@
+{
+  "slug": "jezyk-angielski",
+  "intro": "Matura rozszerzona z języka angielskiego to jeden z najczęściej wybieranych egzaminów dodatkowych, wymagany lub premiowany na filologiach, lingwistyce stosowanej, prawie międzynarodowym, kierunkach ekonomicznych oraz wszędzie tam, gdzie liczy się wysoki poziom znajomości języka. W Formule 2023 (CKE) obejmuje rozumienie ze słuchu, rozumienie tekstów pisanych, znajomość środków językowych i dłuższą wypowiedź pisemną z elementami argumentacji. Poziom rozszerzony odpowiada w przybliżeniu B2/C1 według Europejskiego Systemu Opisu Kształcenia Językowego (ESOKJ) i jest wyraźnie trudniejszy leksykalnie i gramatycznie niż wersja podstawowa (B1/B2).",
+  "formatArkusza": "Pisemny arkusz poziomu rozszerzonego trwa 150 minut i sprawdza cztery obszary: rozumienie ze słuchu, rozumienie tekstów pisanych, znajomość środków językowych oraz wypowiedź pisemną. Występują zadania zamknięte (dobieranie, wielokrotny wybór, prawda/fałsz) i otwarte (transformacje zdań, słowotwórstwo, tłumaczenie fragmentów oraz dłuższa forma pisemna).",
+  "trudnosc": "Rozszerzenie z angielskiego jest realne dla osób, które faktycznie posługują się językiem na poziomie B2/C1, a nie tylko opanowały szkolny minimum. Największą trudność sprawiają zadania na znajomość środków językowych — transformacje zdań, słowotwórstwo i parafrazy wymagają precyzyjnej znajomości gramatyki i kolokacji, gdzie liczy się każde słowo i forma. Wysoko punktowana jest też wypowiedź pisemna, która musi być spójna, bogata językowo i poprawnie argumentująca. Dla osób osłuchanych z językiem (filmy, książki, rozmowy) egzamin bywa satysfakcjonujący, ale bez solidnej pracy nad leksyką i strukturami gramatycznymi trudno o wynik otwierający drzwi na filologie.",
+  "wymagania": [
+    {
+      "pytanie": "Ile słów ma mieć wypowiedź pisemna na maturze rozszerzonej z angielskiego?",
+      "odpowiedz": "Dłuższa wypowiedź pisemna na poziomie rozszerzonym powinna liczyć od 200 do 250 wyrazów. Za wypowiedź krótszą niż wymagane minimum lub istotnie odbiegającą od tematu można stracić punkty, dlatego warto trzymać się limitu i rozwinąć wszystkie elementy z polecenia.",
+      "dzial": "wypowiedz-pisemna"
+    },
+    {
+      "pytanie": "Jakie formy wypowiedzi pisemnej obowiązują na rozszerzeniu z angielskiego?",
+      "odpowiedz": "Na poziomie rozszerzonym obowiązuje jedna dłuższa forma z elementami argumentacji: rozprawka (za i przeciw lub opiniująca), artykuł albo list formalny. Zdający otrzymuje jedno polecenie do zrealizowania, a wybrana forma musi zawierać jasną tezę lub stanowisko i logiczne argumenty poparte przykładami.",
+      "dzial": "wypowiedz-pisemna"
+    },
+    {
+      "pytanie": "Czy na maturze z angielskiego jest część ustna i czy jest na poziomie rozszerzonym?",
+      "odpowiedz": "Tak, część ustna jest obowiązkowa, ale jest wspólna dla wszystkich zdających i nie ma odrębnego poziomu rozszerzonego. Oznacza to, że nawet jeśli zdajesz angielski jako przedmiot dodatkowy na rozszerzeniu, ustną zdajesz na tych samych zasadach co osoby zdające tylko poziom podstawowy.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Jakiego poziomu ESOKJ (B2 czy C1) wymaga rozszerzenie z angielskiego?",
+      "odpowiedz": "Poziom rozszerzony odpowiada w przybliżeniu poziomom B2/C1 według Europejskiego Systemu Opisu Kształcenia Językowego (ESOKJ). W praktyce oznacza to swobodne rozumienie autentycznych tekstów i nagrań oraz umiejętność tworzenia spójnej, poprawnej i bogatej językowo wypowiedzi na tematy abstrakcyjne.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Czym różni się matura podstawowa od rozszerzonej z angielskiego?",
+      "odpowiedz": "Poziom podstawowy odpowiada mniej więcej B1/B2 i sprawdza komunikatywną znajomość języka, a wypowiedź pisemna to krótsza forma użytkowa. Rozszerzenie sięga B2/C1: teksty i nagrania są dłuższe i trudniejsze, dochodzą wymagające zadania na środki językowe (transformacje, słowotwórstwo, tłumaczenie), a wypowiedź pisemna to dłuższa forma argumentacyjna na 200-250 wyrazów.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Na czym polega rozumienie ze słuchu na rozszerzeniu z angielskiego?",
+      "odpowiedz": "Rozumienie ze słuchu opiera się na autentycznych lub zbliżonych do autentycznych nagraniach, które są odtwarzane dwukrotnie. Zadania obejmują między innymi dobieranie wypowiedzi do osób lub zdań oraz uzupełnianie luk w notatce, a sprawdzają zarówno ogólny sens, jak i wyławianie konkretnych informacji i intencji mówiącego.",
+      "dzial": "rozumienie-ze-sluchu"
+    },
+    {
+      "pytanie": "Na czym polega znajomość środków językowych na maturze rozszerzonej z angielskiego?",
+      "odpowiedz": "Znajomość środków językowych to najbardziej wymagająca część arkusza, oceniana z dużą dokładnością. Obejmuje zadania otwarte, takie jak transformacje zdań (parafrazy z podanym słowem), słowotwórstwo (word formation) oraz tłumaczenie fragmentów zdań, gdzie liczy się dokładna forma gramatyczna, kolokacje i poprawna pisownia.",
+      "dzial": "znajomosc-srodkow-jezykowych"
+    },
+    {
+      "pytanie": "Czy na rozszerzeniu z angielskiego jest słowotwórstwo i transformacje zdań?",
+      "odpowiedz": "Tak, słowotwórstwo (word formation) i transformacje zdań to stały element zadań na znajomość środków językowych na poziomie rozszerzonym. W słowotwórstwie trzeba utworzyć poprawną formę wyrazu od podanego rdzenia, a w transformacjach przekształcić zdanie z użyciem wskazanego słowa tak, aby zachować pierwotne znaczenie.",
+      "dzial": "znajomosc-srodkow-jezykowych"
+    },
+    {
+      "pytanie": "Na czym polega rozumienie tekstów pisanych na rozszerzeniu z angielskiego?",
+      "odpowiedz": "Rozumienie tekstów pisanych opiera się na dłuższych, bardziej złożonych tekstach niż na podstawie. Zadania obejmują między innymi dobieranie nagłówków lub zdań do luk, wielokrotny wybór (ABCD) oraz odpowiedzi na pytania do tekstu, sprawdzając rozumienie ogólne, szczegółowe oraz strukturę i intencje autora.",
+      "dzial": "rozumienie-tekstow-pisanych"
+    },
+    {
+      "pytanie": "Czy rozszerzenie z angielskiego trzeba zdać jakimś progiem?",
+      "odpowiedz": "Nie ma progu zdawalności rozszerzenia — matury rozszerzonej nie trzeba formalnie zdać, aby zdać egzamin maturalny. Liczy się wynik procentowy, który wchodzi do rekrutacji na studia, dlatego na filologiach i kierunkach z wysokim progiem językowym warto celować w możliwie najwyższy wynik.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Ile trwa pisemny arkusz rozszerzony z języka angielskiego?",
+      "odpowiedz": "Pisemny arkusz poziomu rozszerzonego trwa 150 minut. W tym czasie trzeba rozwiązać zadania z rozumienia ze słuchu (z odtwarzanym nagraniem), rozumienia tekstów pisanych i znajomości środków językowych oraz napisać dłuższą wypowiedź pisemną na 200-250 wyrazów, dlatego kluczowe jest rozplanowanie czasu.",
+      "dzial": null
+    }
+  ],
+  "strategia": [
+    "Systematycznie buduj słownictwo tematyczne i kolokacje — na poziomie B2/C1 to bogactwo języka, a nie sama gramatyka, robi różnicę w wypowiedzi pisemnej i zadaniach na środki językowe.",
+    "Ćwicz transformacje zdań i słowotwórstwo osobno i regularnie — to najczęściej najtrudniejsza część arkusza, gdzie liczy się dokładna forma i pisownia.",
+    "Osłuchuj się z autentycznym językiem (podcasty, seriale, wywiady w różnych akcentach), aby rozumienie ze słuchu przestało być loterią.",
+    "Naucz się schematu każdej formy pisemnej (rozprawka, artykuł, list formalny): wstęp z tezą, akapity z argumentami i przykładami, spójne zakończenie.",
+    "Pisz wypowiedzi na czas w limicie 200-250 wyrazów i sprawdzaj, czy realizujesz wszystkie elementy polecenia oraz czy używasz zróżnicowanych struktur i łączników.",
+    "Rozwiązuj arkusze CKE i pilnuj podziału czasu na 150 minut, zostawiając zapas na przepisanie i sprawdzenie wypowiedzi pisemnej."
+  ],
+  "coWarto": "Wysoki wynik z rozszerzonego angielskiego otwiera drzwi na filologię angielską, lingwistykę stosowaną, stosunki międzynarodowe i inne kierunki z wysokim progiem językowym, a często jest też mocno punktowany na kierunkach ekonomicznych i prawniczych. To jedno z rozszerzeń, które realnie zwiększa liczbę dostępnych kierunków i uczelni."
+}

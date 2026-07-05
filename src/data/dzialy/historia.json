@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "starozytnosc",
+    "nazwa": "Starożytność: Egipt, Grecja i Rzym",
+    "count": 10
+  },
+  {
+    "slug": "sredniowiecze",
+    "nazwa": "Średniowiecze: Polska Piastów i Jagiellonów, Europa łacińska",
+    "count": 15
+  },
+  {
+    "slug": "xvi-wiek",
+    "nazwa": "XVI wiek: Rzeczpospolita szlachecka, reformacja i pierwsze wolne elekcje",
+    "count": 8
+  },
+  {
+    "slug": "xvii-wiek",
+    "nazwa": "XVII wiek: wojny Rzeczypospolitej, absolutyzm i barok",
+    "count": 9
+  },
+  {
+    "slug": "xviii-wiek",
+    "nazwa": "XVIII wiek: oświecenie, Sejm Wielki i rewolucje",
+    "count": 7
+  },
+  {
+    "slug": "xix-wiek-ziemie-polskie",
+    "nazwa": "XIX wiek na ziemiach polskich: epoka napoleońska, zabory i powstania",
+    "count": 10
+  },
+  {
+    "slug": "xix-wiek-swiat",
+    "nazwa": "XIX wiek na świecie: rewolucja przemysłowa, zjednoczenia i kolonializm",
+    "count": 9
+  },
+  {
+    "slug": "i-wojna-i-dwudziestolecie",
+    "nazwa": "I wojna światowa i dwudziestolecie międzywojenne: II RP i totalitaryzmy",
+    "count": 12
+  },
+  {
+    "slug": "ii-wojna-swiatowa",
+    "nazwa": "II wojna światowa: Polskie Państwo Podziemne i losy Polaków",
+    "count": 4
+  },
+  {
+    "slug": "prl-i-swiat-po-1945",
+    "nazwa": "PRL i zimna wojna: Polska i świat po 1945 roku",
+    "count": 12
+  },
+  {
+    "slug": "zrodla-i-sztuka",
+    "nazwa": "Sztuka i źródła historyczne: propaganda, ikonografia, wypracowanie",
+    "count": 17
+  }
+]

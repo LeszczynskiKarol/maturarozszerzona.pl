@@ -1,0 +1,53 @@
+{
+    "subject": "jezyk-angielski",
+    "level": "pr",
+    "dzialy": [
+        {
+            "slug": "znajomosc-srodkow-jezykowych",
+            "nazwa": "Znajomość środków językowych: gramatyka, słowotwórstwo, transformacje zdań",
+            "patterns": [
+                "[sś]rodki j[eę]zykowe",
+                "leksyka",
+                "kolokacj",
+                "s[lł]owotw[oó]rstwo",
+                "word formation",
+                "transformacj",
+                "parafraz",
+                "t[lł]umaczenie"
+            ]
+        },
+        {
+            "slug": "wypowiedz-pisemna",
+            "nazwa": "Wypowiedź pisemna: rozprawka, artykuł i list formalny",
+            "patterns": [
+                "wypowied[zź] pisemna",
+                "rozprawka",
+                "artyku[lł]",
+                "list formalny",
+                "200-250 wyraz[oó]w"
+            ]
+        },
+        {
+            "slug": "rozumienie-ze-sluchu",
+            "nazwa": "Rozumienie ze słuchu: dobieranie wypowiedzi i uzupełnianie notatek",
+            "patterns": [
+                "s[lł]uchanie",
+                "sze[sś][cć] kr[oó]tkich wypowiedzi",
+                "dopasowanie wypowiedzi",
+                "uzupe[lł]nianie luk w notatce"
+            ]
+        },
+        {
+            "slug": "rozumienie-tekstow-pisanych",
+            "nazwa": "Rozumienie tekstów pisanych: dobieranie, luki i pytania do tekstu",
+            "patterns": [
+                "czytanie",
+                "d[lł]u[zż]szy tekst",
+                "5 pyta[nń]",
+                "uzupe[lł]nianie luk zdaniami",
+                "4 teksty",
+                "abcd"
+            ]
+        }
+    ]
+}

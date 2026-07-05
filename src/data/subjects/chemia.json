@@ -1,0 +1,77 @@
+{
+  "slug": "chemia",
+  "intro": "Matura rozszerzona z chemii to jeden z najbardziej wymagających egzaminów w Formule 2023 (CKE) - łączy chemię ogólną, nieorganiczną, organiczną i obliczeniową. Zdają ją głównie kandydaci na medycynę, farmację, stomatologię, biotechnologię i kierunki chemiczne, dla których wynik z chemii często decyduje o rekrutacji. W odróżnieniu od podstawy (której nie ma jako osobnego przedmiotu) rozszerzenie wymaga rozumowania, projektowania doświadczeń i sprawnych rachunków, a nie tylko odtwarzania wiedzy.",
+  "formatArkusza": "Arkusz poziomu rozszerzonego trwa 180 minut i zawiera zadania zamknięte oraz otwarte - dominują polecenia otwarte, w tym liczne zadania obliczeniowe i typu 'zaprojektuj doświadczenie'. Do arkusza wydawana jest Karta wybranych wzorów i stałych fizykochemicznych oraz układ okresowy pierwiastków.",
+  "trudnosc": "Chemia rozszerzona uchodzi za trudną, bo sprawdza jednocześnie wiedzę teoretyczną i biegłość rachunkową pod presją czasu. Największe kłopoty sprawiają zadania obliczeniowe (stechiometria, stężenia, pH, stała równowagi), bilansowanie reakcji redoks oraz otwarte zadania z chemii organicznej, w których trzeba przewidzieć produkty i zapisać równania. Egzamin jest realny dla osób, które regularnie rozwiązują arkusze i rozumieją mechanizmy zjawisk, a nie tylko uczą się reguł na pamięć. Rozszerzenia nie trzeba 'zdać' żadnym progiem - liczy się wynik procentowy przeliczany na punkty rekrutacyjne.",
+  "wymagania": [
+    {
+      "pytanie": "Czy chemia organiczna dominuje na maturze rozszerzonej?",
+      "odpowiedz": "Chemia organiczna to bardzo duża część arkusza, ale nie jedyna - zadania z niej stanowią zwykle znaczący blok punktów. Równie ważne są chemia nieorganiczna, obliczenia oraz chemia ogólna (budowa atomu, wiązania, równowagi). Warto opanować oba obszary, bo organika i nieorganika często przeplatają się w jednym zadaniu.",
+      "dzial": "weglowodory"
+    },
+    {
+      "pytanie": "Czy trzeba znać mechanizmy reakcji na maturze z chemii?",
+      "odpowiedz": "Tak, mechanizmy reakcji obowiązują - najczęściej substytucja rodnikowa w alkanach, addycja elektrofilowa do alkenów (z regułą Markownikowa) oraz substytucja i eliminacja. Nie trzeba rysować pełnych strzałek przesunięć elektronowych jak na studiach, ale trzeba rozpoznać typ mechanizmu, przewidzieć główny produkt i zapisać równanie reakcji.",
+      "dzial": "weglowodory"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej jest elektrochemia i bilansowanie redoks?",
+      "odpowiedz": "Tak, reakcje utleniania-redukcji i elektrochemia są stałym elementem arkusza. Trzeba umieć bilansować równania redoks metodą jonowo-elektronową (dobierać współczynniki, uwzględniać środowisko reakcji) oraz korzystać z szeregu napięciowego metali i schematów ogniw galwanicznych. To jeden z częściej punktowanych i zarazem najczęściej mylonych typów zadań.",
+      "dzial": "redoks-i-elektrochemia"
+    },
+    {
+      "pytanie": "Czy obliczenia stechiometryczne i pH są wymagane?",
+      "odpowiedz": "Tak, obliczenia to jeden z filarów egzaminu - stechiometria (mole, stężenia, wydajność, wzór rzeczywisty) oraz obliczenia pH roztworów kwasów, zasad i soli pojawiają się niemal w każdym arkuszu. Wymagane są też rachunki ze stałej równowagi, iloczynu rozpuszczalności i stałej dysocjacji. Bez sprawnego liczenia trudno o wysoki wynik, dlatego warto ćwiczyć rachunki na czas.",
+      "dzial": "stechiometria-i-obliczenia"
+    },
+    {
+      "pytanie": "Czy hybrydyzacja i geometria cząsteczek są na maturze rozszerzonej?",
+      "odpowiedz": "Tak, budowa i geometria cząsteczek obowiązują - trzeba określać typ hybrydyzacji atomu centralnego (sp, sp2, sp3), przewidywać kształt cząsteczki metodą VSEPR oraz oceniać jej polarność. Pojawiają się też wzory elektronowe (kropkowe) i analiza rodzajów wiązań. To wiedza często sprawdzana krótkim zadaniem otwartym.",
+      "dzial": "wiazania-chemiczne"
+    },
+    {
+      "pytanie": "Czy izomeria, w tym optyczna, obowiązuje na rozszerzeniu z chemii?",
+      "odpowiedz": "Tak, izomeria jest wymagana w pełnym zakresie - konstytucyjna (łańcuchowa, położenia, grup funkcyjnych), geometryczna cis-trans oraz optyczna. Trzeba rozpoznawać atomy chiralne (centra stereogeniczne), rysować enancjomery i wskazywać związki optycznie czynne. Izomeria optyczna łączy się często z zadaniami o cukrach i aminokwasach.",
+      "dzial": "stereochemia-i-izomeria"
+    },
+    {
+      "pytanie": "Czy biocząsteczki - cukry, aminokwasy, białka - są na maturze?",
+      "odpowiedz": "Tak, związki wielofunkcyjne i biocząsteczki to osobny, ważny dział - obowiązują cukry (formy łańcuchowe i pierścieniowe, reakcje Tollensa i Trommera), aminokwasy (formy jonowe, jon obojnaczy, punkt izoelektryczny) oraz peptydy i wiązanie peptydowe. Częste są też reakcje charakterystyczne, np. próba biuretowa. To wdzięczny dział do zdobycia punktów, jeśli dobrze się go przygotuje.",
+      "dzial": "biomolekuly"
+    },
+    {
+      "pytanie": "Czy na maturze z chemii dostaje się kartę wzorów i układ okresowy?",
+      "odpowiedz": "Tak - na egzaminie wydawana jest Karta wybranych wzorów i stałych fizykochemicznych oraz układ okresowy pierwiastków. Znajdziesz tam m.in. masy molowe, stałe fizykochemiczne i użyteczne wzory, więc nie musisz uczyć się ich na pamięć. Warto jednak wcześniej dokładnie poznać zawartość karty, żeby na egzaminie szybko odnajdywać potrzebne dane.",
+      "dzial": "budowa-atomu"
+    },
+    {
+      "pytanie": "Czy trzeba umieć projektować doświadczenia chemiczne?",
+      "odpowiedz": "Tak, zadania typu 'zaprojektuj doświadczenie' są jednym ze znaków rozpoznawczych rozszerzenia. Trzeba dobrać odczynniki, przewidzieć obserwacje i zapisać równania reakcji, a często również zinterpretować wynik lub odróżnić dwie substancje. To zadania sprawdzające praktyczne rozumienie chemii, a nie samą teorię.",
+      "dzial": "chemia-nieorganiczna"
+    },
+    {
+      "pytanie": "Czy kinetyka i równowaga chemiczna są na maturze rozszerzonej?",
+      "odpowiedz": "Tak, kinetyka, równowaga chemiczna i termochemia to stały dział egzaminu. Obowiązują szybkość reakcji i wpływające na nią czynniki, reguła przekory (Le Chateliera), obliczenia ze stałej równowagi oraz efekty cieplne i entalpia reakcji. Zadania łączą interpretację jakościową z rachunkami.",
+      "dzial": "kinetyka-i-rownowaga"
+    },
+    {
+      "pytanie": "Czy identyfikacja substancji i reakcje w roztworach są sprawdzane?",
+      "odpowiedz": "Tak, chemia nieorganiczna z identyfikacją substancji to częsty i punktowany blok - trzeba rozpoznawać jony i związki po reakcjach charakterystycznych, barwach i osadach oraz zapisywać równania w formie jonowej i jonowej skróconej. Pojawiają się też równowagi w roztworach, hydroliza soli i iloczyn rozpuszczalności. To obszar mocno powiązany z zadaniami doświadczalnymi.",
+      "dzial": "chemia-nieorganiczna"
+    },
+    {
+      "pytanie": "Czy rozszerzenie z chemii trzeba 'zdać' na jakiś próg?",
+      "odpowiedz": "Nie - przedmiotu rozszerzonego nie trzeba zdawać żadnym progiem procentowym, bo nie obowiązuje tu granica 30%. Liczy się wynik procentowy, który uczelnie przeliczają na punkty rekrutacyjne. Dla kierunków takich jak medycyna, farmacja czy chemia im wyższy wynik z chemii, tym większa szansa na miejsce.",
+      "dzial": "stechiometria-i-obliczenia"
+    }
+  ],
+  "strategia": [
+    "Rozwiązuj arkusze CKE z lat poprzednich i zasady oceniania - poznasz typy zadań, sposób punktowania i wymagany zapis odpowiedzi.",
+    "Ćwicz obliczenia na czas: stechiometrię, stężenia, pH, stałą równowagi i wydajność, aż staną się rutyną.",
+    "Opanuj bilansowanie redoks metodą jonowo-elektronową i korzystanie z szeregu napięciowego metali.",
+    "Naucz się schematu odpowiedzi w zadaniach 'zaprojektuj doświadczenie': odczynnik - obserwacja - równanie reakcji.",
+    "Systematycznie powtarzaj chemię organiczną: grupy funkcyjne, reakcje charakterystyczne, mechanizmy i izomerię.",
+    "Wcześniej dokładnie poznaj Kartę wybranych wzorów i stałych oraz układ okresowy, żeby sprawnie wyszukiwać dane na egzaminie."
+  ],
+  "coWarto": "Rozszerzona chemia jest kluczem do najbardziej obleganych kierunków medycznych i przyrodniczych - medycyny, farmacji, stomatologii, biotechnologii i chemii - gdzie często stanowi przedmiot decydujący o rekrutacji. Jeśli myślisz o tych studiach, chemia jest naturalnym wyborem rozszerzenia, najlepiej w parze z biologią lub matematyką."
+}

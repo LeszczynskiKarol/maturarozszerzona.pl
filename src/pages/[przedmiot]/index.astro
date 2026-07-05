@@ -1,0 +1,128 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE, SUBJECTS, ECOSYSTEM } from "../../config/site";
+import terminy from "../../data/terminy.json";
+
+interface Wymaganie { pytanie: string; odpowiedz: string; dzial?: string }
+interface SubjectContent {
+  slug: string;
+  intro: string;
+  formatArkusza: string;
+  trudnosc: string;
+  wymagania: Wymaganie[];
+  strategia: string[];
+  coWarto: string;
+}
+interface Dzial { slug: string; nazwa: string; count: number }
+
+export async function getStaticPaths() {
+  const subjectsMod = import.meta.glob<{ default: SubjectContent }>("../../data/subjects/*.json", { eager: true });
+  const dzialyMod = import.meta.glob<{ default: Dzial[] }>("../../data/dzialy/*.json", { eager: true });
+  const paths = [];
+  for (const [path, mod] of Object.entries(subjectsMod)) {
+    const slug = path.match(/\/([\w-]+)\.json$/)![1];
+    if (!SUBJECTS[slug]) continue;
+    const dzialy = Object.entries(dzialyMod).find(([p]) => p.includes(`/${slug}.json`))?.[1].default ?? [];
+    paths.push({ params: { przedmiot: slug }, props: { content: mod.default, dzialy } });
+  }
+  return paths;
+}
+
+const { przedmiot } = Astro.params;
+const { content, dzialy } = Astro.props as { content: SubjectContent; dzialy: Dzial[] };
+const meta = SUBJECTS[przedmiot!];
+const dzialyZ = dzialy.filter((d) => d.count > 0);
+const liczbaZadan = dzialy.reduce((s, d) => s + d.count, 0);
+
+// termin egzaminu PR tego przedmiotu (jeśli w harmonogramie)
+const egz = (terminy.egzaminyPR as { hubSlug: string | null; dataIso: string }[]).find((e) => e.hubSlug === przedmiot);
+const MIES = ["stycznia","lutego","marca","kwietnia","maja","czerwca","lipca","sierpnia","września","października","listopada","grudnia"];
+const egzData = egz ? (() => { const d = new Date(`${egz.dataIso}T12:00:00`); return `${d.getDate()} ${MIES[d.getMonth()]} ${d.getFullYear()}`; })() : null;
+
+const title = `Matura rozszerzona z ${meta.dopelniacz} — zadania, wymagania, strategia | ${SITE.name}`;
+const description = content.intro.slice(0, 155);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Start", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: meta.name, item: `${SITE.url}/${meta.slug}/` },
+    ],
+  },
+];
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <nav class="mb-4 text-sm text-slate-500">
+    <a href="/" class="hover:text-indigo-700">Start</a> › {meta.name}
+  </nav>
+
+  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
+    Matura rozszerzona z {meta.dopelniacz}
+  </h1>
+  <p class="mb-4 max-w-2xl text-lg text-slate-700">{content.intro}</p>
+
+  {egzData && (
+    <p class="mb-6 text-sm text-slate-500">
+      📅 Egzamin rozszerzony ({terminy.rok}): <strong class="text-slate-700">{egzData}</strong>
+      {!terminy.oficjalna && <span> (termin orientacyjny)</span>} ·
+      <a href="/terminy/" class="text-indigo-700 hover:underline"> pełny harmonogram →</a>
+    </p>
+  )}
+
+  <div class="mb-8 grid gap-4 sm:grid-cols-2">
+    <a href={`/${meta.slug}/zadania/`} class="rounded-xl border border-indigo-200 bg-indigo-50 p-5 hover:border-indigo-400">
+      <p class="font-bold text-indigo-900">Zadania z arkuszy CKE →</p>
+      <p class="mt-1 text-sm text-indigo-800">{liczbaZadan} zadań w {dzialyZ.length} działach, z odpowiedziami i pułapkami.</p>
+    </a>
+    <a href={`/${meta.slug}/wymagania/`} class="rounded-xl border border-slate-200 bg-white p-5 hover:border-indigo-400">
+      <p class="font-bold">Co jest na rozszerzeniu? →</p>
+      <p class="mt-1 text-sm text-slate-600">Zakres wymagań: co obowiązuje, a czego nie ma na maturze rozszerzonej.</p>
+    </a>
+  </div>
+
+  <section class="mb-8 grid gap-4 sm:grid-cols-2">
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <h2 class="mb-1 font-bold">Format arkusza</h2>
+      <p class="text-slate-700">{content.formatArkusza}</p>
+    </div>
+    <div class="rounded-xl border border-slate-200 bg-white p-5">
+      <h2 class="mb-1 font-bold">Jak trudna jest {meta.dopelniacz} rozszerzona?</h2>
+      <p class="text-slate-700">{content.trudnosc}</p>
+    </div>
+  </section>
+
+  {dzialyZ.length > 0 && (
+    <section class="mb-8">
+      <h2 class="mb-3 text-xl font-bold">Działy — zadania z matur rozszerzonych</h2>
+      <ul class="flex flex-wrap gap-2 text-sm">
+        {dzialyZ.map((d) => (
+          <li>
+            <a href={`/${meta.slug}/zadania/${d.slug}/`} class="inline-block rounded-full border border-slate-200 bg-white px-3 py-1 hover:border-indigo-400">
+              {d.nazwa.split(":")[0]} <span class="text-slate-400">({d.count})</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="mb-8 rounded-xl border border-slate-200 bg-white p-5">
+    <h2 class="mb-2 text-xl font-bold">Jak przygotować się do {meta.dopelniacz} rozszerzonej</h2>
+    <ul class="space-y-2">
+      {content.strategia.map((s) => (
+        <li class="flex gap-2 text-slate-700"><span class="text-indigo-500">▸</span><span>{s}</span></li>
+      ))}
+    </ul>
+  </section>
+
+  <aside class="mb-8 rounded-xl border border-indigo-200 bg-indigo-50 p-5">
+    <p class="text-indigo-900">{content.coWarto}</p>
+    <div class="mt-3 flex flex-wrap gap-3">
+      <a href="/wybor-rozszerzen/" class="rounded-lg border border-indigo-300 bg-white px-4 py-2 text-sm font-semibold text-indigo-700 hover:border-indigo-400">Wybór rozszerzeń pod kierunek →</a>
+      <a href={meta.appUrl} class="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700">Ćwicz w aplikacji →</a>
+    </div>
+  </aside>
+</BaseLayout>

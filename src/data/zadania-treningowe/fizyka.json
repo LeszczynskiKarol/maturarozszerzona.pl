@@ -1,0 +1,222 @@
+[
+  {
+    "id": "trening-fizyka-relatywistyka-1",
+    "dzial": "relatywistyka",
+    "topic": "dylatacja czasu (mion)",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Mion w spoczynku ma średni czas życia $\\tau_0 = 2{,}2\\ \\mu s$. W akceleratorze mion porusza się z prędkością $v = 0{,}98\\,c$, gdzie $c = 3 \\cdot 10^{8}\\ \\tfrac{m}{s}$.\n\nOblicz średni czas życia tego mionu zmierzony w układzie laboratoryjnym.",
+    "odpowiedz": "$\\tau \\approx 11{,}1\\ \\mu s$ (około pięciokrotność czasu spoczynkowego).",
+    "rozwiazanie": "W układzie laboratoryjnym mion żyje dłużej wskutek dylatacji czasu:\n$$\\tau = \\gamma\\,\\tau_0, \\qquad \\gamma = \\frac{1}{\\sqrt{1 - \\dfrac{v^2}{c^2}}}.$$\n\nObliczamy czynnik Lorentza dla $v = 0{,}98\\,c$:\n$$\\gamma = \\frac{1}{\\sqrt{1 - 0{,}98^2}} = \\frac{1}{\\sqrt{1 - 0{,}9604}} = \\frac{1}{\\sqrt{0{,}0396}} = \\frac{1}{0{,}199} \\approx 5{,}03.$$\n\nStąd czas życia w układzie laboratoryjnym:\n$$\\tau = 5{,}03 \\cdot 2{,}2\\ \\mu s \\approx 11{,}1\\ \\mu s.$$\n\nMion żyje w laboratorium ponad pięć razy dłużej niż wynikałoby to z jego czasu spoczynkowego.",
+    "pulapka": "Czas spoczynkowy $\\tau_0$ (czas własny) jest zawsze NAJKRÓTSZY. Czynnik $\\gamma > 1$, więc mnożymy (a nie dzielimy) $\\tau_0$ przez $\\gamma$."
+  },
+  {
+    "id": "trening-fizyka-relatywistyka-2",
+    "dzial": "relatywistyka",
+    "topic": "skrócenie długości",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Rakieta ma długość spoczynkową (mierzoną w jej własnym układzie) $L_0 = 100\\ m$ i porusza się względem obserwatora na Ziemi z prędkością $v = 0{,}6\\,c$.\n\nOblicz długość rakiety zmierzoną przez obserwatora na Ziemi.",
+    "odpowiedz": "$L = 80\\ m$.",
+    "rozwiazanie": "Obserwator, względem którego obiekt się porusza, mierzy długość skróconą:\n$$L = \\frac{L_0}{\\gamma} = L_0\\,\\sqrt{1 - \\frac{v^2}{c^2}}.$$\n\nDla $v = 0{,}6\\,c$:\n$$\\sqrt{1 - 0{,}6^2} = \\sqrt{1 - 0{,}36} = \\sqrt{0{,}64} = 0{,}8.$$\n\nZatem:\n$$L = 100\\ m \\cdot 0{,}8 = 80\\ m.$$\n\nRakieta wydaje się obserwatorowi na Ziemi krótsza o $20\\ m$.",
+    "pulapka": "Skróceniu ulega tylko wymiar wzdłuż kierunku ruchu. Długość spoczynkowa $L_0$ jest zawsze NAJWIĘKSZA — obserwator w ruchu względem obiektu mierzy wartość mniejszą."
+  },
+  {
+    "id": "trening-fizyka-relatywistyka-3",
+    "dzial": "relatywistyka",
+    "topic": "energia relatywistyczna elektronu",
+    "punkty": 4,
+    "typ": "otwarte-rozszerzone",
+    "tresc": "Elektron o masie spoczynkowej $m = 9{,}11 \\cdot 10^{-31}\\ kg$ porusza się z prędkością $v = 0{,}8\\,c$, gdzie $c = 3 \\cdot 10^{8}\\ \\tfrac{m}{s}$.\n\na) Oblicz energię spoczynkową elektronu.\nb) Oblicz jego energię całkowitą i energię kinetyczną.",
+    "odpowiedz": "$E_0 \\approx 8{,}2 \\cdot 10^{-14}\\ J$; $E \\approx 1{,}37 \\cdot 10^{-13}\\ J$; $E_k \\approx 5{,}5 \\cdot 10^{-14}\\ J$.",
+    "rozwiazanie": "a) Energia spoczynkowa:\n$$E_0 = mc^2 = 9{,}11 \\cdot 10^{-31} \\cdot (3 \\cdot 10^{8})^2 = 9{,}11 \\cdot 10^{-31} \\cdot 9 \\cdot 10^{16} \\approx 8{,}2 \\cdot 10^{-14}\\ J.$$\n\nb) Czynnik Lorentza dla $v = 0{,}8\\,c$:\n$$\\gamma = \\frac{1}{\\sqrt{1 - 0{,}8^2}} = \\frac{1}{\\sqrt{0{,}36}} = \\frac{1}{0{,}6} \\approx 1{,}667.$$\n\nEnergia całkowita:\n$$E = \\gamma\\,mc^2 = 1{,}667 \\cdot 8{,}2 \\cdot 10^{-14}\\ J \\approx 1{,}37 \\cdot 10^{-13}\\ J.$$\n\nEnergia kinetyczna to nadwyżka nad energią spoczynkową:\n$$E_k = E - E_0 = (\\gamma - 1)\\,mc^2 = 0{,}667 \\cdot 8{,}2 \\cdot 10^{-14}\\ J \\approx 5{,}5 \\cdot 10^{-14}\\ J.$$\n\n(W jednostkach atomowych: $E_0 \\approx 0{,}51\\ MeV$, $E_k \\approx 0{,}34\\ MeV$.)",
+    "pulapka": "Relatywistyczna energia kinetyczna to $E_k = (\\gamma-1)mc^2$, a NIE klasyczne $\\tfrac{1}{2}mv^2$. Wzór klasyczny dałby tu wynik zaniżony."
+  },
+  {
+    "id": "trening-fizyka-relatywistyka-4",
+    "dzial": "relatywistyka",
+    "topic": "pęd relatywistyczny protonu",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Proton o masie spoczynkowej $m = 1{,}67 \\cdot 10^{-27}\\ kg$ porusza się z prędkością $v = 0{,}9\\,c$, gdzie $c = 3 \\cdot 10^{8}\\ \\tfrac{m}{s}$.\n\nOblicz pęd relatywistyczny tego protonu.",
+    "odpowiedz": "$p \\approx 1{,}03 \\cdot 10^{-18}\\ \\tfrac{kg \\cdot m}{s}$.",
+    "rozwiazanie": "Pęd relatywistyczny:\n$$p = \\gamma\\,m\\,v, \\qquad \\gamma = \\frac{1}{\\sqrt{1 - \\dfrac{v^2}{c^2}}}.$$\n\nCzynnik Lorentza dla $v = 0{,}9\\,c$:\n$$\\gamma = \\frac{1}{\\sqrt{1 - 0{,}9^2}} = \\frac{1}{\\sqrt{0{,}19}} = \\frac{1}{0{,}436} \\approx 2{,}29.$$\n\nPrędkość: $v = 0{,}9 \\cdot 3 \\cdot 10^{8} = 2{,}7 \\cdot 10^{8}\\ \\tfrac{m}{s}$.\n\nPęd:\n$$p = 2{,}29 \\cdot 1{,}67 \\cdot 10^{-27} \\cdot 2{,}7 \\cdot 10^{8} \\approx 1{,}03 \\cdot 10^{-18}\\ \\tfrac{kg \\cdot m}{s}.$$",
+    "pulapka": "W pędzie relatywistycznym mnożymy przez $\\gamma$: $p = \\gamma m v$. Pominięcie $\\gamma$ (wzór klasyczny $p=mv$) zaniża wynik ponad dwukrotnie dla $v = 0{,}9\\,c$."
+  },
+  {
+    "id": "trening-fizyka-jadrowa-1",
+    "dzial": "fizyka-jadrowa",
+    "topic": "rozpad alfa i beta (fragment szeregu uranowego)",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Jądro uranu $^{238}_{92}\\text{U}$ ulega rozpadowi $\\alpha$, a powstałe jądro ulega następnie rozpadowi $\\beta^-$.\n\nNapisz równania obu przemian (z liczbami masowymi i atomowymi) oraz podaj symbol końcowego jądra.",
+    "odpowiedz": "Po $\\alpha$ powstaje $^{234}_{90}\\text{Th}$, po $\\beta^-$ powstaje $^{234}_{91}\\text{Pa}$ (protaktyn-234).",
+    "rozwiazanie": "Rozpad $\\alpha$ — jądro emituje cząstkę $\\alpha$ ($^{4}_{2}\\text{He}$): liczba masowa maleje o 4, liczba atomowa o 2:\n$$^{238}_{92}\\text{U} \\rightarrow\\ ^{234}_{90}\\text{Th} +\\ ^{4}_{2}\\text{He}.$$\n\nPowstaje tor $^{234}_{90}\\text{Th}$.\n\nRozpad $\\beta^-$ — neutron przemienia się w proton, jądro emituje elektron i antyneutrino: liczba masowa bez zmian, liczba atomowa rośnie o 1:\n$$^{234}_{90}\\text{Th} \\rightarrow\\ ^{234}_{91}\\text{Pa} +\\ ^{0}_{-1}\\text{e} + \\bar{\\nu}_e.$$\n\nJądrem końcowym jest protaktyn $^{234}_{91}\\text{Pa}$.",
+    "pulapka": "W rozpadzie $\\beta^-$ liczba masowa NIE zmienia się (elektron ma znikomą masę), a liczba atomowa ROŚNIE o 1 — nie myl kierunku zmiany Z z rozpadem $\\beta^+$."
+  },
+  {
+    "id": "trening-fizyka-jadrowa-2",
+    "dzial": "fizyka-jadrowa",
+    "topic": "energia wiązania jądra helu-4",
+    "punkty": 4,
+    "typ": "otwarte-rozszerzone",
+    "tresc": "Oblicz energię wiązania jądra helu $^{4}_{2}\\text{He}$ oraz energię wiązania przypadającą na jeden nukleon. Skorzystaj z danych (masy atomowe):\n$m(^{1}\\text{H}) = 1{,}007825\\ u$, $\\;m_n = 1{,}008665\\ u$, $\\;m(^{4}\\text{He}) = 4{,}002602\\ u$, $\\;1\\,u = 931{,}5\\ \\tfrac{MeV}{c^2}$.",
+    "odpowiedz": "$E_w \\approx 28{,}3\\ MeV$; na nukleon $\\approx 7{,}1\\ MeV$.",
+    "rozwiazanie": "Deficyt masy to różnica między sumą mas składników a masą jądra (atomu). Używając mas atomowych, elektrony po obu stronach się skracają:\n$$\\Delta m = 2\\,m(^{1}\\text{H}) + 2\\,m_n - m(^{4}\\text{He}).$$\n\nPodstawiamy:\n$$\\Delta m = 2 \\cdot 1{,}007825 + 2 \\cdot 1{,}008665 - 4{,}002602.$$\n$$\\Delta m = 2{,}015650 + 2{,}017330 - 4{,}002602 = 0{,}030378\\ u.$$\n\nEnergia wiązania:\n$$E_w = \\Delta m \\cdot 931{,}5\\ \\tfrac{MeV}{u} = 0{,}030378 \\cdot 931{,}5 \\approx 28{,}3\\ MeV.$$\n\nNa jeden nukleon (jądro ma 4 nukleony):\n$$\\frac{E_w}{A} = \\frac{28{,}3\\ MeV}{4} \\approx 7{,}1\\ \\tfrac{MeV}{\\text{nukleon}}.$$",
+    "pulapka": "Deficyt masy liczymy jako (suma mas składników) minus (masa jądra) — jądro jest LŻEJSZE od sumy swoich nukleonów. Odwrócenie różnicy dałoby wynik ujemny."
+  },
+  {
+    "id": "trening-fizyka-jadrowa-3",
+    "dzial": "fizyka-jadrowa",
+    "topic": "czas połowicznego rozpadu (jod-131)",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Izotop jodu $^{131}\\text{I}$ ma czas połowicznego rozpadu $T_{1/2} = 8\\ \\text{dni}$.\n\na) Po jakim czasie aktywność próbki spadnie do $\\tfrac{1}{16}$ wartości początkowej?\nb) Jaki procent początkowej liczby jąder pozostanie po $24$ dniach?",
+    "odpowiedz": "a) po $32$ dniach; b) $12{,}5\\%$.",
+    "rozwiazanie": "Po każdym czasie $T_{1/2}$ liczba jąder (i aktywność) maleje dwukrotnie:\n$$\\frac{N}{N_0} = \\left(\\frac{1}{2}\\right)^{n}, \\qquad n = \\frac{t}{T_{1/2}}.$$\n\na) Szukamy $n$, dla którego $\\left(\\tfrac{1}{2}\\right)^n = \\tfrac{1}{16}$. Ponieważ $\\tfrac{1}{16} = \\left(\\tfrac{1}{2}\\right)^4$, mamy $n = 4$ okresy:\n$$t = 4 \\cdot T_{1/2} = 4 \\cdot 8\\ \\text{dni} = 32\\ \\text{dni}.$$\n\nb) Dla $t = 24\\ \\text{dni}$: $n = \\tfrac{24}{8} = 3$ okresy:\n$$\\frac{N}{N_0} = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 0{,}125 = 12{,}5\\%.$$",
+    "pulapka": "Zależność jest wykładnicza, nie liniowa. Po 3 okresach zostaje $\\tfrac{1}{8}$ (a nie np. $\\tfrac{1}{6}$ czy połowa z połowy liczona addytywnie)."
+  },
+  {
+    "id": "trening-fizyka-jadrowa-4",
+    "dzial": "fizyka-jadrowa",
+    "topic": "liczba jąder i stała rozpadu",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Próbka pewnego izotopu promieniotwórczego zawiera początkowo $N_0 = 6{,}0 \\cdot 10^{20}$ jąder. Czas połowicznego rozpadu wynosi $T_{1/2} = 5\\ \\text{dni}$.\n\na) Ile jąder pozostanie po $15$ dniach?\nb) Oblicz stałą rozpadu $\\lambda$ (w $s^{-1}$). Przyjmij $\\ln 2 = 0{,}693$.",
+    "odpowiedz": "a) $N = 7{,}5 \\cdot 10^{19}$ jąder; b) $\\lambda \\approx 1{,}6 \\cdot 10^{-6}\\ s^{-1}$.",
+    "rozwiazanie": "a) Liczba okresów: $n = \\tfrac{15}{5} = 3$. Stąd:\n$$N = N_0 \\left(\\frac{1}{2}\\right)^3 = \\frac{6{,}0 \\cdot 10^{20}}{8} = 7{,}5 \\cdot 10^{19}\\ \\text{jąder}.$$\n\nb) Stała rozpadu wiąże się z czasem połowicznego rozpadu wzorem:\n$$\\lambda = \\frac{\\ln 2}{T_{1/2}}.$$\n\nZamieniamy $T_{1/2}$ na sekundy: $5\\ \\text{dni} = 5 \\cdot 24 \\cdot 3600\\ s = 432000\\ s$. Zatem:\n$$\\lambda = \\frac{0{,}693}{432000\\ s} \\approx 1{,}6 \\cdot 10^{-6}\\ s^{-1}.$$",
+    "pulapka": "W obliczeniu $\\lambda$ trzeba przeliczyć $T_{1/2}$ na sekundy, jeśli chcemy wynik w $s^{-1}$. Pozostawienie dni daje $\\lambda$ w $\\text{dzień}^{-1}$."
+  },
+  {
+    "id": "trening-fizyka-atomowa-1",
+    "dzial": "fizyka-atomowa",
+    "topic": "przejście elektronu w atomie wodoru (linia Balmera)",
+    "punkty": 4,
+    "typ": "otwarte-rozszerzone",
+    "tresc": "Energie poziomów elektronu w atomie wodoru dane są wzorem $E_n = -\\dfrac{13{,}6}{n^2}\\ eV$. Elektron przechodzi z poziomu $n = 3$ na poziom $n = 2$.\n\nOblicz energię emitowanego fotonu (w eV i w dżulach) oraz długość jego fali. Przyjmij $h = 6{,}63 \\cdot 10^{-34}\\ J\\cdot s$, $c = 3 \\cdot 10^{8}\\ \\tfrac{m}{s}$, $e = 1{,}6 \\cdot 10^{-19}\\ C$.",
+    "odpowiedz": "$\\Delta E \\approx 1{,}89\\ eV \\approx 3{,}02 \\cdot 10^{-19}\\ J$; $\\lambda \\approx 658\\ nm$ (światło czerwone).",
+    "rozwiazanie": "Energie poziomów:\n$$E_3 = -\\frac{13{,}6}{9} \\approx -1{,}51\\ eV, \\qquad E_2 = -\\frac{13{,}6}{4} = -3{,}40\\ eV.$$\n\nEnergia fotonu równa jest różnicy energii poziomów:\n$$\\Delta E = E_3 - E_2 = -1{,}51 - (-3{,}40) = 1{,}89\\ eV.$$\n\nW dżulach:\n$$\\Delta E = 1{,}89 \\cdot 1{,}6 \\cdot 10^{-19} \\approx 3{,}02 \\cdot 10^{-19}\\ J.$$\n\nDługość fali z zależności $\\Delta E = \\dfrac{hc}{\\lambda}$:\n$$\\lambda = \\frac{hc}{\\Delta E} = \\frac{6{,}63 \\cdot 10^{-34} \\cdot 3 \\cdot 10^{8}}{3{,}02 \\cdot 10^{-19}} \\approx 6{,}58 \\cdot 10^{-7}\\ m = 658\\ nm.$$\n\nJest to czerwona linia $H_\\alpha$ serii Balmera.",
+    "pulapka": "Foton jest EMITOWANY przy przejściu na niższy poziom, więc jego energia jest dodatnia i równa $E_{\\text{wyż}} - E_{\\text{niż}}$. Znaki energii poziomów są ujemne — łatwo pomylić się w odejmowaniu."
+  },
+  {
+    "id": "trening-fizyka-atomowa-2",
+    "dzial": "fizyka-atomowa",
+    "topic": "efekt fotoelektryczny (praca wyjścia)",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Powierzchnię metalu o pracy wyjścia $W = 2{,}3\\ eV$ oświetlono światłem o długości fali $\\lambda = 400\\ nm$. Przyjmij $h = 6{,}63 \\cdot 10^{-34}\\ J\\cdot s$, $c = 3 \\cdot 10^{8}\\ \\tfrac{m}{s}$, $e = 1{,}6 \\cdot 10^{-19}\\ C$.\n\nOblicz maksymalną energię kinetyczną wybijanych fotoelektronów (w eV i w dżulach).",
+    "odpowiedz": "$E_{k,\\max} \\approx 0{,}81\\ eV \\approx 1{,}3 \\cdot 10^{-19}\\ J$.",
+    "rozwiazanie": "Energia padającego fotonu:\n$$E_f = \\frac{hc}{\\lambda} = \\frac{6{,}63 \\cdot 10^{-34} \\cdot 3 \\cdot 10^{8}}{400 \\cdot 10^{-9}} \\approx 4{,}97 \\cdot 10^{-19}\\ J.$$\n\nW elektronowoltach:\n$$E_f = \\frac{4{,}97 \\cdot 10^{-19}}{1{,}6 \\cdot 10^{-19}} \\approx 3{,}11\\ eV.$$\n\nZ równania fotoelektrycznego Einsteina $E_f = W + E_{k,\\max}$:\n$$E_{k,\\max} = E_f - W = 3{,}11 - 2{,}3 = 0{,}81\\ eV.$$\n\nW dżulach:\n$$E_{k,\\max} = 0{,}81 \\cdot 1{,}6 \\cdot 10^{-19} \\approx 1{,}3 \\cdot 10^{-19}\\ J.$$",
+    "pulapka": "Energia kinetyczna to $E_f - W$, a nie sama energia fotonu. Jeśli $E_f < W$, efekt fotoelektryczny w ogóle nie zachodzi (żadne elektrony nie są wybijane)."
+  },
+  {
+    "id": "trening-fizyka-atomowa-3",
+    "dzial": "fizyka-atomowa",
+    "topic": "strumień fotonów lasera",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Laser He-Ne o mocy $P = 2\\ mW$ emituje światło o długości fali $\\lambda = 633\\ nm$. Przyjmij $h = 6{,}63 \\cdot 10^{-34}\\ J\\cdot s$, $c = 3 \\cdot 10^{8}\\ \\tfrac{m}{s}$.\n\nIle fotonów emituje ten laser w ciągu jednej sekundy?",
+    "odpowiedz": "Około $6{,}4 \\cdot 10^{15}$ fotonów na sekundę.",
+    "rozwiazanie": "Energia pojedynczego fotonu:\n$$E_f = \\frac{hc}{\\lambda} = \\frac{6{,}63 \\cdot 10^{-34} \\cdot 3 \\cdot 10^{8}}{633 \\cdot 10^{-9}} \\approx 3{,}14 \\cdot 10^{-19}\\ J.$$\n\nMoc to energia emitowana w jednostce czasu, więc liczba fotonów na sekundę:\n$$\\frac{N}{t} = \\frac{P}{E_f} = \\frac{2 \\cdot 10^{-3}\\ W}{3{,}14 \\cdot 10^{-19}\\ J} \\approx 6{,}4 \\cdot 10^{15}\\ \\tfrac{1}{s}.$$",
+    "pulapka": "Moc trzeba wyrazić w watach: $2\\ mW = 2 \\cdot 10^{-3}\\ W$. Pominięcie przedrostka mili zawyży wynik o trzy rzędy wielkości."
+  },
+  {
+    "id": "trening-fizyka-atomowa-4",
+    "dzial": "fizyka-atomowa",
+    "topic": "energia jonizacji atomu wodoru",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Atom wodoru znajduje się w stanie podstawowym, dla którego energia elektronu wynosi $E_1 = -13{,}6\\ eV$.\n\nOblicz energię potrzebną do jonizacji atomu (w dżulach) oraz długość fali fotonu o tej energii (granica serii Lymana). Przyjmij $h = 6{,}63 \\cdot 10^{-34}\\ J\\cdot s$, $c = 3 \\cdot 10^{8}\\ \\tfrac{m}{s}$, $e = 1{,}6 \\cdot 10^{-19}\\ C$.",
+    "odpowiedz": "$E_{jon} = 13{,}6\\ eV \\approx 2{,}18 \\cdot 10^{-18}\\ J$; $\\lambda \\approx 91{,}4\\ nm$.",
+    "rozwiazanie": "Jonizacja to przeniesienie elektronu z poziomu $n=1$ do stanu swobodnego ($E_\\infty = 0$), więc energia jonizacji to:\n$$E_{jon} = E_\\infty - E_1 = 0 - (-13{,}6\\ eV) = 13{,}6\\ eV.$$\n\nW dżulach:\n$$E_{jon} = 13{,}6 \\cdot 1{,}6 \\cdot 10^{-19} \\approx 2{,}18 \\cdot 10^{-18}\\ J.$$\n\nDługość fali fotonu o tej energii:\n$$\\lambda = \\frac{hc}{E_{jon}} = \\frac{6{,}63 \\cdot 10^{-34} \\cdot 3 \\cdot 10^{8}}{2{,}18 \\cdot 10^{-18}} \\approx 9{,}14 \\cdot 10^{-8}\\ m = 91{,}4\\ nm.$$\n\nFoton leży w zakresie nadfioletu — to granica serii Lymana.",
+    "pulapka": "Energia jonizacji jest dodatnia i równa co do wartości bezwzględnej energii poziomu podstawowego. Nie zapomnij przeliczyć eV na dżule przed obliczeniem $\\lambda$."
+  },
+  {
+    "id": "trening-fizyka-magnetyzm-1",
+    "dzial": "magnetyzm",
+    "topic": "siła Lorentza i ruch po okręgu (proton)",
+    "punkty": 4,
+    "typ": "otwarte-rozszerzone",
+    "tresc": "Proton o masie $m = 1{,}67 \\cdot 10^{-27}\\ kg$ i ładunku $q = 1{,}6 \\cdot 10^{-19}\\ C$ wpada prostopadle do jednorodnego pola magnetycznego o indukcji $B = 0{,}5\\ T$ z prędkością $v = 2 \\cdot 10^{6}\\ \\tfrac{m}{s}$.\n\na) Oblicz wartość siły Lorentza działającej na proton.\nb) Oblicz promień okręgu, po którym porusza się proton.",
+    "odpowiedz": "a) $F = 1{,}6 \\cdot 10^{-13}\\ N$; b) $r \\approx 4{,}2\\ cm$.",
+    "rozwiazanie": "a) Siła Lorentza dla ruchu prostopadłego do pola ($\\sin 90^\\circ = 1$):\n$$F = q\\,v\\,B = 1{,}6 \\cdot 10^{-19} \\cdot 2 \\cdot 10^{6} \\cdot 0{,}5 = 1{,}6 \\cdot 10^{-13}\\ N.$$\n\nb) Siła Lorentza pełni rolę siły dośrodkowej: $q v B = \\dfrac{m v^2}{r}$, skąd:\n$$r = \\frac{m\\,v}{q\\,B} = \\frac{1{,}67 \\cdot 10^{-27} \\cdot 2 \\cdot 10^{6}}{1{,}6 \\cdot 10^{-19} \\cdot 0{,}5}.$$\n$$r = \\frac{3{,}34 \\cdot 10^{-21}}{8 \\cdot 10^{-20}} \\approx 4{,}2 \\cdot 10^{-2}\\ m = 4{,}2\\ cm.$$",
+    "pulapka": "W promieniu $r = \\tfrac{mv}{qB}$ nie ma kwadratu prędkości — wynika to ze skrócenia $v^2/v$ przy przyrównaniu siły Lorentza do dośrodkowej."
+  },
+  {
+    "id": "trening-fizyka-magnetyzm-2",
+    "dzial": "magnetyzm",
+    "topic": "siła elektrodynamiczna na przewodnik",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Prostoliniowy przewodnik o długości $l = 0{,}2\\ m$, przez który płynie prąd $I = 5\\ A$, umieszczono w jednorodnym polu magnetycznym o indukcji $B = 0{,}8\\ T$.\n\na) Oblicz siłę działającą na przewodnik, gdy jest on ustawiony prostopadle do linii pola.\nb) Oblicz tę siłę, gdy przewodnik tworzy z liniami pola kąt $30^\\circ$.",
+    "odpowiedz": "a) $F = 0{,}8\\ N$; b) $F = 0{,}4\\ N$.",
+    "rozwiazanie": "Siła elektrodynamiczna:\n$$F = B\\,I\\,l\\,\\sin\\alpha,$$\ngdzie $\\alpha$ to kąt między przewodnikiem a liniami pola.\n\na) Dla $\\alpha = 90^\\circ$ ($\\sin 90^\\circ = 1$):\n$$F = 0{,}8 \\cdot 5 \\cdot 0{,}2 \\cdot 1 = 0{,}8\\ N.$$\n\nb) Dla $\\alpha = 30^\\circ$ ($\\sin 30^\\circ = 0{,}5$):\n$$F = 0{,}8 \\cdot 5 \\cdot 0{,}2 \\cdot 0{,}5 = 0{,}4\\ N.$$",
+    "pulapka": "Kąt $\\alpha$ we wzorze to kąt między kierunkiem prądu a wektorem indukcji $\\vec{B}$. Gdy przewodnik jest równoległy do pola ($\\alpha = 0$), siła jest zerowa."
+  },
+  {
+    "id": "trening-fizyka-magnetyzm-3",
+    "dzial": "magnetyzm",
+    "topic": "okres i częstotliwość cyklotronowa elektronu",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Elektron o masie $m = 9{,}11 \\cdot 10^{-31}\\ kg$ i ładunku $q = 1{,}6 \\cdot 10^{-19}\\ C$ porusza się po okręgu w jednorodnym polu magnetycznym o indukcji $B = 0{,}01\\ T$.\n\nOblicz okres obiegu elektronu oraz jego częstotliwość cyklotronową.",
+    "odpowiedz": "$T \\approx 3{,}6 \\cdot 10^{-9}\\ s$; $f \\approx 2{,}8 \\cdot 10^{8}\\ Hz$.",
+    "rozwiazanie": "Dla ruchu po okręgu w polu magnetycznym $q v B = \\dfrac{m v^2}{r}$, skąd $r = \\dfrac{mv}{qB}$. Okres obiegu $T = \\dfrac{2\\pi r}{v}$ nie zależy od prędkości:\n$$T = \\frac{2\\pi m}{q\\,B} = \\frac{2\\pi \\cdot 9{,}11 \\cdot 10^{-31}}{1{,}6 \\cdot 10^{-19} \\cdot 0{,}01}.$$\n$$T = \\frac{5{,}72 \\cdot 10^{-30}}{1{,}6 \\cdot 10^{-21}} \\approx 3{,}6 \\cdot 10^{-9}\\ s.$$\n\nCzęstotliwość cyklotronowa:\n$$f = \\frac{1}{T} = \\frac{q\\,B}{2\\pi m} \\approx \\frac{1}{3{,}6 \\cdot 10^{-9}} \\approx 2{,}8 \\cdot 10^{8}\\ Hz.$$",
+    "pulapka": "Kluczowa cecha ruchu cyklotronowego: okres i częstotliwość NIE zależą od prędkości ani promienia — zależą tylko od $\\tfrac{q}{m}$ i $B$."
+  },
+  {
+    "id": "trening-fizyka-magnetyzm-4",
+    "dzial": "magnetyzm",
+    "topic": "indukcja elektromagnetyczna (SEM)",
+    "punkty": 4,
+    "typ": "otwarte-rozszerzone",
+    "tresc": "a) Prostoliniowy przewodnik o długości $l = 0{,}5\\ m$ porusza się prostopadle do linii jednorodnego pola magnetycznego o indukcji $B = 0{,}4\\ T$ z prędkością $v = 3\\ \\tfrac{m}{s}$. Oblicz siłę elektromotoryczną (SEM) indukcji.\n\nb) Płaska ramka o powierzchni $S = 0{,}1\\ m^2$ znajduje się w polu magnetycznym prostopadłym do jej płaszczyzny. Indukcja pola rośnie równomiernie od $0{,}2\\ T$ do $0{,}6\\ T$ w czasie $\\Delta t = 0{,}5\\ s$. Oblicz SEM indukcji w ramce.",
+    "odpowiedz": "a) $\\varepsilon = 0{,}6\\ V$; b) $\\varepsilon = 0{,}08\\ V$.",
+    "rozwiazanie": "a) SEM indukcji dla przewodnika poruszającego się prostopadle do pola:\n$$\\varepsilon = B\\,l\\,v = 0{,}4 \\cdot 0{,}5 \\cdot 3 = 0{,}6\\ V.$$\n\nb) Z prawa Faradaya SEM równa jest szybkości zmiany strumienia magnetycznego $\\Phi = B\\,S$. Przy stałej powierzchni:\n$$\\varepsilon = \\frac{\\Delta \\Phi}{\\Delta t} = \\frac{S \\cdot \\Delta B}{\\Delta t} = \\frac{0{,}1 \\cdot (0{,}6 - 0{,}2)}{0{,}5}.$$\n$$\\varepsilon = \\frac{0{,}1 \\cdot 0{,}4}{0{,}5} = \\frac{0{,}04}{0{,}5} = 0{,}08\\ V.$$",
+    "pulapka": "W części b) zmienia się indukcja $B$, a nie powierzchnia — dlatego $\\Delta\\Phi = S\\,\\Delta B$. Wstawienie do wzoru pełnej wartości $B$ zamiast jej przyrostu $\\Delta B$ zawyży wynik."
+  },
+  {
+    "id": "trening-fizyka-termodynamika-1",
+    "dzial": "termodynamika",
+    "topic": "I zasada termodynamiki (przemiana izobaryczna)",
+    "punkty": 4,
+    "typ": "otwarte-rozszerzone",
+    "tresc": "Gaz doskonały rozpręża się izobarycznie pod stałym ciśnieniem $p = 1 \\cdot 10^{5}\\ Pa$ od objętości $V_1 = 2\\ dm^3$ do $V_2 = 5\\ dm^3$. W trakcie przemiany dostarczono do gazu $Q = 800\\ J$ ciepła.\n\na) Oblicz pracę wykonaną przez gaz.\nb) Oblicz zmianę energii wewnętrznej gazu.",
+    "odpowiedz": "a) $W = 300\\ J$; b) $\\Delta U = 500\\ J$.",
+    "rozwiazanie": "a) Praca gazu w przemianie izobarycznej:\n$$W = p\\,\\Delta V = p\\,(V_2 - V_1).$$\nZamieniamy objętości na metry sześcienne: $V_1 = 2\\ dm^3 = 2 \\cdot 10^{-3}\\ m^3$, $V_2 = 5 \\cdot 10^{-3}\\ m^3$.\n$$W = 1 \\cdot 10^{5} \\cdot (5 - 2) \\cdot 10^{-3} = 1 \\cdot 10^{5} \\cdot 3 \\cdot 10^{-3} = 300\\ J.$$\n\nb) Z I zasady termodynamiki $Q = \\Delta U + W$, czyli:\n$$\\Delta U = Q - W = 800 - 300 = 500\\ J.$$\n\nEnergia wewnętrzna wzrosła o $500\\ J$.",
+    "pulapka": "Objętości trzeba przeliczyć na $m^3$ ($1\\ dm^3 = 10^{-3}\\ m^3$), aby praca wyszła w dżulach. Uwaga też na konwencję: $Q = \\Delta U + W$, gdzie $W$ to praca WYKONANA przez gaz."
+  },
+  {
+    "id": "trening-fizyka-termodynamika-2",
+    "dzial": "termodynamika",
+    "topic": "przemiana izotermiczna gazu doskonałego",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Gaz doskonały w ilości $n = 2\\ mol$ o temperaturze $T = 300\\ K$ rozpręża się izotermicznie, przy czym jego objętość rośnie dwukrotnie. Przyjmij $R = 8{,}31\\ \\tfrac{J}{mol \\cdot K}$ oraz $\\ln 2 = 0{,}693$.\n\nOblicz pracę wykonaną przez gaz oraz ciepło pobrane w tej przemianie.",
+    "odpowiedz": "$W \\approx 3{,}46\\ kJ$; $Q = W \\approx 3{,}46\\ kJ$.",
+    "rozwiazanie": "Praca gazu doskonałego w przemianie izotermicznej:\n$$W = n\\,R\\,T\\,\\ln\\frac{V_2}{V_1}.$$\n\nPonieważ objętość rośnie dwukrotnie, $\\tfrac{V_2}{V_1} = 2$:\n$$W = 2 \\cdot 8{,}31 \\cdot 300 \\cdot \\ln 2 = 4986 \\cdot 0{,}693 \\approx 3456\\ J \\approx 3{,}46\\ kJ.$$\n\nW przemianie izotermicznej temperatura jest stała, więc energia wewnętrzna gazu doskonałego nie zmienia się ($\\Delta U = 0$). Z I zasady termodynamiki:\n$$Q = \\Delta U + W = 0 + W \\approx 3{,}46\\ kJ.$$\n\nCałe pobrane ciepło zamienia się na pracę.",
+    "pulapka": "W przemianie izotermicznej $\\Delta U = 0$ (dla gazu doskonałego $U$ zależy tylko od $T$), więc $Q = W$. Częsty błąd to zapominanie logarytmu we wzorze na pracę izotermiczną."
+  },
+  {
+    "id": "trening-fizyka-termodynamika-3",
+    "dzial": "termodynamika",
+    "topic": "sprawność silnika Carnota",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Silnik cieplny pracujący w cyklu Carnota działa między grzejnicą o temperaturze $T_1 = 600\\ K$ a chłodnicą o temperaturze $T_2 = 300\\ K$.\n\na) Oblicz sprawność tego silnika.\nb) Ile pracy wykona silnik, pobierając z grzejnicy $Q_1 = 1000\\ J$ ciepła?",
+    "odpowiedz": "a) $\\eta = 0{,}5 = 50\\%$; b) $W = 500\\ J$.",
+    "rozwiazanie": "a) Sprawność silnika Carnota zależy tylko od temperatur bezwzględnych źródeł:\n$$\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{300}{600} = 1 - 0{,}5 = 0{,}5 = 50\\%.$$\n\nb) Sprawność to stosunek pracy do pobranego ciepła, $\\eta = \\dfrac{W}{Q_1}$, więc:\n$$W = \\eta \\cdot Q_1 = 0{,}5 \\cdot 1000 = 500\\ J.$$",
+    "pulapka": "Temperatury we wzorze muszą być w kelwinach. Sprawność Carnota jest maksymalną możliwą sprawnością dla danych temperatur — żaden rzeczywisty silnik jej nie przekroczy."
+  },
+  {
+    "id": "trening-fizyka-termodynamika-4",
+    "dzial": "termodynamika",
+    "topic": "przemiana izochoryczna gazu jednoatomowego",
+    "punkty": 3,
+    "typ": "otwarte-krotkie",
+    "tresc": "Jeden mol jednoatomowego gazu doskonałego ($C_V = \\tfrac{3}{2}R$) ogrzano izochorycznie (przy stałej objętości) od temperatury $T_1 = 300\\ K$ do $T_2 = 400\\ K$. Przyjmij $R = 8{,}31\\ \\tfrac{J}{mol \\cdot K}$.\n\nOblicz ciepło dostarczone do gazu oraz zmianę jego energii wewnętrznej.",
+    "odpowiedz": "$Q \\approx 1247\\ J$; $\\Delta U = Q \\approx 1247\\ J$.",
+    "rozwiazanie": "W przemianie izochorycznej objętość jest stała, więc gaz nie wykonuje pracy ($W = p\\,\\Delta V = 0$). Z I zasady termodynamiki całe ciepło zwiększa energię wewnętrzną:\n$$Q = \\Delta U = n\\,C_V\\,\\Delta T = n \\cdot \\frac{3}{2}R \\cdot (T_2 - T_1).$$\n\nPodstawiamy $n = 1\\ mol$, $\\Delta T = 400 - 300 = 100\\ K$:\n$$Q = 1 \\cdot \\frac{3}{2} \\cdot 8{,}31 \\cdot 100 = 12{,}465 \\cdot 100 \\approx 1247\\ J.$$\n\nPonieważ $W = 0$, zmiana energii wewnętrznej jest równa dostarczonemu ciepłu: $\\Delta U \\approx 1247\\ J$.",
+    "pulapka": "W przemianie izochorycznej $W = 0$, więc $Q = \\Delta U$. Nie używaj tu $C_p$ — ciepło molowe przy stałej objętości to $C_V = \\tfrac{3}{2}R$ (dla gazu jednoatomowego)."
+  }
+]

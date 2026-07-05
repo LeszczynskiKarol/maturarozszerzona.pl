@@ -1,0 +1,72 @@
+{
+  "slug": "matematyka",
+  "intro": "Matura rozszerzona z matematyki to egzamin dla kandydatów na kierunki ścisłe, techniczne, ekonomiczne i medyczne, gdzie 'rozszerzenie' z matematyki jest często wymagane lub mocno punktowane w rekrutacji. W stosunku do poziomu podstawowego obejmuje cały materiał podstawy oraz dodatkowe działy: rachunek różniczkowy, dowody, bardziej rozbudowaną trygonometrię, geometrię analityczną, kombinatorykę i rachunek prawdopodobieństwa. Wymaga nie tyle liczenia, co rozumienia pojęć i budowania poprawnego, uzasadnionego rozwiązania.",
+  "formatArkusza": "Arkusz poziomu rozszerzonego rozwiązuje się 180 minut. Zawiera zadania zamknięte oraz zadania otwarte krótkiej i rozszerzonej odpowiedzi, w których punktowany jest cały tok rozumowania, a nie tylko wynik końcowy. Na egzaminie każdy zdający otrzymuje wydawaną przez CKE kartę wybranych wzorów matematycznych.",
+  "trudnosc": "Matematyka rozszerzona należy do wymagających egzaminów, bo łączy szeroki zakres materiału z koniecznością samodzielnego budowania rozwiązań. Największą trudność sprawiają zwykle zadania na dowód, zadania z parametrem oraz rachunek różniczkowy, gdzie liczy się precyzyjne uzasadnienie każdego kroku, a nie sam wynik. To realny wybór dla osób, które lubią logiczne rozumowanie i systematycznie ćwiczą zadania otwarte, a nie tylko schematyczne obliczenia.",
+  "wymagania": [
+    {
+      "pytanie": "Czy pochodne są na maturze rozszerzonej z matematyki?",
+      "odpowiedz": "Tak. Rachunek różniczkowy jest jednym z działów wyłącznie rozszerzenia. Obowiązuje obliczanie pochodnych wielomianów i funkcji wymiernych oraz ich zastosowania: badanie monotoniczności, wyznaczanie ekstremów, styczna do wykresu i zadania optymalizacyjne. Na poziomie podstawowym pochodnych nie ma.",
+      "dzial": "rachunek-rozniczkowy"
+    },
+    {
+      "pytanie": "Czy na rozszerzeniu są granice funkcji?",
+      "odpowiedz": "Tak. Granice są elementem poziomu rozszerzonego, na podstawie ich nie ma. Obowiązują granice ciągów oraz granice funkcji w punkcie i w nieskończoności, w tym granice jednostronne, powiązane z ciągłością funkcji i rachunkiem różniczkowym.",
+      "dzial": "rachunek-rozniczkowy"
+    },
+    {
+      "pytanie": "Czy trzeba umieć dowody na maturze rozszerzonej z matematyki?",
+      "odpowiedz": "Tak. Zadania na dowód to stały element arkusza rozszerzonego i najczęściej zadanie za kilka punktów. Pojawiają się dowody algebraiczne (np. z użyciem wzorów skróconego mnożenia, nierówności) oraz geometryczne. Punktuje się poprawność i kompletność uzasadnienia, a nie samą intuicję.",
+      "dzial": "dowody"
+    },
+    {
+      "pytanie": "Czy stereometria jest na maturze rozszerzonej?",
+      "odpowiedz": "Tak. Stereometria obowiązuje na obu poziomach, ale na rozszerzeniu zadania są trudniejsze. Trzeba sprawnie liczyć pola, objętości i kąty w bryłach, w tym kąty między prostymi i płaszczyznami oraz kąt dwuścienny, często łącząc stereometrię z trygonometrią.",
+      "dzial": "stereometria"
+    },
+    {
+      "pytanie": "Czy prawdopodobieństwo i kombinatoryka są na rozszerzeniu?",
+      "odpowiedz": "Tak. Na rozszerzeniu zakres jest szerszy niż na podstawie: obok klasycznego prawdopodobieństwa i reguł zliczania obowiązuje prawdopodobieństwo warunkowe oraz schemat Bernoulliego, którego na poziomie podstawowym nie ma.",
+      "dzial": "kombinatoryka-i-prawdopodobienstwo"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej są równania z wartością bezwzględną?",
+      "odpowiedz": "Tak. Wartość bezwzględna pojawia się w równaniach i nierównościach, także tych z parametrem, oraz przy przekształceniach wykresów funkcji. Na rozszerzeniu wymaga się sprawnego rozpisywania przypadków i interpretacji geometrycznej (odległość na osi liczbowej).",
+      "dzial": "rownania-i-nierownosci"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z matematyki jest karta wzorów?",
+      "odpowiedz": "Tak. Podczas egzaminu każdy zdający dostaje kartę wybranych wzorów matematycznych CKE. Zawiera ona kluczowe wzory (m.in. z trygonometrii, geometrii, ciągów), ale nie zwalnia z ich rozumienia i umiejętności zastosowania. Warto ćwiczyć z tą samą kartą, z której korzysta się na maturze.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Czym różni się matematyka rozszerzona od podstawowej?",
+      "odpowiedz": "Rozszerzenie obejmuje cały materiał poziomu podstawowego oraz dodatkowe treści: rachunek różniczkowy (granice, pochodne), zadania na dowód, prawdopodobieństwo warunkowe i schemat Bernoulliego, pełną trygonometrię z równaniami oraz trudniejszą geometrię analityczną i zadania z parametrem. Zadania są bardziej złożone i częściej otwarte, punktujące cały tok rozumowania.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Czy równania trygonometryczne są na maturze rozszerzonej?",
+      "odpowiedz": "Tak. Na rozszerzeniu trygonometria jest znacznie szersza niż na podstawie: obowiązują tożsamości trygonometryczne, wzory redukcyjne oraz rozwiązywanie równań i nierówności trygonometrycznych, także w połączeniu z twierdzeniami sinusów i cosinusów.",
+      "dzial": "trygonometria"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z matematyki są całki?",
+      "odpowiedz": "Nie. Rachunku całkowego nie ma w wymaganiach matury rozszerzonej w Formule 2023. Z analizy matematycznej obowiązują wyłącznie granice i pochodne oraz ich zastosowania. Całki to już materiał studiów.",
+      "dzial": "rachunek-rozniczkowy"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej trzeba zdobyć 30 procent, żeby zdać?",
+      "odpowiedz": "Nie. Próg 30 procent obowiązuje wyłącznie na poziomie podstawowym, który jest obowiązkowy do zdania matury. Rozszerzenia nie trzeba 'zdać' żadnym progiem, liczy się osiągnięty wynik procentowy, który przelicza się na punkty rekrutacyjne na studia.",
+      "dzial": null
+    }
+  ],
+  "strategia": [
+    "Najpierw opanuj solidnie materiał poziomu podstawowego, bo rozszerzenie w całości się na nim opiera, a dopiero potem dokładaj działy tylko rozszerzone (pochodne, dowody, prawdopodobieństwo warunkowe).",
+    "Rozwiązuj arkusze CKE i informatory na czas 180 minut, żeby wyrobić tempo i nauczyć się rozkładać siły między zadania zamknięte a otwarte.",
+    "Ćwicz zadania na dowód osobno, zapisując pełne uzasadnienia, bo to najczęściej niedoceniana, a wysoko punktowana część arkusza.",
+    "Ucz się z kartą wybranych wzorów CKE od początku, żeby na egzaminie wiedzieć, co się w niej znajduje i jak szybko z niej korzystać.",
+    "Analizuj oficjalne zasady oceniania krok po kroku, aby pisać rozwiązania tak, jak punktuje je egzaminator (kolejne kroki, wnioski, uzasadnienia).",
+    "Powtarzaj systematycznie działy sprawiające najwięcej trudności: rachunek różniczkowy, zadania z parametrem oraz geometrię (planimetria i stereometria z trygonometrią)."
+  ],
+  "coWarto": "Matematyka rozszerzona otwiera drogę na najbardziej oblegane kierunki: informatykę, kierunki inżynierskie i techniczne, ekonomię, finanse oraz część kierunków ścisłych i medycznych, gdzie bywa przedmiotem punktowanym z wysoką wagą. To jedno z rozszerzeń, które najszerzej poszerza wybór studiów, dlatego warto rozważyć je nawet obok innego profilu."
+}

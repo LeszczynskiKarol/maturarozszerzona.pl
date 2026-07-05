@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "integracja-europejska",
+    "nazwa": "Integracja europejska: Unia Europejska i jej instytucje",
+    "count": 12
+  },
+  {
+    "slug": "prawa-czlowieka",
+    "nazwa": "Prawa człowieka: wolności, ETPC i Rzecznik Praw Obywatelskich",
+    "count": 14
+  },
+  {
+    "slug": "stosunki-miedzynarodowe",
+    "nazwa": "Stosunki międzynarodowe: ONZ, NATO i konflikty współczesnego świata",
+    "count": 28
+  },
+  {
+    "slug": "wladza-sadownicza",
+    "nazwa": "Władza sądownicza: sądy i trybunały w Polsce",
+    "count": 9
+  },
+  {
+    "slug": "samorzad-terytorialny",
+    "nazwa": "Samorząd terytorialny: gmina, powiat i województwo",
+    "count": 16
+  },
+  {
+    "slug": "wybory-i-partie",
+    "nazwa": "Wybory i partie polityczne: systemy wyborcze, referendum i demokracja bezpośrednia",
+    "count": 13
+  },
+  {
+    "slug": "narod-i-mniejszosci",
+    "nazwa": "Naród i mniejszości narodowe: obywatelstwo, tożsamość i wielokulturowość",
+    "count": 11
+  },
+  {
+    "slug": "prawo",
+    "nazwa": "Prawo: gałęzie prawa, kodeksy i postępowania",
+    "count": 23
+  },
+  {
+    "slug": "ustroj-rp",
+    "nazwa": "Ustrój Rzeczypospolitej Polskiej: konstytucja, sejm, prezydent i rząd",
+    "count": 32
+  },
+  {
+    "slug": "panstwo-i-demokracja",
+    "nazwa": "Państwo i demokracja: systemy polityczne i myśl polityczna",
+    "count": 26
+  },
+  {
+    "slug": "ekonomia-i-polityka-spoleczna",
+    "nazwa": "Ekonomia i polityka społeczna: rynek, podatki i państwo dobrobytu",
+    "count": 19
+  },
+  {
+    "slug": "spoleczenstwo-i-socjologia",
+    "nazwa": "Społeczeństwo i socjologia: struktura, procesy i problemy społeczne",
+    "count": 41
+  }
+]

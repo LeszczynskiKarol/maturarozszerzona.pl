@@ -1,0 +1,77 @@
+{
+  "slug": "historia",
+  "intro": "Matura rozszerzona z historii to egzamin obejmujący całe dzieje — od starożytności aż po czasy współczesne — oparty na analizie różnorodnych źródeł i zwieńczony wypracowaniem. Wybierają ją kandydaci na prawo, historię, stosunki międzynarodowe, archeologię, filologie klasyczne oraz kierunki wojskowe i bezpieczeństwo narodowe. W przeciwieństwie do matury podstawowej (której z historii nie ma) rozszerzenie wymaga nie tylko znajomości faktów, ale też samodzielnej interpretacji tekstów, map i materiałów ikonograficznych.",
+  "formatArkusza": "Arkusz PR w Formule 2023 trwa 180 minut i sprawdza wszystkie epoki historyczne. Składa się z zadań zamkniętych i otwartych opartych na źródłach (teksty, mapy, tablice genealogiczne, ikonografia, dane statystyczne) oraz z obowiązkowego wypracowania wybieranego spośród kilku tematów z różnych epok.",
+  "trudnosc": "Historia rozszerzona należy do przedmiotów bardzo obszernych — wymaga opanowania materiału z wielu tysięcy lat dziejów Polski i powszechnych, a zarazem umiejętności krytycznej pracy ze źródłem. Największą trudność sprawia maturzystom połączenie szerokiej wiedzy faktograficznej (chronologia, postacie, wydarzenia) z analizą i argumentacją w wypracowaniu, które musi być osadzone w konkretnych realiach historycznych. To przedmiot realny dla osób systematycznie czytających, potrafiących zapamiętywać ciągi przyczynowo-skutkowe i chętnie pracujących z tekstem oraz mapą.",
+  "wymagania": [
+    {
+      "pytanie": "Czy na maturze rozszerzonej z historii jest wypracowanie?",
+      "odpowiedz": "Tak, wypracowanie jest obowiązkowym i istotnym elementem arkusza. Zdający wybiera jeden temat spośród kilku zaproponowanych, reprezentujących różne epoki historyczne, i pisze rozprawkę historyczną opartą na wiedzy własnej oraz argumentacji. To najwyżej punktowane pojedyncze zadanie w całym arkuszu.",
+      "dzial": "zrodla-i-sztuka"
+    },
+    {
+      "pytanie": "Ile epok obowiązuje na maturze rozszerzonej z historii?",
+      "odpowiedz": "Obowiązuje pełny zakres chronologiczny — wszystkie epoki od starożytności, przez średniowiecze, nowożytność i XIX wiek, aż po historię najnowszą i czasy współczesne. Materiał obejmuje starożytny Egipt, Grecję i Rzym, dzieje Polski Piastów i Jagiellonów, Rzeczpospolitą szlachecką, zabory, obie wojny światowe oraz okres PRL i przemian po 1945 roku. Żadna epoka nie jest z egzaminu wyłączona.",
+      "dzial": "starozytnosc"
+    },
+    {
+      "pytanie": "Czy na maturze z historii trzeba znać daty na pamięć?",
+      "odpowiedz": "Tak, znajomość kluczowych dat i chronologii jest niezbędna, bo wiele zadań wymaga umiejscowienia wydarzeń w czasie i porządkowania ich w ciągi przyczynowo-skutkowe. Nie chodzi jednak o pamięciowe wkuwanie każdej daty — najważniejsze są cezury i wydarzenia przełomowe (np. 966, 1410, 1795, 1918, 1939, 1989), które porządkują całą epokę. Daty służą też do poprawnego datowania i interpretacji źródeł.",
+      "dzial": "sredniowiecze"
+    },
+    {
+      "pytanie": "Jak wygląda praca ze źródłami na maturze rozszerzonej z historii?",
+      "odpowiedz": "Analiza źródeł to podstawa całego arkusza — praktycznie każde zadanie opiera się na dołączonym materiale. Zdający pracuje ze źródłami tekstowymi (kroniki, dokumenty, wspomnienia), mapami, tablicami genealogicznymi, danymi statystycznymi oraz materiałami ikonograficznymi. Kluczowe jest nie tylko odczytanie treści źródła, ale też jego krytyka: rozpoznanie autora, kontekstu, celu i wiarygodności.",
+      "dzial": "zrodla-i-sztuka"
+    },
+    {
+      "pytanie": "Czy na maturze z historii są mapy i zadania z ikonografii?",
+      "odpowiedz": "Tak, mapy historyczne oraz materiały ikonograficzne regularnie pojawiają się w arkuszu jako źródła do analizy. Na podstawie mapy trzeba np. rozpoznać zasięg państwa, przebieg kampanii wojennej czy zmiany granic, a przy ikonografii — zinterpretować obraz, rzeźbę, plakat lub herb i osadzić go w realiach epoki. Umiejętność czytania mapy i odczytywania symboliki dzieła sztuki jest punktowana wprost.",
+      "dzial": "xix-wiek-ziemie-polskie"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z historii są karykatury i rysunki satyryczne?",
+      "odpowiedz": "Tak, karykatury i rysunki satyryczne bywają wykorzystywane jako źródła ikonograficzne, zwłaszcza przy tematach z XIX i XX wieku. Zadanie zwykle wymaga rozpoznania, jakiego wydarzenia lub postaci dotyczy karykatura, oraz odczytania intencji autora i przekazu propagandowego. To sprawdza umiejętność krytycznej interpretacji źródła o wyraźnym zabarwieniu perswazyjnym.",
+      "dzial": "zrodla-i-sztuka"
+    },
+    {
+      "pytanie": "Czy na maturze z historii jest II wojna światowa i PRL?",
+      "odpowiedz": "Tak, historia XX wieku — w tym II wojna światowa oraz okres PRL — należy do obowiązkowego zakresu i często pojawia się zarówno w zadaniach źródłowych, jak i wśród tematów wypracowań. Sprawdzana jest wiedza o Polskim Państwie Podziemnym, Powstaniu Warszawskim, losach Polaków w czasie wojny, a także o systemie komunistycznym, opozycji i przemianach prowadzących do 1989 roku. To jedne z najczęściej eksploatowanych na maturze partii materiału.",
+      "dzial": "ii-wojna-swiatowa"
+    },
+    {
+      "pytanie": "Czy na maturze z historii obowiązuje historia powszechna, czy tylko historia Polski?",
+      "odpowiedz": "Obowiązuje zarówno historia Polski, jak i historia powszechna — obie są ze sobą splecione w wymaganiach i w arkuszu. Zdający musi znać dzieje świata (starożytne cywilizacje, rewolucje, zjednoczenia, totalitaryzmy, zimna wojna) oraz umieć powiązać je z wydarzeniami na ziemiach polskich. Wiele zadań i tematów wypracowań wymaga właśnie ukazania Polski na tle procesów europejskich i światowych.",
+      "dzial": "xix-wiek-swiat"
+    },
+    {
+      "pytanie": "Ile punktów można zdobyć za wypracowanie z historii?",
+      "odpowiedz": "Wypracowanie jest najwyżej punktowanym zadaniem w arkuszu i odpowiada za znaczącą część możliwych do zdobycia punktów. Oceniane jest według kryteriów obejmujących m.in. zgodność z tematem, poziom merytoryczny i selekcję faktów, wykorzystanie argumentacji oraz konstrukcję i spójność wywodu. Dokładna punktacja jest podana w informatorze CKE i zasadach oceniania danego rocznika — warto sprawdzić ją w aktualnych materiałach.",
+      "dzial": "zrodla-i-sztuka"
+    },
+    {
+      "pytanie": "Czy rozszerzenie z historii trzeba zdać na jakiś próg?",
+      "odpowiedz": "Nie, matury rozszerzonej nie trzeba „zdać” żadnym progiem procentowym — nie ma tu progu 30% jak na poziomie podstawowym. Liczy się wyłącznie osiągnięty wynik procentowy, który jest przeliczany na punkty w rekrutacji na studia. Im wyższy wynik, tym większe szanse na prawo, historię czy stosunki międzynarodowe.",
+      "dzial": "prl-i-swiat-po-1945"
+    },
+    {
+      "pytanie": "Czy na maturze z historii są zadania ze starożytności i średniowiecza?",
+      "odpowiedz": "Tak, epoki dawne są w pełni obowiązujące i regularnie pojawiają się w arkuszu, także jako tematy wypracowań. Ze starożytności sprawdzana jest wiedza o Egipcie, Grecji i Rzymie (ustroje, religia, kultura), a ze średniowiecza — dzieje Polski Piastów i Jagiellonów oraz Europy łacińskiej, w tym feudalizm, krucjaty i sztuka romańska oraz gotycka. Nie da się skutecznie przygotować, pomijając te okresy.",
+      "dzial": "starozytnosc"
+    },
+    {
+      "pytanie": "Jak długo trwa matura rozszerzona z historii?",
+      "odpowiedz": "Arkusz poziomu rozszerzonego z historii trwa 180 minut. W tym czasie należy rozwiązać zadania zamknięte i otwarte oparte na źródłach oraz napisać wypracowanie na wybrany temat. Warto rozplanować czas tak, aby na rozprawkę historyczną zostawić odpowiednio dużą rezerwę, bo jest ona pracochłonna i najwyżej punktowana.",
+      "dzial": "zrodla-i-sztuka"
+    }
+  ],
+  "strategia": [
+    "Ucz się chronologicznie epoka po epoce, ale buduj też przekroje tematyczne (ustroje, gospodarka, kultura), bo tematy wypracowań często wymagają syntezy z różnych okresów.",
+    "Ćwicz pracę ze źródłem na starych arkuszach CKE — czytaj tekst, mapę i ikonografię pod kątem autora, kontekstu i celu, a nie tylko dosłownej treści.",
+    "Opanuj kluczowe cezury i daty przełomowe dla każdej epoki, zamiast wkuwać wszystkie po kolei — to one porządkują ciągi przyczynowo-skutkowe.",
+    "Regularnie pisz próbne wypracowania na czas i sprawdzaj je według kryteriów oceniania CKE (teza, argumentacja, fakty, kompozycja).",
+    "Powtarzaj równolegle historię Polski i historię powszechną, ćwicząc umieszczanie wydarzeń krajowych na tle europejskim i światowym.",
+    "Zwróć szczególną uwagę na XX wiek (II wojna światowa, PRL) oraz na analizę propagandy i karykatur — to partie, które wracają najczęściej."
+  ],
+  "coWarto": "Rozszerzona historia otwiera drogę na prawo, historię, stosunki międzynarodowe, archeologię oraz kierunki związane z bezpieczeństwem i dyplomacją, gdzie często jest przedmiotem punktowanym najwyżej. To naturalny wybór dla osób łączących ją z językiem polskim lub WOS-em jako drugim rozszerzeniem."
+}

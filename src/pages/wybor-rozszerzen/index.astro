@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE, ECOSYSTEM } from "../../config/site";
+import kierunki from "../../data/kierunki.json";
+
+interface Kierunek {
+  slug: string;
+  name: string;
+  kategoria: string;
+  liczbaUczelni: number;
+  rdzen: { slug: string; nazwa: string; maxWaga: number }[];
+  kluczowe: { slug: string; nazwa: string; maxWaga: number }[];
+  pomocnicze: { slug: string; nazwa: string }[];
+}
+const lista = kierunki as Kierunek[];
+
+const KAT_LABEL: Record<string, string> = {
+  medyczne: "Kierunki medyczne",
+  "ścisłe": "Kierunki ścisłe",
+  techniczne: "Kierunki techniczne",
+  ekonomiczne: "Kierunki ekonomiczne",
+  prawne: "Kierunki prawne",
+  humanistyczne: "Kierunki humanistyczne",
+  psychologia: "Psychologia",
+  "społeczne": "Kierunki społeczne",
+};
+
+const kategorie = [...new Set(lista.map((k) => k.kategoria))].sort();
+const grupy = kategorie.map((kat) => ({
+  kat,
+  label: KAT_LABEL[kat] ?? kat,
+  kierunki: lista.filter((k) => k.kategoria === kat).sort((a, b) => a.name.localeCompare(b.name)),
+}));
+
+const title = `Jakie rozszerzenia wybrać na studia — poradnik według kierunku | ${SITE.name}`;
+const description =
+  "Które przedmioty rozszerzone wybrać pod konkretny kierunek studiów: medycyna, prawo, informatyka, psychologia i inne. Wymagane rozszerzenia, alternatywy i link do kalkulatora punktów.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Start", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Wybór rozszerzeń", item: `${SITE.url}/wybor-rozszerzen/` },
+    ],
+  },
+];
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <nav class="mb-4 text-sm text-slate-500">
+    <a href="/" class="hover:text-indigo-700">Start</a> › Wybór rozszerzeń
+  </nav>
+
+  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
+    Jakie rozszerzenia wybrać pod studia?
+  </h1>
+  <p class="mb-4 max-w-2xl text-slate-600">
+    Wybór przedmiotów rozszerzonych przesądza o tym, na jakie kierunki możesz aplikować. Poniżej
+    znajdziesz, które rozszerzenia są <strong>obowiązkowe (rdzeń)</strong>, a które
+    <strong>podnoszą wynik</strong> dla popularnych kierunków. Deklarację przedmiotów dodatkowych
+    składasz wstępnie do <strong>30 września</strong>, a ostatecznie do <strong>7 lutego</strong>.
+  </p>
+  <p class="mb-8 max-w-2xl rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600">
+    Chcesz sprawdzić, ile dokładnie punktów da Twój wynik na konkretnej uczelni?
+    <a href={ECOSYSTEM.kalkulator} class="font-semibold text-indigo-700 hover:underline"
+      >Skorzystaj z kalkulatora punktów na Maturalnie.pl →</a
+    >
+  </p>
+
+  {grupy.map((g) => (
+    <section class="mb-8">
+      <h2 class="mb-3 text-xl font-bold">{g.label}</h2>
+      <ul class="grid gap-3 sm:grid-cols-2">
+        {g.kierunki.map((k) => (
+          <li>
+            <a
+              href={`/wybor-rozszerzen/${k.slug}/`}
+              class="flex h-full flex-col rounded-xl border border-slate-200 bg-white px-4 py-4 hover:border-indigo-400"
+            >
+              <span class="font-semibold">{k.name}</span>
+              <span class="mt-1 text-sm text-slate-500">
+                {k.rdzen.length > 0
+                  ? `Rdzeń: ${k.rdzen.map((p) => p.nazwa).join(" + ")}`
+                  : `Elastyczny zestaw przedmiotów`}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>

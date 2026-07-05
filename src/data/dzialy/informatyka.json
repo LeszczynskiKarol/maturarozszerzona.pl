@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "bazy-danych-sql",
+    "nazwa": "Bazy danych i SQL: zapytania, złączenia, agregacja",
+    "count": 6
+  },
+  {
+    "slug": "systemy-liczbowe",
+    "nazwa": "Systemy liczbowe i arytmetyka komputerowa: system binarny, operacje bitowe",
+    "count": 5
+  },
+  {
+    "slug": "sieci-i-bezpieczenstwo",
+    "nazwa": "Sieci komputerowe i bezpieczeństwo: protokoły, ochrona danych",
+    "count": 2
+  },
+  {
+    "slug": "algorytmy",
+    "nazwa": "Algorytmy i analiza algorytmów: rekurencja, sortowanie, struktury danych",
+    "count": 10
+  },
+  {
+    "slug": "programowanie",
+    "nazwa": "Programowanie: przetwarzanie plików i tekstów, zadania praktyczne",
+    "count": 10
+  },
+  {
+    "slug": "arkusz-kalkulacyjny",
+    "nazwa": "Arkusz kalkulacyjny: analiza danych, symulacje, wykresy",
+    "count": 6
+  }
+]

@@ -1,0 +1,135 @@
+﻿{
+    "subject":  "matematyka",
+    "level":  "pr",
+    "dzialy":  [
+                   {
+                       "slug":  "dowody",
+                       "nazwa":  "Dowody algebraiczne i geometryczne",
+                       "patterns":  [
+                                        "dow[oó]d",
+                                        "dowody"
+                                    ]
+                   },
+                   {
+                       "slug":  "rachunek-rozniczkowy",
+                       "nazwa":  "Rachunek różniczkowy: granice, pochodne, optymalizacja",
+                       "patterns":  [
+                                        "pochodn",
+                                        "granice",
+                                        "ekstrema",
+                                        "styczna do wykresu",
+                                        "optymalizacja",
+                                        "granica"
+                                    ]
+                   },
+                   {
+                       "slug":  "stereometria",
+                       "nazwa":  "Stereometria: bryły, kąty w przestrzeni",
+                       "patterns":  [
+                                        "stereometri",
+                                        "sze[sś]cian",
+                                        "ostros[lł]up",
+                                        "sto[zż]ek",
+                                        "k[aą]t dwu[sś]cienny",
+                                        "graniastos[lł]up",
+                                        "kula",
+                                        "walec"
+                                    ]
+                   },
+                   {
+                       "slug":  "geometria-analityczna",
+                       "nazwa":  "Geometria analityczna",
+                       "patterns":  [
+                                        "geometria analityczna",
+                                        "wektor",
+                                        "styczne",
+                                        "suma odleg[lł]o[sś]ci"
+                                    ]
+                   },
+                   {
+                       "slug":  "kombinatoryka-i-prawdopodobienstwo",
+                       "nazwa":  "Kombinatoryka i rachunek prawdopodobieństwa",
+                       "patterns":  [
+                                        "prawdopodobie[nń]stw",
+                                        "kombinatoryka",
+                                        "bernoulli",
+                                        "zliczanie"
+                                    ]
+                   },
+                   {
+                       "slug":  "ciagi",
+                       "nazwa":  "Ciągi i szeregi: arytmetyczne, geometryczne, suma nieskończona",
+                       "patterns":  [
+                                        "ci[aą]g",
+                                        "szereg",
+                                        "sumowanie niesko[nń]czone",
+                                        "wzory na sum[eę]",
+                                        "procent sk[lł]adany",
+                                        "rozpad procentowy"
+                                    ]
+                   },
+                   {
+                       "slug":  "trygonometria",
+                       "nazwa":  "Trygonometria: równania, tożsamości, twierdzenia sinusów i cosinusów",
+                       "patterns":  [
+                                        "trygonometr",
+                                        "twierdzenie sinus",
+                                        "twierdzenie cosinus",
+                                        "cosinus",
+                                        "sinus",
+                                        "tangens"
+                                    ]
+                   },
+                   {
+                       "slug":  "planimetria",
+                       "nazwa":  "Planimetria: okręgi, trójkąty, czworokąty",
+                       "patterns":  [
+                                        "planimetri",
+                                        "okr[aą]g",
+                                        "okręgi",
+                                        "k[aą]t wpisany",
+                                        "tr[oó]jk[aą]t",
+                                        "deltoid",
+                                        "trapez",
+                                        "czworok[aą]t",
+                                        "linia [sś]rodkowa",
+                                        "[sś]rodek ci[eę][zż]ko[sś]ci",
+                                        "twierdzenie pitagorasa",
+                                        "twierdzenia o tr[oó]jk[aą]tach",
+                                        "pola"
+                                    ]
+                   },
+                   {
+                       "slug":  "funkcje",
+                       "nazwa":  "Funkcje: kwadratowa, wykładnicza, logarytmiczna, wymierna",
+                       "patterns":  [
+                                        "funkcja",
+                                        "funkcje",
+                                        "parabola",
+                                        "logarytm",
+                                        "wyk[lł]adnicz",
+                                        "zmiana podstawy",
+                                        "model praktyczny"
+                                    ]
+                   },
+                   {
+                       "slug":  "rownania-i-nierownosci",
+                       "nazwa":  "Równania i nierówności, w tym z parametrem i wartością bezwzględną",
+                       "patterns":  [
+                                        "r[oó]wnanie",
+                                        "r[oó]wnania",
+                                        "nier[oó]wno[sś]",
+                                        "uk[lł]ad r[oó]wna[nń]",
+                                        "parametr",
+                                        "viète",
+                                        "viete",
+                                        "modu[lł]",
+                                        "warto[sś]ci[aą] bezwzgl[eę]dn",
+                                        "wzory skr[oó]conego",
+                                        "rozk[lł]ad na czynniki",
+                                        "grupowanie wyraz[oó]w",
+                                        "kwadratem"
+                                    ]
+                   }
+               ]
+}

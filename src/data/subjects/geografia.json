@@ -1,0 +1,68 @@
+{
+  "slug": "geografia",
+  "intro": "Matura rozszerzona z geografii to egzamin oparty w dużej mierze na pracy z materiałami źródłowymi — mapami, wykresami, tabelami i barwną mapą szczegółową. Wybierają ją najczęściej kandydaci na geografię, gospodarkę przestrzenną, geodezję, turystykę, ochronę środowiska, logistykę czy kierunki wojskowe. W odróżnieniu od podstawy (której geografia w nowej formule nie ma jako obowiązkowej) rozszerzenie wymaga nie tylko wiedzy, ale też sprawnej analizy danych i łączenia geografii fizycznej ze społeczno-ekonomiczną.",
+  "formatArkusza": "Arkusz PR trwa 180 minut i składa się z zadań zamkniętych oraz otwartych, w większości powiązanych z dołączonymi materiałami źródłowymi (mapy, wykresy, tabele, zdjęcia) oraz z barwną, szczegółową mapą. Do arkusza dołączona jest osobna, wyrywana barwna mapa, z której korzysta się przy części zadań.",
+  "trudnosc": "Geografia rozszerzona uchodzi za przedmiot przystępny na poziomie wiedzy, ale wymagający pod względem analizy źródeł i precyzji. Największą trudność sprawiają zadania obliczeniowe (skala, czas słoneczny, wysokość Słońca w górowaniu, spadek rzeki), poprawne czytanie mapy szczegółowej oraz zadania otwarte, w których trzeba samodzielnie sformułować związek przyczynowo-skutkowy. To realny wybór dla osób, które lubią mapy, dane liczbowe i myślenie przestrzenne, a nie tylko zapamiętywanie faktów.",
+  "wymagania": [
+    {
+      "pytanie": "Czy na maturze z geografii można korzystać z atlasu?",
+      "odpowiedz": "Nie — atlasu nie wolno wnosić na egzamin. Wszystkie potrzebne mapy i dane są dołączone do arkusza, w tym barwna mapa szczegółowa, na której opiera się część zadań. Nauka pracy z mapą jest ważna, ale na samej maturze korzystasz wyłącznie z materiałów w arkuszu."
+    },
+    {
+      "pytanie": "Czy na maturze z geografii można używać linijki, lupy i kalkulatora?",
+      "odpowiedz": "Tak. Zgodnie z komunikatem CKE o przyborach na egzamin z geografii można wnieść linijkę, lupę oraz prosty kalkulator. Linijka i lupa przydają się przy pracy z mapą szczegółową, a kalkulator — przy zadaniach obliczeniowych, takich jak skala, spadek rzeki czy wysokość Słońca."
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z geografii trzeba znać obliczenia (skala, czas słoneczny, wysokość Słońca)?",
+      "odpowiedz": "Tak, obliczenia są stałym elementem arkusza. Musisz umieć przeliczać skalę mapy i odległości, obliczać czas słoneczny i różnice czasu między południkami oraz wyznaczać wysokość Słońca w górowaniu w dniach równonocy i przesileń. Warto też opanować spadek rzeki, gęstość zaludnienia i odczyt wysokości z poziomic."
+    },
+    {
+      "pytanie": "Czy na maturze z geografii są mapy synoptyczne?",
+      "odpowiedz": "Tak — mapy synoptyczne i analiza pogody to typowy element arkusza rozszerzonego. Trzeba umieć odczytać z nich fronty atmosferyczne (ciepły, chłodny, okluzji), układy niskiego i wysokiego ciśnienia oraz przewidzieć zmianę pogody. Znaki na mapie synoptycznej dobrze znać na pamięć, bo nie zawsze są w legendzie."
+    },
+    {
+      "pytanie": "Czy na maturze z geografii trzeba czytać klimatogramy?",
+      "odpowiedz": "Tak, klimatogramy pojawiają się regularnie. Na ich podstawie trzeba rozpoznać strefę lub typ klimatu, wskazać porę suchą i deszczową oraz przypisać klimatogram do miejsca na mapie. Kluczowe jest odróżnianie rozkładu temperatur i opadów charakterystycznego dla poszczególnych stref klimatycznych.",
+      "dzial": "atmosfera-i-klimat"
+    },
+    {
+      "pytanie": "Czego dotyczy geografia fizyczna, a czego społeczno-ekonomiczna na maturze rozszerzonej?",
+      "odpowiedz": "Geografia fizyczna obejmuje ruchy Ziemi, atmosferę i klimat, hydrosferę, litosferę oraz rzeźbę terenu, gleby i biosferę. Geografia społeczno-ekonomiczna to ludność i osadnictwo, rolnictwo, przemysł i energetyka, transport, handel oraz zróżnicowanie rozwoju krajów. Arkusz PR sprawdza oba obszary, często łącząc je w jednym zadaniu."
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z geografii jest geografia Polski?",
+      "odpowiedz": "Tak, geografia Polski jest ważną częścią wymagań. Pojawiają się pytania o ukształtowanie i budowę geologiczną, rzeki i pojezierza, klimat, rolnictwo według regionów, przemysł, surowce oraz demografię i urbanizację kraju. Sporo zadań opiera się na mapie szczegółowej fragmentu Polski."
+    },
+    {
+      "pytanie": "Czy trzeba umieć pracować z wykresami i tabelami na maturze z geografii?",
+      "odpowiedz": "Tak — praca z materiałem źródłowym to fundament arkusza rozszerzonego. Musisz odczytywać dane z wykresów i tabel, porównywać wartości, dostrzegać tendencje oraz na ich podstawie formułować wnioski i związki przyczynowo-skutkowe. Samo odczytanie liczby zwykle nie wystarcza — trzeba ją zinterpretować."
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z geografii jest tektonika płyt i procesy geologiczne?",
+      "odpowiedz": "Tak. Wymagania obejmują teorię tektoniki płyt, granice płyt litosfery, procesy endogeniczne (wulkanizm, trzęsienia ziemi, orogenezy) oraz rozpoznawanie skał i określanie wieku warstw. Często trzeba powiązać budowę geologiczną z rzeźbą terenu i występowaniem surowców.",
+      "dzial": "litosfera-i-geologia"
+    },
+    {
+      "pytanie": "Czy na maturze z geografii trzeba znać zadania z mapy topograficznej i azymutu?",
+      "odpowiedz": "Tak, praca z mapą topograficzną jest jednym z filarów egzaminu. Trzeba umieć wyznaczać azymut, obliczać odległości i różnice wysokości, odczytywać poziomice oraz rozpoznawać formy terenu i obiekty na barwnej mapie szczegółowej. Do tych zadań przydają się linijka i lupa.",
+      "dzial": "mapa-i-kartografia"
+    },
+    {
+      "pytanie": "Czy rozszerzenie z geografii trzeba zdać jakimś progiem?",
+      "odpowiedz": "Nie — matury rozszerzonej nie trzeba „zdać” żadnym progiem procentowym. Liczy się sam wynik procentowy, który przelicza się na punkty w rekrutacji na studia. Im wyższy rezultat, tym większe szanse na wymarzony kierunek, ale nie istnieje granica „niezdania” rozszerzenia."
+    },
+    {
+      "pytanie": "Ile trwa arkusz matury rozszerzonej z geografii?",
+      "odpowiedz": "Arkusz PR z geografii trwa 180 minut. W tym czasie rozwiązuje się zadania zamknięte i otwarte oparte na dołączonych materiałach źródłowych oraz na barwnej mapie szczegółowej. Warto rozplanować czas tak, aby zostawić rezerwę na obliczenia i staranne sformułowanie odpowiedzi otwartych."
+    }
+  ],
+  "strategia": [
+    "Regularnie ćwicz obliczenia: skala i odległości, czas słoneczny i różnica czasu, wysokość Słońca w górowaniu, spadek rzeki oraz gęstość zaludnienia — to punkty, które można zdobyć niemal pewnie.",
+    "Naucz się na pamięć znaków map synoptycznych i typów frontów, bo nie zawsze są opisane w legendzie arkusza.",
+    "Trenuj rozpoznawanie stref klimatycznych z klimatogramów oraz przypisywanie ich do miejsc na mapie.",
+    "Ćwicz pracę z mapą szczegółową: azymut, odczyt poziomic, formy terenu i lokalizowanie obiektów — najlepiej na arkuszach z lat ubiegłych.",
+    "Do każdego zadania otwartego formułuj pełny związek przyczynowo-skutkowy, a nie samo hasło — sprawdzający oczekują wyjaśnienia „dlaczego”.",
+    "Rozwiązuj arkusze CKE z Formuły 2023 na czas, aby oswoić się z układem zadań źródłowych i nauczyć gospodarować 180 minutami."
+  ],
+  "coWarto": "Rozszerzona geografia otwiera drzwi na geografię, gospodarkę przestrzenną, geodezję i kartografię, turystykę, logistykę, ochronę środowiska oraz kierunki wojskowe i ekonomiczne. To dobry wybór do zestawienia z innym rozszerzeniem (np. matematyką lub WOS-em), jeśli zależy Ci na szerokim wachlarzu kierunków."
+}

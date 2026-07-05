@@ -1,0 +1,77 @@
+{
+  "slug": "fizyka",
+  "intro": "Matura rozszerzona z fizyki to jeden z bardziej wymagających egzaminów, oparty przede wszystkim na zadaniach obliczeniowych i rozumieniu praw przyrody. Zdają ją głównie kandydaci na kierunki techniczne i ścisłe: politechniki, informatykę, elektronikę, automatykę, mechanikę czy fizykę i astronomię. W odróżnieniu od podstawy wymaga samodzielnego przekształcania wzorów, analizy jednostek i pełnego rozpisywania rozwiązań krok po kroku.",
+  "formatArkusza": "Arkusz na poziomie rozszerzonym (Formuła 2023) trwa 180 minut i składa się głównie z zadań otwartych, wymagających obliczeń, rozpisania toku rozumowania i wnioskowania, uzupełnionych o zadania zamknięte. Zdający otrzymuje 'Kartę wybranych wzorów i stałych fizykochemicznych' oraz może korzystać z kalkulatora prostego i linijki.",
+  "trudnosc": "Fizyka rozszerzona uchodzi za trudną, ponieważ nie da się jej 'nauczyć na pamięć' — przeważają zadania obliczeniowe, w których trzeba połączyć kilka praw, samodzielnie przekształcić wzory i konsekwentnie prowadzić jednostki. Największą trudność sprawiają zadania łączące działy (np. dynamika z energią albo elektromagnetyzm z ruchem po okręgu) oraz poprawne, punktowane rozpisanie rozwiązania — sam wynik bez toku rozumowania często nie daje pełnych punktów. Przedmiot jest realny dla osób sprawnych matematycznie, systematycznie rozwiązujących zadania z arkuszy CKE. Rozszerzenia nie trzeba 'zdać' żadnym progiem — liczy się wynik procentowy, który przelicza się na punkty rekrutacyjne na uczelni.",
+  "wymagania": [
+    {
+      "pytanie": "Czy fizyka jądrowa jest na maturze rozszerzonej z fizyki?",
+      "odpowiedz": "Tak, fizyka jądrowa jest częścią wymagań egzaminacyjnych. Obowiązują m.in. rozpady promieniotwórcze (alfa, beta, gamma), prawo rozpadu i czas połowicznego rozpadu, deficyt (defekt) masy oraz energia wiązania jądra liczona z zależności E=mc². Pojawiają się też zadania o reakcjach jądrowych i jednostce masy atomowej.",
+      "dzial": "fizyka-jadrowa"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z fizyki jest teoria względności?",
+      "odpowiedz": "Tak, szczególna teoria względności należy do wymagań rozszerzenia. Zdający powinien znać czynnik Lorentza, dylatację czasu i skrócenie długości oraz relatywistyczną energię: spoczynkową E=mc², całkowitą i kinetyczną. Zadania zwykle sprowadzają się do obliczeń z użyciem czynnika Lorentza dla ciał poruszających się z prędkościami bliskimi prędkości światła.",
+      "dzial": "relatywistyka"
+    },
+    {
+      "pytanie": "Czy trzeba znać termodynamikę i cykl Carnota na maturze z fizyki?",
+      "odpowiedz": "Tak, termodynamika jest jednym z kluczowych działów. Obowiązują równanie stanu gazu doskonałego, przemiany gazowe (izotermiczna, izobaryczna, izochoryczna, adiabatyczna), pierwsza zasada termodynamiki oraz ciepło molowe. Pojawiają się cykle termodynamiczne i sprawność silników cieplnych, w tym sprawność cyklu Carnota.",
+      "dzial": "termodynamika"
+    },
+    {
+      "pytanie": "Czy bryła sztywna i ruch obrotowy są na maturze rozszerzonej z fizyki?",
+      "odpowiedz": "Tak, mechanika bryły sztywnej obowiązuje na rozszerzeniu. Trzeba znać moment bezwładności prostych brył (walec, krążek, kula, pręt), moment siły, zasadę dynamiki ruchu obrotowego oraz energię kinetyczną ruchu obrotowego. Zadania często łączą toczenie się bryły z zasadą zachowania energii.",
+      "dzial": "bryla-sztywna"
+    },
+    {
+      "pytanie": "Co z elektromagnetyzmu obowiązuje na maturze rozszerzonej z fizyki?",
+      "odpowiedz": "Elektromagnetyzm to rozbudowany obszar: elektrostatyka (prawo Coulomba, pole i potencjał elektryczny), obwody prądu stałego (prawo Ohma, prawa Kirchhoffa, moc i praca prądu) oraz magnetyzm (pole magnetyczne, siła Lorentza działająca na ładunek, siła elektrodynamiczna). Obowiązuje też indukcja elektromagnetyczna i jej zastosowania.",
+      "dzial": "magnetyzm"
+    },
+    {
+      "pytanie": "Czy optyka jest na maturze rozszerzonej z fizyki?",
+      "odpowiedz": "Tak, optyka jest w wymaganiach egzaminacyjnych. Obejmuje optykę geometryczną — załamanie i odbicie światła, prawo Snella, całkowite wewnętrzne odbicie, soczewki i konstrukcję obrazu (równanie soczewki) — oraz elementy optyki falowej, takie jak interferencja, dyfrakcja i polaryzacja światła (prawo Malusa).",
+      "dzial": "optyka"
+    },
+    {
+      "pytanie": "Czy drgania i fale są na maturze rozszerzonej z fizyki?",
+      "odpowiedz": "Tak, drgania i fale to osobny dział wymagań. Obowiązują ruch harmoniczny (okres wahadła i ciężarka na sprężynie, energia w ruchu drgającym), fale mechaniczne, akustyka oraz zjawiska falowe: interferencja i efekt Dopplera. Zadania łączą często opis matematyczny drgań z zasadą zachowania energii.",
+      "dzial": "drgania-i-fale"
+    },
+    {
+      "pytanie": "Czy fizyka atomowa i kwantowa są na maturze rozszerzonej z fizyki?",
+      "odpowiedz": "Tak, fizyka atomowa i podstawy fizyki kwantowej należą do wymagań. Trzeba znać model atomu Bohra i poziomy energetyczne, energię fotonu E=hf, zjawisko fotoelektryczne oraz emisję i absorpcję światła przy przejściach między poziomami energetycznymi. Zadania zwykle wymagają obliczeń długości fali lub energii fotonów.",
+      "dzial": "fizyka-atomowa"
+    },
+    {
+      "pytanie": "Czy grawitacja i astronomia są na maturze rozszerzonej z fizyki?",
+      "odpowiedz": "Tak, grawitacja i elementy astronomii są w programie rozszerzenia. Obowiązują prawo powszechnego ciążenia, pole grawitacyjne, ruch satelitów i pierwsza prędkość kosmiczna oraz prawa Keplera opisujące ruch orbitalny planet. Zadania łączą siłę grawitacji z ruchem po okręgu i zasadą zachowania energii.",
+      "dzial": "grawitacja-i-astronomia"
+    },
+    {
+      "pytanie": "Czy na maturze z fizyki dostaje się kartę wzorów i stałych fizycznych?",
+      "odpowiedz": "Tak, na egzaminie wydawana jest 'Karta wybranych wzorów i stałych fizykochemicznych', z której można korzystać przez cały czas rozwiązywania arkusza. Zawiera podstawowe wzory oraz wartości stałych (np. przyspieszenie ziemskie, prędkość światła, stała Plancka, ładunek elementarny). Nie zwalnia to jednak ze znajomości, jak i kiedy dane wzory stosować.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Ile trwa matura rozszerzona z fizyki i jakie są zadania?",
+      "odpowiedz": "Arkusz na poziomie rozszerzonym trwa 180 minut. Przeważają zadania obliczeniowe, w których trzeba rozpisać całe rozwiązanie — od zapisania danych i wzorów, przez przekształcenia, po wynik z jednostką. Oprócz nich pojawiają się zadania zamknięte oraz polecenia wymagające uzasadnienia lub analizy wykresu.",
+      "dzial": null
+    },
+    {
+      "pytanie": "Czy trzeba 'zdać' rozszerzenie z fizyki jakimś progiem?",
+      "odpowiedz": "Nie, matury rozszerzonej nie trzeba 'zdać' żadnym progiem procentowym — nie ma tu progu 30% jak na podstawie. Liczy się sam wynik procentowy, który uczelnie przeliczają na punkty rekrutacyjne. Wysoki wynik z fizyki otwiera drogę na politechniki, informatykę i kierunki inżynierskie.",
+      "dzial": null
+    }
+  ],
+  "strategia": [
+    "Rozwiązuj arkusze maturalne CKE z ostatnich lat i klucze odpowiedzi — poznasz sposób punktowania i przyzwyczaisz się do rozpisywania toku rozumowania.",
+    "Trenuj przekształcanie wzorów i rachunek jednostek osobno — na maturze z fizyki błąd rachunkowy w jednostkach kosztuje punkty nawet przy dobrej metodzie.",
+    "Naucz się swobodnie korzystać z 'Karty wybranych wzorów i stałych fizykochemicznych', zamiast uczyć się wszystkich wzorów na pamięć — wiedz, gdzie i jak ich szukać.",
+    "Ćwicz zadania łączące działy (np. dynamika z energią, elektromagnetyzm z ruchem po okręgu), bo to one najczęściej decydują o wysokim wyniku.",
+    "Zawsze zapisuj dane, szukane wielkości i wzory — punkty przyznaje się także za poprawną metodę, nawet gdy końcowy wynik jest błędny.",
+    "Powtarzaj rachunek pochodnych i wykresów z matematyki — analiza zależności fizycznych opiera się na sprawności matematycznej."
+  ],
+  "coWarto": "Fizyka rozszerzona jest kluczowym przedmiotem rekrutacyjnym na politechniki oraz kierunki takie jak informatyka, elektronika, automatyka, mechanika i budownictwo. Warto zestawić ją z matematyką rozszerzoną, bo taki duet otwiera drogę na najbardziej obleganych kierunkach ścisłych i inżynierskich."
+}

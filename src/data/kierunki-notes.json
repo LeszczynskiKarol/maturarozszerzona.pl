@@ -1,0 +1,77 @@
+{
+  "kierunek-lekarski": {
+    "rekomendacja": "Biologia i chemia to absolutny fundament — bez tej pary nie ma sensu startować na medycynę. Jako trzecie rozszerzenie najbezpieczniejsza jest matematyka (akceptowana wszędzie) albo fizyka.",
+    "trudnosc": "Najtrudniejsza rekrutacja w kraju — progi sięgają 90–95% z każdego przedmiotu. Liczy się nie tyle wybór, co maksymalny wynik z biologii i chemii.",
+    "typoweBledy": "Rezygnacja z matematyki rozszerzonej 'bo medycyna' — a to ona często rozstrzyga o trzecim przedmiocie i daje elastyczność między uczelniami."
+  },
+  "lekarsko-dentystyczny": {
+    "rekomendacja": "Ten sam rdzeń co lekarski: biologia + chemia. Trzeci przedmiot (fizyka lub matematyka) zależy od uczelni — sprawdź w kalkulatorze.",
+    "trudnosc": "Progi tylko nieznacznie niższe niż na lekarskim. Bio-chem na poziomie 88–93% to realny cel.",
+    "typoweBledy": "Traktowanie stomatologii jako 'łatwiejszej medycyny' — wymagania przedmiotowe są praktycznie identyczne."
+  },
+  "farmacja": {
+    "rekomendacja": "Chemia jest rdzeniem — to przedmiot numer jeden na farmacji. Do tego biologia lub matematyka jako drugi mocno punktowany przedmiot.",
+    "trudnosc": "Wysokie, ale niższe od lekarskiego progi. Kluczowa jest chemia rozszerzona na naprawdę dobrym poziomie.",
+    "typoweBledy": "Zaniedbanie matematyki — na wielu uczelniach podnosi wynik, a bywa niedoceniana przy farmacji."
+  },
+  "weterynaria": {
+    "rekomendacja": "Biologia i chemia — jak w medycynie. Wybór tej pary otwiera też furtkę na kierunki medyczne, więc to bezpieczna kombinacja.",
+    "trudnosc": "Rekrutacja porównywalna z farmacją; na SGGW i uczelniach przyrodniczych progi bywają wysokie.",
+    "typoweBledy": "Niedoszacowanie chemii — na weterynarii liczy się na równi z biologią."
+  },
+  "pielegniarstwo": {
+    "rekomendacja": "Biologia to rdzeń. Chemia, fizyka lub matematyka jako drugi przedmiot podnoszą wynik, ale wymagania są znacznie łagodniejsze niż na lekarskim.",
+    "trudnosc": "Jedna z bardziej dostępnych rekrutacji medycznych — solidna biologia rozszerzona zwykle wystarcza.",
+    "typoweBledy": "Rezygnacja z rozszerzonej biologii licząc na próg podstawowy — na dobrych uczelniach rozszerzenie realnie decyduje."
+  },
+  "fizjoterapia": {
+    "rekomendacja": "Biologia jako rdzeń, do tego jeden z: chemia, fizyka, matematyka. Fizyka bywa naturalnym wyborem ze względu na biomechanikę.",
+    "trudnosc": "Umiarkowana; progi zależą mocno od uczelni (medyczne vs AWF).",
+    "typoweBledy": "Pomijanie fizyki — na części uczelni jest wysoko punktowana i ułatwia studia."
+  },
+  "biotechnologia": {
+    "rekomendacja": "Biologia + chemia to rdzeń, identycznie jak w medycynie. Matematyka lub fizyka jako uzupełnienie.",
+    "trudnosc": "Średnio-wysoka; na najlepszych uczelniach (UW, UJ) progi rosną, na politechnikach bywają łagodniejsze.",
+    "typoweBledy": "Wybór tylko jednego z pary bio/chem — biotechnologia realnie wymaga obu."
+  },
+  "psychologia": {
+    "rekomendacja": "Najczęściej rdzeniem jest język polski, a biologia i matematyka mocno punktują. Biologia jest szczególnie ceniona na psychologii o profilu neurobiologicznym.",
+    "trudnosc": "Rosnąca popularność = rosnące progi, zwłaszcza na UW i uniwersytetach. Rozszerzona biologia daje przewagę.",
+    "typoweBledy": "Zakładanie, że psychologia to 'kierunek humanistyczny bez ścisłych' — biologia i matematyka często decydują."
+  },
+  "prawo": {
+    "rekomendacja": "Rdzeń to język polski, a historia, WOS i matematyka to najczęstsze mocno punktowane rozszerzenia. Klasyczny zestaw: polski + historia + WOS.",
+    "trudnosc": "Na czołowych wydziałach (UW, UJ) progi wysokie, ale rozkład przedmiotów daje sporą elastyczność.",
+    "typoweBledy": "Stawianie wyłącznie na WOS — historia bywa równie ważna, a matematyka rozszerzona potrafi wywindować wynik."
+  },
+  "ekonomia": {
+    "rekomendacja": "Matematyka to rdzeń — na ekonomii nie ma od niej ucieczki. Drugie rozszerzenie (geografia, WOS, historia lub j. obcy) wybierz pod swoje mocne strony.",
+    "trudnosc": "Umiarkowana; kluczowa jest solidna matematyka rozszerzona.",
+    "typoweBledy": "Unikanie matematyki rozszerzonej — na ekonomii to warunek konieczny, nie opcja."
+  },
+  "finanse-i-rachunkowosc": {
+    "rekomendacja": "Jak ekonomia: matematyka jako rdzeń, plus geografia / WOS / j. obcy. Matematyka rozszerzona jest tu najważniejsza.",
+    "trudnosc": "Umiarkowana, z naciskiem na matematykę.",
+    "typoweBledy": "Traktowanie kierunku jako 'mniej matematycznego' niż ekonomia — wymagania są bardzo zbliżone."
+  },
+  "zarzadzanie": {
+    "rekomendacja": "Elastyczna rekrutacja — zwykle wybierasz spośród matematyki, geografii, WOS, historii i j. polskiego. Matematyka daje najwięcej opcji.",
+    "trudnosc": "Zwykle jedna z łagodniejszych rekrutacji ekonomicznych.",
+    "typoweBledy": "Wybór najmniej punktowanego przedmiotu 'bo łatwiejszy' — sprawdź wagi w kalkulatorze przed decyzją."
+  },
+  "informatyka": {
+    "rekomendacja": "Matematyka to rdzeń i najważniejszy przedmiot. Informatyka rozszerzona i fizyka to najsilniejsze uzupełnienia, ale matematyka rozstrzyga.",
+    "trudnosc": "Na czołowych politechnikach i UW progi bardzo wysokie; matematyka rozszerzona na wysokim poziomie to podstawa.",
+    "typoweBledy": "Stawianie na informatykę zamiast matematyki — to matematyka jest najwyżej punktowana niemal wszędzie."
+  },
+  "architektura": {
+    "rekomendacja": "Matematyka to rdzeń rekrutacji maturalnej, ale pamiętaj o egzaminie z rysunku — często waży więcej niż matura. Fizyka bywa dodatkowo punktowana.",
+    "trudnosc": "Podwójne wyzwanie: matura rozszerzona z matematyki plus egzamin sprawdzający predyspozycje (rysunek).",
+    "typoweBledy": "Skupienie się tylko na maturze i zaniedbanie przygotowań do rysunku, który potrafi zdecydować o przyjęciu."
+  },
+  "filologia-angielska": {
+    "rekomendacja": "Rdzeniem jest język angielski (i często j. polski). Drugi język obcy lub historia bywają dodatkowo punktowane.",
+    "trudnosc": "Kluczowy jest bardzo wysoki wynik z angielskiego rozszerzonego; część uczelni wymaga progu na poziomie C1.",
+    "typoweBledy": "Zakładanie, że wystarczy 'dobra znajomość języka' — rekrutacja premiuje wynik maturalny bliski maksimum."
+  }
+}

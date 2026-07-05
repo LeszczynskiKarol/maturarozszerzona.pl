@@ -1,0 +1,77 @@
+{
+  "slug": "biologia",
+  "intro": "Matura rozszerzona z biologii to jeden z najczęściej wybieranych przedmiotów dodatkowych, bo jest wymagana lub punktowana na rekrutacji na medycynę, stomatologię, weterynarię, farmację, biotechnologię, psychologię i kierunki przyrodnicze. Egzamin sprawdza nie tyle pamięciowe wkuwanie, ile umiejętność analizy tekstu źródłowego, wykresu i schematu oraz łączenia wiedzy z różnych działów. W przeciwieństwie do poziomu podstawowego (który dla biologii nie funkcjonuje jako osobny egzamin maturalny) liczy się tu głębokie zrozumienie mechanizmów fizjologicznych i molekularnych.",
+  "formatArkusza": "Arkusz PR w Formule 2023 trwa 180 minut i zdecydowanie przeważają w nim zadania otwarte, w których trzeba samodzielnie sformułować odpowiedź, uzasadnienie lub wniosek na podstawie dołączonego materiału (tekst, tabela, wykres, schemat, wynik doświadczenia). Zadania zamknięte pojawiają się, ale mają charakter uzupełniający. Do arkusza nie ma karty wzorów typowej dla przedmiotów ścisłych — punktowana jest precyzja biologicznego języka i poprawność merytoryczna.",
+  "trudnosc": "Biologia rozszerzona uchodzi za wymagającą przede wszystkim ze względu na ogromny zakres materiału — od biochemii i cytologii, przez genetykę i fizjologię człowieka, po ekologię i ewolucję — który trzeba opanować równocześnie i umieć ze sobą łączyć. Największą trudnością nie jest zapamiętanie faktów, lecz precyzyjne formułowanie odpowiedzi: egzaminatorzy odejmują punkty za nieścisłości, mylenie pojęć czy niepełne uzasadnienia. Realnym progiem dla większości zdających są zadania wymagające interpretacji doświadczeń i wykresów, gdzie sama wiedza teoretyczna nie wystarcza. To przedmiot dla osób systematycznych, które ćwiczą pisanie odpowiedzi, a nie tylko czytają podręcznik.",
+  "wymagania": [
+    {
+      "pytanie": "Czy genetyka jest na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, genetyka to jeden z najważniejszych i najczęściej punktowanych działów. Obowiązuje zarówno genetyka klasyczna (krzyżówki, prawa Mendla, dziedziczenie grup krwi, sprzężenie z płcią, dominacja i epistaza), jak i genetyka molekularna (budowa DNA i RNA, replikacja, transkrypcja, translacja, kod genetyczny, mutacje). Trzeba umieć rozwiązywać krzyżówki i wyznaczać stosunki fenotypowe, a nie tylko opisywać teorię.",
+      "dzial": "genetyka-klasyczna"
+    },
+    {
+      "pytanie": "Czy trzeba znać cykl Krebsa i fotosyntezę na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, oddychanie komórkowe (glikoliza, cykl Krebsa, łańcuch oddechowy) oraz fotosynteza (faza jasna i cykl Calvina) należą do materiału obowiązkowego. Nie wymaga się jednak zapisywania wszystkich związków pośrednich z pamięci — kluczowe jest rozumienie, gdzie zachodzą poszczególne etapy, jaki jest ich bilans energetyczny (ATP, NADH, FADH2) oraz co jest substratem, a co produktem. Często pojawiają się zadania łączące oba procesy lub porównujące je.",
+      "dzial": "metabolizm"
+    },
+    {
+      "pytanie": "Czy botanika i fizjologia roślin są na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, botanika i fizjologia roślin to pełnoprawny dział egzaminu. Obejmuje budowę tkanek roślinnych, anatomię liścia, łodygi i korzenia, transport wody i asymilatów, gospodarkę hormonalną (auksyny, tropizmy), kiełkowanie nasion oraz przemianę pokoleń u mchów, paprotników i roślin nasiennych. Zadania często opierają się na schematach anatomicznych i wynikach doświadczeń fizjologicznych.",
+      "dzial": "botanika-fizjologia-roslin"
+    },
+    {
+      "pytanie": "Ile jest zadań z anatomii i fizjologii człowieka na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Fizjologia i anatomia człowieka to jeden z najobszerniej reprezentowanych działów — na typowym arkuszu to zwykle kilka zadań dotyczących różnych układów (nerwowego, krążenia, oddechowego, dokrewnego, wydalniczego, pokarmowego i odpornościowego). Dokładna liczba zmienia się z roku na rok, ale warto założyć, że to jeden z najintensywniej sprawdzanych obszarów. Nacisk pada na regulację i mechanizmy (np. sprzężenia zwrotne hormonalne, gospodarka wodna nerek), a nie samo nazywanie narządów.",
+      "dzial": "fizjologia-czlowieka"
+    },
+    {
+      "pytanie": "Czy ewolucja jest na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, ewolucja jest częścią wymagań i pojawia się regularnie. Obowiązują mechanizmy ewolucji (dobór naturalny i płciowy, dryf genetyczny), dowody ewolucji, pojęcia adaptacji, konwergencji i dywergencji oraz podstawy filogenetyki (grupy monofiletyczne, drzewa rodowe). Zadania często wymagają interpretacji drzewa filogenetycznego lub wyjaśnienia adaptacji na przykładzie konkretnego organizmu.",
+      "dzial": "ewolucja"
+    },
+    {
+      "pytanie": "Czy ekologia jest na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, ekologia i ochrona przyrody należą do zakresu egzaminu. Trzeba znać zależności międzygatunkowe (konkurencja, drapieżnictwo, pasożytnictwo, mutualizm, komensalizm), przepływ energii i materii w ekosystemie, łańcuchy i sieci troficzne, sukcesję ekologiczną oraz gatunki inwazyjne i formy ochrony przyrody. Zadania bywają oparte na danych liczbowych, wykresach liczebności populacji lub opisach konkretnych ekosystemów.",
+      "dzial": "ekologia"
+    },
+    {
+      "pytanie": "Czy biochemia jest na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, chemizm życia i biochemia to podstawa, na której opiera się reszta materiału. Obowiązuje budowa i funkcje białek (poziomy struktury, denaturacja), cukrów, lipidów i kwasów nukleinowych, a także rola enzymów i czynniki wpływające na ich aktywność. Nie jest to jednak chemia organiczna w pełnym zakresie — chodzi o biologiczne funkcje związków, a nie mechanizmy reakcji chemicznych.",
+      "dzial": "biochemia"
+    },
+    {
+      "pytanie": "Czy trzeba znać cytologię i budowę komórki na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, cytologia jest fundamentem i pojawia się zarówno samodzielnie, jak i w powiązaniu z fizjologią czy metabolizmem. Obowiązuje budowa i funkcje organelli (mitochondria, chloroplasty, siateczka, aparat Golgiego, lizosomy), różnice między komórką roślinną, zwierzęcą i bakteryjną oraz transport przez błony i mechanizmy śmierci komórki (apoptoza, nekroza). Częste są zadania na interpretację obrazów mikroskopowych i schematów komórki.",
+      "dzial": "cytologia"
+    },
+    {
+      "pytanie": "Jakie zadania z metodyki badań i próby kontrolnej są na maturze z biologii?",
+      "odpowiedz": "Metodyka badań to sprawdzian umiejętności, a nie faktów: trzeba umieć sformułować problem badawczy i hipotezę, wskazać próbę badawczą i kontrolną, określić zmienną zależną i niezależną oraz czynniki, które należy utrzymać stałe. Najczęstszy błąd zdających to pominięcie próby kontrolnej lub mylenie zmiennych. Te zadania powtarzają się na niemal każdym arkuszu i warto je ćwiczyć osobno, bo dają łatwe do zdobycia punkty.",
+      "dzial": "metodyka-badan"
+    },
+    {
+      "pytanie": "Czy inżynieria genetyczna i biotechnologia są na maturze rozszerzonej z biologii?",
+      "odpowiedz": "Tak, genetyka molekularna obejmuje też podstawy inżynierii genetycznej: enzymy restrykcyjne i ligazy, wektory, klonowanie genów, reakcję PCR, elektroforezę oraz organizmy transgeniczne (GMO). Zadania często opierają się na opisie doświadczenia laboratoryjnego lub schemacie procedury i wymagają wyjaśnienia roli poszczególnych elementów, a nie tylko ich nazwania.",
+      "dzial": "genetyka-molekularna"
+    },
+    {
+      "pytanie": "Czy na maturze rozszerzonej z biologii jest systematyka zwierząt, wirusów i bakterii?",
+      "odpowiedz": "Tak, różnorodność organizmów obejmuje przegląd systematyczny — od wirusów i bakterii (prokarionty, ekstremofile), przez protisty i grzyby, po główne grupy zwierząt bezkręgowych i kręgowych. Nie chodzi o encyklopedyczne wyliczanki, lecz o rozpoznawanie cech diagnostycznych grup, ich adaptacji i pokrewieństw. Zadania bywają łączone z ewolucją i fizjologią porównawczą.",
+      "dzial": "roznorodnosc-organizmow"
+    },
+    {
+      "pytanie": "Czy trzeba zdać maturę rozszerzoną z biologii jakimś progiem?",
+      "odpowiedz": "Nie, rozszerzenia nie trzeba 'zdać' — nie obowiązuje próg 30 procent jak na poziomie podstawowym. Liczy się wyłącznie uzyskany wynik procentowy, który przelicza się na punkty rekrutacyjne na studia. W praktyce oznacza to, że na medycynę czy weterynarię potrzebny jest wynik zdecydowanie wysoki, bo o przyjęciu decyduje ranking kandydatów, a nie samo zaliczenie.",
+      "dzial": null
+    }
+  ],
+  "strategia": [
+    "Ćwicz pisanie odpowiedzi, a nie tylko czytanie — kluczem do wysokiego wyniku jest precyzyjny język biologiczny; rozwiązuj arkusze CKE i porównuj z kluczem, zwracając uwagę na wymagane słowa i pełne uzasadnienia.",
+    "Opanuj metodykę doświadczeń osobno: schemat problem badawczy, hipoteza, próba badawcza i kontrolna, zmienne. Te zadania powtarzają się co roku i dają pewne punkty.",
+    "Nie ucz się działów w izolacji — egzamin łączy tematy (np. fizjologia z biochemią, genetyka z ewolucją). Rób powtórki przekrojowe, które wiążą mechanizmy z różnych obszarów.",
+    "Trenuj analizę wykresów, tabel i schematów pod presją czasu — większość punktów pochodzi z interpretacji materiału źródłowego, nie z odtwarzania wiedzy.",
+    "Powtarzaj fizjologię człowieka i genetykę najintensywniej — to działy o największej wadze punktowej na typowym arkuszu.",
+    "Ucz się na aktualnych arkuszach i informatorze CKE dla Formuły 2023, bo zakres i styl zadań różnią się od starszych roczników."
+  ],
+  "coWarto": "Biologia rozszerzona otwiera drzwi na najbardziej obleganych kierunkach — medycynę, stomatologię, weterynarię, farmację, fizjoterapię, biotechnologię i psychologię — i niemal zawsze jest tam przedmiotem punktowanym najwyżej. To przedmiot, który warto wybrać, jeśli myślisz o kierunkach medycznych lub przyrodniczych, najlepiej w parze z chemią, która często stanowi drugi wymagany przedmiot rekrutacyjny."
+}

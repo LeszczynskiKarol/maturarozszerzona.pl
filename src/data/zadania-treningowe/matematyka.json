@@ -1,0 +1,57 @@
+[
+  {
+    "id": "trening-matematyka-dowody-1",
+    "dzial": "dowody",
+    "topic": "dowód nierówności z użyciem AM-GM (trzy zmienne dodatnie)",
+    "punkty": 3,
+    "typ": "dowod",
+    "tresc": "Wykaż, że dla dowolnych dodatnich liczb rzeczywistych $a$, $b$, $c$ prawdziwa jest nierówność\n\n$$(a+b)(b+c)(c+a) \\ge 8abc.$$",
+    "odpowiedz": "Teza udowodniona (c.n.d.). Równość zachodzi wtedy i tylko wtedy, gdy $a=b=c$.",
+    "rozwiazanie": "### Sposób\n\nZ nierówności między średnią arytmetyczną a geometryczną — równoważnej nierówności $(\\sqrt{x}-\\sqrt{y})^2 \\ge 0$ — dla dowolnych liczb dodatnich $x$, $y$ zachodzi $x+y \\ge 2\\sqrt{xy}$. Ponieważ $a, b, c > 0$, możemy zastosować tę nierówność do trzech par:\n\n$$a+b \\ge 2\\sqrt{ab}, \\qquad b+c \\ge 2\\sqrt{bc}, \\qquad c+a \\ge 2\\sqrt{ca}.$$\n\nWszystkie strony powyższych nierówności są dodatnie, więc wolno pomnożyć te nierówności stronami (zwrot się zachowa):\n\n$$(a+b)(b+c)(c+a) \\ge 2\\sqrt{ab} \\cdot 2\\sqrt{bc} \\cdot 2\\sqrt{ca} = 8\\sqrt{a^2 b^2 c^2}.$$\n\nPonieważ $a, b, c > 0$, mamy $\\sqrt{a^2 b^2 c^2} = abc$, zatem\n\n$$(a+b)(b+c)(c+a) \\ge 8abc,$$\n\nco należało wykazać (c.n.d.). Równość w każdej z trzech nierówności składowych zachodzi tylko dla $a=b=c$, więc i w tezie równość zachodzi wtedy i tylko wtedy, gdy $a=b=c$.",
+    "pulapka": "Typowy błąd to mnożenie nierówności stronami bez zaznaczenia, że wszystkie ich strony są dodatnie. Nierówności o tym samym zwrocie wolno mnożyć stronami tylko wtedy, gdy obie strony każdej z nich są nieujemne — tu gwarantuje to założenie $a, b, c > 0$."
+  },
+  {
+    "id": "trening-matematyka-dowody-2",
+    "dzial": "dowody",
+    "topic": "dowód podzielności liczby całkowitej przez 6",
+    "punkty": 3,
+    "typ": "dowod",
+    "tresc": "Wykaż, że dla każdej liczby całkowitej $n$ liczba $n^3 + 5n$ jest podzielna przez $6$.",
+    "odpowiedz": "Teza udowodniona (c.n.d.).",
+    "rozwiazanie": "### Sposób\n\nPrzekształćmy wyrażenie, dodając i odejmując $6n$:\n\n$$n^3 + 5n = (n^3 - n) + 6n = n(n^2 - 1) + 6n = (n-1)\\,n\\,(n+1) + 6n.$$\n\nSkładnik $(n-1)\\,n\\,(n+1)$ jest iloczynem trzech kolejnych liczb całkowitych. Wśród każdych trzech kolejnych liczb całkowitych:\n\n- co najmniej jedna jest podzielna przez $2$,\n- dokładnie jedna jest podzielna przez $3$.\n\nZatem iloczyn $(n-1)\\,n\\,(n+1)$ jest podzielny zarówno przez $2$, jak i przez $3$. Ponieważ liczby $2$ i $3$ są względnie pierwsze, iloczyn ten jest podzielny przez $2 \\cdot 3 = 6$.\n\nSkładnik $6n$ jest podzielny przez $6$ dla każdej liczby całkowitej $n$.\n\nSuma dwóch liczb podzielnych przez $6$ jest podzielna przez $6$, więc liczba $n^3 + 5n$ jest podzielna przez $6$ dla każdej liczby całkowitej $n$ (c.n.d.).",
+    "pulapka": "Częsty błąd to wykazanie podzielności tylko przez $2$ albo tylko przez $3$ i uznanie dowodu za zakończony. Trzeba pokazać podzielność przez $2$ ORAZ przez $3$ (a te liczby są względnie pierwsze) — dopiero to daje podzielność przez $6$."
+  },
+  {
+    "id": "trening-matematyka-dowody-3",
+    "dzial": "dowody",
+    "topic": "dowód nierówności przez rozkład na czynniki (wzory skróconego mnożenia)",
+    "punkty": 2,
+    "typ": "dowod",
+    "tresc": "Wykaż, że dla dowolnych dodatnich liczb rzeczywistych $a$ i $b$ prawdziwa jest nierówność\n\n$$a^3 + b^3 \\ge a^2 b + a b^2.$$",
+    "odpowiedz": "Teza udowodniona (c.n.d.). Równość zachodzi wtedy i tylko wtedy, gdy $a=b$.",
+    "rozwiazanie": "### Sposób\n\nRozpatrzmy różnicę lewej i prawej strony i rozłóżmy ją na czynniki:\n\n$$a^3 + b^3 - a^2 b - a b^2 = a^2(a - b) - b^2(a - b) = (a - b)(a^2 - b^2).$$\n\nKorzystając ze wzoru skróconego mnożenia $a^2 - b^2 = (a-b)(a+b)$, otrzymujemy:\n\n$$(a - b)(a^2 - b^2) = (a - b)(a - b)(a + b) = (a - b)^2 (a + b).$$\n\nCzynnik $(a-b)^2 \\ge 0$ jako kwadrat liczby rzeczywistej, a czynnik $(a+b) > 0$, ponieważ $a, b > 0$. Iloczyn liczby nieujemnej i liczby dodatniej jest nieujemny, więc\n\n$$a^3 + b^3 - a^2 b - a b^2 = (a-b)^2 (a + b) \\ge 0,$$\n\nskąd $a^3 + b^3 \\ge a^2 b + a b^2$ (c.n.d.). Równość zachodzi dokładnie wtedy, gdy $(a-b)^2 = 0$, czyli gdy $a = b$.",
+    "pulapka": "Błędem jest 'skracanie' obu stron nierówności przez $a+b$ bez uzasadnienia albo pominięcie założenia $a+b>0$. To właśnie dodatniość $a+b$ (wynikająca z $a, b > 0$) przesądza o nieujemnym znaku iloczynu $(a-b)^2(a+b)$."
+  },
+  {
+    "id": "trening-matematyka-dowody-4",
+    "dzial": "dowody",
+    "topic": "dowód geometryczny — równość pól trójkątów w trapezie",
+    "punkty": 3,
+    "typ": "dowod",
+    "tresc": "W trapezie $ABCD$, w którym $AB \\parallel CD$, przekątne $AC$ i $BD$ przecinają się w punkcie $P$. Wykaż, że trójkąty $APD$ i $BPC$ mają równe pola.",
+    "odpowiedz": "Teza udowodniona (c.n.d.): pola trójkątów $APD$ i $BPC$ są równe.",
+    "rozwiazanie": "### Sposób\n\nSymbolem $[XYZ]$ oznaczmy pole trójkąta $XYZ$.\n\nRozważmy trójkąty $ABD$ i $ABC$. Mają one wspólny bok $AB$. Wierzchołki $D$ oraz $C$ leżą na prostej $CD$, która jest równoległa do $AB$, więc oba trójkąty mają tę samą wysokość opuszczoną na bok $AB$ — jest ona równa odległości $h$ między równoległymi prostymi $AB$ i $CD$. Zatem\n\n$$[ABD] = \\tfrac{1}{2} \\cdot AB \\cdot h = [ABC].$$\n\nPunkt $P$ przecięcia przekątnych leży wewnątrz trapezu; leży on jednocześnie na odcinku $BD$ oraz na odcinku $AC$. Dlatego:\n\n- odcinek $AP$ dzieli trójkąt $ABD$ na trójkąty $ABP$ i $APD$, skąd $[ABD] = [ABP] + [APD]$,\n- odcinek $BP$ dzieli trójkąt $ABC$ na trójkąty $ABP$ i $BPC$, skąd $[ABC] = [ABP] + [BPC]$.\n\nPonieważ $[ABD] = [ABC]$, to\n\n$$[ABP] + [APD] = [ABP] + [BPC].$$\n\nOdejmując od obu stron pole $[ABP]$, otrzymujemy $[APD] = [BPC]$, czyli trójkąty $APD$ i $BPC$ mają równe pola (c.n.d.).",
+    "pulapka": "Nie wolno zakładać, że $P$ jest środkiem przekątnych ani że trapez jest równoramienny — dowód musi działać dla dowolnego trapezu. Kluczem jest wspólna wysokość trójkątów $ABD$ i $ABC$, wynikająca z równoległości $AB \\parallel CD$."
+  },
+  {
+    "id": "trening-matematyka-dowody-5",
+    "dzial": "dowody",
+    "topic": "dowód geometryczny — promień okręgu wpisanego w trójkąt prostokątny",
+    "punkty": 3,
+    "typ": "dowod",
+    "tresc": "W trójkąt prostokątny o przyprostokątnych długości $a$ i $b$ oraz przeciwprostokątnej długości $c$ wpisano okrąg o promieniu $r$. Wykaż, że\n\n$$r = \\frac{a + b - c}{2}.$$",
+    "odpowiedz": "Teza udowodniona (c.n.d.).",
+    "rozwiazanie": "### Sposób\n\nOznaczmy wierzchołki trójkąta: $C$ — wierzchołek kąta prostego, $A$ i $B$ — pozostałe wierzchołki, przy czym $BC = a$, $CA = b$, $AB = c$. Niech $I$ będzie środkiem okręgu wpisanego, a punkty $K$, $L$, $M$ — punktami styczności okręgu odpowiednio z bokami $BC$, $CA$, $AB$.\n\nPromień poprowadzony do punktu styczności jest prostopadły do stycznej, więc $IK \\perp BC$ oraz $IL \\perp CA$, a ponadto $IK = IL = r$. W czworokącie $CKIL$ kąty przy wierzchołkach $K$ i $L$ są proste (bo $IK \\perp BC$ i $IL \\perp CA$), a kąt przy wierzchołku $C$ jest prosty z założenia. Czworokąt ten ma zatem trzy kąty proste, więc jest prostokątem; ponieważ dodatkowo $IK = IL = r$, jest to kwadrat o boku $r$. Stąd\n\n$$CK = CL = r.$$\n\nSkorzystamy teraz z twierdzenia o równości odcinków stycznych poprowadzonych z jednego punktu do okręgu. Oznaczmy $AL = AM = x$ oraz $BK = BM = y$. Wówczas długości boków trójkąta wyrażają się następująco:\n\n$$b = CA = CL + LA = r + x,$$\n$$a = CB = CK + KB = r + y,$$\n$$c = AB = AM + MB = x + y.$$\n\nDodając dwie pierwsze równości stronami, otrzymujemy\n\n$$a + b = 2r + (x + y) = 2r + c,$$\n\nskąd $2r = a + b - c$, czyli\n\n$$r = \\frac{a + b - c}{2},$$\n\nco należało wykazać (c.n.d.).",
+    "pulapka": "Najczęstszy błąd to pominięcie uzasadnienia, że $CK = CL = r$ (czyli że czworokąt $CKIL$ jest kwadratem) — bez tego kroku nie widać, skąd bierze się $2r$. Trzeba też pamiętać, że twierdzenie o równych odcinkach stycznych stosuje się z KAŻDEGO z trzech wierzchołków ($A$, $B$ i $C$)."
+  }
+]

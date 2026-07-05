@@ -1,0 +1,57 @@
+[
+  {
+    "id": "trening-chemia-polimery-1",
+    "dzial": "polimery",
+    "topic": "polimeryzacja vs polikondensacja",
+    "punkty": 1,
+    "typ": "zamkniete-abcd",
+    "tresc": "Spośród podanych tworzyw wskaż to, które powstaje w reakcji polikondensacji, czyli reakcji łączenia monomerów z jednoczesnym wydzieleniem małocząsteczkowego produktu ubocznego (np. wody).\n\n- **A.** polietylen\n- **B.** polichlorek winylu (PVC)\n- **C.** nylon-6,6 (poliamid)\n- **D.** polistyren",
+    "odpowiedz": "C",
+    "rozwiazanie": "Polietylen, polichlorek winylu i polistyren powstają w reakcji **polimeryzacji addycyjnej** monomerów zawierających wiązanie podwójne $\\ce{C=C}$ (odpowiednio: etenu, chlorku winylu i styrenu). W polimeryzacji addycyjnej wszystkie atomy monomerów wchodzą do łańcucha polimeru i **nie wydziela się** żaden produkt uboczny.\n\nNylon-6,6 powstaje w reakcji **polikondensacji** kwasu adypinowego (kwasu heksanodiowego) z heksano-1,6-diaminą. Podczas tworzenia każdego wiązania amidowego $\\ce{-CO-NH-}$ z grupy $\\ce{-COOH}$ i grupy $\\ce{-NH2}$ odłącza się cząsteczka wody. To właśnie wydzielanie małocząsteczkowego produktu ubocznego (wody) jest cechą polikondensacji.\n\nPoprawna odpowiedź: **C**.",
+    "pulapka": "Nie myl polimeryzacji z polikondensacją: kryterium nie jest to, czy polimer jest 'naturalny' czy 'syntetyczny', lecz to, czy w reakcji wydziela się produkt uboczny (polikondensacja) czy nie (polimeryzacja addycyjna)."
+  },
+  {
+    "id": "trening-chemia-polimery-2",
+    "dzial": "polimery",
+    "topic": "monomer i mer polichlorku winylu",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Polichlorek winylu (PVC) jest jednym z najpowszechniej stosowanych tworzyw sztucznych. Powstaje w wyniku polimeryzacji addycyjnej.\n\nNapisz wzór półstrukturalny **monomeru**, z którego otrzymuje się PVC, oraz wzór **fragmentu (meru)** łańcucha polichlorku winylu.",
+    "odpowiedz": "Monomer: chlorek winylu $\\ce{CH2=CHCl}$. Mer: $\\ce{[-CH2-CHCl-]_n}$.",
+    "rozwiazanie": "PVC otrzymuje się z **chlorku winylu** (chloroetenu) o wzorze $\\ce{CH2=CHCl}$. Monomer ten zawiera wiązanie podwójne $\\ce{C=C}$, które w reakcji polimeryzacji ulega rozerwaniu.\n\nW polimeryzacji addycyjnej cząsteczki monomeru łączą się kolejno, a wiązanie podwójne przechodzi w wiązania pojedyncze między sąsiednimi merami:\n\n$$\\ce{n\\, CH2=CHCl -> [-CH2-CHCl-]_n}$$\n\nPowtarzającym się fragmentem łańcucha (merem) jest zatem $\\ce{-CH2-CHCl-}$, a wzór polimeru zapisujemy jako $\\ce{[-CH2-CHCl-]_n}$, gdzie $n$ oznacza stopień polimeryzacji.",
+    "pulapka": "Częsty błąd to zapisanie meru z zachowanym wiązaniem podwójnym. W polimerze addycyjnym wiązanie $\\ce{C=C}$ już NIE istnieje — wszystkie wiązania w szkielecie węglowym meru są pojedyncze."
+  },
+  {
+    "id": "trening-chemia-polimery-3",
+    "dzial": "polimery",
+    "topic": "identyfikacja monomeru z fragmentu łańcucha",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Fragment łańcucha pewnego polimeru ma budowę:\n\n$$\\ce{-CH2-CH(C6H5)-CH2-CH(C6H5)-CH2-CH(C6H5)-}$$\n\nPodaj wzór półstrukturalny i nazwę **monomeru**, z którego powstał ten polimer, oraz określ **typ reakcji** polimeryzacji (addycyjna czy kondensacyjna).",
+    "odpowiedz": "Monomer: styren (winylobenzen) $\\ce{CH2=CH-C6H5}$; reakcja polimeryzacji addycyjnej. Polimer to polistyren.",
+    "rozwiazanie": "Powtarzającym się fragmentem (merem) w podanym łańcuchu jest $\\ce{-CH2-CH(C6H5)-}$, czyli grupa złożona z dwóch atomów węgla, z których jeden ma podstawnik fenylowy $\\ce{C6H5}$.\n\nAby odtworzyć monomer, między dwoma atomami węgla meru odtwarzamy wiązanie podwójne (charakterystyczne dla polimeryzacji addycyjnej). Otrzymujemy:\n\n$$\\ce{CH2=CH-C6H5}$$\n\nJest to **styren** (winylobenzen). Ponieważ monomer zawierał wiązanie podwójne $\\ce{C=C}$, a w reakcji nie wydzielił się żaden produkt uboczny, jest to **polimeryzacja addycyjna**. Otrzymany polimer to **polistyren**:\n\n$$\\ce{n\\, CH2=CH-C6H5 -> [-CH2-CH(C6H5)-]_n}$$",
+    "pulapka": "Nie podawaj benzenu jako monomeru — podstawnik fenylowy $\\ce{C6H5}$ jest tylko grupą boczną meru. Reaktywne było wiązanie podwójne w grupie winylowej, a nie pierścień aromatyczny."
+  },
+  {
+    "id": "trening-chemia-polimery-4",
+    "dzial": "polimery",
+    "topic": "monomery poliestru PET",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Politereftalan etylenu (PET) to poliester, z którego produkuje się m.in. butelki na napoje. Powstaje w reakcji polikondensacji dwóch różnych monomerów.\n\nPodaj **nazwy obu monomerów** tworzących PET oraz określ **rodzaj wydzielającego się produktu ubocznego** i **typ reakcji**.",
+    "odpowiedz": "Monomery: kwas tereftalowy (kwas benzeno-1,4-dikarboksylowy) i glikol etylenowy (etano-1,2-diol). Produkt uboczny: woda. Typ reakcji: polikondensacja (poliestryfikacja).",
+    "rozwiazanie": "PET jest **poliestrem**, więc powstaje z monomeru z dwiema grupami karboksylowymi $\\ce{-COOH}$ oraz monomeru z dwiema grupami hydroksylowymi $\\ce{-OH}$.\n\n- Monomer 1: **kwas tereftalowy** (kwas benzeno-1,4-dikarboksylowy) — dikwas o wzorze $\\ce{HOOC-C6H4-COOH}$.\n- Monomer 2: **glikol etylenowy** (etano-1,2-diol) — diol o wzorze $\\ce{HO-CH2-CH2-OH}$.\n\nPodczas tworzenia każdego wiązania estrowego $\\ce{-CO-O-}$ z grupy $\\ce{-COOH}$ i grupy $\\ce{-OH}$ odłącza się cząsteczka **wody**. Reakcja łączenia wielu monomerów z wydzielaniem małocząsteczkowego produktu ubocznego to **polikondensacja** (tu: poliestryfikacja).\n\nSchematycznie tworzenie wiązania estrowego:\n\n$$\\ce{-COOH + HO- -> -CO-O- + H2O}$$",
+    "pulapka": "PET to poliester, a nie poliamid — produktem ubocznym jest woda z reakcji grup $\\ce{-COOH}$ i $\\ce{-OH}$. Nie myl z powstawaniem wiązania amidowego (to poliamidy, np. nylon)."
+  },
+  {
+    "id": "trening-chemia-polimery-5",
+    "dzial": "polimery",
+    "topic": "obliczenie stopnia polimeryzacji",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Pewna próbka polietylenu ma średnią masę molową łańcucha równą $M = 70\\,000\\ \\mathrm{g/mol}$.\n\nOblicz **stopień polimeryzacji** $n$ tego polietylenu, czyli średnią liczbę merów w łańcuchu. Przyjmij masy molowe atomów: $M_\\ce{C} = 12\\ \\mathrm{g/mol}$, $M_\\ce{H} = 1\\ \\mathrm{g/mol}$.",
+    "odpowiedz": "$n = 2500$.",
+    "rozwiazanie": "Polietylen powstaje z etenu $\\ce{CH2=CH2}$ w reakcji polimeryzacji addycyjnej:\n\n$$\\ce{n\\, CH2=CH2 -> [-CH2-CH2-]_n}$$\n\nPowtarzającym się merem jest $\\ce{-CH2-CH2-}$ o składzie $\\ce{C2H4}$. Jego masa molowa wynosi:\n\n$$M_\\text{mer} = 2 \\cdot 12 + 4 \\cdot 1 = 28\\ \\mathrm{g/mol}$$\n\nStopień polimeryzacji to iloraz masy molowej całego łańcucha i masy molowej pojedynczego meru:\n\n$$n = \\frac{M}{M_\\text{mer}} = \\frac{70\\,000\\ \\mathrm{g/mol}}{28\\ \\mathrm{g/mol}} = 2500$$\n\nŁańcuch polietylenu składa się średnio z **2500 merów**.",
+    "pulapka": "Masę meru liczymy dla fragmentu $\\ce{C2H4}$ (28 g/mol), a nie dla cząsteczki etenu jako monomeru — choć akurat tu obie mają tę samą masę (28 g/mol), bo w polimeryzacji addycyjnej nic nie odpada. Uwaga: nie dziel przez masę atomu węgla ani przez 2."
+  }
+]

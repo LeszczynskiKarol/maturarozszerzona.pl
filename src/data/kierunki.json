@@ -1,0 +1,647 @@
+[
+  {
+    "slug": "ekonomia",
+    "name": "Ekonomia",
+    "kategoria": "ekonomiczne",
+    "liczbaUczelni": 1,
+    "rdzen": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "geografia",
+        "nazwa": "geografia"
+      },
+      {
+        "slug": "historia",
+        "nazwa": "historia"
+      },
+      {
+        "slug": "wos",
+        "nazwa": "WOS"
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "sgh",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.sgh.waw.pl"
+      }
+    ]
+  },
+  {
+    "slug": "finanse-i-rachunkowosc",
+    "name": "Finanse i rachunkowość",
+    "kategoria": "ekonomiczne",
+    "liczbaUczelni": 1,
+    "rdzen": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "geografia",
+        "nazwa": "geografia"
+      },
+      {
+        "slug": "historia",
+        "nazwa": "historia"
+      },
+      {
+        "slug": "wos",
+        "nazwa": "WOS"
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "sgh",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.sgh.waw.pl"
+      }
+    ]
+  },
+  {
+    "slug": "zarzadzanie",
+    "name": "Zarządzanie",
+    "kategoria": "ekonomiczne",
+    "liczbaUczelni": 1,
+    "rdzen": [],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka"
+      },
+      {
+        "slug": "geografia",
+        "nazwa": "geografia"
+      },
+      {
+        "slug": "polski",
+        "nazwa": "j. polski"
+      },
+      {
+        "slug": "wos",
+        "nazwa": "WOS"
+      },
+      {
+        "slug": "historia",
+        "nazwa": "historia"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "uam",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.amu.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "filologia-angielska",
+    "name": "Filologia angielska",
+    "kategoria": "humanistyczne",
+    "liczbaUczelni": 1,
+    "rdzen": [
+      {
+        "slug": "angielski",
+        "nazwa": "j. angielski",
+        "maxWaga": 2
+      },
+      {
+        "slug": "polski",
+        "nazwa": "j. polski",
+        "maxWaga": 1
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "niemiecki",
+        "nazwa": "j. niemiecki"
+      },
+      {
+        "slug": "historia",
+        "nazwa": "historia"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "farmacja",
+    "name": "Farmacja",
+    "kategoria": "medyczne",
+    "liczbaUczelni": 2,
+    "rdzen": [
+      {
+        "slug": "chemia",
+        "nazwa": "chemia",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 2
+      },
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 2
+      }
+    ],
+    "pomocnicze": [
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka"
+      },
+      {
+        "slug": "angielski",
+        "nazwa": "j. angielski"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "wum",
+        "maxPkt": 250,
+        "link": "https://rekrutacja.wum.edu.pl"
+      },
+      {
+        "uczelniaSlug": "cm-uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "fizjoterapia",
+    "name": "Fizjoterapia",
+    "kategoria": "medyczne",
+    "liczbaUczelni": 2,
+    "rdzen": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [
+      {
+        "slug": "chemia",
+        "nazwa": "chemia",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 1.5
+      }
+    ],
+    "pomocnicze": [],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "wum",
+        "maxPkt": 250,
+        "link": "https://rekrutacja.wum.edu.pl"
+      },
+      {
+        "uczelniaSlug": "cm-uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "kierunek-lekarski",
+    "name": "Kierunek lekarski",
+    "kategoria": "medyczne",
+    "liczbaUczelni": 4,
+    "rdzen": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 2
+      },
+      {
+        "slug": "chemia",
+        "nazwa": "chemia",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 2
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka",
+        "maxWaga": 2
+      }
+    ],
+    "pomocnicze": [
+      {
+        "slug": "angielski",
+        "nazwa": "j. angielski"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "wum",
+        "maxPkt": 250,
+        "link": "https://rekrutacja.wum.edu.pl"
+      },
+      {
+        "uczelniaSlug": "cm-uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      },
+      {
+        "uczelniaSlug": "um-lodz",
+        "maxPkt": 200,
+        "link": "https://rekrutacja.umed.lodz.pl"
+      },
+      {
+        "uczelniaSlug": "ump",
+        "maxPkt": 200,
+        "link": "https://rekrutacja.ump.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "lekarsko-dentystyczny",
+    "name": "Lekarsko-dentystyczny",
+    "kategoria": "medyczne",
+    "liczbaUczelni": 2,
+    "rdzen": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 2
+      },
+      {
+        "slug": "chemia",
+        "nazwa": "chemia",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka"
+      },
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka"
+      },
+      {
+        "slug": "angielski",
+        "nazwa": "j. angielski"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "wum",
+        "maxPkt": 250,
+        "link": "https://rekrutacja.wum.edu.pl"
+      },
+      {
+        "uczelniaSlug": "ump",
+        "maxPkt": 200,
+        "link": "https://rekrutacja.ump.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "pielegniarstwo",
+    "name": "Pielęgniarstwo",
+    "kategoria": "medyczne",
+    "liczbaUczelni": 1,
+    "rdzen": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "chemia",
+        "nazwa": "chemia"
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka"
+      },
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "wum",
+        "maxPkt": 250,
+        "link": "https://rekrutacja.wum.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "weterynaria",
+    "name": "Weterynaria",
+    "kategoria": "medyczne",
+    "liczbaUczelni": 1,
+    "rdzen": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 2
+      },
+      {
+        "slug": "chemia",
+        "nazwa": "chemia",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka"
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka"
+      },
+      {
+        "slug": "angielski",
+        "nazwa": "j. angielski"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "umk",
+        "maxPkt": 200,
+        "link": "https://rekrutacja.umk.pl"
+      }
+    ]
+  },
+  {
+    "slug": "prawo",
+    "name": "Prawo",
+    "kategoria": "prawne",
+    "liczbaUczelni": 3,
+    "rdzen": [
+      {
+        "slug": "polski",
+        "nazwa": "j. polski",
+        "maxWaga": 1
+      }
+    ],
+    "kluczowe": [
+      {
+        "slug": "historia",
+        "nazwa": "historia",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "wos",
+        "nazwa": "WOS",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 1.5
+      }
+    ],
+    "pomocnicze": [],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      },
+      {
+        "uczelniaSlug": "uam",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.amu.edu.pl"
+      },
+      {
+        "uczelniaSlug": "uwr",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uwr.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "psychologia",
+    "name": "Psychologia",
+    "kategoria": "psychologia",
+    "liczbaUczelni": 3,
+    "rdzen": [
+      {
+        "slug": "polski",
+        "nazwa": "j. polski",
+        "maxWaga": 1
+      }
+    ],
+    "kluczowe": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "historia",
+        "nazwa": "historia",
+        "maxWaga": 1.5
+      }
+    ],
+    "pomocnicze": [
+      {
+        "slug": "wos",
+        "nazwa": "WOS"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      },
+      {
+        "uczelniaSlug": "uam",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.amu.edu.pl"
+      },
+      {
+        "uczelniaSlug": "uwr",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uwr.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "biotechnologia",
+    "name": "Biotechnologia",
+    "kategoria": "ścisłe",
+    "liczbaUczelni": 1,
+    "rdzen": [
+      {
+        "slug": "biologia",
+        "nazwa": "biologia",
+        "maxWaga": 2
+      },
+      {
+        "slug": "chemia",
+        "nazwa": "chemia",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka"
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      }
+    ]
+  },
+  {
+    "slug": "informatyka",
+    "name": "Informatyka",
+    "kategoria": "ścisłe",
+    "liczbaUczelni": 4,
+    "rdzen": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [
+      {
+        "slug": "informatyka",
+        "nazwa": "informatyka",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "fizyka",
+        "nazwa": "fizyka",
+        "maxWaga": 1.5
+      },
+      {
+        "slug": "chemia",
+        "nazwa": "chemia",
+        "maxWaga": 1.5
+      }
+    ],
+    "pomocnicze": [],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "uj",
+        "maxPkt": 100,
+        "link": "https://rekrutacja.uj.edu.pl"
+      },
+      {
+        "uczelniaSlug": "pw",
+        "maxPkt": 225,
+        "link": "https://rekrutacja.pw.edu.pl"
+      },
+      {
+        "uczelniaSlug": "agh",
+        "maxPkt": 1000,
+        "link": "https://rekrutacja.agh.edu.pl"
+      },
+      {
+        "uczelniaSlug": "pg",
+        "maxPkt": 100,
+        "link": "https://pg.edu.pl/rekrutacja"
+      }
+    ]
+  },
+  {
+    "slug": "architektura",
+    "name": "Architektura",
+    "kategoria": "techniczne",
+    "liczbaUczelni": 2,
+    "rdzen": [
+      {
+        "slug": "matematyka",
+        "nazwa": "matematyka",
+        "maxWaga": 2
+      }
+    ],
+    "kluczowe": [],
+    "pomocnicze": [
+      {
+        "slug": "angielski",
+        "nazwa": "j. angielski"
+      },
+      {
+        "slug": "niemiecki",
+        "nazwa": "j. niemiecki"
+      }
+    ],
+    "uczelnie": [
+      {
+        "uczelniaSlug": "pw",
+        "maxPkt": 225,
+        "link": "https://rekrutacja.pw.edu.pl"
+      },
+      {
+        "uczelniaSlug": "pg",
+        "maxPkt": 100,
+        "link": "https://pg.edu.pl/rekrutacja"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "znajomosc-srodkow-jezykowych",
+    "nazwa": "Znajomość środków językowych: gramatyka, słowotwórstwo, transformacje zdań",
+    "count": 9
+  },
+  {
+    "slug": "wypowiedz-pisemna",
+    "nazwa": "Wypowiedź pisemna: rozprawka, artykuł i list formalny",
+    "count": 3
+  },
+  {
+    "slug": "rozumienie-ze-sluchu",
+    "nazwa": "Rozumienie ze słuchu: dobieranie wypowiedzi i uzupełnianie notatek",
+    "count": 9
+  },
+  {
+    "slug": "rozumienie-tekstow-pisanych",
+    "nazwa": "Rozumienie tekstów pisanych: dobieranie, luki i pytania do tekstu",
+    "count": 15
+  }
+]

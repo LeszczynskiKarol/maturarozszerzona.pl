@@ -1,0 +1,182 @@
+{
+    "subject": "fizyka",
+    "level": "pr",
+    "dzialy": [
+        {
+            "slug": "relatywistyka",
+            "nazwa": "Szczególna teoria względności: czynnik Lorentza, energia relatywistyczna",
+            "patterns": [
+                "wzgl[eę]dno[sś]ci",
+                "relatywist",
+                "czynnik lorentza",
+                "energia spoczynkowa",
+                "energia ca[lł]kowita"
+            ]
+        },
+        {
+            "slug": "fizyka-jadrowa",
+            "nazwa": "Fizyka jądrowa: rozpady promieniotwórcze, energia wiązania",
+            "patterns": [
+                "j[aą]drow",
+                "rozpad",
+                "energia wi[aą]zania",
+                "deficyt masy",
+                "defekt masy",
+                "izotop",
+                "jednostka masy atomowej"
+            ]
+        },
+        {
+            "slug": "fizyka-atomowa",
+            "nazwa": "Fizyka atomowa: model Bohra, fotony i poziomy energetyczne",
+            "patterns": [
+                "fizyka atomowa",
+                "bohra",
+                "poziomy energetyczne",
+                "foton"
+            ]
+        },
+        {
+            "slug": "bryla-sztywna",
+            "nazwa": "Bryła sztywna: ruch obrotowy, moment bezwładności",
+            "patterns": [
+                "bry[lł]",
+                "moment bezw[lł]adno",
+                "obrotow",
+                "dla obrotu",
+                "kr[aą][zż]ki jednorodne",
+                "walec"
+            ]
+        },
+        {
+            "slug": "grawitacja-i-astronomia",
+            "nazwa": "Grawitacja i astronomia: prawa Keplera, ruch orbitalny",
+            "patterns": [
+                "grawitacj",
+                "ci[aą][zż]enia",
+                "kepler",
+                "orbi[tc]",
+                "kopernik",
+                "sonda kosmiczna",
+                "czarna dziura",
+                "sagittarius",
+                "lagrange"
+            ]
+        },
+        {
+            "slug": "magnetyzm",
+            "nazwa": "Magnetyzm: pole magnetyczne, siła Lorentza",
+            "patterns": [
+                "magnetyzm",
+                "pole magnetyczne",
+                "indukcja magnetyczna",
+                "si[lł]a lorentza",
+                "regu[lł]a prawej",
+                "proton w polu"
+            ]
+        },
+        {
+            "slug": "elektrostatyka-i-prad",
+            "nazwa": "Elektryczność: elektrostatyka, obwody prądu stałego",
+            "patterns": [
+                "elektrostaty",
+                "pole elektryczne",
+                "[lł]adunki",
+                "obwody",
+                "kirchhoff",
+                "op[oó]r elektryczny",
+                "prawo ohma",
+                "moc elektryczn",
+                "moc cieplna",
+                "opory r[oó]wnoleg",
+                "pr[aą]d elektryczny",
+                "wolfram",
+                "oporu od temperatury",
+                "wsp[oó][lł]czynnik termiczny",
+                "rozp[eę]dzanie elektronu",
+                "energii ev",
+                "superpozycj"
+            ]
+        },
+        {
+            "slug": "optyka",
+            "nazwa": "Optyka: załamanie światła, soczewki, polaryzacja",
+            "patterns": [
+                "optyk",
+                "optyczn",
+                "soczewk",
+                "ogniskowa",
+                "snella",
+                "za[lł]amanie [sś]wiat[lł]a",
+                "odbicie wewn",
+                "wsp[oó][lł]czynnik za[lł]amania",
+                "pr[eę]dko[sś][cć] [sś]wiat[lł]a",
+                "kr[aą][zż]ek szklany",
+                "polaryzacj",
+                "malusa",
+                "konstrukcja obrazu",
+                "elektromagnetyczn"
+            ]
+        },
+        {
+            "slug": "termodynamika",
+            "nazwa": "Termodynamika: gaz doskonały, przemiany gazowe, cykle",
+            "patterns": [
+                "termodynamik",
+                "przemian",
+                "gaz doskona",
+                "gazu doskona",
+                "r[oó]wnanie stanu",
+                "ciep[lł]o molowe",
+                "cykl"
+            ]
+        },
+        {
+            "slug": "drgania-i-fale",
+            "nazwa": "Drgania i fale: ruch harmoniczny, akustyka, efekt Dopplera",
+            "patterns": [
+                "drga",
+                "harmoniczn",
+                "spr[eę][zż]ysto[sś]",
+                "doppler",
+                "cz[eę]stotliwo",
+                "akusty",
+                "d[zź]wi[eę]k",
+                "fal[aei]",
+                "interferencja",
+                "pr[eę]dko[sś][cć] [zź]r[oó]d[lł]a"
+            ]
+        },
+        {
+            "slug": "kinematyka",
+            "nazwa": "Kinematyka: ruchy jednostajne i zmienne, rzuty",
+            "patterns": [
+                "kinematyka",
+                "ruch jednostajn",
+                "po[sś]cig",
+                "wzgl[eę]dna pr[eę]dko",
+                "maksymalna odleg[lł]o",
+                "rzuty"
+            ]
+        },
+        {
+            "slug": "dynamika",
+            "nazwa": "Dynamika: zasady Newtona, pęd i energia, zderzenia",
+            "patterns": [
+                "dynamik",
+                "p[eę]du",
+                "zderzeni",
+                "zachowani",
+                "energia kinetyczna",
+                "energia mechaniczna",
+                "opory ruchu",
+                "pr[eę]dko[sś][cć] graniczna",
+                "newtona",
+                "r[oó]wni pochy[lł]ej",
+                "ruch po okr[eę]gu",
+                "r[oó]wnowaga si[lł]",
+                "si[lł]y wzajemnego"
+            ]
+        }
+    ]
+}

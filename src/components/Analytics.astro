@@ -1,0 +1,63 @@
+---
+// GA4 + Consent Mode v2 — renderuje się TYLKO gdy siteConfig.features.ga4 jest ustawione.
+// Consent defaults (denied globalnie + PL/EU) deklarowane PRZED gtag.js. CookieConsent.astro
+// wywołuje gtag('consent','update') na akcept.
+// UWAGA: body skryptów to RAW JS — nie owijać w template literal (Astro is:inline nie
+// preprocessuje; owinięcie zepsułoby Consent Mode → GDPR-violation). Wzorzec z generatora.
+import { siteConfig } from "../config/site";
+const gaId = siteConfig.features.ga4;
+---
+
+{
+  gaId && (
+    <>
+      <script is:inline define:vars={{ gaId }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+
+        gtag('consent', 'default', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+          functionality_storage: 'granted',
+          personalization_storage: 'denied',
+          security_storage: 'granted',
+          wait_for_update: 500,
+        });
+
+        gtag('consent', 'default', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+          region: ['PL', 'EU'],
+        });
+
+        try {
+          var stored = localStorage.getItem('cookie-consent');
+          if (stored) {
+            var parsed = JSON.parse(stored);
+            gtag('consent', 'update', {
+              ad_storage: parsed.ad_storage || 'denied',
+              ad_user_data: parsed.ad_user_data || 'denied',
+              ad_personalization: parsed.ad_personalization || 'denied',
+              analytics_storage: parsed.analytics_storage || 'denied',
+            });
+          }
+        } catch (e) {}
+      </script>
+
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
+
+      <script is:inline define:vars={{ gaId }}>
+        gtag('js', new Date());
+        gtag('config', gaId, {
+          anonymize_ip: true,
+          cookie_flags: 'SameSite=Lax;Secure',
+        });
+      </script>
+    </>
+  )
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "informatyka",
+  "intro": "Matura rozszerzona z informatyki sprawdza umiejętność algorytmicznego myślenia, programowania oraz praktycznej pracy z danymi. To przedmiot wybierany na kierunki takie jak informatyka, automatyka, elektronika czy data science na politechnikach oraz na Uniwersytecie Warszawskim. W przeciwieństwie do poziomu podstawowego (który nie istnieje jako osobny egzamin maturalny) informatykę zdaje się wyłącznie na poziomie rozszerzonym.",
+  "formatArkusza": "Egzamin składa się z dwóch części rozwiązywanych tego samego dnia: część I bez komputera (zadania na papierze) oraz część II przy komputerze, z użyciem wybranego środowiska programistycznego i programów użytkowych (m.in. arkusza kalkulacyjnego i bazy danych). Zadania są zarówno zamknięte, jak i otwarte, a łączny czas obu części to 210 minut.",
+  "trudnosc": "Informatyka rozszerzona uchodzi za jeden z bardziej wymagających przedmiotów, bo łączy abstrakcyjne myślenie algorytmiczne z biegłością w konkretnym języku programowania i narzędziach użytkowych. Największą trudnością bywa część przy komputerze: trzeba sprawnie napisać działający program, zbudować zapytanie SQL i przeanalizować dane w arkuszu w warunkach presji czasu. Egzamin jest realny dla osób, które regularnie programują i ćwiczą rozwiązywanie zadań algorytmicznych, a nie tylko uczą się teorii na pamięć.",
+  "wymagania": [
+    {
+      "pytanie": "Czy matura z informatyki ma dwie części (bez komputera i przy komputerze)?",
+      "odpowiedz": "Tak. Egzamin dzieli się na część I rozwiązywaną na papierze, bez komputera, oraz część II przy komputerze, z dostępem do środowiska programistycznego i programów użytkowych. Obie części zdaje się tego samego dnia, a punkty z nich sumują się do wyniku końcowego.",
+      "dzial": ""
+    },
+    {
+      "pytanie": "Jaki język programowania można wybrać na maturze z informatyki?",
+      "odpowiedz": "Zdający wybiera język programowania z listy ogłaszanej przez CKE w komunikacie o dostosowaniach i narzędziach. Zwykle są to popularne języki wysokiego poziomu, takie jak Python, C++, Java czy Pascal, a wyboru dokonuje się przed egzaminem. Warto ćwiczyć rozwiązywanie zadań w tym języku, który realnie znasz najlepiej.",
+      "dzial": "programowanie"
+    },
+    {
+      "pytanie": "Czy na maturze z informatyki jest SQL i bazy danych?",
+      "odpowiedz": "Tak. W części przy komputerze pojawiają się zadania na bazie danych, w których trzeba budować zapytania SQL: filtrować dane, łączyć tabele złączeniami (JOIN), grupować i agregować wyniki (GROUP BY, funkcje agregujące). Znajomość SQL jest jednym z kluczowych elementów egzaminu.",
+      "dzial": "bazy-danych-sql"
+    },
+    {
+      "pytanie": "Czy trzeba znać systemy liczbowe na maturze rozszerzonej z informatyki?",
+      "odpowiedz": "Tak. Systemy liczbowe i arytmetyka komputerowa to stały element egzaminu: konwersje między systemem binarnym, dziesiętnym i szesnastkowym, a także operacje bitowe. Zadania z tego zakresu najczęściej trafiają do części bez komputera, więc trzeba umieć wykonywać przeliczenia ręcznie.",
+      "dzial": "systemy-liczbowe"
+    },
+    {
+      "pytanie": "Czy na maturze z informatyki jest arkusz kalkulacyjny?",
+      "odpowiedz": "Tak. Arkusz kalkulacyjny to jedno z podstawowych narzędzi w części przy komputerze. Zadania polegają na analizie i przetwarzaniu danych, stosowaniu formuł i funkcji, budowaniu rankingów oraz tworzeniu wykresów i prostych symulacji. Warto biegle znać funkcje warunkowe, wyszukujące i agregujące.",
+      "dzial": "arkusz-kalkulacyjny"
+    },
+    {
+      "pytanie": "Czy rekurencja jest na maturze rozszerzonej z informatyki?",
+      "odpowiedz": "Tak. Rekurencja to jeden z ważniejszych tematów działu algorytmicznego. Trzeba rozumieć algorytmy rekurencyjne, umieć je zapisać w pseudokodzie lub wybranym języku oraz prześledzić ich działanie. Klasyczne przykłady to silnia, ciąg Fibonacciego czy rekurencyjne przeszukiwanie struktur danych.",
+      "dzial": "algorytmy"
+    },
+    {
+      "pytanie": "Jakie algorytmy sortowania trzeba znać na maturze z informatyki?",
+      "odpowiedz": "Obowiązują klasyczne algorytmy sortowania, m.in. sortowanie bąbelkowe, przez wstawianie i przez wybór, a także szybsze metody jak sortowanie przez scalanie czy szybkie (quicksort). Trzeba rozumieć ich zasadę działania i złożoność obliczeniową, a nie tylko odtwarzać kod z pamięci.",
+      "dzial": "algorytmy"
+    },
+    {
+      "pytanie": "Jakie środowisko i oprogramowanie jest dostępne na maturze z informatyki?",
+      "odpowiedz": "Na egzaminie masz do dyspozycji komputer z wybranym środowiskiem programistycznym oraz programami użytkowymi: arkuszem kalkulacyjnym i systemem bazodanowym. Dokładna lista dostępnego oprogramowania i języków jest co roku ogłaszana przez CKE w komunikacie o narzędziach, a szkoła zapewnia zgodne z nim środowisko.",
+      "dzial": ""
+    },
+    {
+      "pytanie": "Czy na maturze z informatyki są sieci komputerowe i bezpieczeństwo danych?",
+      "odpowiedz": "Tak. W arkuszu pojawiają się pytania o sieci komputerowe i bezpieczeństwo, m.in. protokoły sieciowe (HTTP, FTP, DNS, DHCP), adresację oraz zagrożenia takie jak malware czy keyloggery. To zwykle zadania zamknięte lub krótkie otwarte w części bez komputera.",
+      "dzial": "sieci-i-bezpieczenstwo"
+    },
+    {
+      "pytanie": "Czy trzeba zdać maturę rozszerzoną z informatyki jakimś progiem?",
+      "odpowiedz": "Nie. Egzaminu rozszerzonego nie trzeba „zdać” żadnym progiem procentowym — liczy się osiągnięty wynik, który wykorzystujesz w rekrutacji na studia. Im wyższy procent, tym większe szanse na kierunki informatyczne na politechnikach czy Uniwersytecie Warszawskim.",
+      "dzial": ""
+    },
+    {
+      "pytanie": "Czy na maturze z informatyki trzeba analizować i przetwarzać pliki tekstowe?",
+      "odpowiedz": "Tak. Część praktyczna często zawiera zadania na przetwarzanie plików i tekstów: wczytywanie danych z pliku, analizę zawartości, zliczanie i filtrowanie oraz zapis wyników. Rozwiązuje się je we własnym programie napisanym w wybranym języku programowania.",
+      "dzial": "programowanie"
+    }
+  ],
+  "strategia": [
+    "Wybierz jeden język programowania (np. Python lub C++) i doprowadź jego znajomość do biegłości — to on decyduje o powodzeniu części przy komputerze.",
+    "Ćwicz zadania algorytmiczne z pseudokodu: rekurencję, sortowania i przeszukiwanie struktur danych, prześledzając krok po kroku ich działanie.",
+    "Regularnie pisz zapytania SQL na przykładowej bazie: filtrowanie, złączenia JOIN, grupowanie i funkcje agregujące.",
+    "Opanuj arkusz kalkulacyjny w praktyce — funkcje warunkowe, wyszukujące, tabele przestawne i wykresy — na realnych zestawach danych.",
+    "Przećwicz konwersje systemów liczbowych i operacje bitowe ręcznie, bo te zadania trafiają do części bez komputera.",
+    "Rozwiązuj arkusze CKE z ostatnich lat w warunkach egzaminacyjnych, dzieląc czas między część papierową i komputerową."
+  ],
+  "coWarto": "Informatyka rozszerzona otwiera drzwi na najbardziej oblegane kierunki techniczne — informatykę, automatykę i data science na politechnikach oraz na Uniwersytecie Warszawskim — a wysoki wynik realnie zwiększa szanse w rekrutacji. To dobry wybór rozszerzenia dla osób, które lubią programować i rozwiązywać problemy algorytmiczne."
+}

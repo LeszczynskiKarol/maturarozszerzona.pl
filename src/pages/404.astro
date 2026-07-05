@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../config/site";
+---
+
+<BaseLayout title={`Nie znaleziono strony — ${SITE.name}`} description="Strona nie istnieje." noindex={true}>
+  <section class="py-12 text-center">
+    <p class="text-6xl font-extrabold text-indigo-200">404</p>
+    <h1 class="mt-4 text-2xl font-bold">Nie znaleźliśmy tej strony</h1>
+    <p class="mx-auto mt-2 max-w-md text-slate-600">
+      Być może szukasz zadań z konkretnego przedmiotu albo poradnika wyboru rozszerzeń.
+    </p>
+    <div class="mt-6 flex flex-wrap justify-center gap-3">
+      <a href="/" class="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700">Strona główna</a>
+      <a href="/wybor-rozszerzen/" class="rounded-lg border border-indigo-200 bg-white px-4 py-2 text-sm font-semibold text-indigo-700 hover:border-indigo-400">Wybór rozszerzeń</a>
+      <a href="/terminy/" class="rounded-lg border border-indigo-200 bg-white px-4 py-2 text-sm font-semibold text-indigo-700 hover:border-indigo-400">Terminy matury</a>
+    </div>
+  </section>
+</BaseLayout>

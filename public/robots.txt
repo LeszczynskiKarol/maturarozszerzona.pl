@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_assets/
+
+Sitemap: https://www.maturarozszerzona.pl/sitemap-index.xml

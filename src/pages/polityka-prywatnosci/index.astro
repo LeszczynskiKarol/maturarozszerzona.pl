@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE, siteConfig } from "../../config/site";
+
+const { operator, email, updated } = siteConfig.legal;
+const analytics = !!siteConfig.features.ga4;
+---
+
+<BaseLayout
+  title={`Polityka prywatności — ${SITE.name}`}
+  description="Polityka prywatności i informacja o plikach cookie serwisu maturarozszerzona.pl."
+  noindex={true}
+>
+  <article class="prose-none mx-auto max-w-2xl">
+    <h1 class="mb-2 text-3xl font-extrabold tracking-tight">Polityka prywatności</h1>
+    <p class="mb-8 text-sm text-slate-500">Ostatnia aktualizacja: {updated}</p>
+
+    <div class="space-y-6 text-slate-700">
+      <section>
+        <h2 class="mb-1 text-lg font-bold text-slate-900">1. Administrator</h2>
+        <p>
+          Administratorem serwisu {SITE.name} (dostępnego pod adresem {SITE.url}) jest {operator}.
+          W sprawach dotyczących prywatności możesz skontaktować się pod adresem:
+          <a href={`mailto:${email}`} class="text-indigo-700 underline">{email}</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-1 text-lg font-bold text-slate-900">2. Zakres zbieranych danych</h2>
+        <p>
+          Serwis ma charakter informacyjno-edukacyjny. Nie prowadzimy rejestracji kont, nie zbieramy
+          danych osobowych przez formularze ani nie sprzedajemy produktów. Jedyne dane przetwarzane
+          automatycznie to anonimowe statystyki korzystania ze strony{analytics ? " (zob. pkt 3)" : ""}
+          oraz standardowe dane techniczne zapisywane w logach serwera (adres IP, typ przeglądarki),
+          niezbędne do świadczenia usługi i zapewnienia bezpieczeństwa.
+        </p>
+      </section>
+
+      {analytics && (
+        <section>
+          <h2 class="mb-1 text-lg font-bold text-slate-900">3. Analityka i pliki cookie</h2>
+          <p>
+            Korzystamy z narzędzia Google Analytics 4 do anonimowej analizy ruchu (liczba odwiedzin,
+            popularność podstron). Analityka uruchamiana jest wyłącznie po wyrażeniu przez Ciebie zgody
+            w banerze cookie — działa mechanizm Google Consent Mode v2, który domyślnie blokuje zapis
+            danych analitycznych do czasu akceptacji. Adres IP jest anonimizowany. Nie używamy cookies
+            reklamowych ani profilujących.
+          </p>
+          <p class="mt-2">
+            Swoją decyzję możesz w każdej chwili zmienić, czyszcząc dane witryny w przeglądarce —
+            baner pojawi się ponownie. Możesz też całkowicie zablokować pliki cookie w ustawieniach
+            przeglądarki.
+          </p>
+        </section>
+      )}
+
+      <section>
+        <h2 class="mb-1 text-lg font-bold text-slate-900">{analytics ? "4" : "3"}. Twoje prawa</h2>
+        <p>
+          Zgodnie z RODO masz prawo dostępu do swoich danych, ich sprostowania, usunięcia lub
+          ograniczenia przetwarzania, a także prawo wniesienia sprzeciwu i skargi do Prezesa Urzędu
+          Ochrony Danych Osobowych. W sprawach dotyczących danych pisz na
+          <a href={`mailto:${email}`} class="text-indigo-700 underline"> {email}</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="mb-1 text-lg font-bold text-slate-900">{analytics ? "5" : "4"}. Linki zewnętrzne</h2>
+        <p>
+          Serwis zawiera odnośniki do stron zewnętrznych (m.in. matury-online.pl, maturalnie.pl,
+          CKE, uczelnie). Nie odpowiadamy za politykę prywatności tych witryn — zapoznaj się z nią
+          bezpośrednio na danej stronie.
+        </p>
+      </section>
+    </div>
+
+    <p class="mt-10">
+      <a href="/" class="text-sm font-semibold text-indigo-700 hover:underline">← Wróć na stronę główną</a>
+    </p>
+  </article>
+</BaseLayout>

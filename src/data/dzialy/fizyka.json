@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "relatywistyka",
+    "nazwa": "Szczególna teoria względności: czynnik Lorentza, energia relatywistyczna",
+    "count": 3
+  },
+  {
+    "slug": "fizyka-jadrowa",
+    "nazwa": "Fizyka jądrowa: rozpady promieniotwórcze, energia wiązania",
+    "count": 3
+  },
+  {
+    "slug": "fizyka-atomowa",
+    "nazwa": "Fizyka atomowa: model Bohra, fotony i poziomy energetyczne",
+    "count": 1
+  },
+  {
+    "slug": "bryla-sztywna",
+    "nazwa": "Bryła sztywna: ruch obrotowy, moment bezwładności",
+    "count": 4
+  },
+  {
+    "slug": "grawitacja-i-astronomia",
+    "nazwa": "Grawitacja i astronomia: prawa Keplera, ruch orbitalny",
+    "count": 5
+  },
+  {
+    "slug": "magnetyzm",
+    "nazwa": "Magnetyzm: pole magnetyczne, siła Lorentza",
+    "count": 2
+  },
+  {
+    "slug": "elektrostatyka-i-prad",
+    "nazwa": "Elektryczność: elektrostatyka, obwody prądu stałego",
+    "count": 4
+  },
+  {
+    "slug": "optyka",
+    "nazwa": "Optyka: załamanie światła, soczewki, polaryzacja",
+    "count": 5
+  },
+  {
+    "slug": "termodynamika",
+    "nazwa": "Termodynamika: gaz doskonały, przemiany gazowe, cykle",
+    "count": 3
+  },
+  {
+    "slug": "drgania-i-fale",
+    "nazwa": "Drgania i fale: ruch harmoniczny, akustyka, efekt Dopplera",
+    "count": 5
+  },
+  {
+    "slug": "kinematyka",
+    "nazwa": "Kinematyka: ruchy jednostajne i zmienne, rzuty",
+    "count": 4
+  },
+  {
+    "slug": "dynamika",
+    "nazwa": "Dynamika: zasady Newtona, pęd i energia, zderzenia",
+    "count": 13
+  }
+]

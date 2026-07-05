@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "metodyka-badan",
+    "nazwa": "Metodyka badań biologicznych: doświadczenia i próby kontrolne",
+    "count": 4
+  },
+  {
+    "slug": "genetyka-molekularna",
+    "nazwa": "Genetyka molekularna: DNA, RNA, ekspresja genów i inżynieria genetyczna",
+    "count": 10
+  },
+  {
+    "slug": "genetyka-klasyczna",
+    "nazwa": "Genetyka klasyczna: dziedziczenie cech i krzyżówki genetyczne",
+    "count": 6
+  },
+  {
+    "slug": "biochemia",
+    "nazwa": "Chemizm życia: budowa związków organicznych i biochemia",
+    "count": 9
+  },
+  {
+    "slug": "metabolizm",
+    "nazwa": "Metabolizm i bioenergetyka: enzymy oraz oddychanie komórkowe",
+    "count": 6
+  },
+  {
+    "slug": "cytologia",
+    "nazwa": "Cytologia: budowa i funkcje komórki",
+    "count": 6
+  },
+  {
+    "slug": "botanika-fizjologia-roslin",
+    "nazwa": "Botanika i fizjologia roślin: budowa, rozwój i fotosynteza",
+    "count": 13
+  },
+  {
+    "slug": "fizjologia-czlowieka",
+    "nazwa": "Fizjologia i anatomia człowieka: układy narządów i ich regulacja",
+    "count": 22
+  },
+  {
+    "slug": "roznorodnosc-organizmow",
+    "nazwa": "Różnorodność organizmów: systematyka zwierząt, bakterii i wirusów",
+    "count": 10
+  },
+  {
+    "slug": "ewolucja",
+    "nazwa": "Ewolucja: dobór naturalny, adaptacje i filogenetyka",
+    "count": 11
+  },
+  {
+    "slug": "ekologia",
+    "nazwa": "Ekologia: zależności międzygatunkowe i funkcjonowanie ekosystemów",
+    "count": 9
+  },
+  {
+    "slug": "ochrona-przyrody",
+    "nazwa": "Ochrona przyrody: gatunki zagrożone i formy ochrony",
+    "count": 4
+  }
+]

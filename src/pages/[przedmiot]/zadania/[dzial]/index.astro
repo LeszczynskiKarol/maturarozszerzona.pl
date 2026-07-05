@@ -1,0 +1,248 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { SITE, SUBJECTS } from "../../../../config/site";
+import { renderRichText, renderInlineMath } from "../../../../lib/render-math";
+
+interface Zadanie {
+  id: string;
+  nr: number;
+  punkty: number;
+  typ: string;
+  topic: string;
+  difficulty: number;
+  rok: number;
+  sesja: string;
+  poziom: string;
+  tresc: string;
+  odpowiedz: string;
+  pulapka: string;
+  wymaganie: string;
+  dzial: string;
+  dzialyDodatkowe: string[];
+  rozwiazanieUrl: string;
+}
+interface Dzial {
+  slug: string;
+  nazwa: string;
+  count: number;
+}
+
+interface ZadanieTreningowe {
+  id: string;
+  punkty: number;
+  typ: string;
+  topic: string;
+  dzial: string;
+  tresc: string;
+  odpowiedz: string;
+  rozwiazanie: string;
+  pulapka?: string;
+}
+
+export async function getStaticPaths() {
+  const dzialyModules = import.meta.glob<{ default: Dzial[] }>("../../../../data/dzialy/*.json", {
+    eager: true,
+  });
+  const zadaniaModules = import.meta.glob<{ default: Zadanie[] }>(
+    "../../../../data/zadania/*.json",
+    { eager: true }
+  );
+  const treningModules = import.meta.glob<{ default: ZadanieTreningowe[] }>(
+    "../../../../data/zadania-treningowe/*.json",
+    { eager: true }
+  );
+  const paths = [];
+  for (const [path, mod] of Object.entries(dzialyModules)) {
+    const przedmiot = path.match(/\/([\w-]+)\.json$/)![1];
+    const zadaniaAll =
+      Object.entries(zadaniaModules).find(([p]) => p.includes(`/${przedmiot}.json`))?.[1].default ??
+      [];
+    const treningAll =
+      Object.entries(treningModules).find(([p]) => p.includes(`/${przedmiot}.json`))?.[1].default ??
+      [];
+    for (const dzial of mod.default) {
+      const zadania = zadaniaAll.filter(
+        (z) => z.dzial === dzial.slug || z.dzialyDodatkowe.includes(dzial.slug)
+      );
+      const trening = treningAll.filter((z) => z.dzial === dzial.slug);
+      if (!zadania.length && !trening.length) continue;
+      paths.push({
+        params: { przedmiot, dzial: dzial.slug },
+        props: { dzialMeta: dzial, zadania, trening, dzialyAll: mod.default },
+      });
+    }
+  }
+  return paths;
+}
+
+const { przedmiot, dzial } = Astro.params;
+const { dzialMeta, zadania, trening, dzialyAll } = Astro.props;
+const meta = SUBJECTS[przedmiot!];
+
+const lata = [...new Set(zadania.map((z) => z.rok))].sort();
+const zakresLat = lata.length > 1 ? `${lata[0]}–${lata[lata.length - 1]}` : `${lata[0] ?? ""}`;
+const sesjaLabel: Record<string, string> = {
+  maj: "maj",
+  czerwiec: "czerwiec (termin dodatkowy)",
+  sierpien: "sierpień (poprawka)",
+  marzec: "marzec",
+  probna: "próbna",
+};
+
+const title = `${dzialMeta.nazwa} — zadania z matur rozszerzonych CKE | ${meta.name}`;
+const description =
+  zadania.length > 0
+    ? `${zadania.length} zadań z działu „${dzialMeta.nazwa}" z arkuszy maturalnych CKE ${zakresLat} (${meta.name.toLowerCase()}, poziom rozszerzony) — z odpowiedziami i typowymi pułapkami.`
+    : `Zadania treningowe z działu „${dzialMeta.nazwa}" (${meta.name.toLowerCase()}, matura rozszerzona) — z pełnymi rozwiązaniami krok po kroku.`;
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Start", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: meta.name, item: `${SITE.url}/${meta.slug}/zadania/` },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: dzialMeta.nazwa,
+        item: `${SITE.url}/${meta.slug}/zadania/${dzialMeta.slug}/`,
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${dzialMeta.nazwa} — zadania maturalne (poziom rozszerzony)`,
+    numberOfItems: zadania.length,
+    itemListElement: zadania.map((z, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: `Matura ${z.sesja} ${z.rok}, zadanie ${z.nr} (${z.punkty} pkt)`,
+      url: z.rozwiazanieUrl,
+    })),
+  },
+];
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <nav class="mb-4 text-sm text-slate-500">
+    <a href="/" class="hover:text-indigo-700">Start</a> ›
+    <a href={`/${meta.slug}/`} class="hover:text-indigo-700">{meta.name}</a> ›
+    <a href={`/${meta.slug}/zadania/`} class="hover:text-indigo-700">Zadania</a> ›
+    {dzialMeta.nazwa}
+  </nav>
+
+  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">{dzialMeta.nazwa}</h1>
+  {zadania.length > 0 ? (
+    <p class="mb-8 max-w-2xl text-slate-600">
+      {zadania.length} zadań z oficjalnych arkuszy matury rozszerzonej z {meta.dopelniacz}
+      ({zakresLat}). Spróbuj rozwiązać samodzielnie, potem odsłoń odpowiedź — przy każdym zadaniu
+      znajdziesz typową pułapkę, na której wykładają się maturzyści.
+    </p>
+  ) : (
+    <p class="mb-8 max-w-2xl text-slate-600">
+      Ten dział nie ma jeszcze zadań wprost z arkuszy CKE — poniżej znajdziesz zadania treningowe
+      w stylu matury rozszerzonej, z pełnym rozwiązaniem.
+    </p>
+  )}
+
+  <ol class="space-y-6">
+    {zadania.map((z, i) => (
+      <li class="rounded-xl border border-slate-200 bg-white p-5" id={`zadanie-${i + 1}`}>
+        <div class="mb-3 flex flex-wrap items-center gap-2 text-xs font-semibold">
+          <span class="rounded-full bg-slate-100 px-2 py-0.5 text-slate-700">
+            Matura CKE · {sesjaLabel[z.sesja] ?? z.sesja} {z.rok} · zad. {z.nr}
+          </span>
+          <span class="rounded-full bg-emerald-50 px-2 py-0.5 text-emerald-700">{z.punkty} pkt</span>
+          <span class="rounded-full bg-slate-100 px-2 py-0.5 text-slate-500">{z.topic}</span>
+        </div>
+
+        <div class="tresc" set:html={renderRichText(z.tresc)} />
+
+        <details class="mt-4 rounded-lg bg-slate-50 p-3">
+          <summary class="cursor-pointer text-sm font-semibold text-indigo-700">
+            Pokaż odpowiedź
+          </summary>
+          <div class="tresc mt-2 text-sm" set:html={renderRichText(z.odpowiedz, { breaks: true })} />
+          {z.pulapka && (
+            <p class="mt-3 rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
+              <strong>⚠ Typowa pułapka:</strong>{" "}
+              <span set:html={renderInlineMath(z.pulapka)} />
+            </p>
+          )}
+          <a
+            href={z.rozwiazanieUrl}
+            class="mt-3 inline-block text-sm font-semibold text-indigo-700 hover:underline"
+            >Zobacz pełne rozwiązanie krok po kroku →</a
+          >
+        </details>
+      </li>
+    ))}
+  </ol>
+
+  {trening.length > 0 && (
+    <section class="mt-10">
+      <div class="mb-4 rounded-lg border border-slate-200 bg-slate-50 p-3 text-sm text-slate-600">
+        <strong>Zadania treningowe</strong> — ułożone w stylu matury rozszerzonej (nie pochodzą
+        z arkuszy CKE). Świetne do dodatkowych ćwiczeń, gdy przerobisz już oryginalne zadania.
+      </div>
+      <ol class="space-y-6">
+        {trening.map((z, i) => (
+          <li class="rounded-xl border border-dashed border-slate-300 bg-white p-5" id={`trening-${i + 1}`}>
+            <div class="mb-3 flex flex-wrap items-center gap-2 text-xs font-semibold">
+              <span class="rounded-full bg-violet-50 px-2 py-0.5 text-violet-700">Zadanie treningowe</span>
+              <span class="rounded-full bg-emerald-50 px-2 py-0.5 text-emerald-700">{z.punkty} pkt</span>
+              <span class="rounded-full bg-slate-100 px-2 py-0.5 text-slate-500">{z.topic}</span>
+            </div>
+            <div class="tresc" set:html={renderRichText(z.tresc)} />
+            <details class="mt-4 rounded-lg bg-slate-50 p-3">
+              <summary class="cursor-pointer text-sm font-semibold text-indigo-700">Pokaż rozwiązanie</summary>
+              <p class="mt-2 text-sm font-semibold text-slate-700">Odpowiedź:</p>
+              <div class="tresc text-sm" set:html={renderRichText(z.odpowiedz, { breaks: true })} />
+              <p class="mt-3 text-sm font-semibold text-slate-700">Rozwiązanie:</p>
+              <div class="tresc mt-1 text-sm" set:html={renderRichText(z.rozwiazanie)} />
+              {z.pulapka && (
+                <p class="mt-3 rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
+                  <strong>⚠ Typowa pułapka:</strong> <span set:html={renderInlineMath(z.pulapka)} />
+                </p>
+              )}
+            </details>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
+
+  <aside class="mt-10 rounded-xl border border-indigo-200 bg-indigo-50 p-5">
+    <p class="font-semibold text-indigo-900">
+      Przećwicz „{dzialMeta.nazwa.split(":")[0]}" w aplikacji
+    </p>
+    <p class="mt-1 text-sm text-indigo-800">
+      Interaktywne zadania z {meta.dopelniacz} z automatycznym sprawdzaniem odpowiedzi — bez PDF-ów.
+    </p>
+    <a
+      href={meta.appUrl}
+      class="mt-3 inline-block rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700"
+      >Ćwicz w Matury-Online.pl →</a
+    >
+  </aside>
+
+  <section class="mt-10">
+    <h2 class="mb-3 text-lg font-bold">Inne działy — {meta.name.toLowerCase()} rozszerzona</h2>
+    <ul class="flex flex-wrap gap-2 text-sm">
+      {dzialyAll
+        .filter((d) => d.slug !== dzial && d.count > 0)
+        .map((d) => (
+          <li>
+            <a
+              href={`/${meta.slug}/zadania/${d.slug}/`}
+              class="inline-block rounded-full border border-slate-200 bg-white px-3 py-1 hover:border-indigo-400"
+            >
+              {d.nazwa.split(":")[0]} ({d.count})
+            </a>
+          </li>
+        ))}
+    </ul>
+  </section>
+</BaseLayout>

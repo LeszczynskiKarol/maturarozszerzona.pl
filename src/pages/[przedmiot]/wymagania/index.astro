@@ -1,0 +1,95 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { SITE, SUBJECTS } from "../../../config/site";
+
+interface Wymaganie { pytanie: string; odpowiedz: string; dzial?: string }
+interface SubjectContent {
+  slug: string;
+  intro: string;
+  wymagania: Wymaganie[];
+}
+interface Dzial { slug: string; nazwa: string; count: number }
+
+export async function getStaticPaths() {
+  const subjectsMod = import.meta.glob<{ default: SubjectContent }>("../../../data/subjects/*.json", { eager: true });
+  const dzialyMod = import.meta.glob<{ default: Dzial[] }>("../../../data/dzialy/*.json", { eager: true });
+  const paths = [];
+  for (const [path, mod] of Object.entries(subjectsMod)) {
+    const slug = path.match(/\/([\w-]+)\.json$/)![1];
+    if (!SUBJECTS[slug] || !mod.default.wymagania?.length) continue;
+    const dzialy = Object.entries(dzialyMod).find(([p]) => p.includes(`/${slug}.json`))?.[1].default ?? [];
+    paths.push({ params: { przedmiot: slug }, props: { content: mod.default, dzialy } });
+  }
+  return paths;
+}
+
+const { przedmiot } = Astro.params;
+const { content, dzialy } = Astro.props as { content: SubjectContent; dzialy: Dzial[] };
+const meta = SUBJECTS[przedmiot!];
+const dzialMap = new Map(dzialy.map((d) => [d.slug, d]));
+
+const title = `Co jest na maturze rozszerzonej z ${meta.dopelniacz}? Wymagania i zakres | ${SITE.name}`;
+const description = `Zakres wymagań na maturze rozszerzonej z ${meta.dopelniacz}: co obowiązuje, a czego nie ma. Odpowiedzi na najczęstsze pytania maturzystów.`;
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Start", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: meta.name, item: `${SITE.url}/${meta.slug}/` },
+      { "@type": "ListItem", position: 3, name: "Wymagania", item: `${SITE.url}/${meta.slug}/wymagania/` },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: content.wymagania.map((w) => ({
+      "@type": "Question",
+      name: w.pytanie,
+      acceptedAnswer: { "@type": "Answer", text: w.odpowiedz },
+    })),
+  },
+];
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <nav class="mb-4 text-sm text-slate-500">
+    <a href="/" class="hover:text-indigo-700">Start</a> ›
+    <a href={`/${meta.slug}/`} class="hover:text-indigo-700">{meta.name}</a> › Wymagania
+  </nav>
+
+  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
+    Co jest na maturze rozszerzonej z {meta.dopelniacz}?
+  </h1>
+  <p class="mb-8 max-w-2xl text-slate-600">
+    Najczęstsze pytania o zakres wymagań na poziomie rozszerzonym — co obowiązuje, a czego nie ma.
+    Przy pytaniach o konkretny dział znajdziesz link do zadań z arkuszy CKE.
+  </p>
+
+  <div class="space-y-4">
+    {content.wymagania.map((w) => {
+      const d = w.dzial ? dzialMap.get(w.dzial) : undefined;
+      return (
+        <details class="group rounded-xl border border-slate-200 bg-white p-5">
+          <summary class="cursor-pointer text-lg font-semibold text-slate-900 marker:text-indigo-500">
+            {w.pytanie}
+          </summary>
+          <p class="mt-2 text-slate-700">{w.odpowiedz}</p>
+          {d && d.count > 0 && (
+            <a href={`/${meta.slug}/zadania/${d.slug}/`} class="mt-3 inline-block text-sm font-semibold text-indigo-700 hover:underline">
+              Zobacz {d.count} zadań z działu „{d.nazwa.split(":")[0]}" →
+            </a>
+          )}
+        </details>
+      );
+    })}
+  </div>
+
+  <aside class="mt-10 rounded-xl border border-indigo-200 bg-indigo-50 p-5">
+    <p class="font-semibold text-indigo-900">Znasz już zakres? Czas na zadania.</p>
+    <a href={`/${meta.slug}/zadania/`} class="mt-3 inline-block rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700">
+      Przejdź do zadań z {meta.dopelniacz} →
+    </a>
+  </aside>
+</BaseLayout>

@@ -1,0 +1,105 @@
+{
+    "subject": "informatyka",
+    "level": "pr",
+    "dzialy": [
+        {
+            "slug": "bazy-danych-sql",
+            "nazwa": "Bazy danych i SQL: zapytania, złączenia, agregacja",
+            "patterns": [
+                "sql",
+                "baza danych",
+                "bazy danych",
+                "join",
+                "group by",
+                "agregacj",
+                "filtracja zapyta[nń]",
+                "modelowanie danych",
+                "biblioteczka"
+            ]
+        },
+        {
+            "slug": "systemy-liczbowe",
+            "nazwa": "Systemy liczbowe i arytmetyka komputerowa: system binarny, operacje bitowe",
+            "patterns": [
+                "system[y]? (binarn|dziesi[eę]tn|tr[oó]jkow|dziewi[aą]tkow|pozycyjn|liczbow)",
+                "liczby binarne",
+                "operacje bitowe",
+                "xor",
+                "kodowanie pozycyjne",
+                "arytmetyka komputerowa",
+                "dodawanie",
+                "odejmowanie"
+            ]
+        },
+        {
+            "slug": "sieci-i-bezpieczenstwo",
+            "nazwa": "Sieci komputerowe i bezpieczeństwo: protokoły, ochrona danych",
+            "patterns": [
+                "protoko[lł]y sieciowe",
+                "http",
+                "ftp",
+                "dhcp",
+                "dns",
+                "bezpiecze[nń]stwo komputerowe",
+                "keylogger",
+                "malware",
+                "ochrona danych"
+            ]
+        },
+        {
+            "slug": "algorytmy",
+            "nazwa": "Algorytmy i analiza algorytmów: rekurencja, sortowanie, struktury danych",
+            "patterns": [
+                "algorytm",
+                "rekurencyj",
+                "pseudokod",
+                "sortowanie",
+                "drzewo binarne",
+                "struktury danych",
+                "palindrom",
+                "dzielnik",
+                "ci[aą]gi rosn[aą]co",
+                "cyfry parzyste",
+                "fragmenty cyfr",
+                "przekszta[lł]canie zapisu",
+                "nieparzysty skr[oó]t",
+                "kwadraty z symboli",
+                "zapis symboliczny",
+                "plansza",
+                "kolejno[sś][cć]",
+                "bloki",
+                "liczba pi"
+            ]
+        },
+        {
+            "slug": "programowanie",
+            "nazwa": "Programowanie: przetwarzanie plików i tekstów, zadania praktyczne",
+            "patterns": [
+                "programowanie",
+                "plik",
+                "analiza tekstu",
+                "dron",
+                "geometria",
+                "odcink",
+                "[sś]ledzenie pozycji",
+                "martianeum",
+                "[lł]aziki mars"
+            ]
+        },
+        {
+            "slug": "arkusz-kalkulacyjny",
+            "nazwa": "Arkusz kalkulacyjny: analiza danych, symulacje, wykresy",
+            "patterns": [
+                "arkusz kalkulacyjny",
+                "wykres",
+                "analiza danych",
+                "przetwarzanie danych",
+                "symulacja",
+                "ranking",
+                "rabat",
+                "[sś]rednia arytmetyczna",
+                "ekstrema"
+            ]
+        }
+    ]
+}

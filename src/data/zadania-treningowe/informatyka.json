@@ -1,0 +1,57 @@
+[
+  {
+    "id": "trening-informatyka-sieci-i-bezpieczenstwo-1",
+    "dzial": "sieci-i-bezpieczenstwo",
+    "topic": "liczba hostów w podsieci",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Administrator przydzielił dla sieci lokalnej pulę adresów z maską $/27$ (czyli $255.255.255.224$). Oblicz, ile maksymalnie urządzeń (hostów) można zaadresować w tej podsieci. Zapisz obliczenia.",
+    "odpowiedz": "30 hostów.",
+    "rozwiazanie": "Maska $/27$ oznacza, że na część hosta pozostaje $32 - 27 = 5$ bitów. Liczba wszystkich kombinacji na 5 bitach to $2^{5} = 32$. Od tej liczby odejmujemy 2 adresy, których nie można przydzielić urządzeniom: adres sieci (wszystkie bity hosta = 0) oraz adres rozgłoszeniowy (broadcast, wszystkie bity hosta = 1). Zatem liczba dostępnych hostów wynosi:\n\n$$2^{(32-27)} - 2 = 2^{5} - 2 = 32 - 2 = 30.$$\n\nW tej podsieci można zaadresować maksymalnie 30 urządzeń.",
+    "pulapka": "Częsty błąd to podanie $2^{5} = 32$ bez odjęcia dwóch adresów specjalnych (sieci i rozgłoszeniowego)."
+  },
+  {
+    "id": "trening-informatyka-sieci-i-bezpieczenstwo-2",
+    "dzial": "sieci-i-bezpieczenstwo",
+    "topic": "wyznaczanie adresu sieci",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Urządzenie ma adres IP $192.168.1.130$ z maską podsieci $/26$ (czyli $255.255.255.192$). Wyznacz adres sieci, do której należy to urządzenie. Pokaż operację na ostatnim oktecie.",
+    "odpowiedz": "192.168.1.128",
+    "rozwiazanie": "Maska $/26$ oznacza, że pierwsze 26 bitów to część sieci. Trzy pierwsze oktety ($192.168.1$) są w całości częścią sieci (24 bity) i pozostają bez zmian. W ostatnim oktecie maska ma postać $192 = 11000000_2$ (2 bity sieci, 6 bitów hosta).\n\nAdres sieci obliczamy przez operację logicznego AND między oktetem adresu a oktetem maski:\n\n- $130 = 10000010_2$\n- $192 = 11000000_2$\n- AND: $10000000_2 = 128$\n\nZatem adres sieci to $192.168.1.128$. (Dla sprawdzenia: bloki podsieci przy masce $/26$ mają rozmiar $64$, więc kolejne sieci to $.0$, $.64$, $.128$, $.192$; adres $.130$ mieści się w bloku $.128$–$.191$.)",
+    "pulapka": "Nie wolno mylić adresu sieci z adresem hosta — trzeba wyzerować bity hosta, a nie po prostu zaokrąglić liczbę."
+  },
+  {
+    "id": "trening-informatyka-sieci-i-bezpieczenstwo-3",
+    "dzial": "sieci-i-bezpieczenstwo",
+    "topic": "identyfikacja protokołu DNS",
+    "punkty": 1,
+    "typ": "zamkniete-abcd",
+    "tresc": "Który protokół odpowiada za tłumaczenie (translację) nazw domenowych, np. `www.example.com`, na adresy IP?\n\nA) DHCP\nB) DNS\nC) FTP\nD) HTTP",
+    "odpowiedz": "B) DNS",
+    "rozwiazanie": "Poprawna odpowiedź to **B) DNS** (Domain Name System) — system, który tłumaczy czytelne dla człowieka nazwy domenowe na adresy IP zrozumiałe dla urządzeń sieciowych.\n\nPozostałe odpowiedzi są błędne:\n- A) DHCP automatycznie przydziela hostom konfigurację sieciową (adres IP, maskę, bramę), ale nie tłumaczy nazw.\n- C) FTP służy do przesyłania plików między komputerami.\n- D) HTTP służy do przesyłania stron WWW.",
+    "pulapka": "DHCP bywa mylony z DNS — DHCP przydziela adresy IP, a DNS tłumaczy nazwy na adresy."
+  },
+  {
+    "id": "trening-informatyka-sieci-i-bezpieczenstwo-4",
+    "dzial": "sieci-i-bezpieczenstwo",
+    "topic": "protokoły warstwy transportowej",
+    "punkty": 1,
+    "typ": "zamkniete-abcd",
+    "tresc": "Który protokół warstwy transportowej modelu TCP/IP zapewnia niezawodne, połączeniowe przesyłanie danych z potwierdzaniem odbioru i retransmisją utraconych segmentów?\n\nA) UDP\nB) IP\nC) TCP\nD) ICMP",
+    "odpowiedz": "C) TCP",
+    "rozwiazanie": "Poprawna odpowiedź to **C) TCP** (Transmission Control Protocol) — protokół połączeniowy, który przed transmisją nawiązuje połączenie, numeruje segmenty, potwierdza ich odbiór i retransmituje dane utracone, gwarantując niezawodność i kolejność.\n\nPozostałe odpowiedzi są błędne:\n- A) UDP jest bezpołączeniowy i nie gwarantuje dostarczenia ani kolejności danych.\n- B) IP to protokół warstwy sieciowej (Internet), odpowiada za adresowanie i trasowanie pakietów, nie za niezawodność.\n- D) ICMP to protokół warstwy sieciowej służący do komunikatów diagnostycznych i błędów (np. ping).",
+    "pulapka": "UDP też działa w warstwie transportowej, ale jest zawodny — niezawodność z potwierdzeniami zapewnia wyłącznie TCP."
+  },
+  {
+    "id": "trening-informatyka-sieci-i-bezpieczenstwo-5",
+    "dzial": "sieci-i-bezpieczenstwo",
+    "topic": "szyfrowanie symetryczne i asymetryczne",
+    "punkty": 2,
+    "typ": "otwarte-krotkie",
+    "tresc": "Wyjaśnij różnicę między szyfrowaniem symetrycznym a asymetrycznym. Podaj, ile kluczy i jakiego rodzaju jest używanych w każdym z tych podejść.",
+    "odpowiedz": "Symetryczne — jeden wspólny tajny klucz do szyfrowania i deszyfrowania; asymetryczne — para kluczy: publiczny i prywatny.",
+    "rozwiazanie": "**Szyfrowanie symetryczne** używa jednego, tego samego tajnego klucza zarówno do zaszyfrowania, jak i do odszyfrowania danych. Obie strony muszą wcześniej bezpiecznie ustalić i przechowywać ten sam klucz — jego bezpieczna dystrybucja jest głównym problemem tej metody. Zaletą jest duża szybkość działania (przykłady algorytmów: AES, DES).\n\n**Szyfrowanie asymetryczne** używa pary powiązanych matematycznie kluczy: klucza publicznego i klucza prywatnego. Dane zaszyfrowane kluczem publicznym można odszyfrować wyłącznie odpowiadającym mu kluczem prywatnym. Klucz publiczny można swobodnie udostępniać, a klucz prywatny pozostaje tajny u właściciela — rozwiązuje to problem dystrybucji klucza. Metoda jest wolniejsza (przykład algorytmu: RSA).\n\nRóżnica kluczowa: symetryczne = jeden wspólny klucz, asymetryczne = para klucz publiczny + prywatny.",
+    "pulapka": "Nie należy twierdzić, że w szyfrowaniu asymetrycznym klucz publiczny i prywatny to ten sam klucz — to dwa różne, choć powiązane klucze."
+  }
+]

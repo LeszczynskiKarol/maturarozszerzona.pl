@@ -1,0 +1,72 @@
+{
+  "slug": "wos",
+  "intro": "Matura rozszerzona z wiedzy o społeczeństwie to egzamin łączący socjologię, politologię, prawo (w tym ustrój RP i Konstytucję), stosunki międzynarodowe oraz integrację europejską. Wybierają ją głównie kandydaci na prawo, administrację, politologię, stosunki międzynarodowe, dziennikarstwo i bezpieczeństwo narodowe. W przeciwieństwie do podstawy (której w formule 2023 nie ma jako osobnego przedmiotu maturalnego) rozszerzenie wymaga nie tylko znajomości faktów, lecz analizy materiałów źródłowych i formułowania argumentów.",
+  "formatArkusza": "Arkusz PR trwa 180 minut i opiera się w dużej mierze na materiałach źródłowych: tekstach prawnych i publicystycznych, danych statystycznych, tabelach, wykresach, mapach i schematach. Obok zadań zamkniętych i krótkiej odpowiedzi znajdziesz zadania wymagające dłuższej wypowiedzi (uzasadnienia, wypracowanie na jeden z tematów).",
+  "trudnosc": "WOS na rozszerzeniu uchodzi za przedmiot obszerny raczej niż trudny pojęciowo — największym wyzwaniem jest zakres materiału (od socjologii przez ustrój RP i prawo po stosunki międzynarodowe i UE) oraz konieczność pracy ze źródłami pod presją czasu. Punkty najczęściej gubi się nie na braku wiedzy, lecz na nieprecyzyjnym korzystaniu z tekstów źródłowych, myleniu kompetencji organów państwa i pobieżnych, nierozwiniętych uzasadnieniach. Przedmiot jest realny dla każdego, kto systematycznie utrwala Konstytucję, gałęzie prawa i bieżące realia polityczno-międzynarodowe.",
+  "wymagania": [
+    {
+      "pytanie": "Czy trzeba znać Konstytucję RP na maturze rozszerzonej z WOS?",
+      "odpowiedz": "Tak, znajomość Konstytucji RP jest kluczowa. Obowiązują m.in. zasady ustrojowe, prawa i wolności człowieka, kompetencje Sejmu, Senatu, Prezydenta i Rady Ministrów oraz procedura zmiany Konstytucji (art. 235). W arkuszu często pojawiają się zadania oparte na cytowanych przepisach, więc trzeba umieć je czytać i stosować, a nie tylko recytować.",
+      "dzial": "ustroj-rp"
+    },
+    {
+      "pytanie": "Jak wygląda ustrój RP na maturze z WOS — Sejm, Senat, prezydent i rząd?",
+      "odpowiedz": "Ustrój RP to jeden z filarów egzaminu. Musisz znać trójpodział władzy, sposób powoływania i kompetencje Sejmu i Senatu (proces ustawodawczy, wotum zaufania i nieufności), rolę Prezydenta oraz tryb powołania i funkcje Rady Ministrów. Częste są zadania o rozróżnienie funkcji ustawodawczej, kontrolnej i kreacyjnej parlamentu.",
+      "dzial": "ustroj-rp"
+    },
+    {
+      "pytanie": "Czy jest prawo (gałęzie, kodeksy, postępowania) na rozszerzeniu z WOS?",
+      "odpowiedz": "Tak, prawo to istotny dział rozszerzenia. Obowiązują źródła prawa, podział na gałęzie (prawo konstytucyjne, cywilne, karne, administracyjne), podstawowe kodeksy (KC, KK, KPK) oraz zasady postępowań: cywilnego, karnego i administracyjnego. Pojawiają się też prawa konsumenta, zdolność do czynności prawnych i pisma procesowe, np. pozew czy wniosek.",
+      "dzial": "prawo"
+    },
+    {
+      "pytanie": "Czy na maturze z WOS obowiązuje Unia Europejska i integracja europejska?",
+      "odpowiedz": "Tak, integracja europejska jest obowiązkowa. Trzeba znać etapy integracji (od traktatu paryskiego przez Maastricht po Lizbonę), główne instytucje UE (Komisja Europejska, Rada Europejska, Rada UE, Parlament Europejski) oraz strefę Schengen i miejsce Polski w Unii. Zadania często wymagają odróżnienia kompetencji poszczególnych instytucji.",
+      "dzial": "integracja-europejska"
+    },
+    {
+      "pytanie": "Czy stosunki międzynarodowe (ONZ, NATO, konflikty) są na rozszerzeniu z WOS?",
+      "odpowiedz": "Tak, stosunki międzynarodowe to jeden z działów egzaminu. Obowiązują ONZ (Rada Bezpieczeństwa, Zgromadzenie Ogólne, Karta Narodów Zjednoczonych), NATO (traktat waszyngtoński, art. 5), organizacje regionalne oraz współczesne konflikty i polityka zagraniczna Polski. Zadania nierzadko opierają się na mapach i danych o bieżących wydarzeniach na świecie.",
+      "dzial": "stosunki-miedzynarodowe"
+    },
+    {
+      "pytanie": "Czy samorząd terytorialny jest na maturze rozszerzonej z WOS?",
+      "odpowiedz": "Tak, samorząd terytorialny jest w wymaganiach. Musisz znać trójstopniowy podział (gmina, powiat, województwo), organy stanowiące i wykonawcze (rada gminy, wójt, burmistrz, sejmik, marszałek) oraz źródła dochodów jednostek samorządu (subwencje, dotacje, podatki lokalne). Pojawiają się też akty prawa miejscowego i dostęp do informacji publicznej.",
+      "dzial": "samorzad-terytorialny"
+    },
+    {
+      "pytanie": "Czy prawa człowieka są na rozszerzeniu z WOS?",
+      "odpowiedz": "Tak, prawa człowieka stanowią osobny dział. Obowiązują generacje praw człowieka, Powszechna Deklaracja Praw Człowieka, europejski system ochrony (Rada Europy, Europejska Konwencja Praw Człowieka, ETPC) oraz krajowe instytucje, przede wszystkim Rzecznik Praw Obywatelskich i skarga konstytucyjna. Częsty jest temat dyskryminacji i mechanizmów dochodzenia praw.",
+      "dzial": "prawa-czlowieka"
+    },
+    {
+      "pytanie": "Czy trzeba znać bieżącą politykę i aktualne wydarzenia na maturze z WOS?",
+      "odpowiedz": "Znajomość aktualnych realiów pomaga, ale egzamin sprawdza rozumienie mechanizmów, a nie zapamiętane nazwiska czy daty z ostatnich tygodni. Aktualne dane i wydarzenia pojawiają się zwykle w materiałach źródłowych, które trzeba przeanalizować na miejscu. Warto orientować się w bieżącej polityce Polski, UE i świata, bo ułatwia to interpretację źródeł i argumentację w wypracowaniu.",
+      "dzial": "panstwo-i-demokracja"
+    },
+    {
+      "pytanie": "Jak wygląda praca ze źródłami i danymi na maturze rozszerzonej z WOS?",
+      "odpowiedz": "Znaczna część arkusza opiera się na materiałach źródłowych: tekstach prawnych i publicystycznych, tabelach, wykresach, mapach i schematach. Zadania wymagają odczytania konkretnej informacji, porównania danych, wyciągnięcia wniosków i uzasadnienia stanowiska z odwołaniem do źródła. Kluczowa jest precyzja — odpowiedź musi wynikać z podanego materiału, a nie tylko z wiedzy własnej.",
+      "dzial": "spoleczenstwo-i-socjologia"
+    },
+    {
+      "pytanie": "Czy socjologia jest na maturze rozszerzonej z WOS?",
+      "odpowiedz": "Tak, socjologia otwiera zakres egzaminu. Obowiązują struktura i procesy społeczne, socjalizacja, ruchliwość społeczna, grupy i więzi, kultura i religia, problemy społeczne oraz badania opinii publicznej (sondaże, CBOS). Pojawiają się też organizacje pozarządowe i trzeci sektor, często z odwołaniem do danych statystycznych.",
+      "dzial": "spoleczenstwo-i-socjologia"
+    },
+    {
+      "pytanie": "Czy z rozszerzenia z WOS trzeba przekroczyć próg zdawalności?",
+      "odpowiedz": "Nie — rozszerzenia nie trzeba 'zdać' żadnym progiem procentowym. Liczy się wynik, który przelicza się na punkty rekrutacyjne na studia. Dlatego celem jest maksymalizacja procentu, zwłaszcza że WOS bywa punktowany wysoko na kierunkach takich jak prawo, administracja, politologia i stosunki międzynarodowe.",
+      "dzial": "panstwo-i-demokracja"
+    }
+  ],
+  "strategia": [
+    "Ucz się Konstytucji RP przez pryzmat kompetencji organów: zrób tabelę Sejm–Senat–Prezydent–Rada Ministrów i ćwicz odróżnianie ich uprawnień na zadaniach ze źródłem.",
+    "Opanuj gałęzie prawa i kluczowe kodeksy (KC, KK, KPK) oraz różnice między postępowaniem cywilnym, karnym i administracyjnym — to wracające tematy na rozszerzeniu.",
+    "Regularnie ćwicz pracę z materiałem źródłowym: odczytywanie danych z tabel i wykresów, analizę map i tekstów prawnych, formułowanie wniosku ściśle na podstawie źródła.",
+    "Uporządkuj instytucje UE i organizacje międzynarodowe (Komisja Europejska, Rada Europejska, Rada UE, Parlament Europejski, ONZ, NATO) w jasny podział kompetencji.",
+    "Śledź bieżącą politykę Polski, UE i świata na tyle, by rozumieć konteksty w źródłach — nie po to, by zapamiętywać każdą datę, lecz by sprawnie interpretować materiały.",
+    "Trenuj dłuższe wypowiedzi i wypracowanie: buduj rozbudowane, uzasadnione argumenty z odwołaniem do wiedzy i źródeł, pilnując limitu czasu 180 minut."
+  ],
+  "coWarto": "WOS rozszerzony otwiera drzwi na prawo, administrację, politologię, stosunki międzynarodowe, dziennikarstwo i bezpieczeństwo narodowe, gdzie bywa jednym z najwyżej punktowanych przedmiotów rekrutacyjnych. To dobry wybór dla osób łączących WOS z językiem polskim lub historią jako spójny zestaw rozszerzeń humanistyczno-społecznych."
+}

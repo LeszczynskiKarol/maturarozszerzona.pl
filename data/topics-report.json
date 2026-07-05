@@ -1,0 +1,9324 @@
+{
+  "biologia|pr": [
+    {
+      "topic": "fizjologia",
+      "count": 5
+    },
+    {
+      "topic": "biologia molekularna",
+      "count": 5
+    },
+    {
+      "topic": "botanika",
+      "count": 5
+    },
+    {
+      "topic": "genetyka",
+      "count": 4
+    },
+    {
+      "topic": "ekologia",
+      "count": 4
+    },
+    {
+      "topic": "ochrona przyrody",
+      "count": 4
+    },
+    {
+      "topic": "anatomia",
+      "count": 4
+    },
+    {
+      "topic": "ewolucja",
+      "count": 4
+    },
+    {
+      "topic": "neurofizjologia",
+      "count": 3
+    },
+    {
+      "topic": "translacja",
+      "count": 3
+    },
+    {
+      "topic": "dobór naturalny",
+      "count": 3
+    },
+    {
+      "topic": "fizjologia roślin",
+      "count": 3
+    },
+    {
+      "topic": "glikoliza",
+      "count": 2
+    },
+    {
+      "topic": "mleczan",
+      "count": 2
+    },
+    {
+      "topic": "kolagen",
+      "count": 2
+    },
+    {
+      "topic": "chityna",
+      "count": 2
+    },
+    {
+      "topic": "synapsa nerwowo-mięśniowa",
+      "count": 2
+    },
+    {
+      "topic": "pcr",
+      "count": 2
+    },
+    {
+      "topic": "denaturacja",
+      "count": 2
+    },
+    {
+      "topic": "kod genetyczny",
+      "count": 2
+    },
+    {
+      "topic": "mutualizm",
+      "count": 2
+    },
+    {
+      "topic": "mimikra agresywna",
+      "count": 2
+    },
+    {
+      "topic": "przemienność pokoleń",
+      "count": 2
+    },
+    {
+      "topic": "fotosynteza",
+      "count": 2
+    },
+    {
+      "topic": "eksperyment kontrolowany",
+      "count": 2
+    },
+    {
+      "topic": "płazy",
+      "count": 2
+    },
+    {
+      "topic": "osmoregulacja",
+      "count": 2
+    },
+    {
+      "topic": "zoologia",
+      "count": 2
+    },
+    {
+      "topic": "gady",
+      "count": 2
+    },
+    {
+      "topic": "biochemia",
+      "count": 2
+    },
+    {
+      "topic": "wirusologia",
+      "count": 2
+    },
+    {
+      "topic": "cites",
+      "count": 2
+    },
+    {
+      "topic": "adaptacje",
+      "count": 2
+    },
+    {
+      "topic": "amyloplasty",
+      "count": 2
+    },
+    {
+      "topic": "2",
+      "count": 1
+    },
+    {
+      "topic": "oddychanie tlenowe",
+      "count": 1
+    },
+    {
+      "topic": "dehydrogenaza pirogronianowa",
+      "count": 1
+    },
+    {
+      "topic": "cykl krebsa",
+      "count": 1
+    },
+    {
+      "topic": "układ oddechowy",
+      "count": 1
+    },
+    {
+      "topic": "tchawica",
+      "count": 1
+    },
+    {
+      "topic": "tchawki",
+      "count": 1
+    },
+    {
+      "topic": "bronchoskopia",
+      "count": 1
+    },
+    {
+      "topic": "hemoglobina",
+      "count": 1
+    },
+    {
+      "topic": "krzywa wiązania tlenu",
+      "count": 1
+    },
+    {
+      "topic": "3-bpg",
+      "count": 1
+    },
+    {
+      "topic": "hemoglobina płodowa",
+      "count": 1
+    },
+    {
+      "topic": "ciąża",
+      "count": 1
+    },
+    {
+      "topic": "acetylocholina",
+      "count": 1
+    },
+    {
+      "topic": "snare",
+      "count": 1
+    },
+    {
+      "topic": "toksyna botulinowa",
+      "count": 1
+    },
+    {
+      "topic": "struktura białek",
+      "count": 1
+    },
+    {
+      "topic": "polimeraza dna",
+      "count": 1
+    },
+    {
+      "topic": "startery",
+      "count": 1
+    },
+    {
+      "topic": "deoksyrybonukleotydy",
+      "count": 1
+    },
+    {
+      "topic": "mutacja punktowa",
+      "count": 1
+    },
+    {
+      "topic": "kodon stop",
+      "count": 1
+    },
+    {
+      "topic": "aminokwasy",
+      "count": 1
+    },
+    {
+      "topic": "wyrodność kodu",
+      "count": 1
+    },
+    {
+      "topic": "epistaza recesywna",
+      "count": 1
+    },
+    {
+      "topic": "labrador retriever",
+      "count": 1
+    },
+    {
+      "topic": "dziedziczenie koloru sierści",
+      "count": 1
+    },
+    {
+      "topic": "krzyżówka dihybrydowa",
+      "count": 1
+    },
+    {
+      "topic": "wargatek czyściciel",
+      "count": 1
+    },
+    {
+      "topic": "aspidon",
+      "count": 1
+    },
+    {
+      "topic": "murawy kserotermiczne",
+      "count": 1
+    },
+    {
+      "topic": "ekosystemy półnaturalne",
+      "count": 1
+    },
+    {
+      "topic": "sukcesja",
+      "count": 1
+    },
+    {
+      "topic": "ochrona czynna",
+      "count": 1
+    },
+    {
+      "topic": "gatunki inwazyjne",
+      "count": 1
+    },
+    {
+      "topic": "norka amerykańska",
+      "count": 1
+    },
+    {
+      "topic": "okrytonasienne",
+      "count": 1
+    },
+    {
+      "topic": "okwiat",
+      "count": 1
+    },
+    {
+      "topic": "korona",
+      "count": 1
+    },
+    {
+      "topic": "kielich",
+      "count": 1
+    },
+    {
+      "topic": "goryczka",
+      "count": 1
+    },
+    {
+      "topic": "sukces reprodukcyjny",
+      "count": 1
+    },
+    {
+      "topic": "zapylanie",
+      "count": 1
+    },
+    {
+      "topic": "mejoza",
+      "count": 1
+    },
+    {
+      "topic": "cykl życiowy",
+      "count": 1
+    },
+    {
+      "topic": "metageneza",
+      "count": 1
+    },
+    {
+      "topic": "krążkopławy",
+      "count": 1
+    },
+    {
+      "topic": "ploidalność",
+      "count": 1
+    },
+    {
+      "topic": "chlorofil a i b",
+      "count": 1
+    },
+    {
+      "topic": "adaptacje świetlne",
+      "count": 1
+    },
+    {
+      "topic": "storczyk",
+      "count": 1
+    },
+    {
+      "topic": "rubisco",
+      "count": 1
+    },
+    {
+      "topic": "cykl calvina",
+      "count": 1
+    },
+    {
+      "topic": "rośliny c4",
+      "count": 1
+    },
+    {
+      "topic": "fotooddychanie",
+      "count": 1
+    },
+    {
+      "topic": "anatomia liścia",
+      "count": 1
+    },
+    {
+      "topic": "auksyny",
+      "count": 1
+    },
+    {
+      "topic": "iaa",
+      "count": 1
+    },
+    {
+      "topic": "abscysja liścia",
+      "count": 1
+    },
+    {
+      "topic": "zrzucanie liści",
+      "count": 1
+    },
+    {
+      "topic": "adaptacja zimowa",
+      "count": 1
+    },
+    {
+      "topic": "oddychanie",
+      "count": 1
+    },
+    {
+      "topic": "płuca",
+      "count": 1
+    },
+    {
+      "topic": "skóra",
+      "count": 1
+    },
+    {
+      "topic": "mocznik",
+      "count": 1
+    },
+    {
+      "topic": "amfisbeny",
+      "count": 1
+    },
+    {
+      "topic": "adaptacja",
+      "count": 1
+    },
+    {
+      "topic": "anatomia człowieka",
+      "count": 1
+    },
+    {
+      "topic": "wątroba",
+      "count": 1
+    },
+    {
+      "topic": "żółć",
+      "count": 1
+    },
+    {
+      "topic": "deaminacja",
+      "count": 1
+    },
+    {
+      "topic": "glikogeneza",
+      "count": 1
+    },
+    {
+      "topic": "lipidy",
+      "count": 1
+    },
+    {
+      "topic": "polimery",
+      "count": 1
+    },
+    {
+      "topic": "monomery",
+      "count": 1
+    },
+    {
+      "topic": "struktury białek",
+      "count": 1
+    },
+    {
+      "topic": "wiązania",
+      "count": 1
+    },
+    {
+      "topic": "drzewo filogenetyczne",
+      "count": 1
+    },
+    {
+      "topic": "owodniowce",
+      "count": 1
+    },
+    {
+      "topic": "amniota",
+      "count": 1
+    },
+    {
+      "topic": "monofiletyczność",
+      "count": 1
+    },
+    {
+      "topic": "parafiletyczność",
+      "count": 1
+    },
+    {
+      "topic": "układ dokrewny",
+      "count": 1
+    },
+    {
+      "topic": "gruczoły",
+      "count": 1
+    },
+    {
+      "topic": "trzustka",
+      "count": 1
+    },
+    {
+      "topic": "grasica",
+      "count": 1
+    },
+    {
+      "topic": "nadnercza",
+      "count": 1
+    },
+    {
+      "topic": "hormony",
+      "count": 1
+    },
+    {
+      "topic": "rotawirusy",
+      "count": 1
+    },
+    {
+      "topic": "biegunka",
+      "count": 1
+    },
+    {
+      "topic": "osmoza",
+      "count": 1
+    },
+    {
+      "topic": "enterocyty",
+      "count": 1
+    },
+    {
+      "topic": "odwodnienie",
+      "count": 1
+    },
+    {
+      "topic": "nietolerancja laktozy",
+      "count": 1
+    },
+    {
+      "topic": "metabolizm",
+      "count": 1
+    },
+    {
+      "topic": "endokrynologia",
+      "count": 1
+    },
+    {
+      "topic": "tarczyca",
+      "count": 1
+    },
+    {
+      "topic": "jod",
+      "count": 1
+    },
+    {
+      "topic": "tyroksyna",
+      "count": 1
+    },
+    {
+      "topic": "tsh",
+      "count": 1
+    },
+    {
+      "topic": "sprzężenie zwrotne ujemne",
+      "count": 1
+    },
+    {
+      "topic": "stawonogi",
+      "count": 1
+    },
+    {
+      "topic": "pajęczaki",
+      "count": 1
+    },
+    {
+      "topic": "roztocza",
+      "count": 1
+    },
+    {
+      "topic": "alergia",
+      "count": 1
+    },
+    {
+      "topic": "ige",
+      "count": 1
+    },
+    {
+      "topic": "mastocyty",
+      "count": 1
+    },
+    {
+      "topic": "histamina",
+      "count": 1
+    },
+    {
+      "topic": "mitochondria",
+      "count": 1
+    },
+    {
+      "topic": "mtdna",
+      "count": 1
+    },
+    {
+      "topic": "heteroplazmia",
+      "count": 1
+    },
+    {
+      "topic": "dziedziczenie matczyne",
+      "count": 1
+    },
+    {
+      "topic": "choroby mitochondrialne",
+      "count": 1
+    },
+    {
+      "topic": "dziedziczenie",
+      "count": 1
+    },
+    {
+      "topic": "dwa loci",
+      "count": 1
+    },
+    {
+      "topic": "brzanka sumatrzańska",
+      "count": 1
+    },
+    {
+      "topic": "paskowanie",
+      "count": 1
+    },
+    {
+      "topic": "dominacja",
+      "count": 1
+    },
+    {
+      "topic": "krzyżówka",
+      "count": 1
+    },
+    {
+      "topic": "trna",
+      "count": 1
+    },
+    {
+      "topic": "antykodon",
+      "count": 1
+    },
+    {
+      "topic": "ramię akceptorowe",
+      "count": 1
+    },
+    {
+      "topic": "struktura rna",
+      "count": 1
+    },
+    {
+      "topic": "transkrypcja",
+      "count": 1
+    },
+    {
+      "topic": "splicing",
+      "count": 1
+    },
+    {
+      "topic": "introny",
+      "count": 1
+    },
+    {
+      "topic": "eksony",
+      "count": 1
+    },
+    {
+      "topic": "mutacje chromosomowe",
+      "count": 1
+    },
+    {
+      "topic": "translokacja",
+      "count": 1
+    },
+    {
+      "topic": "chromosom filadelfia",
+      "count": 1
+    },
+    {
+      "topic": "białaczka",
+      "count": 1
+    },
+    {
+      "topic": "bcr-abl",
+      "count": 1
+    },
+    {
+      "topic": "hiv",
+      "count": 1
+    },
+    {
+      "topic": "odwrotna transkryptaza",
+      "count": 1
+    },
+    {
+      "topic": "retrowirusy",
+      "count": 1
+    },
+    {
+      "topic": "masowe wymieranie",
+      "count": 1
+    },
+    {
+      "topic": "konwencja waszyngtońska",
+      "count": 1
+    },
+    {
+      "topic": "susza",
+      "count": 1
+    },
+    {
+      "topic": "bilans wodny",
+      "count": 1
+    },
+    {
+      "topic": "ambrosia dumosa",
+      "count": 1
+    },
+    {
+      "topic": "bioluminescencja",
+      "count": 1
+    },
+    {
+      "topic": "świetliki",
+      "count": 1
+    },
+    {
+      "topic": "lucyferaza",
+      "count": 1
+    },
+    {
+      "topic": "atp",
+      "count": 1
+    },
+    {
+      "topic": "układ oddechowy owadów",
+      "count": 1
+    },
+    {
+      "topic": "potencjał czynnościowy",
+      "count": 1
+    },
+    {
+      "topic": "depolaryzacja",
+      "count": 1
+    },
+    {
+      "topic": "repolaryzacja",
+      "count": 1
+    },
+    {
+      "topic": "stwardnienie rozsiane",
+      "count": 1
+    },
+    {
+      "topic": "ekstremofile",
+      "count": 1
+    },
+    {
+      "topic": "psychrofile",
+      "count": 1
+    },
+    {
+      "topic": "termofile",
+      "count": 1
+    },
+    {
+      "topic": "błona komórkowa",
+      "count": 1
+    },
+    {
+      "topic": "gc vs au",
+      "count": 1
+    },
+    {
+      "topic": "prokarioty",
+      "count": 1
+    },
+    {
+      "topic": "mchy",
+      "count": 1
+    },
+    {
+      "topic": "prątniki",
+      "count": 1
+    },
+    {
+      "topic": "bezlist",
+      "count": 1
+    },
+    {
+      "topic": "sporofit",
+      "count": 1
+    },
+    {
+      "topic": "gametofit",
+      "count": 1
+    },
+    {
+      "topic": "dwupienność",
+      "count": 1
+    },
+    {
+      "topic": "nasiono",
+      "count": 1
+    },
+    {
+      "topic": "bielmo",
+      "count": 1
+    },
+    {
+      "topic": "zarodek",
+      "count": 1
+    },
+    {
+      "topic": "tytoń",
+      "count": 1
+    },
+    {
+      "topic": "kiełkowanie",
+      "count": 1
+    },
+    {
+      "topic": "żywotność nasion",
+      "count": 1
+    },
+    {
+      "topic": "buk zwyczajny",
+      "count": 1
+    },
+    {
+      "topic": "siewka",
+      "count": 1
+    },
+    {
+      "topic": "liścienie",
+      "count": 1
+    },
+    {
+      "topic": "anatomia łodygi",
+      "count": 1
+    },
+    {
+      "topic": "skórka",
+      "count": 1
+    },
+    {
+      "topic": "kolenchyma",
+      "count": 1
+    },
+    {
+      "topic": "lipa",
+      "count": 1
+    },
+    {
+      "topic": "tkanki roślinne",
+      "count": 1
+    },
+    {
+      "topic": "białka",
+      "count": 1
+    },
+    {
+      "topic": "struktura",
+      "count": 1
+    },
+    {
+      "topic": "mostki disiarczkowe",
+      "count": 1
+    },
+    {
+      "topic": "neurotoksyny",
+      "count": 1
+    },
+    {
+      "topic": "mielina",
+      "count": 1
+    },
+    {
+      "topic": "cukrzyca",
+      "count": 1
+    },
+    {
+      "topic": "hormonalny",
+      "count": 1
+    },
+    {
+      "topic": "wydalniczy",
+      "count": 1
+    },
+    {
+      "topic": "glukozuria",
+      "count": 1
+    },
+    {
+      "topic": "adh",
+      "count": 1
+    },
+    {
+      "topic": "pragnienie",
+      "count": 1
+    },
+    {
+      "topic": "transport glukozy",
+      "count": 1
+    },
+    {
+      "topic": "glut2/glut4",
+      "count": 1
+    },
+    {
+      "topic": "insulina",
+      "count": 1
+    },
+    {
+      "topic": "glukagon",
+      "count": 1
+    },
+    {
+      "topic": "immunologia",
+      "count": 1
+    },
+    {
+      "topic": "adc",
+      "count": 1
+    },
+    {
+      "topic": "przeciwciała monoklonalne",
+      "count": 1
+    },
+    {
+      "topic": "antygen",
+      "count": 1
+    },
+    {
+      "topic": "lizosomy",
+      "count": 1
+    },
+    {
+      "topic": "leczenie celowane",
+      "count": 1
+    },
+    {
+      "topic": "inżynieria genetyczna",
+      "count": 1
+    },
+    {
+      "topic": "agrobacterium tumefaciens",
+      "count": 1
+    },
+    {
+      "topic": "t-dna",
+      "count": 1
+    },
+    {
+      "topic": "restryktaza",
+      "count": 1
+    },
+    {
+      "topic": "ligaza",
+      "count": 1
+    },
+    {
+      "topic": "wektor",
+      "count": 1
+    },
+    {
+      "topic": "elektroforeza dna",
+      "count": 1
+    },
+    {
+      "topic": "apoptoza",
+      "count": 1
+    },
+    {
+      "topic": "nekroza",
+      "count": 1
+    },
+    {
+      "topic": "grupy krwi abo",
+      "count": 1
+    },
+    {
+      "topic": "gen fut1",
+      "count": 1
+    },
+    {
+      "topic": "fenotyp bombay",
+      "count": 1
+    },
+    {
+      "topic": "mutacja",
+      "count": 1
+    },
+    {
+      "topic": "zmiana ramki odczytu",
+      "count": 1
+    },
+    {
+      "topic": "kamuflaż",
+      "count": 1
+    },
+    {
+      "topic": "drapieżnictwo",
+      "count": 1
+    },
+    {
+      "topic": "optimum temperaturowe",
+      "count": 1
+    },
+    {
+      "topic": "ryby ektotermiczne",
+      "count": 1
+    },
+    {
+      "topic": "konwergencja",
+      "count": 1
+    },
+    {
+      "topic": "rośliny poduszkowe",
+      "count": 1
+    },
+    {
+      "topic": "gynodioecja",
+      "count": 1
+    },
+    {
+      "topic": "lepnica bezłodygowa",
+      "count": 1
+    },
+    {
+      "topic": "reintrodukcja",
+      "count": 1
+    },
+    {
+      "topic": "różnorodność genetyczna",
+      "count": 1
+    },
+    {
+      "topic": "szpak balijski",
+      "count": 1
+    },
+    {
+      "topic": "endemity",
+      "count": 1
+    },
+    {
+      "topic": "cytologia roślin",
+      "count": 1
+    },
+    {
+      "topic": "plastydy",
+      "count": 1
+    },
+    {
+      "topic": "proplastydy",
+      "count": 1
+    },
+    {
+      "topic": "chloroplasty",
+      "count": 1
+    },
+    {
+      "topic": "chromoplasty",
+      "count": 1
+    },
+    {
+      "topic": "geotropizm",
+      "count": 1
+    },
+    {
+      "topic": "czapeczka korzeniowa",
+      "count": 1
+    },
+    {
+      "topic": "doświadczenie",
+      "count": 1
+    },
+    {
+      "topic": "aktinidaza kiwi",
+      "count": 1
+    },
+    {
+      "topic": "proteaza",
+      "count": 1
+    },
+    {
+      "topic": "kontrola",
+      "count": 1
+    },
+    {
+      "topic": "raki",
+      "count": 1
+    },
+    {
+      "topic": "skorupiaki",
+      "count": 1
+    },
+    {
+      "topic": "gatunek inwazyjny",
+      "count": 1
+    },
+    {
+      "topic": "bioindykator",
+      "count": 1
+    },
+    {
+      "topic": "zaskroniec",
+      "count": 1
+    },
+    {
+      "topic": "łańcuch pokarmowy",
+      "count": 1
+    },
+    {
+      "topic": "ryby słodkowodne",
+      "count": 1
+    },
+    {
+      "topic": "opieka rodzicielska",
+      "count": 1
+    },
+    {
+      "topic": "układ krwionośny",
+      "count": 1
+    },
+    {
+      "topic": "serce płazów",
+      "count": 1
+    },
+    {
+      "topic": "tętnice vs żyły",
+      "count": 1
+    },
+    {
+      "topic": "zastawka spiralna",
+      "count": 1
+    },
+    {
+      "topic": "histologia",
+      "count": 1
+    },
+    {
+      "topic": "tkanki łączne",
+      "count": 1
+    },
+    {
+      "topic": "staw kolanowy",
+      "count": 1
+    },
+    {
+      "topic": "maź stawowa",
+      "count": 1
+    }
+  ],
+  "chemia|pr": [
+    {
+      "topic": "chemia organiczna",
+      "count": 29
+    },
+    {
+      "topic": "stechiometria",
+      "count": 7
+    },
+    {
+      "topic": "szereg napięciowy",
+      "count": 4
+    },
+    {
+      "topic": "redoks",
+      "count": 4
+    },
+    {
+      "topic": "stereochemia",
+      "count": 4
+    },
+    {
+      "topic": "hybrydyzacja",
+      "count": 4
+    },
+    {
+      "topic": "cukry",
+      "count": 4
+    },
+    {
+      "topic": "budowa atomu",
+      "count": 3
+    },
+    {
+      "topic": "konfiguracja elektronowa",
+      "count": 3
+    },
+    {
+      "topic": "liczby kwantowe",
+      "count": 3
+    },
+    {
+      "topic": "rozpuszczalność",
+      "count": 3
+    },
+    {
+      "topic": "elektrochemia",
+      "count": 3
+    },
+    {
+      "topic": "równowaga chemiczna",
+      "count": 3
+    },
+    {
+      "topic": "termochemia",
+      "count": 3
+    },
+    {
+      "topic": "monosacharydy",
+      "count": 3
+    },
+    {
+      "topic": "enancjomery",
+      "count": 3
+    },
+    {
+      "topic": "kinetyka chemiczna",
+      "count": 3
+    },
+    {
+      "topic": "równanie kinetyczne",
+      "count": 3
+    },
+    {
+      "topic": "chemia nieorganiczna",
+      "count": 3
+    },
+    {
+      "topic": "kwasy karboksylowe",
+      "count": 3
+    },
+    {
+      "topic": "ph",
+      "count": 3
+    },
+    {
+      "topic": "procent masowy",
+      "count": 2
+    },
+    {
+      "topic": "srebro",
+      "count": 2
+    },
+    {
+      "topic": "cynk",
+      "count": 2
+    },
+    {
+      "topic": "obliczenia stechiometryczne",
+      "count": 2
+    },
+    {
+      "topic": "redukcja",
+      "count": 2
+    },
+    {
+      "topic": "identyfikacja substancji",
+      "count": 2
+    },
+    {
+      "topic": "sem",
+      "count": 2
+    },
+    {
+      "topic": "alkany",
+      "count": 2
+    },
+    {
+      "topic": "izomery",
+      "count": 2
+    },
+    {
+      "topic": "reguła le chateliera",
+      "count": 2
+    },
+    {
+      "topic": "ciśnienie",
+      "count": 2
+    },
+    {
+      "topic": "izomeria",
+      "count": 2
+    },
+    {
+      "topic": "wzory półstrukturalne",
+      "count": 2
+    },
+    {
+      "topic": "polimery",
+      "count": 2
+    },
+    {
+      "topic": "polikondensacja",
+      "count": 2
+    },
+    {
+      "topic": "aminokwasy",
+      "count": 2
+    },
+    {
+      "topic": "alanina",
+      "count": 2
+    },
+    {
+      "topic": "jon obojnaczy",
+      "count": 2
+    },
+    {
+      "topic": "szybkość reakcji",
+      "count": 2
+    },
+    {
+      "topic": "stała dysocjacji",
+      "count": 2
+    },
+    {
+      "topic": "hydroliza soli",
+      "count": 2
+    },
+    {
+      "topic": "teoria brønsteda",
+      "count": 2
+    },
+    {
+      "topic": "ogniwa galwaniczne",
+      "count": 2
+    },
+    {
+      "topic": "obliczenia",
+      "count": 2
+    },
+    {
+      "topic": "układ okresowy",
+      "count": 2
+    },
+    {
+      "topic": "mechanizm reakcji",
+      "count": 2
+    },
+    {
+      "topic": "dysocjacja",
+      "count": 2
+    },
+    {
+      "topic": "chlorki kwasowe",
+      "count": 2
+    },
+    {
+      "topic": "równowaga kwasowo-zasadowa",
+      "count": 2
+    },
+    {
+      "topic": "rząd reakcji",
+      "count": 2
+    },
+    {
+      "topic": "amfoteryczność",
+      "count": 2
+    },
+    {
+      "topic": "lpg",
+      "count": 2
+    },
+    {
+      "topic": "propan",
+      "count": 2
+    },
+    {
+      "topic": "butan",
+      "count": 2
+    },
+    {
+      "topic": "p-ksylen",
+      "count": 2
+    },
+    {
+      "topic": "substytucja rodnikowa",
+      "count": 2
+    },
+    {
+      "topic": "nabh4",
+      "count": 2
+    },
+    {
+      "topic": "kwas mlekowy",
+      "count": 2
+    },
+    {
+      "topic": "cu(oh)2",
+      "count": 2
+    },
+    {
+      "topic": "2",
+      "count": 1
+    },
+    {
+      "topic": "bloki konfiguracyjne",
+      "count": 1
+    },
+    {
+      "topic": "miareczkowanie alkacymetryczne",
+      "count": 1
+    },
+    {
+      "topic": "krzywa miareczkowania",
+      "count": 1
+    },
+    {
+      "topic": "mocny kwas vs słaby kwas",
+      "count": 1
+    },
+    {
+      "topic": "reakcje strącania",
+      "count": 1
+    },
+    {
+      "topic": "równania jonowe skrócone",
+      "count": 1
+    },
+    {
+      "topic": "sole nierozpuszczalne",
+      "count": 1
+    },
+    {
+      "topic": "mieszaniny soli",
+      "count": 1
+    },
+    {
+      "topic": "węglany",
+      "count": 1
+    },
+    {
+      "topic": "reaktywność metali",
+      "count": 1
+    },
+    {
+      "topic": "reakcje z kwasami",
+      "count": 1
+    },
+    {
+      "topic": "miedz",
+      "count": 1
+    },
+    {
+      "topic": "sole metali przejściowych",
+      "count": 1
+    },
+    {
+      "topic": "chlorek cyny(ii)",
+      "count": 1
+    },
+    {
+      "topic": "reakcje barwne",
+      "count": 1
+    },
+    {
+      "topic": "hydraty",
+      "count": 1
+    },
+    {
+      "topic": "stężenie procentowe",
+      "count": 1
+    },
+    {
+      "topic": "bilansowanie redoks",
+      "count": 1
+    },
+    {
+      "topic": "współczynniki stechiometryczne",
+      "count": 1
+    },
+    {
+      "topic": "tiosiarczany",
+      "count": 1
+    },
+    {
+      "topic": "chlor",
+      "count": 1
+    },
+    {
+      "topic": "dysproporcjonowanie",
+      "count": 1
+    },
+    {
+      "topic": "technet",
+      "count": 1
+    },
+    {
+      "topic": "równanie jonowo-elektronowe",
+      "count": 1
+    },
+    {
+      "topic": "utleniacze",
+      "count": 1
+    },
+    {
+      "topic": "mno2",
+      "count": 1
+    },
+    {
+      "topic": "brunatny osad",
+      "count": 1
+    },
+    {
+      "topic": "ogniwo galwaniczne",
+      "count": 1
+    },
+    {
+      "topic": "konwencja sztokholmska",
+      "count": 1
+    },
+    {
+      "topic": "reakcje jądrowe",
+      "count": 1
+    },
+    {
+      "topic": "przemiany promieniotwórcze",
+      "count": 1
+    },
+    {
+      "topic": "bilans nukleonów",
+      "count": 1
+    },
+    {
+      "topic": "chlorowanie",
+      "count": 1
+    },
+    {
+      "topic": "eten",
+      "count": 1
+    },
+    {
+      "topic": "hydratacja etenu",
+      "count": 1
+    },
+    {
+      "topic": "efekt cieplny reakcji",
+      "count": 1
+    },
+    {
+      "topic": "addycja wody do alkenow",
+      "count": 1
+    },
+    {
+      "topic": "mechanizmy reakcji organicznych",
+      "count": 1
+    },
+    {
+      "topic": "addycja elektrofilowa",
+      "count": 1
+    },
+    {
+      "topic": "alken + hbr",
+      "count": 1
+    },
+    {
+      "topic": "chiralnosc",
+      "count": 1
+    },
+    {
+      "topic": "asymetryczny atom wegla",
+      "count": 1
+    },
+    {
+      "topic": "izomeria optyczna",
+      "count": 1
+    },
+    {
+      "topic": "utlenianie i redukcja",
+      "count": 1
+    },
+    {
+      "topic": "stopien utlenienia",
+      "count": 1
+    },
+    {
+      "topic": "geranial",
+      "count": 1
+    },
+    {
+      "topic": "geraniol",
+      "count": 1
+    },
+    {
+      "topic": "wiazania pi",
+      "count": 1
+    },
+    {
+      "topic": "redukcja aldehydu",
+      "count": 1
+    },
+    {
+      "topic": "rownowaga chemiczna",
+      "count": 1
+    },
+    {
+      "topic": "stala rownowagi kc",
+      "count": 1
+    },
+    {
+      "topic": "synteza fosgenu",
+      "count": 1
+    },
+    {
+      "topic": "stezenia molowe",
+      "count": 1
+    },
+    {
+      "topic": "stopien przereagowania",
+      "count": 1
+    },
+    {
+      "topic": "odmiany alotropowe węgla",
+      "count": 1
+    },
+    {
+      "topic": "diament",
+      "count": 1
+    },
+    {
+      "topic": "grafit",
+      "count": 1
+    },
+    {
+      "topic": "fulereny",
+      "count": 1
+    },
+    {
+      "topic": "wiązania",
+      "count": 1
+    },
+    {
+      "topic": "poliwęglan",
+      "count": 1
+    },
+    {
+      "topic": "bisfenol a",
+      "count": 1
+    },
+    {
+      "topic": "fosgen",
+      "count": 1
+    },
+    {
+      "topic": "punkt izoelektryczny",
+      "count": 1
+    },
+    {
+      "topic": "miareczkowanie ph",
+      "count": 1
+    },
+    {
+      "topic": "glukoza",
+      "count": 1
+    },
+    {
+      "topic": "próba trommera",
+      "count": 1
+    },
+    {
+      "topic": "grupy hydroksylowe",
+      "count": 1
+    },
+    {
+      "topic": "grupa aldehydowa",
+      "count": 1
+    },
+    {
+      "topic": "szereg konfiguracyjny d/l",
+      "count": 1
+    },
+    {
+      "topic": "aldoheksozy",
+      "count": 1
+    },
+    {
+      "topic": "ketoheksozy",
+      "count": 1
+    },
+    {
+      "topic": "stereochemia cukrów",
+      "count": 1
+    },
+    {
+      "topic": "stereoizomeria",
+      "count": 1
+    },
+    {
+      "topic": "diastereoizomery",
+      "count": 1
+    },
+    {
+      "topic": "atomy asymetryczne",
+      "count": 1
+    },
+    {
+      "topic": "wzór elektronowy",
+      "count": 1
+    },
+    {
+      "topic": "wiązania sigma i pi",
+      "count": 1
+    },
+    {
+      "topic": "c3o2",
+      "count": 1
+    },
+    {
+      "topic": "moc kwasów",
+      "count": 1
+    },
+    {
+      "topic": "analiza wykresu ph",
+      "count": 1
+    },
+    {
+      "topic": "ph słabego kwasu",
+      "count": 1
+    },
+    {
+      "topic": "stopień dysocjacji",
+      "count": 1
+    },
+    {
+      "topic": "obliczenia stężeń",
+      "count": 1
+    },
+    {
+      "topic": "reakcje jonowe",
+      "count": 1
+    },
+    {
+      "topic": "obserwacje",
+      "count": 1
+    },
+    {
+      "topic": "jon",
+      "count": 1
+    },
+    {
+      "topic": "iloczyn rozpuszczalności ksp",
+      "count": 1
+    },
+    {
+      "topic": "wytrącanie osadu",
+      "count": 1
+    },
+    {
+      "topic": "równowagi w roztworach",
+      "count": 1
+    },
+    {
+      "topic": "utlenianie-redukcja",
+      "count": 1
+    },
+    {
+      "topic": "równania redoks",
+      "count": 1
+    },
+    {
+      "topic": "bilansowanie elektronowe",
+      "count": 1
+    },
+    {
+      "topic": "reakcje chemiczne nieorganiczne",
+      "count": 1
+    },
+    {
+      "topic": "reakcje charakterystyczne",
+      "count": 1
+    },
+    {
+      "topic": "związki kompleksowe lub gazy",
+      "count": 1
+    },
+    {
+      "topic": "utlenianie alkenów i alkinów",
+      "count": 1
+    },
+    {
+      "topic": "kmno4",
+      "count": 1
+    },
+    {
+      "topic": "identyfikacja produktów",
+      "count": 1
+    },
+    {
+      "topic": "węglowodory aromatyczne",
+      "count": 1
+    },
+    {
+      "topic": "reakcje z kmno4",
+      "count": 1
+    },
+    {
+      "topic": "pvc",
+      "count": 1
+    },
+    {
+      "topic": "spalanie",
+      "count": 1
+    },
+    {
+      "topic": "wydajność reakcji",
+      "count": 1
+    },
+    {
+      "topic": "karbid",
+      "count": 1
+    },
+    {
+      "topic": "acetylen",
+      "count": 1
+    },
+    {
+      "topic": "właściwości pierwiastków",
+      "count": 1
+    },
+    {
+      "topic": "energia jonizacji",
+      "count": 1
+    },
+    {
+      "topic": "elektroujemność",
+      "count": 1
+    },
+    {
+      "topic": "kataliza",
+      "count": 1
+    },
+    {
+      "topic": "reakcje autokatalityczne",
+      "count": 1
+    },
+    {
+      "topic": "jodowanie acetonu",
+      "count": 1
+    },
+    {
+      "topic": "efekt indukcyjny",
+      "count": 1
+    },
+    {
+      "topic": "pka",
+      "count": 1
+    },
+    {
+      "topic": "otrzymywanie",
+      "count": 1
+    },
+    {
+      "topic": "estryfikacja",
+      "count": 1
+    },
+    {
+      "topic": "mechanizmy reakcji",
+      "count": 1
+    },
+    {
+      "topic": "addycja",
+      "count": 1
+    },
+    {
+      "topic": "substytucja",
+      "count": 1
+    },
+    {
+      "topic": "eliminacja",
+      "count": 1
+    },
+    {
+      "topic": "identyfikacja związków",
+      "count": 1
+    },
+    {
+      "topic": "próby chemiczne",
+      "count": 1
+    },
+    {
+      "topic": "sprzężone pary kwas-zasada",
+      "count": 1
+    },
+    {
+      "topic": "halogenowanie",
+      "count": 1
+    },
+    {
+      "topic": "mechanizm rodnikowy",
+      "count": 1
+    },
+    {
+      "topic": "formy jonowe",
+      "count": 1
+    },
+    {
+      "topic": "pi",
+      "count": 1
+    },
+    {
+      "topic": "degradacja ruffa",
+      "count": 1
+    },
+    {
+      "topic": "utlenianie",
+      "count": 1
+    },
+    {
+      "topic": "mezo-związki",
+      "count": 1
+    },
+    {
+      "topic": "wiązania chemiczne",
+      "count": 1
+    },
+    {
+      "topic": "geometria cząsteczek",
+      "count": 1
+    },
+    {
+      "topic": "polarność",
+      "count": 1
+    },
+    {
+      "topic": "stała równowagi kc",
+      "count": 1
+    },
+    {
+      "topic": "stężenia roztworów",
+      "count": 1
+    },
+    {
+      "topic": "stała ka",
+      "count": 1
+    },
+    {
+      "topic": "ph soli",
+      "count": 1
+    },
+    {
+      "topic": "równania jonowe",
+      "count": 1
+    },
+    {
+      "topic": "bloki s/p/d",
+      "count": 1
+    },
+    {
+      "topic": "stała szybkości",
+      "count": 1
+    },
+    {
+      "topic": "brønsted",
+      "count": 1
+    },
+    {
+      "topic": "kwasy",
+      "count": 1
+    },
+    {
+      "topic": "zasady",
+      "count": 1
+    },
+    {
+      "topic": "sole fosforanowe",
+      "count": 1
+    },
+    {
+      "topic": "pary sprzężone",
+      "count": 1
+    },
+    {
+      "topic": "hydroliza",
+      "count": 1
+    },
+    {
+      "topic": "nh4cl",
+      "count": 1
+    },
+    {
+      "topic": "kation amonowy",
+      "count": 1
+    },
+    {
+      "topic": "wskaźniki",
+      "count": 1
+    },
+    {
+      "topic": "błękit bromotymolowy",
+      "count": 1
+    },
+    {
+      "topic": "synteza amoniaku",
+      "count": 1
+    },
+    {
+      "topic": "stała kc",
+      "count": 1
+    },
+    {
+      "topic": "haber-bosch",
+      "count": 1
+    },
+    {
+      "topic": "półogniwa",
+      "count": 1
+    },
+    {
+      "topic": "potencjały redoks",
+      "count": 1
+    },
+    {
+      "topic": "mno4",
+      "count": 1
+    },
+    {
+      "topic": "br2",
+      "count": 1
+    },
+    {
+      "topic": "co3+",
+      "count": 1
+    },
+    {
+      "topic": "entalpia spalania",
+      "count": 1
+    },
+    {
+      "topic": "gęstość",
+      "count": 1
+    },
+    {
+      "topic": "porównanie spalania",
+      "count": 1
+    },
+    {
+      "topic": "co2",
+      "count": 1
+    },
+    {
+      "topic": "alkeny",
+      "count": 1
+    },
+    {
+      "topic": "reguła markownikowa",
+      "count": 1
+    },
+    {
+      "topic": "hydroboracja",
+      "count": 1
+    },
+    {
+      "topic": "addycja wody",
+      "count": 1
+    },
+    {
+      "topic": "kamfen",
+      "count": 1
+    },
+    {
+      "topic": "areny",
+      "count": 1
+    },
+    {
+      "topic": "bromowanie",
+      "count": 1
+    },
+    {
+      "topic": "elektrofilowa",
+      "count": 1
+    },
+    {
+      "topic": "monobromowanie",
+      "count": 1
+    },
+    {
+      "topic": "chemia jądrowa",
+      "count": 1
+    },
+    {
+      "topic": "rozszczepienie",
+      "count": 1
+    },
+    {
+      "topic": "uran",
+      "count": 1
+    },
+    {
+      "topic": "stosunek neutron/proton",
+      "count": 1
+    },
+    {
+      "topic": "bilans nukleonowy",
+      "count": 1
+    },
+    {
+      "topic": "kwas tereftalowy",
+      "count": 1
+    },
+    {
+      "topic": "utlenianie p-ksylenu",
+      "count": 1
+    },
+    {
+      "topic": "redukcja aldehydów",
+      "count": 1
+    },
+    {
+      "topic": "neopentanol",
+      "count": 1
+    },
+    {
+      "topic": "2-dimetylopropanal",
+      "count": 1
+    },
+    {
+      "topic": "chiralność",
+      "count": 1
+    },
+    {
+      "topic": "ketony",
+      "count": 1
+    },
+    {
+      "topic": "butan-2-on",
+      "count": 1
+    },
+    {
+      "topic": "propan-2-on",
+      "count": 1
+    },
+    {
+      "topic": "feksofenadyna",
+      "count": 1
+    },
+    {
+      "topic": "elektrony",
+      "count": 1
+    },
+    {
+      "topic": "estry",
+      "count": 1
+    },
+    {
+      "topic": "temperatura wrzenia",
+      "count": 1
+    },
+    {
+      "topic": "octany butylu",
+      "count": 1
+    },
+    {
+      "topic": "pla",
+      "count": 1
+    },
+    {
+      "topic": "poliester",
+      "count": 1
+    },
+    {
+      "topic": "identyfikacja",
+      "count": 1
+    },
+    {
+      "topic": "glicerol",
+      "count": 1
+    },
+    {
+      "topic": "peptyd",
+      "count": 1
+    },
+    {
+      "topic": "biuretowa",
+      "count": 1
+    },
+    {
+      "topic": "oktopamina",
+      "count": 1
+    },
+    {
+      "topic": "fenole",
+      "count": 1
+    },
+    {
+      "topic": "aminy",
+      "count": 1
+    },
+    {
+      "topic": "alkohole",
+      "count": 1
+    },
+    {
+      "topic": "fecl3",
+      "count": 1
+    },
+    {
+      "topic": "deaminacja",
+      "count": 1
+    },
+    {
+      "topic": "hno2",
+      "count": 1
+    },
+    {
+      "topic": "synteza aminokwasów",
+      "count": 1
+    },
+    {
+      "topic": "hvz",
+      "count": 1
+    },
+    {
+      "topic": "bromowanie alfa",
+      "count": 1
+    },
+    {
+      "topic": "kwas propanowy",
+      "count": 1
+    },
+    {
+      "topic": "pentozy",
+      "count": 1
+    },
+    {
+      "topic": "heksozy",
+      "count": 1
+    },
+    {
+      "topic": "anomery",
+      "count": 1
+    },
+    {
+      "topic": "tlenki",
+      "count": 1
+    },
+    {
+      "topic": "kwasy tlenowe",
+      "count": 1
+    },
+    {
+      "topic": "reakcja redoks",
+      "count": 1
+    },
+    {
+      "topic": "tlenek jodu(v)",
+      "count": 1
+    },
+    {
+      "topic": "tlenek węgla",
+      "count": 1
+    },
+    {
+      "topic": "wzór empiryczny",
+      "count": 1
+    },
+    {
+      "topic": "wzór rzeczywisty",
+      "count": 1
+    },
+    {
+      "topic": "tlenek jodu",
+      "count": 1
+    },
+    {
+      "topic": "bilansowanie",
+      "count": 1
+    },
+    {
+      "topic": "jonowo-elektronowe",
+      "count": 1
+    },
+    {
+      "topic": "vsepr",
+      "count": 1
+    },
+    {
+      "topic": "icl₃",
+      "count": 1
+    },
+    {
+      "topic": "związki międzyhalogenowe",
+      "count": 1
+    },
+    {
+      "topic": "sole",
+      "count": 1
+    },
+    {
+      "topic": "wodorotlenki",
+      "count": 1
+    },
+    {
+      "topic": "strącanie",
+      "count": 1
+    },
+    {
+      "topic": "baso4",
+      "count": 1
+    },
+    {
+      "topic": "cuo",
+      "count": 1
+    },
+    {
+      "topic": "identyfikacja wodorotlenków",
+      "count": 1
+    },
+    {
+      "topic": "rozkład termiczny",
+      "count": 1
+    },
+    {
+      "topic": "cr(oh)3",
+      "count": 1
+    },
+    {
+      "topic": "al(oh)3",
+      "count": 1
+    },
+    {
+      "topic": "ca(oh)2",
+      "count": 1
+    },
+    {
+      "topic": "miareczkowanie",
+      "count": 1
+    },
+    {
+      "topic": "kwas bromowodorowy",
+      "count": 1
+    },
+    {
+      "topic": "kbr",
+      "count": 1
+    },
+    {
+      "topic": "h2so4",
+      "count": 1
+    },
+    {
+      "topic": "reakcje metali z kwasami",
+      "count": 1
+    },
+    {
+      "topic": "hno3",
+      "count": 1
+    },
+    {
+      "topic": "hcl",
+      "count": 1
+    }
+  ],
+  "fizyka|pr": [
+    {
+      "topic": "fizyka jądrowa",
+      "count": 3
+    },
+    {
+      "topic": "dynamika bryły sztywnej",
+      "count": 3
+    },
+    {
+      "topic": "grawitacja",
+      "count": 3
+    },
+    {
+      "topic": "termodynamika",
+      "count": 3
+    },
+    {
+      "topic": "i zasada termodynamiki",
+      "count": 3
+    },
+    {
+      "topic": "kinematyka",
+      "count": 2
+    },
+    {
+      "topic": "ruch jednostajny",
+      "count": 2
+    },
+    {
+      "topic": "szczególna teoria względności",
+      "count": 2
+    },
+    {
+      "topic": "energia relatywistyczna",
+      "count": 2
+    },
+    {
+      "topic": "energia spoczynkowa",
+      "count": 2
+    },
+    {
+      "topic": "czynnik lorentza",
+      "count": 2
+    },
+    {
+      "topic": "energia wiązania",
+      "count": 2
+    },
+    {
+      "topic": "dynamika",
+      "count": 2
+    },
+    {
+      "topic": "zasada zachowania pędu",
+      "count": 2
+    },
+    {
+      "topic": "efekt dopplera",
+      "count": 2
+    },
+    {
+      "topic": "częstotliwość",
+      "count": 2
+    },
+    {
+      "topic": "długość fali",
+      "count": 2
+    },
+    {
+      "topic": "prawo powszechnego ciążenia",
+      "count": 2
+    },
+    {
+      "topic": "optyka geometryczna",
+      "count": 2
+    },
+    {
+      "topic": "czas połowicznego rozpadu",
+      "count": 2
+    },
+    {
+      "topic": "moment bezwładności",
+      "count": 2
+    },
+    {
+      "topic": "energia kinetyczna",
+      "count": 2
+    },
+    {
+      "topic": "akustyka",
+      "count": 2
+    },
+    {
+      "topic": "ruch jednostajnie przyspieszony",
+      "count": 1
+    },
+    {
+      "topic": "pościg",
+      "count": 1
+    },
+    {
+      "topic": "względna prędkość",
+      "count": 1
+    },
+    {
+      "topic": "maksymalna odległość",
+      "count": 1
+    },
+    {
+      "topic": "rozpędzanie elektronu w polu elektrycznym",
+      "count": 1
+    },
+    {
+      "topic": "jednostki energii ev",
+      "count": 1
+    },
+    {
+      "topic": "reakcja jądrowa",
+      "count": 1
+    },
+    {
+      "topic": "kopernik",
+      "count": 1
+    },
+    {
+      "topic": "izotopy nietrwałe",
+      "count": 1
+    },
+    {
+      "topic": "rozpady alfa",
+      "count": 1
+    },
+    {
+      "topic": "deficyt masy",
+      "count": 1
+    },
+    {
+      "topic": "jednostka masy atomowej",
+      "count": 1
+    },
+    {
+      "topic": "zderzenie sprężyste",
+      "count": 1
+    },
+    {
+      "topic": "zasada zachowania energii kinetycznej",
+      "count": 1
+    },
+    {
+      "topic": "krążki jednorodne",
+      "count": 1
+    },
+    {
+      "topic": "siły wzajemnego oddziaływania",
+      "count": 1
+    },
+    {
+      "topic": "moment bezwładności walca",
+      "count": 1
+    },
+    {
+      "topic": "ruch obrotowy",
+      "count": 1
+    },
+    {
+      "topic": "zasada zachowania energii",
+      "count": 1
+    },
+    {
+      "topic": "ii zasada dynamiki dla obrotu",
+      "count": 1
+    },
+    {
+      "topic": "walec na stole",
+      "count": 1
+    },
+    {
+      "topic": "fale elektromagnetyczne",
+      "count": 1
+    },
+    {
+      "topic": "prędkość światła",
+      "count": 1
+    },
+    {
+      "topic": "sonda kosmiczna",
+      "count": 1
+    },
+    {
+      "topic": "ruch orbitalny",
+      "count": 1
+    },
+    {
+      "topic": "iii prawo keplera",
+      "count": 1
+    },
+    {
+      "topic": "orbita eliptyczna",
+      "count": 1
+    },
+    {
+      "topic": "czarna dziura supermasywna",
+      "count": 1
+    },
+    {
+      "topic": "sagittarius a",
+      "count": 1
+    },
+    {
+      "topic": "przemiana izobaryczna",
+      "count": 1
+    },
+    {
+      "topic": "przemiana izochoryczna",
+      "count": 1
+    },
+    {
+      "topic": "gaz doskonały jednoatomowy",
+      "count": 1
+    },
+    {
+      "topic": "równanie stanu",
+      "count": 1
+    },
+    {
+      "topic": "ciepło molowe",
+      "count": 1
+    },
+    {
+      "topic": "pole magnetyczne",
+      "count": 1
+    },
+    {
+      "topic": "siła lorentza",
+      "count": 1
+    },
+    {
+      "topic": "ruch po okręgu",
+      "count": 1
+    },
+    {
+      "topic": "proton w polu magnetycznym",
+      "count": 1
+    },
+    {
+      "topic": "indukcja magnetyczna",
+      "count": 1
+    },
+    {
+      "topic": "zachowanie energii",
+      "count": 1
+    },
+    {
+      "topic": "dynamika ruchu krzywoliniowego",
+      "count": 1
+    },
+    {
+      "topic": "prąd elektryczny",
+      "count": 1
+    },
+    {
+      "topic": "opór elektryczny",
+      "count": 1
+    },
+    {
+      "topic": "drut wolframowy",
+      "count": 1
+    },
+    {
+      "topic": "zależność oporu od temperatury",
+      "count": 1
+    },
+    {
+      "topic": "prawo ohma",
+      "count": 1
+    },
+    {
+      "topic": "moc elektryczna",
+      "count": 1
+    },
+    {
+      "topic": "współczynnik termiczny oporu",
+      "count": 1
+    },
+    {
+      "topic": "prawo snella",
+      "count": 1
+    },
+    {
+      "topic": "załamanie światła",
+      "count": 1
+    },
+    {
+      "topic": "odbicie wewnętrzne",
+      "count": 1
+    },
+    {
+      "topic": "prędkość światła w ośrodku",
+      "count": 1
+    },
+    {
+      "topic": "współczynnik załamania",
+      "count": 1
+    },
+    {
+      "topic": "krążek szklany",
+      "count": 1
+    },
+    {
+      "topic": "opory ruchu",
+      "count": 1
+    },
+    {
+      "topic": "prędkość graniczna",
+      "count": 1
+    },
+    {
+      "topic": "ii zasada newtona",
+      "count": 1
+    },
+    {
+      "topic": "kinematyka relatywistyczna",
+      "count": 1
+    },
+    {
+      "topic": "energia całkowita",
+      "count": 1
+    },
+    {
+      "topic": "rozpad beta plus",
+      "count": 1
+    },
+    {
+      "topic": "defekt masy",
+      "count": 1
+    },
+    {
+      "topic": "ruch obrotowo-postępowy",
+      "count": 1
+    },
+    {
+      "topic": "ruch harmoniczny",
+      "count": 1
+    },
+    {
+      "topic": "drgania",
+      "count": 1
+    },
+    {
+      "topic": "energia mechaniczna",
+      "count": 1
+    },
+    {
+      "topic": "siła sprężystości",
+      "count": 1
+    },
+    {
+      "topic": "fala dźwiękowa",
+      "count": 1
+    },
+    {
+      "topic": "prędkość źródła",
+      "count": 1
+    },
+    {
+      "topic": "punkt lagrange'a",
+      "count": 1
+    },
+    {
+      "topic": "równowaga sił",
+      "count": 1
+    },
+    {
+      "topic": "elektrostatyka",
+      "count": 1
+    },
+    {
+      "topic": "pole elektryczne",
+      "count": 1
+    },
+    {
+      "topic": "superpozycja",
+      "count": 1
+    },
+    {
+      "topic": "ładunki punktowe",
+      "count": 1
+    },
+    {
+      "topic": "obwody prądu stałego",
+      "count": 1
+    },
+    {
+      "topic": "prawa kirchhoffa",
+      "count": 1
+    },
+    {
+      "topic": "moc cieplna",
+      "count": 1
+    },
+    {
+      "topic": "opory równoległe i szeregowe",
+      "count": 1
+    },
+    {
+      "topic": "cykl silnika cieplnego",
+      "count": 1
+    },
+    {
+      "topic": "gaz doskonały",
+      "count": 1
+    },
+    {
+      "topic": "optyka",
+      "count": 1
+    },
+    {
+      "topic": "soczewki",
+      "count": 1
+    },
+    {
+      "topic": "równanie soczewki",
+      "count": 1
+    },
+    {
+      "topic": "ogniskowa",
+      "count": 1
+    },
+    {
+      "topic": "układ optyczny",
+      "count": 1
+    },
+    {
+      "topic": "rzuty",
+      "count": 1
+    },
+    {
+      "topic": "ruch jednostajnie zmienny",
+      "count": 1
+    },
+    {
+      "topic": "fizyka atomowa",
+      "count": 1
+    },
+    {
+      "topic": "model bohra atomu wodoru",
+      "count": 1
+    },
+    {
+      "topic": "poziomy energetyczne",
+      "count": 1
+    },
+    {
+      "topic": "fotony",
+      "count": 1
+    },
+    {
+      "topic": "rozpad alfa",
+      "count": 1
+    },
+    {
+      "topic": "ruch po równi pochyłej",
+      "count": 1
+    },
+    {
+      "topic": "fale dźwiękowe",
+      "count": 1
+    },
+    {
+      "topic": "załamanie fali",
+      "count": 1
+    },
+    {
+      "topic": "natężenie dźwięku",
+      "count": 1
+    },
+    {
+      "topic": "interferencja fal",
+      "count": 1
+    },
+    {
+      "topic": "ruch po orbicie eliptycznej",
+      "count": 1
+    },
+    {
+      "topic": "prawa keplera",
+      "count": 1
+    },
+    {
+      "topic": "cykl gazu doskonałego",
+      "count": 1
+    },
+    {
+      "topic": "przemiany",
+      "count": 1
+    },
+    {
+      "topic": "soczewki cienkie",
+      "count": 1
+    },
+    {
+      "topic": "konstrukcja obrazu",
+      "count": 1
+    },
+    {
+      "topic": "magnetyzm",
+      "count": 1
+    },
+    {
+      "topic": "pole magnetyczne prądu prostoliniowego",
+      "count": 1
+    },
+    {
+      "topic": "reguła prawej dłoni",
+      "count": 1
+    },
+    {
+      "topic": "polaryzacja światła",
+      "count": 1
+    },
+    {
+      "topic": "prawo malusa",
+      "count": 1
+    }
+  ],
+  "geografia|pr": [
+    {
+      "topic": "astronomia",
+      "count": 5
+    },
+    {
+      "topic": "zrównoważony rozwój",
+      "count": 3
+    },
+    {
+      "topic": "rolnictwo polski",
+      "count": 3
+    },
+    {
+      "topic": "tektonika płyt",
+      "count": 3
+    },
+    {
+      "topic": "prądy morskie",
+      "count": 3
+    },
+    {
+      "topic": "rewitalizacja",
+      "count": 3
+    },
+    {
+      "topic": "ustroje rzeczne",
+      "count": 2
+    },
+    {
+      "topic": "wiek względny skał",
+      "count": 2
+    },
+    {
+      "topic": "rolnictwo świata",
+      "count": 2
+    },
+    {
+      "topic": "ropa naftowa",
+      "count": 2
+    },
+    {
+      "topic": "mapa synoptyczna",
+      "count": 2
+    },
+    {
+      "topic": "fronty atmosferyczne",
+      "count": 2
+    },
+    {
+      "topic": "szerokość geograficzna",
+      "count": 2
+    },
+    {
+      "topic": "tatry",
+      "count": 2
+    },
+    {
+      "topic": "etiopia",
+      "count": 2
+    },
+    {
+      "topic": "turcja",
+      "count": 2
+    },
+    {
+      "topic": "japonia",
+      "count": 2
+    },
+    {
+      "topic": "kolei goryczkowa",
+      "count": 2
+    },
+    {
+      "topic": "wybrzeże bałtyku",
+      "count": 1
+    },
+    {
+      "topic": "jezioro sarbsko",
+      "count": 1
+    },
+    {
+      "topic": "słowiński pn",
+      "count": 1
+    },
+    {
+      "topic": "wydmy paraboliczne",
+      "count": 1
+    },
+    {
+      "topic": "klimaty polski",
+      "count": 1
+    },
+    {
+      "topic": "cień opadowy",
+      "count": 1
+    },
+    {
+      "topic": "opady orograficzne",
+      "count": 1
+    },
+    {
+      "topic": "pojezierze pomorskie vs nizina podlaska",
+      "count": 1
+    },
+    {
+      "topic": "formy glacjalne i grawitacyjne",
+      "count": 1
+    },
+    {
+      "topic": "kocioł lodowcowy",
+      "count": 1
+    },
+    {
+      "topic": "stożek piargowy",
+      "count": 1
+    },
+    {
+      "topic": "geologia",
+      "count": 1
+    },
+    {
+      "topic": "fotografia odkrywki",
+      "count": 1
+    },
+    {
+      "topic": "skały magmowe",
+      "count": 1
+    },
+    {
+      "topic": "granit",
+      "count": 1
+    },
+    {
+      "topic": "geneza",
+      "count": 1
+    },
+    {
+      "topic": "regulacja rzek",
+      "count": 1
+    },
+    {
+      "topic": "konflikt człowiek-środowisko",
+      "count": 1
+    },
+    {
+      "topic": "demografia świata",
+      "count": 1
+    },
+    {
+      "topic": "prognozy ludności",
+      "count": 1
+    },
+    {
+      "topic": "demografia polski",
+      "count": 1
+    },
+    {
+      "topic": "woj. świętokrzyskie",
+      "count": 1
+    },
+    {
+      "topic": "starzenie ludności",
+      "count": 1
+    },
+    {
+      "topic": "migracje religijne",
+      "count": 1
+    },
+    {
+      "topic": "miejsca pielgrzymkowe",
+      "count": 1
+    },
+    {
+      "topic": "technopolie",
+      "count": 1
+    },
+    {
+      "topic": "jakość życia w polskich miastach",
+      "count": 1
+    },
+    {
+      "topic": "smog krakowa",
+      "count": 1
+    },
+    {
+      "topic": "krajobraz górski",
+      "count": 1
+    },
+    {
+      "topic": "granica lasu",
+      "count": 1
+    },
+    {
+      "topic": "woj. zachodniopomorskie vs śląskie",
+      "count": 1
+    },
+    {
+      "topic": "struktura gospodarstw",
+      "count": 1
+    },
+    {
+      "topic": "egipt",
+      "count": 1
+    },
+    {
+      "topic": "islam",
+      "count": 1
+    },
+    {
+      "topic": "niska pogłowie owiec",
+      "count": 1
+    },
+    {
+      "topic": "wielki zielony mur",
+      "count": 1
+    },
+    {
+      "topic": "sahel",
+      "count": 1
+    },
+    {
+      "topic": "górnictwo węgla brunatnego",
+      "count": 1
+    },
+    {
+      "topic": "kopalnia bełchatów",
+      "count": 1
+    },
+    {
+      "topic": "lej depresyjny",
+      "count": 1
+    },
+    {
+      "topic": "przemysł",
+      "count": 1
+    },
+    {
+      "topic": "lokalizacja cukrowni",
+      "count": 1
+    },
+    {
+      "topic": "kujawy",
+      "count": 1
+    },
+    {
+      "topic": "rybołówstwo",
+      "count": 1
+    },
+    {
+      "topic": "łowiska świata",
+      "count": 1
+    },
+    {
+      "topic": "upwelling",
+      "count": 1
+    },
+    {
+      "topic": "prąd peruwiański",
+      "count": 1
+    },
+    {
+      "topic": "regiony wydobycia",
+      "count": 1
+    },
+    {
+      "topic": "konflikty bliskiego wschodu",
+      "count": 1
+    },
+    {
+      "topic": "ubóstwo edukacyjne afryki",
+      "count": 1
+    },
+    {
+      "topic": "dostępność szkół",
+      "count": 1
+    },
+    {
+      "topic": "kultura",
+      "count": 1
+    },
+    {
+      "topic": "geomorfologia wybrzeża bałtyku",
+      "count": 1
+    },
+    {
+      "topic": "wybrzeże niskie",
+      "count": 1
+    },
+    {
+      "topic": "hydrologia",
+      "count": 1
+    },
+    {
+      "topic": "jezioro łebsko",
+      "count": 1
+    },
+    {
+      "topic": "sztormy",
+      "count": 1
+    },
+    {
+      "topic": "cofka",
+      "count": 1
+    },
+    {
+      "topic": "równonoce i przesilenia",
+      "count": 1
+    },
+    {
+      "topic": "obliczanie wysokości słońca",
+      "count": 1
+    },
+    {
+      "topic": "układ słoneczny",
+      "count": 1
+    },
+    {
+      "topic": "rozpoznawanie ciał niebieskich",
+      "count": 1
+    },
+    {
+      "topic": "spreading",
+      "count": 1
+    },
+    {
+      "topic": "grzbiet śródatlantycki",
+      "count": 1
+    },
+    {
+      "topic": "klimat",
+      "count": 1
+    },
+    {
+      "topic": "lokalizacja krakowa vs wyspy",
+      "count": 1
+    },
+    {
+      "topic": "mapa topograficzna sudetów",
+      "count": 1
+    },
+    {
+      "topic": "obliczanie czasu wycieczki",
+      "count": 1
+    },
+    {
+      "topic": "szlaki pttk",
+      "count": 1
+    },
+    {
+      "topic": "stacje meteorologiczne europy",
+      "count": 1
+    },
+    {
+      "topic": "klimat umiarkowany",
+      "count": 1
+    },
+    {
+      "topic": "oświetlenie ziemi",
+      "count": 1
+    },
+    {
+      "topic": "step",
+      "count": 1
+    },
+    {
+      "topic": "klimat umiarkowany kontynentalny",
+      "count": 1
+    },
+    {
+      "topic": "czarnoziem vs bielica",
+      "count": 1
+    },
+    {
+      "topic": "wschodnie wybrzeża 20–35°s",
+      "count": 1
+    },
+    {
+      "topic": "katastrofa titanica",
+      "count": 1
+    },
+    {
+      "topic": "wielki rów wschodnioafrykański",
+      "count": 1
+    },
+    {
+      "topic": "rozłam afryki",
+      "count": 1
+    },
+    {
+      "topic": "parki narodowe polski",
+      "count": 1
+    },
+    {
+      "topic": "geomorfologia krasowa",
+      "count": 1
+    },
+    {
+      "topic": "ostaniec",
+      "count": 1
+    },
+    {
+      "topic": "przekrój geologiczny",
+      "count": 1
+    },
+    {
+      "topic": "sfałdowanie i uskok",
+      "count": 1
+    },
+    {
+      "topic": "okluzja",
+      "count": 1
+    },
+    {
+      "topic": "piramidy wieku",
+      "count": 1
+    },
+    {
+      "topic": "demografia zea vs irak",
+      "count": 1
+    },
+    {
+      "topic": "migracje zarobkowe",
+      "count": 1
+    },
+    {
+      "topic": "koncentracja ludności w klimatach równikowych",
+      "count": 1
+    },
+    {
+      "topic": "wysokość n.p.m.",
+      "count": 1
+    },
+    {
+      "topic": "prognoza ludności gmin polski",
+      "count": 1
+    },
+    {
+      "topic": "suburbanizacja",
+      "count": 1
+    },
+    {
+      "topic": "depopulacja",
+      "count": 1
+    },
+    {
+      "topic": "mapa topograficzna",
+      "count": 1
+    },
+    {
+      "topic": "pomiar długości tunelu",
+      "count": 1
+    },
+    {
+      "topic": "skala 1:50 000",
+      "count": 1
+    },
+    {
+      "topic": "praga-północ",
+      "count": 1
+    },
+    {
+      "topic": "problemy miast",
+      "count": 1
+    },
+    {
+      "topic": "pkb chin vs afryka",
+      "count": 1
+    },
+    {
+      "topic": "uwarunkowania demograficzne i ekonomiczne",
+      "count": 1
+    },
+    {
+      "topic": "lesistość strefowa",
+      "count": 1
+    },
+    {
+      "topic": "finlandia / algieria / austria",
+      "count": 1
+    },
+    {
+      "topic": "producenci pszenicy/kukurydzy/trzciny cukrowej",
+      "count": 1
+    },
+    {
+      "topic": "deforestacja",
+      "count": 1
+    },
+    {
+      "topic": "palma oleista",
+      "count": 1
+    },
+    {
+      "topic": "azja płd-wsch",
+      "count": 1
+    },
+    {
+      "topic": "lubelskie vs podlaskie",
+      "count": 1
+    },
+    {
+      "topic": "waloryzacja warunków przyrodniczych",
+      "count": 1
+    },
+    {
+      "topic": "nawadnianie pustyń",
+      "count": 1
+    },
+    {
+      "topic": "arabia saudyjska",
+      "count": 1
+    },
+    {
+      "topic": "struktura pkb sektorów",
+      "count": 1
+    },
+    {
+      "topic": "poziom rozwoju gospodarczego",
+      "count": 1
+    },
+    {
+      "topic": "hutnictwo żelaza",
+      "count": 1
+    },
+    {
+      "topic": "staropolski okręg przemysłowy",
+      "count": 1
+    },
+    {
+      "topic": "kraków",
+      "count": 1
+    },
+    {
+      "topic": "transport kolejowy polski",
+      "count": 1
+    },
+    {
+      "topic": "wykorzystanie kolei",
+      "count": 1
+    },
+    {
+      "topic": "gęstość sieci",
+      "count": 1
+    },
+    {
+      "topic": "geologia sudetów",
+      "count": 1
+    },
+    {
+      "topic": "sieć rzeczna",
+      "count": 1
+    },
+    {
+      "topic": "wiek złóż węgla",
+      "count": 1
+    },
+    {
+      "topic": "energetyka",
+      "count": 1
+    },
+    {
+      "topic": "lotnisko pittsburgh",
+      "count": 1
+    },
+    {
+      "topic": "fotowoltaika vs gaz ziemny",
+      "count": 1
+    },
+    {
+      "topic": "opec",
+      "count": 1
+    },
+    {
+      "topic": "handel zagraniczny ue",
+      "count": 1
+    },
+    {
+      "topic": "antropogeniczne formy terenu",
+      "count": 1
+    },
+    {
+      "topic": "hałdy pokopalniane",
+      "count": 1
+    },
+    {
+      "topic": "górowanie słońca",
+      "count": 1
+    },
+    {
+      "topic": "fotografia zamku grodno",
+      "count": 1
+    },
+    {
+      "topic": "wysokość słońca w równonocy",
+      "count": 1
+    },
+    {
+      "topic": "funkcje sztucznego zbiornika wodnego",
+      "count": 1
+    },
+    {
+      "topic": "jezioro bystrzyckie",
+      "count": 1
+    },
+    {
+      "topic": "ustrój rzeczny bystrzycy",
+      "count": 1
+    },
+    {
+      "topic": "wezbranie roztopowe",
+      "count": 1
+    },
+    {
+      "topic": "zwrotniki",
+      "count": 1
+    },
+    {
+      "topic": "drogi widome słońca",
+      "count": 1
+    },
+    {
+      "topic": "masyw giewontu",
+      "count": 1
+    },
+    {
+      "topic": "azymut",
+      "count": 1
+    },
+    {
+      "topic": "dział wodny",
+      "count": 1
+    },
+    {
+      "topic": "amu-daria",
+      "count": 1
+    },
+    {
+      "topic": "indus",
+      "count": 1
+    },
+    {
+      "topic": "monsun letni",
+      "count": 1
+    },
+    {
+      "topic": "topnienie lodowców",
+      "count": 1
+    },
+    {
+      "topic": "rzeki polski",
+      "count": 1
+    },
+    {
+      "topic": "pilica",
+      "count": 1
+    },
+    {
+      "topic": "narew",
+      "count": 1
+    },
+    {
+      "topic": "warta",
+      "count": 1
+    },
+    {
+      "topic": "dorzecze omo",
+      "count": 1
+    },
+    {
+      "topic": "tama gibe iii",
+      "count": 1
+    },
+    {
+      "topic": "jezioro rudolfa (turkana)",
+      "count": 1
+    },
+    {
+      "topic": "klimatogramy ameryki płd",
+      "count": 1
+    },
+    {
+      "topic": "rio de janeiro",
+      "count": 1
+    },
+    {
+      "topic": "geomorfologia rio",
+      "count": 1
+    },
+    {
+      "topic": "meteorologia",
+      "count": 1
+    },
+    {
+      "topic": "mapa synoptyczna europy",
+      "count": 1
+    },
+    {
+      "topic": "front chłodny",
+      "count": 1
+    },
+    {
+      "topic": "chmury cumulonimbus",
+      "count": 1
+    },
+    {
+      "topic": "geomorfologia eoliczna",
+      "count": 1
+    },
+    {
+      "topic": "wydmy vs ostaniec/grzyb skalny",
+      "count": 1
+    },
+    {
+      "topic": "klimat suchy",
+      "count": 1
+    },
+    {
+      "topic": "gleby polski",
+      "count": 1
+    },
+    {
+      "topic": "bielica",
+      "count": 1
+    },
+    {
+      "topic": "profil glebowy",
+      "count": 1
+    },
+    {
+      "topic": "burak cukrowy",
+      "count": 1
+    },
+    {
+      "topic": "kraje rozwijające się",
+      "count": 1
+    },
+    {
+      "topic": "pkb poniżej 2500 usd",
+      "count": 1
+    },
+    {
+      "topic": "afganistan",
+      "count": 1
+    },
+    {
+      "topic": "madagaskar",
+      "count": 1
+    },
+    {
+      "topic": "somalia",
+      "count": 1
+    },
+    {
+      "topic": "dr konga",
+      "count": 1
+    },
+    {
+      "topic": "piramidy wieku polski 2011 vs 2021",
+      "count": 1
+    },
+    {
+      "topic": "starzenie społeczeństwa",
+      "count": 1
+    },
+    {
+      "topic": "mediana wieku",
+      "count": 1
+    },
+    {
+      "topic": "norwegia",
+      "count": 1
+    },
+    {
+      "topic": "kartografia",
+      "count": 1
+    },
+    {
+      "topic": "skala",
+      "count": 1
+    },
+    {
+      "topic": "ortofotomapa",
+      "count": 1
+    },
+    {
+      "topic": "planowanie miast",
+      "count": 1
+    },
+    {
+      "topic": "las miejski dębina/dębiec w poznaniu",
+      "count": 1
+    },
+    {
+      "topic": "korzyści zielonych terenów",
+      "count": 1
+    },
+    {
+      "topic": "ec1 łódź",
+      "count": 1
+    },
+    {
+      "topic": "postindustrialna transformacja",
+      "count": 1
+    },
+    {
+      "topic": "gęstość zaludnienia afryki",
+      "count": 1
+    },
+    {
+      "topic": "algieria",
+      "count": 1
+    },
+    {
+      "topic": "nigeria",
+      "count": 1
+    },
+    {
+      "topic": "rpa",
+      "count": 1
+    },
+    {
+      "topic": "plony pszenicy",
+      "count": 1
+    },
+    {
+      "topic": "australia vs belgia",
+      "count": 1
+    },
+    {
+      "topic": "klimat suchy vs intensywne rolnictwo",
+      "count": 1
+    },
+    {
+      "topic": "województwo opolskie",
+      "count": 1
+    },
+    {
+      "topic": "lubuskie",
+      "count": 1
+    },
+    {
+      "topic": "podlaskie",
+      "count": 1
+    },
+    {
+      "topic": "kujawsko-pomorskie",
+      "count": 1
+    },
+    {
+      "topic": "rolnictwo ameryki płn",
+      "count": 1
+    },
+    {
+      "topic": "kukurydza",
+      "count": 1
+    },
+    {
+      "topic": "soja",
+      "count": 1
+    },
+    {
+      "topic": "bawełna",
+      "count": 1
+    },
+    {
+      "topic": "trzcina cukrowa",
+      "count": 1
+    },
+    {
+      "topic": "eksport brazylii vs korei płd",
+      "count": 1
+    },
+    {
+      "topic": "struktura towarowa",
+      "count": 1
+    },
+    {
+      "topic": "surowce polski",
+      "count": 1
+    },
+    {
+      "topic": "miedź i srebro legnicko-głogowski",
+      "count": 1
+    },
+    {
+      "topic": "węgiel brunatny bełchatów",
+      "count": 1
+    },
+    {
+      "topic": "rekultywacja",
+      "count": 1
+    },
+    {
+      "topic": "produkcja energii elektrycznej",
+      "count": 1
+    },
+    {
+      "topic": "polska",
+      "count": 1
+    },
+    {
+      "topic": "hiszpania",
+      "count": 1
+    },
+    {
+      "topic": "szwajcaria",
+      "count": 1
+    },
+    {
+      "topic": "kraj x i y",
+      "count": 1
+    },
+    {
+      "topic": "kanał sueski",
+      "count": 1
+    },
+    {
+      "topic": "kierunek ładunków",
+      "count": 1
+    },
+    {
+      "topic": "eksport europy",
+      "count": 1
+    },
+    {
+      "topic": "piętra roślinne",
+      "count": 1
+    },
+    {
+      "topic": "bieszczady",
+      "count": 1
+    },
+    {
+      "topic": "transport ładunków w polsce",
+      "count": 1
+    },
+    {
+      "topic": "żegluga śródlądowa",
+      "count": 1
+    },
+    {
+      "topic": "odra",
+      "count": 1
+    },
+    {
+      "topic": "wisła",
+      "count": 1
+    },
+    {
+      "topic": "pkb i udział rolnictwa w pkb",
+      "count": 1
+    },
+    {
+      "topic": "indie",
+      "count": 1
+    },
+    {
+      "topic": "budowa geologiczna tatr",
+      "count": 1
+    },
+    {
+      "topic": "płaszczowiny",
+      "count": 1
+    },
+    {
+      "topic": "kras podziemny",
+      "count": 1
+    },
+    {
+      "topic": "jaskinie doliny kościeliskiej",
+      "count": 1
+    },
+    {
+      "topic": "tektonika tatr",
+      "count": 1
+    },
+    {
+      "topic": "nasunięcie płaszczowinowe",
+      "count": 1
+    },
+    {
+      "topic": "orogeneza alpejska",
+      "count": 1
+    },
+    {
+      "topic": "geomorfologia glacjalna",
+      "count": 1
+    },
+    {
+      "topic": "moreny środkowe",
+      "count": 1
+    },
+    {
+      "topic": "lodowiec tatr w plejstocenie",
+      "count": 1
+    },
+    {
+      "topic": "równonoca",
+      "count": 1
+    },
+    {
+      "topic": "wschód słońca",
+      "count": 1
+    },
+    {
+      "topic": "fazy księżyca",
+      "count": 1
+    },
+    {
+      "topic": "skały osadowe okruchowe",
+      "count": 1
+    },
+    {
+      "topic": "diageneza",
+      "count": 1
+    },
+    {
+      "topic": "zlepieniec",
+      "count": 1
+    },
+    {
+      "topic": "krawędź aktywna",
+      "count": 1
+    },
+    {
+      "topic": "ameryka południowa",
+      "count": 1
+    },
+    {
+      "topic": "andy",
+      "count": 1
+    }
+  ],
+  "historia|pr": [
+    {
+      "topic": "propaganda",
+      "count": 6
+    },
+    {
+      "topic": "xix wiek",
+      "count": 5
+    },
+    {
+      "topic": "prl",
+      "count": 5
+    },
+    {
+      "topic": "zimna wojna",
+      "count": 4
+    },
+    {
+      "topic": "architektura",
+      "count": 4
+    },
+    {
+      "topic": "powstanie listopadowe",
+      "count": 3
+    },
+    {
+      "topic": "francja",
+      "count": 3
+    },
+    {
+      "topic": "wypracowanie",
+      "count": 3
+    },
+    {
+      "topic": "średniowiecze",
+      "count": 3
+    },
+    {
+      "topic": "barok",
+      "count": 3
+    },
+    {
+      "topic": "sredniowiecze",
+      "count": 3
+    },
+    {
+      "topic": "xvii wiek",
+      "count": 2
+    },
+    {
+      "topic": "ustrój",
+      "count": 2
+    },
+    {
+      "topic": "konstytucja 3 maja",
+      "count": 2
+    },
+    {
+      "topic": "socjalizm",
+      "count": 2
+    },
+    {
+      "topic": "usa",
+      "count": 2
+    },
+    {
+      "topic": "traktat wersalski",
+      "count": 2
+    },
+    {
+      "topic": "reformacja",
+      "count": 2
+    },
+    {
+      "topic": "jan iii sobieski",
+      "count": 2
+    },
+    {
+      "topic": "ksiestwo warszawskie",
+      "count": 2
+    },
+    {
+      "topic": "solidarnosc",
+      "count": 2
+    },
+    {
+      "topic": "ii rp",
+      "count": 2
+    },
+    {
+      "topic": "1649",
+      "count": 1
+    },
+    {
+      "topic": "1917",
+      "count": 1
+    },
+    {
+      "topic": "1936",
+      "count": 1
+    },
+    {
+      "topic": "paleolit",
+      "count": 1
+    },
+    {
+      "topic": "neolit",
+      "count": 1
+    },
+    {
+      "topic": "osadnictwo",
+      "count": 1
+    },
+    {
+      "topic": "rewolucja neolityczna",
+      "count": 1
+    },
+    {
+      "topic": "skarb koronny",
+      "count": 1
+    },
+    {
+      "topic": "rzeczpospolita",
+      "count": 1
+    },
+    {
+      "topic": "podatki",
+      "count": 1
+    },
+    {
+      "topic": "liberum veto",
+      "count": 1
+    },
+    {
+      "topic": "parlamentaryzm",
+      "count": 1
+    },
+    {
+      "topic": "xvii-xviii wiek",
+      "count": 1
+    },
+    {
+      "topic": "trójpodział władzy",
+      "count": 1
+    },
+    {
+      "topic": "monteskiusz",
+      "count": 1
+    },
+    {
+      "topic": "oświecenie",
+      "count": 1
+    },
+    {
+      "topic": "bitwa pod grochowem",
+      "count": 1
+    },
+    {
+      "topic": "olszynka grochowska",
+      "count": 1
+    },
+    {
+      "topic": "ignacy łukasiewicz",
+      "count": 1
+    },
+    {
+      "topic": "przemysł naftowy",
+      "count": 1
+    },
+    {
+      "topic": "zabór austriacki",
+      "count": 1
+    },
+    {
+      "topic": "realizm",
+      "count": 1
+    },
+    {
+      "topic": "chełmoński",
+      "count": 1
+    },
+    {
+      "topic": "malarstwo xix wieku",
+      "count": 1
+    },
+    {
+      "topic": "style artystyczne",
+      "count": 1
+    },
+    {
+      "topic": "manifest komunistyczny",
+      "count": 1
+    },
+    {
+      "topic": "marks",
+      "count": 1
+    },
+    {
+      "topic": "engels",
+      "count": 1
+    },
+    {
+      "topic": "kolonializm",
+      "count": 1
+    },
+    {
+      "topic": "imperium brytyjskie",
+      "count": 1
+    },
+    {
+      "topic": "indie",
+      "count": 1
+    },
+    {
+      "topic": "i wojna światowa",
+      "count": 1
+    },
+    {
+      "topic": "ii rzeczpospolita",
+      "count": 1
+    },
+    {
+      "topic": "granice",
+      "count": 1
+    },
+    {
+      "topic": "konstytucja marcowa",
+      "count": 1
+    },
+    {
+      "topic": "traktat ryski",
+      "count": 1
+    },
+    {
+      "topic": "starożytna sparta",
+      "count": 1
+    },
+    {
+      "topic": "plutarch",
+      "count": 1
+    },
+    {
+      "topic": "tukidydes",
+      "count": 1
+    },
+    {
+      "topic": "nadrenia",
+      "count": 1
+    },
+    {
+      "topic": "hitler",
+      "count": 1
+    },
+    {
+      "topic": "łamanie traktatów",
+      "count": 1
+    },
+    {
+      "topic": "armia krajowa",
+      "count": 1
+    },
+    {
+      "topic": "zwz",
+      "count": 1
+    },
+    {
+      "topic": "polskie podziemie",
+      "count": 1
+    },
+    {
+      "topic": "ii wojna światowa",
+      "count": 1
+    },
+    {
+      "topic": "nato",
+      "count": 1
+    },
+    {
+      "topic": "integracja europejska",
+      "count": 1
+    },
+    {
+      "topic": "karta nz",
+      "count": 1
+    },
+    {
+      "topic": "zbrodnia katyńska",
+      "count": 1
+    },
+    {
+      "topic": "cenzura",
+      "count": 1
+    },
+    {
+      "topic": "miłosz",
+      "count": 1
+    },
+    {
+      "topic": "październik 1956",
+      "count": 1
+    },
+    {
+      "topic": "gomułka",
+      "count": 1
+    },
+    {
+      "topic": "październik 1981",
+      "count": 1
+    },
+    {
+      "topic": "solidarność",
+      "count": 1
+    },
+    {
+      "topic": "wałęsa",
+      "count": 1
+    },
+    {
+      "topic": "wojciech jaruzelski",
+      "count": 1
+    },
+    {
+      "topic": "decentralizacja xi-xii w.",
+      "count": 1
+    },
+    {
+      "topic": "rewolucje xviii w.",
+      "count": 1
+    },
+    {
+      "topic": "esej historyczny",
+      "count": 1
+    },
+    {
+      "topic": "prawo lokacyjne",
+      "count": 1
+    },
+    {
+      "topic": "lokacja miast",
+      "count": 1
+    },
+    {
+      "topic": "elbląg",
+      "count": 1
+    },
+    {
+      "topic": "bitwa pod crécy",
+      "count": 1
+    },
+    {
+      "topic": "wojna stuletnia",
+      "count": 1
+    },
+    {
+      "topic": "władysław łokietek",
+      "count": 1
+    },
+    {
+      "topic": "zjednoczenie polski",
+      "count": 1
+    },
+    {
+      "topic": "historiografia",
+      "count": 1
+    },
+    {
+      "topic": "gotyk",
+      "count": 1
+    },
+    {
+      "topic": "kościół św. krzysztofa wrocław",
+      "count": 1
+    },
+    {
+      "topic": "xvi wiek",
+      "count": 1
+    },
+    {
+      "topic": "źródło ikonograficzne",
+      "count": 1
+    },
+    {
+      "topic": "wazowie",
+      "count": 1
+    },
+    {
+      "topic": "wojny polsko-szwedzkie",
+      "count": 1
+    },
+    {
+      "topic": "unia personalna",
+      "count": 1
+    },
+    {
+      "topic": "starozytny egipt",
+      "count": 1
+    },
+    {
+      "topic": "zjednoczenie",
+      "count": 1
+    },
+    {
+      "topic": "faraonowie",
+      "count": 1
+    },
+    {
+      "topic": "dolny i gorny egipt",
+      "count": 1
+    },
+    {
+      "topic": "sejm egzekucyjny",
+      "count": 1
+    },
+    {
+      "topic": "kwarta",
+      "count": 1
+    },
+    {
+      "topic": "krolewszczyzny",
+      "count": 1
+    },
+    {
+      "topic": "ruch egzekucyjny",
+      "count": 1
+    },
+    {
+      "topic": "noc sw. bartlomieja",
+      "count": 1
+    },
+    {
+      "topic": "henryk iv burbon",
+      "count": 1
+    },
+    {
+      "topic": "karol ix",
+      "count": 1
+    },
+    {
+      "topic": "edykt nantejski",
+      "count": 1
+    },
+    {
+      "topic": "hugenoci",
+      "count": 1
+    },
+    {
+      "topic": "ludwik xiv",
+      "count": 1
+    },
+    {
+      "topic": "elekcje",
+      "count": 1
+    },
+    {
+      "topic": "sztuka nagrobna",
+      "count": 1
+    },
+    {
+      "topic": "rewolucja angielska",
+      "count": 1
+    },
+    {
+      "topic": "scinanie karola i stuarta",
+      "count": 1
+    },
+    {
+      "topic": "wojny napoleonskie",
+      "count": 1
+    },
+    {
+      "topic": "friedland",
+      "count": 1
+    },
+    {
+      "topic": "tylza",
+      "count": 1
+    },
+    {
+      "topic": "poniatowski",
+      "count": 1
+    },
+    {
+      "topic": "chlopicki",
+      "count": 1
+    },
+    {
+      "topic": "mazur listopadowy",
+      "count": 1
+    },
+    {
+      "topic": "dyktator",
+      "count": 1
+    },
+    {
+      "topic": "doktryna monroego",
+      "count": 1
+    },
+    {
+      "topic": "izolacjonizm",
+      "count": 1
+    },
+    {
+      "topic": "ameryka lacinska",
+      "count": 1
+    },
+    {
+      "topic": "zjednoczenie niemiec",
+      "count": 1
+    },
+    {
+      "topic": "wilhelm i hohenzollern",
+      "count": 1
+    },
+    {
+      "topic": "sedan",
+      "count": 1
+    },
+    {
+      "topic": "koronacja w wersalu",
+      "count": 1
+    },
+    {
+      "topic": "i wojna swiatowa",
+      "count": 1
+    },
+    {
+      "topic": "ententa",
+      "count": 1
+    },
+    {
+      "topic": "panstwa centralne",
+      "count": 1
+    },
+    {
+      "topic": "plebiscyty 1920-1921",
+      "count": 1
+    },
+    {
+      "topic": "gorny slask",
+      "count": 1
+    },
+    {
+      "topic": "warmia i mazury",
+      "count": 1
+    },
+    {
+      "topic": "litwa srodkowa",
+      "count": 1
+    },
+    {
+      "topic": "powstania",
+      "count": 1
+    },
+    {
+      "topic": "panstwa hellenistyczne",
+      "count": 1
+    },
+    {
+      "topic": "dariusz",
+      "count": 1
+    },
+    {
+      "topic": "satrapowie",
+      "count": 1
+    },
+    {
+      "topic": "aleksander wielki",
+      "count": 1
+    },
+    {
+      "topic": "wielki glod",
+      "count": 1
+    },
+    {
+      "topic": "kolektywizacja",
+      "count": 1
+    },
+    {
+      "topic": "nep",
+      "count": 1
+    },
+    {
+      "topic": "stalin",
+      "count": 1
+    },
+    {
+      "topic": "zsrr",
+      "count": 1
+    },
+    {
+      "topic": "triumf woli",
+      "count": 1
+    },
+    {
+      "topic": "riefenstahl",
+      "count": 1
+    },
+    {
+      "topic": "propaganda nazistowska",
+      "count": 1
+    },
+    {
+      "topic": "nsdap",
+      "count": 1
+    },
+    {
+      "topic": "powstanie warszawskie",
+      "count": 1
+    },
+    {
+      "topic": "\"godzina w",
+      "count": 1
+    },
+    {
+      "topic": "referendum 1946 \"3 razy tak\"",
+      "count": 1
+    },
+    {
+      "topic": "komunizm w polsce",
+      "count": 1
+    },
+    {
+      "topic": "falszerstwo wyborow",
+      "count": 1
+    },
+    {
+      "topic": "praska wiosna 1968",
+      "count": 1
+    },
+    {
+      "topic": "interwencja ukladu warszawskiego",
+      "count": 1
+    },
+    {
+      "topic": "czechoslowacja",
+      "count": 1
+    },
+    {
+      "topic": "stan wojenny",
+      "count": 1
+    },
+    {
+      "topic": "jaruzelski",
+      "count": 1
+    },
+    {
+      "topic": "karykatura polityczna",
+      "count": 1
+    },
+    {
+      "topic": "karol wielki",
+      "count": 1
+    },
+    {
+      "topic": "wojny z turcja",
+      "count": 1
+    },
+    {
+      "topic": "pilsudski",
+      "count": 1
+    },
+    {
+      "topic": "oktawian august",
+      "count": 1
+    },
+    {
+      "topic": "pryncypat",
+      "count": 1
+    },
+    {
+      "topic": "urzedy republikanskie",
+      "count": 1
+    },
+    {
+      "topic": "trybun",
+      "count": 1
+    },
+    {
+      "topic": "konsul",
+      "count": 1
+    },
+    {
+      "topic": "klasycyzm",
+      "count": 1
+    },
+    {
+      "topic": "kosciol sw. aleksandra",
+      "count": 1
+    },
+    {
+      "topic": "antyk",
+      "count": 1
+    },
+    {
+      "topic": "krucjaty",
+      "count": 1
+    },
+    {
+      "topic": "wyprawy krzyzowe",
+      "count": 1
+    },
+    {
+      "topic": "urban ii",
+      "count": 1
+    },
+    {
+      "topic": "szlak od waregow do grekow",
+      "count": 1
+    },
+    {
+      "topic": "spoleczenstwo feudalne",
+      "count": 1
+    },
+    {
+      "topic": "stany",
+      "count": 1
+    },
+    {
+      "topic": "modlacy walczacy pracujacy",
+      "count": 1
+    },
+    {
+      "topic": "boleslaw smialy",
+      "count": 1
+    },
+    {
+      "topic": "henryk v",
+      "count": 1
+    },
+    {
+      "topic": "krzywousty",
+      "count": 1
+    },
+    {
+      "topic": "anonim gall",
+      "count": 1
+    },
+    {
+      "topic": "przywileje",
+      "count": 1
+    },
+    {
+      "topic": "nihil novi",
+      "count": 1
+    },
+    {
+      "topic": "sejm walny",
+      "count": 1
+    },
+    {
+      "topic": "parlamentaryzm szlachecki",
+      "count": 1
+    },
+    {
+      "topic": "stanislaw orzechowski",
+      "count": 1
+    },
+    {
+      "topic": "quincunx",
+      "count": 1
+    },
+    {
+      "topic": "bracia polscy",
+      "count": 1
+    },
+    {
+      "topic": "arianie",
+      "count": 1
+    },
+    {
+      "topic": "starozytna grecja",
+      "count": 1
+    },
+    {
+      "topic": "religia",
+      "count": 1
+    },
+    {
+      "topic": "rytual pogrzebowy",
+      "count": 1
+    },
+    {
+      "topic": "mumifikacja",
+      "count": 1
+    },
+    {
+      "topic": "egipt",
+      "count": 1
+    },
+    {
+      "topic": "horus",
+      "count": 1
+    },
+    {
+      "topic": "pokoj karlowicki 1699",
+      "count": 1
+    },
+    {
+      "topic": "kamieniec podolski",
+      "count": 1
+    },
+    {
+      "topic": "sejm czteroletni",
+      "count": 1
+    },
+    {
+      "topic": "ustroj rzeczypospolitej",
+      "count": 1
+    },
+    {
+      "topic": "krolestwo polskie",
+      "count": 1
+    },
+    {
+      "topic": "bank polski",
+      "count": 1
+    },
+    {
+      "topic": "talar",
+      "count": 1
+    },
+    {
+      "topic": "zloty polski",
+      "count": 1
+    },
+    {
+      "topic": "rewolucja przemyslowa",
+      "count": 1
+    },
+    {
+      "topic": "ludyzm",
+      "count": 1
+    },
+    {
+      "topic": "maszyny parowe",
+      "count": 1
+    },
+    {
+      "topic": "robotnicy",
+      "count": 1
+    },
+    {
+      "topic": "powstanie styczniowe",
+      "count": 1
+    },
+    {
+      "topic": "mapy powstan",
+      "count": 1
+    },
+    {
+      "topic": "herby",
+      "count": 1
+    },
+    {
+      "topic": "wojna secesyjna",
+      "count": 1
+    },
+    {
+      "topic": "bawelna",
+      "count": 1
+    },
+    {
+      "topic": "glod bawelniany",
+      "count": 1
+    },
+    {
+      "topic": "wielka brytania",
+      "count": 1
+    },
+    {
+      "topic": "abolicjonizm",
+      "count": 1
+    },
+    {
+      "topic": "ruch robotniczy",
+      "count": 1
+    },
+    {
+      "topic": "pps",
+      "count": 1
+    },
+    {
+      "topic": "sdkpil",
+      "count": 1
+    },
+    {
+      "topic": "\"robotnik\"",
+      "count": 1
+    },
+    {
+      "topic": "\"czerwony sztandar",
+      "count": 1
+    },
+    {
+      "topic": "prawa kobiet",
+      "count": 1
+    },
+    {
+      "topic": "suffrazystki",
+      "count": 1
+    },
+    {
+      "topic": "xix poprawka do konstytucji usa",
+      "count": 1
+    },
+    {
+      "topic": "niemcy",
+      "count": 1
+    },
+    {
+      "topic": "rewanz",
+      "count": 1
+    },
+    {
+      "topic": "rysunek satyryczny",
+      "count": 1
+    },
+    {
+      "topic": "konstytucja marcowa 1921",
+      "count": 1
+    },
+    {
+      "topic": "smierc narutowicza",
+      "count": 1
+    },
+    {
+      "topic": "marszalek sejmu",
+      "count": 1
+    },
+    {
+      "topic": "starozytne ateny",
+      "count": 1
+    },
+    {
+      "topic": "areopag",
+      "count": 1
+    },
+    {
+      "topic": "reforma efialtesa",
+      "count": 1
+    },
+    {
+      "topic": "ustroj",
+      "count": 1
+    },
+    {
+      "topic": "wojna domowa w hiszpanii",
+      "count": 1
+    },
+    {
+      "topic": "totalitaryzmy",
+      "count": 1
+    },
+    {
+      "topic": "faszyzm",
+      "count": 1
+    },
+    {
+      "topic": "komunizm",
+      "count": 1
+    },
+    {
+      "topic": "nazizm",
+      "count": 1
+    },
+    {
+      "topic": "cop",
+      "count": 1
+    },
+    {
+      "topic": "gdynia",
+      "count": 1
+    },
+    {
+      "topic": "eugeniusz kwiatkowski",
+      "count": 1
+    },
+    {
+      "topic": "sanacja",
+      "count": 1
+    },
+    {
+      "topic": "ii wojna swiatowa",
+      "count": 1
+    },
+    {
+      "topic": "ukad sikorski-majski",
+      "count": 1
+    },
+    {
+      "topic": "armia andersa",
+      "count": 1
+    },
+    {
+      "topic": "armia polska w zsrr",
+      "count": 1
+    },
+    {
+      "topic": "realizm socjalistyczny",
+      "count": 1
+    },
+    {
+      "topic": "sztuka",
+      "count": 1
+    },
+    {
+      "topic": "okragly stol 1989",
+      "count": 1
+    },
+    {
+      "topic": "transformacja",
+      "count": 1
+    },
+    {
+      "topic": "rumunia",
+      "count": 1
+    },
+    {
+      "topic": "ceausescu",
+      "count": 1
+    },
+    {
+      "topic": "upadek komunizmu",
+      "count": 1
+    },
+    {
+      "topic": "wladyslaw jagiello",
+      "count": 1
+    },
+    {
+      "topic": "belle epoque",
+      "count": 1
+    },
+    {
+      "topic": "rok 1956",
+      "count": 1
+    },
+    {
+      "topic": "blok komunistyczny",
+      "count": 1
+    },
+    {
+      "topic": "starozytny rzym",
+      "count": 1
+    },
+    {
+      "topic": "akwedukt",
+      "count": 1
+    },
+    {
+      "topic": "pont du gard",
+      "count": 1
+    },
+    {
+      "topic": "zakony",
+      "count": 1
+    },
+    {
+      "topic": "franciszkanie",
+      "count": 1
+    },
+    {
+      "topic": "benedyktyni",
+      "count": 1
+    },
+    {
+      "topic": "jezuici",
+      "count": 1
+    },
+    {
+      "topic": "czechy",
+      "count": 1
+    },
+    {
+      "topic": "przemyslidzi",
+      "count": 1
+    },
+    {
+      "topic": "waclaw ii",
+      "count": 1
+    },
+    {
+      "topic": "polska",
+      "count": 1
+    },
+    {
+      "topic": "sw. stanislaw",
+      "count": 1
+    },
+    {
+      "topic": "sw. wojciech",
+      "count": 1
+    },
+    {
+      "topic": "lokacja",
+      "count": 1
+    },
+    {
+      "topic": "prawo niemieckie",
+      "count": 1
+    },
+    {
+      "topic": "poznan",
+      "count": 1
+    },
+    {
+      "topic": "urbanistyka",
+      "count": 1
+    },
+    {
+      "topic": "pokoj torunski 1466",
+      "count": 1
+    },
+    {
+      "topic": "kazimierz jagiellonczyk",
+      "count": 1
+    },
+    {
+      "topic": "prusy krolewskie",
+      "count": 1
+    },
+    {
+      "topic": "romanizm",
+      "count": 1
+    },
+    {
+      "topic": "kosciol",
+      "count": 1
+    },
+    {
+      "topic": "gniezno",
+      "count": 1
+    },
+    {
+      "topic": "artykuly henrykowskie",
+      "count": 1
+    },
+    {
+      "topic": "henryk walezy",
+      "count": 1
+    },
+    {
+      "topic": "bezkrolewie",
+      "count": 1
+    }
+  ],
+  "informatyka|pr": [
+    {
+      "topic": "sql",
+      "count": 4
+    },
+    {
+      "topic": "baza danych",
+      "count": 3
+    },
+    {
+      "topic": "join",
+      "count": 3
+    },
+    {
+      "topic": "analiza algorytmu",
+      "count": 3
+    },
+    {
+      "topic": "agregacja",
+      "count": 3
+    },
+    {
+      "topic": "programowanie",
+      "count": 2
+    },
+    {
+      "topic": "arkusz kalkulacyjny",
+      "count": 2
+    },
+    {
+      "topic": "plik tekstowy",
+      "count": 2
+    },
+    {
+      "topic": "drzewo binarne",
+      "count": 1
+    },
+    {
+      "topic": "biblioteczka",
+      "count": 1
+    },
+    {
+      "topic": "algorytm rekurencyjny",
+      "count": 1
+    },
+    {
+      "topic": "struktury danych",
+      "count": 1
+    },
+    {
+      "topic": "liczby binarne",
+      "count": 1
+    },
+    {
+      "topic": "bloki",
+      "count": 1
+    },
+    {
+      "topic": "xor",
+      "count": 1
+    },
+    {
+      "topic": "operacje bitowe",
+      "count": 1
+    },
+    {
+      "topic": "liczba pi",
+      "count": 1
+    },
+    {
+      "topic": "analiza tekstu",
+      "count": 1
+    },
+    {
+      "topic": "fragmenty cyfr",
+      "count": 1
+    },
+    {
+      "topic": "ciągi rosnąco-malejące",
+      "count": 1
+    },
+    {
+      "topic": "przetwarzanie danych",
+      "count": 1
+    },
+    {
+      "topic": "wykres kolumnowy",
+      "count": 1
+    },
+    {
+      "topic": "symulacja produkcji",
+      "count": 1
+    },
+    {
+      "topic": "group by",
+      "count": 1
+    },
+    {
+      "topic": "ranking gier planszowych",
+      "count": 1
+    },
+    {
+      "topic": "algorytm na tablicy dwuwymiarowej",
+      "count": 1
+    },
+    {
+      "topic": "plansza prostokątna",
+      "count": 1
+    },
+    {
+      "topic": "system dziesiętny",
+      "count": 1
+    },
+    {
+      "topic": "cyfry parzyste",
+      "count": 1
+    },
+    {
+      "topic": "programowanie dynamiczne",
+      "count": 1
+    },
+    {
+      "topic": "nieparzysty skrót",
+      "count": 1
+    },
+    {
+      "topic": "cyfry parzyste/nieparzyste",
+      "count": 1
+    },
+    {
+      "topic": "przetwarzanie pliku tekstowego",
+      "count": 1
+    },
+    {
+      "topic": "dzielniki",
+      "count": 1
+    },
+    {
+      "topic": "kolejność",
+      "count": 1
+    },
+    {
+      "topic": "średnia arytmetyczna",
+      "count": 1
+    },
+    {
+      "topic": "protokoły sieciowe",
+      "count": 1
+    },
+    {
+      "topic": "http",
+      "count": 1
+    },
+    {
+      "topic": "ftp",
+      "count": 1
+    },
+    {
+      "topic": "dhcp",
+      "count": 1
+    },
+    {
+      "topic": "dns",
+      "count": 1
+    },
+    {
+      "topic": "systemy liczbowe",
+      "count": 1
+    },
+    {
+      "topic": "system trójkowy",
+      "count": 1
+    },
+    {
+      "topic": "system dziewiątkowy",
+      "count": 1
+    },
+    {
+      "topic": "dodawanie",
+      "count": 1
+    },
+    {
+      "topic": "odejmowanie",
+      "count": 1
+    },
+    {
+      "topic": "analiza danych",
+      "count": 1
+    },
+    {
+      "topic": "wykres",
+      "count": 1
+    },
+    {
+      "topic": "rabat",
+      "count": 1
+    },
+    {
+      "topic": "antyjoin",
+      "count": 1
+    },
+    {
+      "topic": "sortowanie",
+      "count": 1
+    },
+    {
+      "topic": "funkcja rekurencyjna",
+      "count": 1
+    },
+    {
+      "topic": "pseudokod",
+      "count": 1
+    },
+    {
+      "topic": "przekształcanie zapisu cyfr",
+      "count": 1
+    },
+    {
+      "topic": "programowanie nierekurencyjne",
+      "count": 1
+    },
+    {
+      "topic": "zapis symboliczny",
+      "count": 1
+    },
+    {
+      "topic": "palindromy",
+      "count": 1
+    },
+    {
+      "topic": "kwadraty z symboli",
+      "count": 1
+    },
+    {
+      "topic": "kodowanie pozycyjne",
+      "count": 1
+    },
+    {
+      "topic": "przetwarzanie plików tekstowych",
+      "count": 1
+    },
+    {
+      "topic": "dron",
+      "count": 1
+    },
+    {
+      "topic": "geometria",
+      "count": 1
+    },
+    {
+      "topic": "odcinki",
+      "count": 1
+    },
+    {
+      "topic": "parsowanie pliku",
+      "count": 1
+    },
+    {
+      "topic": "śledzenie pozycji",
+      "count": 1
+    },
+    {
+      "topic": "ekstrema funkcji",
+      "count": 1
+    },
+    {
+      "topic": "bezpieczeństwo komputerowe",
+      "count": 1
+    },
+    {
+      "topic": "keylogger",
+      "count": 1
+    },
+    {
+      "topic": "malware",
+      "count": 1
+    },
+    {
+      "topic": "ochrona danych",
+      "count": 1
+    },
+    {
+      "topic": "system binarny",
+      "count": 1
+    },
+    {
+      "topic": "dodawanie pisemne",
+      "count": 1
+    },
+    {
+      "topic": "system pozycyjny",
+      "count": 1
+    },
+    {
+      "topic": "arytmetyka komputerowa",
+      "count": 1
+    },
+    {
+      "topic": "martianeum",
+      "count": 1
+    },
+    {
+      "topic": "transport drona",
+      "count": 1
+    },
+    {
+      "topic": "agregacja danych",
+      "count": 1
+    },
+    {
+      "topic": "ekstrema",
+      "count": 1
+    },
+    {
+      "topic": "wykresy",
+      "count": 1
+    },
+    {
+      "topic": "łaziki mars",
+      "count": 1
+    },
+    {
+      "topic": "filtracja zapytań",
+      "count": 1
+    },
+    {
+      "topic": "modelowanie danych",
+      "count": 1
+    }
+  ],
+  "jezyk-angielski|pp": [
+    {
+      "topic": "środki językowe",
+      "count": 12
+    },
+    {
+      "topic": "słuchanie",
+      "count": 9
+    },
+    {
+      "topic": "czytanie",
+      "count": 9
+    },
+    {
+      "topic": "5 pytań",
+      "count": 4
+    },
+    {
+      "topic": "wypowiedź pisemna",
+      "count": 3
+    },
+    {
+      "topic": "abc",
+      "count": 3
+    },
+    {
+      "topic": "czytanie abcd",
+      "count": 3
+    },
+    {
+      "topic": "leksyka",
+      "count": 3
+    },
+    {
+      "topic": "listening",
+      "count": 3
+    },
+    {
+      "topic": "true/false",
+      "count": 2
+    },
+    {
+      "topic": "pięć stwierdzeń",
+      "count": 2
+    },
+    {
+      "topic": "dopasowanie wypowiedzi do zdań a-f",
+      "count": 2
+    },
+    {
+      "topic": "jeden dłuższy tekst",
+      "count": 2
+    },
+    {
+      "topic": "dopasowanie nagłówków a-f do fragmentów",
+      "count": 2
+    },
+    {
+      "topic": "dłuższy tekst",
+      "count": 2
+    },
+    {
+      "topic": "uzupełnianie luk zdaniami a-e",
+      "count": 2
+    },
+    {
+      "topic": "minidialogi",
+      "count": 2
+    },
+    {
+      "topic": "reagowanie",
+      "count": 2
+    },
+    {
+      "topic": "kolokacje",
+      "count": 2
+    },
+    {
+      "topic": "transformacja zdań",
+      "count": 2
+    },
+    {
+      "topic": "wpis na blogu",
+      "count": 2
+    },
+    {
+      "topic": "mini-dialogi",
+      "count": 2
+    },
+    {
+      "topic": "reading",
+      "count": 2
+    },
+    {
+      "topic": "uzupełnij jednym wyrazem (cloze)",
+      "count": 1
+    },
+    {
+      "topic": "transformacje zdań",
+      "count": 1
+    },
+    {
+      "topic": "e-mail",
+      "count": 1
+    },
+    {
+      "topic": "konkurs fotograficzny",
+      "count": 1
+    },
+    {
+      "topic": "cztery teksty (lotniska",
+      "count": 1
+    },
+    {
+      "topic": "podróże) + uzupełnianie luk",
+      "count": 1
+    },
+    {
+      "topic": "słowotwórstwo (word formation)",
+      "count": 1
+    },
+    {
+      "topic": "wycieczka w pojedynkę",
+      "count": 1
+    },
+    {
+      "topic": "cztery teksty o rowerach + wiadomość z lukami",
+      "count": 1
+    },
+    {
+      "topic": "dobieranie nagłówków a-f",
+      "count": 1
+    },
+    {
+      "topic": "family trips",
+      "count": 1
+    },
+    {
+      "topic": "uzupełnij jednym wyrazem",
+      "count": 1
+    },
+    {
+      "topic": "mall of america",
+      "count": 1
+    },
+    {
+      "topic": "had/promised/enough",
+      "count": 1
+    },
+    {
+      "topic": "pierwszy występ przed publicznością",
+      "count": 1
+    },
+    {
+      "topic": "trzy teksty",
+      "count": 1
+    },
+    {
+      "topic": "uzupełnianie luk",
+      "count": 1
+    },
+    {
+      "topic": "volunteering in samoa",
+      "count": 1
+    },
+    {
+      "topic": "dopasowanie nagłówków",
+      "count": 1
+    },
+    {
+      "topic": "abbey road",
+      "count": 1
+    },
+    {
+      "topic": "4 teksty + wiadomość z lukami",
+      "count": 1
+    },
+    {
+      "topic": "wimbledon tennis club",
+      "count": 1
+    },
+    {
+      "topic": "vivian maier",
+      "count": 1
+    },
+    {
+      "topic": "a nanny with a camera",
+      "count": 1
+    },
+    {
+      "topic": "uzupełnianie luk zdaniami",
+      "count": 1
+    },
+    {
+      "topic": "kafka and the doll",
+      "count": 1
+    },
+    {
+      "topic": "reakcje językowe",
+      "count": 1
+    },
+    {
+      "topic": "jeden wyraz do dwóch zdań",
+      "count": 1
+    },
+    {
+      "topic": "matching",
+      "count": 1
+    },
+    {
+      "topic": "paper structures",
+      "count": 1
+    },
+    {
+      "topic": "multiple speakers",
+      "count": 1
+    },
+    {
+      "topic": "word formation",
+      "count": 1
+    },
+    {
+      "topic": "miracle berry",
+      "count": 1
+    },
+    {
+      "topic": "plural / gerund / adverb",
+      "count": 1
+    },
+    {
+      "topic": "sentence transformations",
+      "count": 1
+    },
+    {
+      "topic": "key words",
+      "count": 1
+    },
+    {
+      "topic": "max 4 wyrazy",
+      "count": 1
+    },
+    {
+      "topic": "writing",
+      "count": 1
+    },
+    {
+      "topic": "email",
+      "count": 1
+    },
+    {
+      "topic": "miejsce z dzieciństwa",
+      "count": 1
+    },
+    {
+      "topic": "100-150 wyrazów",
+      "count": 1
+    },
+    {
+      "topic": "multiple choice",
+      "count": 1
+    },
+    {
+      "topic": "three texts",
+      "count": 1
+    },
+    {
+      "topic": "mystery / john / jess",
+      "count": 1
+    },
+    {
+      "topic": "gap fill",
+      "count": 1
+    },
+    {
+      "topic": "jewellery workshop",
+      "count": 1
+    },
+    {
+      "topic": "leaflet",
+      "count": 1
+    },
+    {
+      "topic": "matching headings",
+      "count": 1
+    },
+    {
+      "topic": "cutty sark ship",
+      "count": 1
+    },
+    {
+      "topic": "reading matching",
+      "count": 1
+    },
+    {
+      "topic": "summer jobs",
+      "count": 1
+    },
+    {
+      "topic": "multiple texts",
+      "count": 1
+    },
+    {
+      "topic": "reading multiple choice",
+      "count": 1
+    },
+    {
+      "topic": "harper evans",
+      "count": 1
+    },
+    {
+      "topic": "volunteering in memphis",
+      "count": 1
+    },
+    {
+      "topic": "gap fill sentences",
+      "count": 1
+    },
+    {
+      "topic": "mistaken michelin star",
+      "count": 1
+    },
+    {
+      "topic": "funkcje językowe",
+      "count": 1
+    },
+    {
+      "topic": "propozycje + opinie",
+      "count": 1
+    },
+    {
+      "topic": "parafrazy zdań",
+      "count": 1
+    },
+    {
+      "topic": "synonimy",
+      "count": 1
+    }
+  ],
+  "jezyk-angielski|pr": [
+    {
+      "topic": "słuchanie pr",
+      "count": 9
+    },
+    {
+      "topic": "abcd",
+      "count": 9
+    },
+    {
+      "topic": "czytanie pr",
+      "count": 9
+    },
+    {
+      "topic": "środki językowe pr",
+      "count": 9
+    },
+    {
+      "topic": "sześć krótkich wypowiedzi",
+      "count": 3
+    },
+    {
+      "topic": "wypowiedź pisemna pr",
+      "count": 3
+    },
+    {
+      "topic": "200-250 wyrazów",
+      "count": 3
+    },
+    {
+      "topic": "dopasowanie wypowiedzi do zdań a-f",
+      "count": 3
+    },
+    {
+      "topic": "dłuższy tekst",
+      "count": 3
+    },
+    {
+      "topic": "5 pytań",
+      "count": 3
+    },
+    {
+      "topic": "uzupełnianie luk zdaniami a-f",
+      "count": 3
+    },
+    {
+      "topic": "leksyka i kolokacje",
+      "count": 3
+    },
+    {
+      "topic": "słowotwórstwo (word formation)",
+      "count": 3
+    },
+    {
+      "topic": "rozprawka albo artykuł",
+      "count": 2
+    },
+    {
+      "topic": "transformacje zdań (max 5 wyrazów)",
+      "count": 2
+    },
+    {
+      "topic": "uzupełnianie luk w notatce (triki kulinarne na filmie)",
+      "count": 1
+    },
+    {
+      "topic": "wrak statku kosmicznego (4 abcd + 4 otwarte)",
+      "count": 1
+    },
+    {
+      "topic": "uzupełnianie luk w notatce (obóz językowy w szkocji)",
+      "count": 1
+    },
+    {
+      "topic": "the notting hill bookshop (4 abcd + 4 otwarte)",
+      "count": 1
+    },
+    {
+      "topic": "transformacje zdań (max 4 wyrazy)",
+      "count": 1
+    },
+    {
+      "topic": "rozprawka albo list formalny",
+      "count": 1
+    },
+    {
+      "topic": "uzupełnianie luk w notatce (biblioteka)",
+      "count": 1
+    },
+    {
+      "topic": "4 teksty (kursy dog-trainerów) + wiadomość z lukami",
+      "count": 1
+    }
+  ],
+  "jezyk-polski|pp": [
+    {
+      "topic": "czytanie ze zrozumieniem",
+      "count": 6
+    },
+    {
+      "topic": "porównanie tekstów",
+      "count": 4
+    },
+    {
+      "topic": "notatka syntetyzująca",
+      "count": 4
+    },
+    {
+      "topic": "totalitaryzm",
+      "count": 3
+    },
+    {
+      "topic": "stanisławska",
+      "count": 3
+    },
+    {
+      "topic": "mit",
+      "count": 3
+    },
+    {
+      "topic": "krzemińska",
+      "count": 2
+    },
+    {
+      "topic": "vanitas",
+      "count": 2
+    },
+    {
+      "topic": "młoda polska",
+      "count": 2
+    },
+    {
+      "topic": "wesele",
+      "count": 2
+    },
+    {
+      "topic": "przedwiośnie",
+      "count": 2
+    },
+    {
+      "topic": "nowomowa",
+      "count": 2
+    },
+    {
+      "topic": "mrożek tango",
+      "count": 2
+    },
+    {
+      "topic": "wypracowanie",
+      "count": 2
+    },
+    {
+      "topic": "bańka turystyczna",
+      "count": 2
+    },
+    {
+      "topic": "ironia",
+      "count": 2
+    },
+    {
+      "topic": "stoicyzm",
+      "count": 2
+    },
+    {
+      "topic": "dwa teksty",
+      "count": 2
+    },
+    {
+      "topic": "wypracowanie maturalne",
+      "count": 2
+    },
+    {
+      "topic": "argumentacja",
+      "count": 2
+    },
+    {
+      "topic": "kochanowski",
+      "count": 2
+    },
+    {
+      "topic": "pieśń o rolandzie",
+      "count": 2
+    },
+    {
+      "topic": "średniowiecze",
+      "count": 2
+    },
+    {
+      "topic": "turystyka",
+      "count": 1
+    },
+    {
+      "topic": "zmiana",
+      "count": 1
+    },
+    {
+      "topic": "hals",
+      "count": 1
+    },
+    {
+      "topic": "naborowski",
+      "count": 1
+    },
+    {
+      "topic": "motyw przemijania",
+      "count": 1
+    },
+    {
+      "topic": "mickiewicz oda do młodości",
+      "count": 1
+    },
+    {
+      "topic": "motyw lotu",
+      "count": 1
+    },
+    {
+      "topic": "romantyzm",
+      "count": 1
+    },
+    {
+      "topic": "dziady iii vs kordian",
+      "count": 1
+    },
+    {
+      "topic": "polska chrystusem",
+      "count": 1
+    },
+    {
+      "topic": "polska winkelriedem",
+      "count": 1
+    },
+    {
+      "topic": "pozytywizm",
+      "count": 1
+    },
+    {
+      "topic": "epoki literackie",
+      "count": 1
+    },
+    {
+      "topic": "dopasowanie",
+      "count": 1
+    },
+    {
+      "topic": "plakat kunce",
+      "count": 1
+    },
+    {
+      "topic": "relacja inteligencja-chłopi",
+      "count": 1
+    },
+    {
+      "topic": "tytuły części",
+      "count": 1
+    },
+    {
+      "topic": "szklane domy",
+      "count": 1
+    },
+    {
+      "topic": "wiatr od wschodu",
+      "count": 1
+    },
+    {
+      "topic": "orwell 1984",
+      "count": 1
+    },
+    {
+      "topic": "kontrola języka",
+      "count": 1
+    },
+    {
+      "topic": "artur",
+      "count": 1
+    },
+    {
+      "topic": "bohater romantyczny",
+      "count": 1
+    },
+    {
+      "topic": "postawa",
+      "count": 1
+    },
+    {
+      "topic": "człowiek-sprzeczność",
+      "count": 1
+    },
+    {
+      "topic": "bohaterstwo dla drugiego",
+      "count": 1
+    },
+    {
+      "topic": "korzyść",
+      "count": 1
+    },
+    {
+      "topic": "ryzyko",
+      "count": 1
+    },
+    {
+      "topic": "zwiedzanie jako zawłaszczanie",
+      "count": 1
+    },
+    {
+      "topic": "wyliczenia",
+      "count": 1
+    },
+    {
+      "topic": "słownictwo wartościujące",
+      "count": 1
+    },
+    {
+      "topic": "środki językowe",
+      "count": 1
+    },
+    {
+      "topic": "skutki masowej turystyki",
+      "count": 1
+    },
+    {
+      "topic": "koń trojański",
+      "count": 1
+    },
+    {
+      "topic": "wirus komputerowy",
+      "count": 1
+    },
+    {
+      "topic": "mitologizm",
+      "count": 1
+    },
+    {
+      "topic": "miłosz piosenka o końcu świata",
+      "count": 1
+    },
+    {
+      "topic": "apokalipsa św. jana",
+      "count": 1
+    },
+    {
+      "topic": "kochanowski pieśń ix",
+      "count": 1
+    },
+    {
+      "topic": "fortuna",
+      "count": 1
+    },
+    {
+      "topic": "postawa życiowa",
+      "count": 1
+    },
+    {
+      "topic": "prawda/fałsz",
+      "count": 1
+    },
+    {
+      "topic": "koncept barokowy",
+      "count": 1
+    },
+    {
+      "topic": "niestatek",
+      "count": 1
+    },
+    {
+      "topic": "morsztyn",
+      "count": 1
+    },
+    {
+      "topic": "kontrast",
+      "count": 1
+    },
+    {
+      "topic": "dziady cz. iii profetyzm",
+      "count": 1
+    },
+    {
+      "topic": "pan tadeusz porównania i hiperbole",
+      "count": 1
+    },
+    {
+      "topic": "kordian",
+      "count": 1
+    },
+    {
+      "topic": "plakat teatralny",
+      "count": 1
+    },
+    {
+      "topic": "interpretacja tekstu kultury",
+      "count": 1
+    },
+    {
+      "topic": "potop",
+      "count": 1
+    },
+    {
+      "topic": "sienkiewicz",
+      "count": 1
+    },
+    {
+      "topic": "metafora",
+      "count": 1
+    },
+    {
+      "topic": "postaw czerwonego sukna",
+      "count": 1
+    },
+    {
+      "topic": "wyspiański",
+      "count": 1
+    },
+    {
+      "topic": "złoty róg",
+      "count": 1
+    },
+    {
+      "topic": "symbol",
+      "count": 1
+    },
+    {
+      "topic": "żeromski",
+      "count": 1
+    },
+    {
+      "topic": "sytuacja polski po niepodległości",
+      "count": 1
+    },
+    {
+      "topic": "zdążyć przed panem bogiem",
+      "count": 1
+    },
+    {
+      "topic": "krall",
+      "count": 1
+    },
+    {
+      "topic": "edelman",
+      "count": 1
+    },
+    {
+      "topic": "pamięć",
+      "count": 1
+    },
+    {
+      "topic": "umschlagplatz",
+      "count": 1
+    },
+    {
+      "topic": "bunt",
+      "count": 1
+    },
+    {
+      "topic": "relacja",
+      "count": 1
+    },
+    {
+      "topic": "lektura obowiązkowa",
+      "count": 1
+    },
+    {
+      "topic": "paradoks",
+      "count": 1
+    },
+    {
+      "topic": "analiza tekstu",
+      "count": 1
+    },
+    {
+      "topic": "luecke",
+      "count": 1
+    },
+    {
+      "topic": "zarządzanie czasem",
+      "count": 1
+    },
+    {
+      "topic": "uwarunkowania",
+      "count": 1
+    },
+    {
+      "topic": "gadomska",
+      "count": 1
+    },
+    {
+      "topic": "uważność",
+      "count": 1
+    },
+    {
+      "topic": "gadomska vs luecke",
+      "count": 1
+    },
+    {
+      "topic": "funkcja impresywna",
+      "count": 1
+    },
+    {
+      "topic": "wypowiedzenia złożone",
+      "count": 1
+    },
+    {
+      "topic": "analiza języka",
+      "count": 1
+    },
+    {
+      "topic": "synteza dwóch tekstów",
+      "count": 1
+    },
+    {
+      "topic": "księga koheleta",
+      "count": 1
+    },
+    {
+      "topic": "obraz in ictu oculi",
+      "count": 1
+    },
+    {
+      "topic": "demeter",
+      "count": 1
+    },
+    {
+      "topic": "tren x",
+      "count": 1
+    },
+    {
+      "topic": "parandowski",
+      "count": 1
+    },
+    {
+      "topic": "porównanie postaw",
+      "count": 1
+    },
+    {
+      "topic": "wzorzec rycerski",
+      "count": 1
+    },
+    {
+      "topic": "ars moriendi",
+      "count": 1
+    },
+    {
+      "topic": "etymologia",
+      "count": 1
+    },
+    {
+      "topic": "sagan",
+      "count": 1
+    },
+    {
+      "topic": "planeta",
+      "count": 1
+    },
+    {
+      "topic": "wesele wyspiański",
+      "count": 1
+    },
+    {
+      "topic": "rycerz",
+      "count": 1
+    },
+    {
+      "topic": "poeta",
+      "count": 1
+    },
+    {
+      "topic": "symbol mocy",
+      "count": 1
+    },
+    {
+      "topic": "baczyński ten czas",
+      "count": 1
+    },
+    {
+      "topic": "pokolenie kolumbów",
+      "count": 1
+    },
+    {
+      "topic": "orwell rok 1984",
+      "count": 1
+    },
+    {
+      "topic": "okładka",
+      "count": 1
+    },
+    {
+      "topic": "inwigilacja",
+      "count": 1
+    },
+    {
+      "topic": "groteska",
+      "count": 1
+    },
+    {
+      "topic": "śmierć eugenii",
+      "count": 1
+    },
+    {
+      "topic": "herbert stary prometeusz",
+      "count": 1
+    },
+    {
+      "topic": "reinterpretacja",
+      "count": 1
+    },
+    {
+      "topic": "nadzieja",
+      "count": 1
+    },
+    {
+      "topic": "błędna ocena",
+      "count": 1
+    },
+    {
+      "topic": "przyczyna zainteresowania kosmosem",
+      "count": 1
+    },
+    {
+      "topic": "ograniczenia eksploracji kosmosu",
+      "count": 1
+    },
+    {
+      "topic": "sagan vs trepczyńska",
+      "count": 1
+    },
+    {
+      "topic": "funkcje czasowników 1.os.l.mn.",
+      "count": 1
+    },
+    {
+      "topic": "przymiotnik wartościujący",
+      "count": 1
+    },
+    {
+      "topic": "kosmos jako potrzeba człowieka",
+      "count": 1
+    },
+    {
+      "topic": "postaci mitologiczne",
+      "count": 1
+    },
+    {
+      "topic": "asnyk",
+      "count": 1
+    },
+    {
+      "topic": "herbert",
+      "count": 1
+    },
+    {
+      "topic": "herakles",
+      "count": 1
+    },
+    {
+      "topic": "ikar",
+      "count": 1
+    },
+    {
+      "topic": "rozmowa mistrza polikarpa",
+      "count": 1
+    },
+    {
+      "topic": "morsztyn wiosna",
+      "count": 1
+    },
+    {
+      "topic": "średniowiecze vs barok",
+      "count": 1
+    },
+    {
+      "topic": "kochanowski pieśń 14",
+      "count": 1
+    },
+    {
+      "topic": "władza",
+      "count": 1
+    },
+    {
+      "topic": "środki retoryczne",
+      "count": 1
+    },
+    {
+      "topic": "apostrofa",
+      "count": 1
+    },
+    {
+      "topic": "matka cierpiąca",
+      "count": 1
+    },
+    {
+      "topic": "dziady iii rollisonowa",
+      "count": 1
+    },
+    {
+      "topic": "wittlin stabat mater",
+      "count": 1
+    },
+    {
+      "topic": "p/f",
+      "count": 1
+    },
+    {
+      "topic": "technologia cyfrowa",
+      "count": 1
+    },
+    {
+      "topic": "oświecenie",
+      "count": 1
+    },
+    {
+      "topic": "krasicki \"jagnię i wilcy\"",
+      "count": 1
+    },
+    {
+      "topic": "mural \"człowieczy los\"",
+      "count": 1
+    },
+    {
+      "topic": "prawo silniejszego",
+      "count": 1
+    },
+    {
+      "topic": "lalka prusa",
+      "count": 1
+    },
+    {
+      "topic": "ignacy rzecki",
+      "count": 1
+    },
+    {
+      "topic": "romantyk",
+      "count": 1
+    },
+    {
+      "topic": "przywiązanie do ludzi",
+      "count": 1
+    },
+    {
+      "topic": "antoni lange",
+      "count": 1
+    },
+    {
+      "topic": "dekadentyzm",
+      "count": 1
+    },
+    {
+      "topic": "pesymizm",
+      "count": 1
+    },
+    {
+      "topic": "żeromski \"przedwiośnie\"",
+      "count": 1
+    },
+    {
+      "topic": "cezary baryka",
+      "count": 1
+    },
+    {
+      "topic": "polemika z komunistami",
+      "count": 1
+    },
+    {
+      "topic": "gombrowicz \"ferdydurke\"",
+      "count": 1
+    },
+    {
+      "topic": "koncepcja formy",
+      "count": 1
+    },
+    {
+      "topic": "upupianie",
+      "count": 1
+    },
+    {
+      "topic": "herling-grudziński \"inny świat\"",
+      "count": 1
+    },
+    {
+      "topic": "łagier",
+      "count": 1
+    },
+    {
+      "topic": "zniszczenie wartości",
+      "count": 1
+    },
+    {
+      "topic": "orwell \"rok 1984\"",
+      "count": 1
+    },
+    {
+      "topic": "ministerstwo prawdy",
+      "count": 1
+    },
+    {
+      "topic": "dwa tematy",
+      "count": 1
+    },
+    {
+      "topic": "praca / postrzeganie przez innych",
+      "count": 1
+    },
+    {
+      "topic": "cyfrowe nośniki",
+      "count": 1
+    },
+    {
+      "topic": "dostęp do wiedzy",
+      "count": 1
+    },
+    {
+      "topic": "szewczyk",
+      "count": 1
+    },
+    {
+      "topic": "porównanie dwóch tekstów",
+      "count": 1
+    },
+    {
+      "topic": "ocena papieru jako nośnika",
+      "count": 1
+    },
+    {
+      "topic": "sentencja newtona",
+      "count": 1
+    },
+    {
+      "topic": "kumulatywność wiedzy",
+      "count": 1
+    },
+    {
+      "topic": "leksyka",
+      "count": 1
+    },
+    {
+      "topic": "neologizm znaczeniowy",
+      "count": 1
+    },
+    {
+      "topic": "słowo \"chmura",
+      "count": 1
+    },
+    {
+      "topic": "tradycyjne vs cyfrowe nośniki informacji",
+      "count": 1
+    },
+    {
+      "topic": "antygona sofoklesa",
+      "count": 1
+    },
+    {
+      "topic": "symbolika plakatu",
+      "count": 1
+    },
+    {
+      "topic": "konflikt tragiczny",
+      "count": 1
+    },
+    {
+      "topic": "relacja bóg-człowiek",
+      "count": 1
+    },
+    {
+      "topic": "lenno",
+      "count": 1
+    },
+    {
+      "topic": "renesans",
+      "count": 1
+    },
+    {
+      "topic": "pieśni",
+      "count": 1
+    }
+  ],
+  "jezyk-polski|pr": [
+    {
+      "topic": "wypracowanie pr",
+      "count": 3
+    },
+    {
+      "topic": "realizm i fantastyka",
+      "count": 1
+    },
+    {
+      "topic": "tradycja antyczna i biblijna",
+      "count": 1
+    },
+    {
+      "topic": "synkretyzm",
+      "count": 1
+    },
+    {
+      "topic": "kreacja przestrzeni",
+      "count": 1
+    },
+    {
+      "topic": "schulz",
+      "count": 1
+    },
+    {
+      "topic": "intertekstualność",
+      "count": 1
+    },
+    {
+      "topic": "oniryzm",
+      "count": 1
+    },
+    {
+      "topic": "problematyka",
+      "count": 1
+    },
+    {
+      "topic": "środki artystyczne",
+      "count": 1
+    }
+  ],
+  "matematyka|pp": [
+    {
+      "topic": "funkcja kwadratowa",
+      "count": 7
+    },
+    {
+      "topic": "geometria analityczna",
+      "count": 7
+    },
+    {
+      "topic": "stereometria",
+      "count": 7
+    },
+    {
+      "topic": "statystyka",
+      "count": 7
+    },
+    {
+      "topic": "planimetria",
+      "count": 7
+    },
+    {
+      "topic": "funkcja liniowa",
+      "count": 6
+    },
+    {
+      "topic": "wzory skróconego mnożenia",
+      "count": 6
+    },
+    {
+      "topic": "ciąg geometryczny",
+      "count": 5
+    },
+    {
+      "topic": "podzielność",
+      "count": 5
+    },
+    {
+      "topic": "trygonometria",
+      "count": 5
+    },
+    {
+      "topic": "ciąg arytmetyczny",
+      "count": 4
+    },
+    {
+      "topic": "objętość",
+      "count": 4
+    },
+    {
+      "topic": "kombinatoryka",
+      "count": 4
+    },
+    {
+      "topic": "średnia arytmetyczna",
+      "count": 4
+    },
+    {
+      "topic": "logarytmy",
+      "count": 4
+    },
+    {
+      "topic": "potęgi",
+      "count": 4
+    },
+    {
+      "topic": "funkcja",
+      "count": 3
+    },
+    {
+      "topic": "dziedzina",
+      "count": 3
+    },
+    {
+      "topic": "czytanie wykresu",
+      "count": 3
+    },
+    {
+      "topic": "wzór ogólny",
+      "count": 3
+    },
+    {
+      "topic": "mediana",
+      "count": 3
+    },
+    {
+      "topic": "zadanie tekstowe",
+      "count": 3
+    },
+    {
+      "topic": "odczyt z wykresu",
+      "count": 3
+    },
+    {
+      "topic": "prawa działań",
+      "count": 3
+    },
+    {
+      "topic": "pierwiastki",
+      "count": 3
+    },
+    {
+      "topic": "proste równoległe",
+      "count": 3
+    },
+    {
+      "topic": "wartość bezwzględna",
+      "count": 2
+    },
+    {
+      "topic": "układ równań",
+      "count": 2
+    },
+    {
+      "topic": "monotoniczność",
+      "count": 2
+    },
+    {
+      "topic": "oś symetrii",
+      "count": 2
+    },
+    {
+      "topic": "tangens kąta",
+      "count": 2
+    },
+    {
+      "topic": "pole",
+      "count": 2
+    },
+    {
+      "topic": "okrąg",
+      "count": 2
+    },
+    {
+      "topic": "kąt środkowy",
+      "count": 2
+    },
+    {
+      "topic": "kąt wpisany",
+      "count": 2
+    },
+    {
+      "topic": "trójkąty podobne",
+      "count": 2
+    },
+    {
+      "topic": "twierdzenie pitagorasa",
+      "count": 2
+    },
+    {
+      "topic": "prostopadłość prostych",
+      "count": 2
+    },
+    {
+      "topic": "przekątna",
+      "count": 2
+    },
+    {
+      "topic": "dowód",
+      "count": 2
+    },
+    {
+      "topic": "reguła mnożenia",
+      "count": 2
+    },
+    {
+      "topic": "równanie wymierne",
+      "count": 2
+    },
+    {
+      "topic": "układy równań",
+      "count": 2
+    },
+    {
+      "topic": "miejsce zerowe",
+      "count": 2
+    },
+    {
+      "topic": "prawdopodobieństwo",
+      "count": 2
+    },
+    {
+      "topic": "optymalizacja",
+      "count": 2
+    },
+    {
+      "topic": "nierówności liniowe",
+      "count": 2
+    },
+    {
+      "topic": "równania wielomianowe",
+      "count": 2
+    },
+    {
+      "topic": "postać kanoniczna",
+      "count": 2
+    },
+    {
+      "topic": "równanie okręgu",
+      "count": 2
+    },
+    {
+      "topic": "procenty",
+      "count": 2
+    },
+    {
+      "topic": "trójkąt prostokątny",
+      "count": 2
+    },
+    {
+      "topic": "oś liczbowa",
+      "count": 1
+    },
+    {
+      "topic": "suma przedziałów",
+      "count": 1
+    },
+    {
+      "topic": "układ równań liniowych",
+      "count": 1
+    },
+    {
+      "topic": "interpretacja geometryczna",
+      "count": 1
+    },
+    {
+      "topic": "obwód prostokąta",
+      "count": 1
+    },
+    {
+      "topic": "modelowanie",
+      "count": 1
+    },
+    {
+      "topic": "największa wartość",
+      "count": 1
+    },
+    {
+      "topic": "znaki współczynników a i b",
+      "count": 1
+    },
+    {
+      "topic": "miejsca zerowe",
+      "count": 1
+    },
+    {
+      "topic": "ciąg",
+      "count": 1
+    },
+    {
+      "topic": "obliczanie wyrazu",
+      "count": 1
+    },
+    {
+      "topic": "własności",
+      "count": 1
+    },
+    {
+      "topic": "suma wyrazów",
+      "count": 1
+    },
+    {
+      "topic": "zadanie kontekstowe",
+      "count": 1
+    },
+    {
+      "topic": "pierwiastek sześcienny",
+      "count": 1
+    },
+    {
+      "topic": "działania na pierwiastkach",
+      "count": 1
+    },
+    {
+      "topic": "definicja przez współrzędne",
+      "count": 1
+    },
+    {
+      "topic": "tożsamości trygonometryczne",
+      "count": 1
+    },
+    {
+      "topic": "jedynka trygonometryczna",
+      "count": 1
+    },
+    {
+      "topic": "romb",
+      "count": 1
+    },
+    {
+      "topic": "iloczyn przekątnych",
+      "count": 1
+    },
+    {
+      "topic": "przecięcie",
+      "count": 1
+    },
+    {
+      "topic": "równanie prostej równoległej przez punkt",
+      "count": 1
+    },
+    {
+      "topic": "graniastosłup",
+      "count": 1
+    },
+    {
+      "topic": "kąt nachylenia",
+      "count": 1
+    },
+    {
+      "topic": "ostrosłup prawidłowy",
+      "count": 1
+    },
+    {
+      "topic": "pole powierzchni",
+      "count": 1
+    },
+    {
+      "topic": "ostrosłup",
+      "count": 1
+    },
+    {
+      "topic": "wierzchołki",
+      "count": 1
+    },
+    {
+      "topic": "krawędzie",
+      "count": 1
+    },
+    {
+      "topic": "liczby cyfrowe",
+      "count": 1
+    },
+    {
+      "topic": "własności logarytmu sumy",
+      "count": 1
+    },
+    {
+      "topic": "różnica kwadratów",
+      "count": 1
+    },
+    {
+      "topic": "nierówność liniowa",
+      "count": 1
+    },
+    {
+      "topic": "równanie wielomianu",
+      "count": 1
+    },
+    {
+      "topic": "iloczyn równy zeru",
+      "count": 1
+    },
+    {
+      "topic": "równanie trzeciego stopnia",
+      "count": 1
+    },
+    {
+      "topic": "grupowanie wyrazów",
+      "count": 1
+    },
+    {
+      "topic": "równoległość prostych",
+      "count": 1
+    },
+    {
+      "topic": "przekształcenia",
+      "count": 1
+    },
+    {
+      "topic": "ciągi",
+      "count": 1
+    },
+    {
+      "topic": "suma częściowa",
+      "count": 1
+    },
+    {
+      "topic": "znaki funkcji w ii ćwiartce",
+      "count": 1
+    },
+    {
+      "topic": "tożsamości",
+      "count": 1
+    },
+    {
+      "topic": "twierdzenie o dwusiecznej kąta",
+      "count": 1
+    },
+    {
+      "topic": "pole równoległoboku",
+      "count": 1
+    },
+    {
+      "topic": "kąty wpisane i środkowe w okręgu",
+      "count": 1
+    },
+    {
+      "topic": "równoległobok",
+      "count": 1
+    },
+    {
+      "topic": "graniastosłup prawidłowy sześciokątny",
+      "count": 1
+    },
+    {
+      "topic": "podobieństwo brył",
+      "count": 1
+    },
+    {
+      "topic": "permutacje",
+      "count": 1
+    },
+    {
+      "topic": "dowody w teorii liczb",
+      "count": 1
+    },
+    {
+      "topic": "model klasyczny",
+      "count": 1
+    },
+    {
+      "topic": "równania wymierne",
+      "count": 1
+    },
+    {
+      "topic": "wielomiany",
+      "count": 1
+    },
+    {
+      "topic": "rozkład na czynniki",
+      "count": 1
+    },
+    {
+      "topic": "metoda grupowania",
+      "count": 1
+    },
+    {
+      "topic": "nierówności kwadratowe",
+      "count": 1
+    },
+    {
+      "topic": "funkcja sklejana",
+      "count": 1
+    },
+    {
+      "topic": "ciągi rekurencyjne",
+      "count": 1
+    },
+    {
+      "topic": "ciągi arytmetyczne z parametrem",
+      "count": 1
+    },
+    {
+      "topic": "równanie z sin/cos",
+      "count": 1
+    },
+    {
+      "topic": "trygonometria w trójkącie prostokątnym",
+      "count": 1
+    },
+    {
+      "topic": "środkowa",
+      "count": 1
+    },
+    {
+      "topic": "kąt środkowy i wpisany",
+      "count": 1
+    },
+    {
+      "topic": "podobieństwo trójkątów",
+      "count": 1
+    },
+    {
+      "topic": "twierdzenie cosinusów",
+      "count": 1
+    },
+    {
+      "topic": "pole trójkąta",
+      "count": 1
+    },
+    {
+      "topic": "kwadrat",
+      "count": 1
+    },
+    {
+      "topic": "odległość punktów",
+      "count": 1
+    },
+    {
+      "topic": "stożek",
+      "count": 1
+    },
+    {
+      "topic": "sześcian",
+      "count": 1
+    },
+    {
+      "topic": "zliczanie liczb",
+      "count": 1
+    },
+    {
+      "topic": "kostka do gry",
+      "count": 1
+    },
+    {
+      "topic": "mediana i dominanta",
+      "count": 1
+    },
+    {
+      "topic": "prostopadłościan",
+      "count": 1
+    },
+    {
+      "topic": "dowody",
+      "count": 1
+    },
+    {
+      "topic": "liczby nieparzyste",
+      "count": 1
+    },
+    {
+      "topic": "przedział liczbowy",
+      "count": 1
+    },
+    {
+      "topic": "postać iloczynowa",
+      "count": 1
+    },
+    {
+      "topic": "wyrażenia wymierne",
+      "count": 1
+    },
+    {
+      "topic": "upraszczanie",
+      "count": 1
+    },
+    {
+      "topic": "działania na liczbach",
+      "count": 1
+    },
+    {
+      "topic": "nierówność kwadratowa",
+      "count": 1
+    },
+    {
+      "topic": "delta",
+      "count": 1
+    },
+    {
+      "topic": "znak paraboli",
+      "count": 1
+    },
+    {
+      "topic": "funkcja kawałkami",
+      "count": 1
+    },
+    {
+      "topic": "zbiór wartości",
+      "count": 1
+    },
+    {
+      "topic": "współczynnik kierunkowy",
+      "count": 1
+    },
+    {
+      "topic": "przesunięcie wykresu",
+      "count": 1
+    },
+    {
+      "topic": "warunek na ciąg geometryczny",
+      "count": 1
+    },
+    {
+      "topic": "własność iloczynów",
+      "count": 1
+    },
+    {
+      "topic": "procent składany",
+      "count": 1
+    },
+    {
+      "topic": "lokata",
+      "count": 1
+    },
+    {
+      "topic": "twierdzenie talesa",
+      "count": 1
+    },
+    {
+      "topic": "dwusieczna kąta",
+      "count": 1
+    },
+    {
+      "topic": "wzór na pole z sinusa",
+      "count": 1
+    },
+    {
+      "topic": "trójkąt równoboczny wpisany w okrąg",
+      "count": 1
+    },
+    {
+      "topic": "promień",
+      "count": 1
+    },
+    {
+      "topic": "tangens",
+      "count": 1
+    },
+    {
+      "topic": "manipulacja wyrażeniem",
+      "count": 1
+    },
+    {
+      "topic": "środek okręgu opisanego",
+      "count": 1
+    },
+    {
+      "topic": "sprawdzanie czy punkt leży na okręgu",
+      "count": 1
+    },
+    {
+      "topic": "wyznaczanie równania prostej",
+      "count": 1
+    },
+    {
+      "topic": "przecięcie z osią",
+      "count": 1
+    },
+    {
+      "topic": "ostrosłup prawidłowy czworokątny",
+      "count": 1
+    },
+    {
+      "topic": "stożek vs walec",
+      "count": 1
+    },
+    {
+      "topic": "potęgi ułamkowe",
+      "count": 1
+    },
+    {
+      "topic": "prawdopodobieństwo klasyczne",
+      "count": 1
+    },
+    {
+      "topic": "podzielność przez 6",
+      "count": 1
+    },
+    {
+      "topic": "średnia ważona",
+      "count": 1
+    },
+    {
+      "topic": "zastosowanie fizyczne",
+      "count": 1
+    },
+    {
+      "topic": "wierzchołek paraboli",
+      "count": 1
+    },
+    {
+      "topic": "różnica logarytmów",
+      "count": 1
+    },
+    {
+      "topic": "liczba cyfr",
+      "count": 1
+    },
+    {
+      "topic": "podstawianie",
+      "count": 1
+    },
+    {
+      "topic": "parzystość liczb sąsiednich",
+      "count": 1
+    },
+    {
+      "topic": "równanie iloczynowe",
+      "count": 1
+    },
+    {
+      "topic": "parametr",
+      "count": 1
+    },
+    {
+      "topic": "proporcja",
+      "count": 1
+    }
+  ],
+  "matematyka|pr": [
+    {
+      "topic": "geometria analityczna",
+      "count": 4
+    },
+    {
+      "topic": "stereometria",
+      "count": 4
+    },
+    {
+      "topic": "planimetria",
+      "count": 4
+    },
+    {
+      "topic": "logarytmy",
+      "count": 3
+    },
+    {
+      "topic": "szereg geometryczny",
+      "count": 2
+    },
+    {
+      "topic": "równanie kwadratowe z parametrem",
+      "count": 2
+    },
+    {
+      "topic": "okrąg",
+      "count": 2
+    },
+    {
+      "topic": "schemat bernoulliego",
+      "count": 2
+    },
+    {
+      "topic": "prawdopodobieństwo",
+      "count": 2
+    },
+    {
+      "topic": "równanie trygonometryczne",
+      "count": 2
+    },
+    {
+      "topic": "twierdzenie sinusów",
+      "count": 2
+    },
+    {
+      "topic": "funkcja wykładnicza",
+      "count": 2
+    },
+    {
+      "topic": "trygonometria",
+      "count": 2
+    },
+    {
+      "topic": "wzory viète'a",
+      "count": 2
+    },
+    {
+      "topic": "pochodna",
+      "count": 2
+    },
+    {
+      "topic": "ciąg geometryczny",
+      "count": 1
+    },
+    {
+      "topic": "rozpad procentowy",
+      "count": 1
+    },
+    {
+      "topic": "geometria",
+      "count": 1
+    },
+    {
+      "topic": "twierdzenie pitagorasa",
+      "count": 1
+    },
+    {
+      "topic": "wzory viete'a",
+      "count": 1
+    },
+    {
+      "topic": "ekstrema funkcji",
+      "count": 1
+    },
+    {
+      "topic": "pochodne",
+      "count": 1
+    },
+    {
+      "topic": "kąt wpisany",
+      "count": 1
+    },
+    {
+      "topic": "parabola",
+      "count": 1
+    },
+    {
+      "topic": "pochodna funkcji wymiernej",
+      "count": 1
+    },
+    {
+      "topic": "styczna do wykresu",
+      "count": 1
+    },
+    {
+      "topic": "dowód",
+      "count": 1
+    },
+    {
+      "topic": "grupowanie wyrazów",
+      "count": 1
+    },
+    {
+      "topic": "nierówność z kwadratem",
+      "count": 1
+    },
+    {
+      "topic": "trójkąt prostokątny 30-60-90",
+      "count": 1
+    },
+    {
+      "topic": "wzory na sumę",
+      "count": 1
+    },
+    {
+      "topic": "sześcian",
+      "count": 1
+    },
+    {
+      "topic": "geometria analityczna 3d",
+      "count": 1
+    },
+    {
+      "topic": "czworokąt opisany na okręgu",
+      "count": 1
+    },
+    {
+      "topic": "nierówność z modułami",
+      "count": 1
+    },
+    {
+      "topic": "suma odległości",
+      "count": 1
+    },
+    {
+      "topic": "model praktyczny",
+      "count": 1
+    },
+    {
+      "topic": "równania trygonometryczne",
+      "count": 1
+    },
+    {
+      "topic": "wzory",
+      "count": 1
+    },
+    {
+      "topic": "styczne",
+      "count": 1
+    },
+    {
+      "topic": "deltoid",
+      "count": 1
+    },
+    {
+      "topic": "optymalizacja",
+      "count": 1
+    },
+    {
+      "topic": "granice funkcji",
+      "count": 1
+    },
+    {
+      "topic": "granice jednostronne",
+      "count": 1
+    },
+    {
+      "topic": "styczna do wykresu funkcji",
+      "count": 1
+    },
+    {
+      "topic": "zmiana podstawy",
+      "count": 1
+    },
+    {
+      "topic": "kombinatoryka",
+      "count": 1
+    },
+    {
+      "topic": "zliczanie z ograniczeniami",
+      "count": 1
+    },
+    {
+      "topic": "ciągi arytmetyczne i geometryczne",
+      "count": 1
+    },
+    {
+      "topic": "układ równań",
+      "count": 1
+    },
+    {
+      "topic": "twierdzenia o trójkątach",
+      "count": 1
+    },
+    {
+      "topic": "środek ciężkości trójkąta",
+      "count": 1
+    },
+    {
+      "topic": "pola",
+      "count": 1
+    },
+    {
+      "topic": "procent składany",
+      "count": 1
+    },
+    {
+      "topic": "kąt dwuścienny",
+      "count": 1
+    },
+    {
+      "topic": "ostrosłup",
+      "count": 1
+    },
+    {
+      "topic": "funkcja kwadratowa z parametrem",
+      "count": 1
+    },
+    {
+      "topic": "stożek",
+      "count": 1
+    },
+    {
+      "topic": "optymalizacja z pochodną",
+      "count": 1
+    },
+    {
+      "topic": "nierówności",
+      "count": 1
+    },
+    {
+      "topic": "wzory skróconego mnożenia",
+      "count": 1
+    },
+    {
+      "topic": "rozkład na czynniki",
+      "count": 1
+    },
+    {
+      "topic": "trójkąt równoboczny",
+      "count": 1
+    },
+    {
+      "topic": "prawdopodobieństwo warunkowe",
+      "count": 1
+    },
+    {
+      "topic": "nierówności z wartością bezwzględną",
+      "count": 1
+    },
+    {
+      "topic": "sumowanie nieskończone",
+      "count": 1
+    },
+    {
+      "topic": "trapez",
+      "count": 1
+    },
+    {
+      "topic": "linia środkowa",
+      "count": 1
+    },
+    {
+      "topic": "okręgi",
+      "count": 1
+    },
+    {
+      "topic": "wektor",
+      "count": 1
+    },
+    {
+      "topic": "wzór na cosinus podwojonego kąta",
+      "count": 1
+    }
+  ],
+  "wos|pr": [
+    {
+      "topic": "konstytucja rp",
+      "count": 7
+    },
+    {
+      "topic": "socjologia",
+      "count": 6
+    },
+    {
+      "topic": "parlament",
+      "count": 4
+    },
+    {
+      "topic": "prawa czlowieka",
+      "count": 4
+    },
+    {
+      "topic": "nato",
+      "count": 4
+    },
+    {
+      "topic": "onz",
+      "count": 4
+    },
+    {
+      "topic": "podzial wladz",
+      "count": 3
+    },
+    {
+      "topic": "opinia publiczna",
+      "count": 3
+    },
+    {
+      "topic": "cbos",
+      "count": 3
+    },
+    {
+      "topic": "samorzad gminny",
+      "count": 3
+    },
+    {
+      "topic": "instytucje ue",
+      "count": 3
+    },
+    {
+      "topic": "wypracowanie",
+      "count": 3
+    },
+    {
+      "topic": "referendum",
+      "count": 3
+    },
+    {
+      "topic": "spoleczenstwo obywatelskie",
+      "count": 3
+    },
+    {
+      "topic": "kodeks postepowania cywilnego",
+      "count": 3
+    },
+    {
+      "topic": "rada ministrow",
+      "count": 2
+    },
+    {
+      "topic": "zasady ustrojowe",
+      "count": 2
+    },
+    {
+      "topic": "ustawa o nik",
+      "count": 2
+    },
+    {
+      "topic": "samorzad terytorialny",
+      "count": 2
+    },
+    {
+      "topic": "akty prawa miejscowego",
+      "count": 2
+    },
+    {
+      "topic": "postepowanie cywilne",
+      "count": 2
+    },
+    {
+      "topic": "pismo procesowe",
+      "count": 2
+    },
+    {
+      "topic": "pozew",
+      "count": 2
+    },
+    {
+      "topic": "rada europy",
+      "count": 2
+    },
+    {
+      "topic": "organizacje miedzynarodowe",
+      "count": 2
+    },
+    {
+      "topic": "traktat waszyngtonski",
+      "count": 2
+    },
+    {
+      "topic": "unia europejska",
+      "count": 2
+    },
+    {
+      "topic": "rada europejska",
+      "count": 2
+    },
+    {
+      "topic": "rada ue",
+      "count": 2
+    },
+    {
+      "topic": "komisja europejska",
+      "count": 2
+    },
+    {
+      "topic": "arabska wiosna",
+      "count": 2
+    },
+    {
+      "topic": "egipt",
+      "count": 2
+    },
+    {
+      "topic": "syria",
+      "count": 2
+    },
+    {
+      "topic": "ikonografia",
+      "count": 2
+    },
+    {
+      "topic": "trybunal konstytucyjny",
+      "count": 2
+    },
+    {
+      "topic": "mniejszosci",
+      "count": 2
+    },
+    {
+      "topic": "rozporzadzenie",
+      "count": 2
+    },
+    {
+      "topic": "rada bezpieczenstwa",
+      "count": 2
+    },
+    {
+      "topic": "art. 5",
+      "count": 2
+    },
+    {
+      "topic": "nierownosci dochodowe",
+      "count": 2
+    },
+    {
+      "topic": "systemy polityczne",
+      "count": 2
+    },
+    {
+      "topic": "niemcy",
+      "count": 2
+    },
+    {
+      "topic": "rada gminy",
+      "count": 2
+    },
+    {
+      "topic": "usa",
+      "count": 2
+    },
+    {
+      "topic": "pit",
+      "count": 2
+    },
+    {
+      "topic": "integracja europejska",
+      "count": 2
+    },
+    {
+      "topic": "rada",
+      "count": 2
+    },
+    {
+      "topic": "ruchliwosc spoleczna",
+      "count": 2
+    },
+    {
+      "topic": "globalizacja",
+      "count": 2
+    },
+    {
+      "topic": "jezyk pomocniczy",
+      "count": 2
+    },
+    {
+      "topic": "demokracja bezposrednia",
+      "count": 2
+    },
+    {
+      "topic": "szwajcaria",
+      "count": 2
+    },
+    {
+      "topic": "prog wyborczy",
+      "count": 2
+    },
+    {
+      "topic": "prezydent rp",
+      "count": 2
+    },
+    {
+      "topic": "ustawa",
+      "count": 2
+    },
+    {
+      "topic": "ustroj polityczny",
+      "count": 1
+    },
+    {
+      "topic": "republika wloska",
+      "count": 1
+    },
+    {
+      "topic": "rp",
+      "count": 1
+    },
+    {
+      "topic": "monteskiusz",
+      "count": 1
+    },
+    {
+      "topic": "obywatelstwo",
+      "count": 1
+    },
+    {
+      "topic": "repatriacja",
+      "count": 1
+    },
+    {
+      "topic": "karta polaka",
+      "count": 1
+    },
+    {
+      "topic": "ustawa o obywatelstwie",
+      "count": 1
+    },
+    {
+      "topic": "nik",
+      "count": 1
+    },
+    {
+      "topic": "organy kontroli",
+      "count": 1
+    },
+    {
+      "topic": "prawo",
+      "count": 1
+    },
+    {
+      "topic": "prawo wyborcze",
+      "count": 1
+    },
+    {
+      "topic": "samorzad",
+      "count": 1
+    },
+    {
+      "topic": "mniejszosc niemiecka",
+      "count": 1
+    },
+    {
+      "topic": "ordynacja",
+      "count": 1
+    },
+    {
+      "topic": "stan kleski zywiolowej",
+      "count": 1
+    },
+    {
+      "topic": "organy wladzy",
+      "count": 1
+    },
+    {
+      "topic": "zrodla prawa",
+      "count": 1
+    },
+    {
+      "topic": "podatki lokalne",
+      "count": 1
+    },
+    {
+      "topic": "kodeksy",
+      "count": 1
+    },
+    {
+      "topic": "prawo karne",
+      "count": 1
+    },
+    {
+      "topic": "cywilne",
+      "count": 1
+    },
+    {
+      "topic": "alimenty",
+      "count": 1
+    },
+    {
+      "topic": "hiv",
+      "count": 1
+    },
+    {
+      "topic": "rodzina",
+      "count": 1
+    },
+    {
+      "topic": "typy rodziny",
+      "count": 1
+    },
+    {
+      "topic": "antropologia",
+      "count": 1
+    },
+    {
+      "topic": "sady",
+      "count": 1
+    },
+    {
+      "topic": "europejska konwencja praw czlowieka",
+      "count": 1
+    },
+    {
+      "topic": "opieka konsularna",
+      "count": 1
+    },
+    {
+      "topic": "prawa obywateli za granica",
+      "count": 1
+    },
+    {
+      "topic": "historia polityczna",
+      "count": 1
+    },
+    {
+      "topic": "zjednoczenie niemiec",
+      "count": 1
+    },
+    {
+      "topic": "czechoslowacja",
+      "count": 1
+    },
+    {
+      "topic": "rozszerzenie ue",
+      "count": 1
+    },
+    {
+      "topic": "karta narodow zjednoczonych",
+      "count": 1
+    },
+    {
+      "topic": "antonio guterres",
+      "count": 1
+    },
+    {
+      "topic": "sekretarz generalny",
+      "count": 1
+    },
+    {
+      "topic": "bliski wschod",
+      "count": 1
+    },
+    {
+      "topic": "geografia polityczna",
+      "count": 1
+    },
+    {
+      "topic": "brics",
+      "count": 1
+    },
+    {
+      "topic": "stosunki miedzynarodowe",
+      "count": 1
+    },
+    {
+      "topic": "rosja",
+      "count": 1
+    },
+    {
+      "topic": "indie",
+      "count": 1
+    },
+    {
+      "topic": "analiza tekstu",
+      "count": 1
+    },
+    {
+      "topic": "normy spoleczne",
+      "count": 1
+    },
+    {
+      "topic": "kultura",
+      "count": 1
+    },
+    {
+      "topic": "religia",
+      "count": 1
+    },
+    {
+      "topic": "japonia",
+      "count": 1
+    },
+    {
+      "topic": "ustroj szwajcarii",
+      "count": 1
+    },
+    {
+      "topic": "prawa czlowieka onz",
+      "count": 1
+    },
+    {
+      "topic": "problemy spoleczne",
+      "count": 1
+    },
+    {
+      "topic": "interpretacja symboliczna",
+      "count": 1
+    },
+    {
+      "topic": "geografia spoleczna",
+      "count": 1
+    },
+    {
+      "topic": "dochody",
+      "count": 1
+    },
+    {
+      "topic": "wojewodztwa",
+      "count": 1
+    },
+    {
+      "topic": "zroznicowanie regionalne",
+      "count": 1
+    },
+    {
+      "topic": "system podatkowy",
+      "count": 1
+    },
+    {
+      "topic": "lewica-prawica",
+      "count": 1
+    },
+    {
+      "topic": "ekonomia",
+      "count": 1
+    },
+    {
+      "topic": "mikroekonomia",
+      "count": 1
+    },
+    {
+      "topic": "popyt",
+      "count": 1
+    },
+    {
+      "topic": "podaz",
+      "count": 1
+    },
+    {
+      "topic": "rownowaga rynkowa",
+      "count": 1
+    },
+    {
+      "topic": "filozofia polityki",
+      "count": 1
+    },
+    {
+      "topic": "geneza panstwa",
+      "count": 1
+    },
+    {
+      "topic": "hobbes",
+      "count": 1
+    },
+    {
+      "topic": "locke",
+      "count": 1
+    },
+    {
+      "topic": "umowa spoleczna",
+      "count": 1
+    },
+    {
+      "topic": "panstwo dobrobytu",
+      "count": 1
+    },
+    {
+      "topic": "system opieki zdrowotnej usa",
+      "count": 1
+    },
+    {
+      "topic": "modele welfare state",
+      "count": 1
+    },
+    {
+      "topic": "suwerennosc panstwa",
+      "count": 1
+    },
+    {
+      "topic": "cechy panstwa",
+      "count": 1
+    },
+    {
+      "topic": "t. wieciech",
+      "count": 1
+    },
+    {
+      "topic": "konstytucja kwietniowa 1935",
+      "count": 1
+    },
+    {
+      "topic": "trojpodzial wladzy",
+      "count": 1
+    },
+    {
+      "topic": "odpowiedzialnosc konstytucyjna",
+      "count": 1
+    },
+    {
+      "topic": "wybory do pe 2009 i 2014",
+      "count": 1
+    },
+    {
+      "topic": "system wyborczy",
+      "count": 1
+    },
+    {
+      "topic": "frekwencja",
+      "count": 1
+    },
+    {
+      "topic": "system wladzy w rp",
+      "count": 1
+    },
+    {
+      "topic": "expose",
+      "count": 1
+    },
+    {
+      "topic": "wotum nieufnosci",
+      "count": 1
+    },
+    {
+      "topic": "sejm",
+      "count": 1
+    },
+    {
+      "topic": "skarga konstytucyjna",
+      "count": 1
+    },
+    {
+      "topic": "niezgodnosc z konstytucja",
+      "count": 1
+    },
+    {
+      "topic": "rzecznik praw obywatelskich",
+      "count": 1
+    },
+    {
+      "topic": "rpo",
+      "count": 1
+    },
+    {
+      "topic": "ustawa z 1987 r.",
+      "count": 1
+    },
+    {
+      "topic": "pron",
+      "count": 1
+    },
+    {
+      "topic": "samorzad wojewodzki",
+      "count": 1
+    },
+    {
+      "topic": "sejmik wojewodztwa",
+      "count": 1
+    },
+    {
+      "topic": "zarzad wojewodztwa",
+      "count": 1
+    },
+    {
+      "topic": "koncepcja obcosci",
+      "count": 1
+    },
+    {
+      "topic": "grupa obca i wlasna",
+      "count": 1
+    },
+    {
+      "topic": "etnocentryzm",
+      "count": 1
+    },
+    {
+      "topic": "bystron",
+      "count": 1
+    },
+    {
+      "topic": "jakutowie",
+      "count": 1
+    },
+    {
+      "topic": "zrodla prawa powszechnie obowiazujacego",
+      "count": 1
+    },
+    {
+      "topic": "akty wykonawcze",
+      "count": 1
+    },
+    {
+      "topic": "zarzadzenie",
+      "count": 1
+    },
+    {
+      "topic": "zdolnosc do czynnosci prawnych",
+      "count": 1
+    },
+    {
+      "topic": "kodeks cywilny",
+      "count": 1
+    },
+    {
+      "topic": "pelnoletnosc",
+      "count": 1
+    },
+    {
+      "topic": "pozew o zachowek",
+      "count": 1
+    },
+    {
+      "topic": "prawo spadkowe",
+      "count": 1
+    },
+    {
+      "topic": "wlasciwosc sadow",
+      "count": 1
+    },
+    {
+      "topic": "biuletyn informacji publicznej",
+      "count": 1
+    },
+    {
+      "topic": "bip",
+      "count": 1
+    },
+    {
+      "topic": "dostep do informacji publicznej",
+      "count": 1
+    },
+    {
+      "topic": "pakty praw czlowieka",
+      "count": 1
+    },
+    {
+      "topic": "komitet praw czlowieka",
+      "count": 1
+    },
+    {
+      "topic": "organy onz",
+      "count": 1
+    },
+    {
+      "topic": "zgromadzenie ogolne",
+      "count": 1
+    },
+    {
+      "topic": "mts",
+      "count": 1
+    },
+    {
+      "topic": "traktat polnocnoatlantycki",
+      "count": 1
+    },
+    {
+      "topic": "jens stoltenberg",
+      "count": 1
+    },
+    {
+      "topic": "norwegia",
+      "count": 1
+    },
+    {
+      "topic": "parlament europejski",
+      "count": 1
+    },
+    {
+      "topic": "eurodeputowani",
+      "count": 1
+    },
+    {
+      "topic": "stosunki polska-chiny",
+      "count": 1
+    },
+    {
+      "topic": "polityka zagraniczna chrl",
+      "count": 1
+    },
+    {
+      "topic": "soft power",
+      "count": 1
+    },
+    {
+      "topic": "jedna chinska polityka",
+      "count": 1
+    },
+    {
+      "topic": "typy spoleczenstwa",
+      "count": 1
+    },
+    {
+      "topic": "spoleczenstwo informacyjne",
+      "count": 1
+    },
+    {
+      "topic": "lesław haber",
+      "count": 1
+    },
+    {
+      "topic": "misje wojskowe polskie",
+      "count": 1
+    },
+    {
+      "topic": "irak 2004",
+      "count": 1
+    },
+    {
+      "topic": "afganistan 2013",
+      "count": 1
+    },
+    {
+      "topic": "mapa azji",
+      "count": 1
+    },
+    {
+      "topic": "wypracowanie wos",
+      "count": 1
+    },
+    {
+      "topic": "sejm vs senat",
+      "count": 1
+    },
+    {
+      "topic": "etpc",
+      "count": 1
+    },
+    {
+      "topic": "konwencja",
+      "count": 1
+    },
+    {
+      "topic": "mniejszosci narodowe w rp",
+      "count": 1
+    },
+    {
+      "topic": "ormianie",
+      "count": 1
+    },
+    {
+      "topic": "lwow",
+      "count": 1
+    },
+    {
+      "topic": "kazimierz wielki",
+      "count": 1
+    },
+    {
+      "topic": "badania cbos",
+      "count": 1
+    },
+    {
+      "topic": "gotowosc do wspolpracy",
+      "count": 1
+    },
+    {
+      "topic": "wspolczynnik giniego",
+      "count": 1
+    },
+    {
+      "topic": "pkb per capita",
+      "count": 1
+    },
+    {
+      "topic": "rynek kapitalowy",
+      "count": 1
+    },
+    {
+      "topic": "gielda papierow wartosciowych",
+      "count": 1
+    },
+    {
+      "topic": "gpw",
+      "count": 1
+    },
+    {
+      "topic": "organizacja pozytku publicznego",
+      "count": 1
+    },
+    {
+      "topic": "opp",
+      "count": 1
+    },
+    {
+      "topic": "1 procent podatku",
+      "count": 1
+    },
+    {
+      "topic": "kultura polityczna",
+      "count": 1
+    },
+    {
+      "topic": "almond",
+      "count": 1
+    },
+    {
+      "topic": "politologia",
+      "count": 1
+    },
+    {
+      "topic": "postawy spoleczne",
+      "count": 1
+    },
+    {
+      "topic": "asertywnosc",
+      "count": 1
+    },
+    {
+      "topic": "suwerennosc narodu",
+      "count": 1
+    },
+    {
+      "topic": "panstwo unitarne",
+      "count": 1
+    },
+    {
+      "topic": "federalizm",
+      "count": 1
+    },
+    {
+      "topic": "kanclerz",
+      "count": 1
+    },
+    {
+      "topic": "prawa wyborcze",
+      "count": 1
+    },
+    {
+      "topic": "demokracja przedstawicielska",
+      "count": 1
+    },
+    {
+      "topic": "najwyzsza izba kontroli",
+      "count": 1
+    },
+    {
+      "topic": "organy konstytucyjne rp",
+      "count": 1
+    },
+    {
+      "topic": "organy gminy",
+      "count": 1
+    },
+    {
+      "topic": "wojt",
+      "count": 1
+    },
+    {
+      "topic": "finanse samorzadu",
+      "count": 1
+    },
+    {
+      "topic": "subwencja",
+      "count": 1
+    },
+    {
+      "topic": "dotacja",
+      "count": 1
+    },
+    {
+      "topic": "dochody gmin",
+      "count": 1
+    },
+    {
+      "topic": "postepowanie administracyjne",
+      "count": 1
+    },
+    {
+      "topic": "sady administracyjne",
+      "count": 1
+    },
+    {
+      "topic": "nsa",
+      "count": 1
+    },
+    {
+      "topic": "wsa",
+      "count": 1
+    },
+    {
+      "topic": "apelacja",
+      "count": 1
+    },
+    {
+      "topic": "sady cywilne",
+      "count": 1
+    },
+    {
+      "topic": "konkordat",
+      "count": 1
+    },
+    {
+      "topic": "prawo wyznaniowe",
+      "count": 1
+    },
+    {
+      "topic": "malzenstwo konkordatowe",
+      "count": 1
+    },
+    {
+      "topic": "stosunki panstwo-kosciol",
+      "count": 1
+    },
+    {
+      "topic": "prawa konsumenta",
+      "count": 1
+    },
+    {
+      "topic": "odstapienie od umowy",
+      "count": 1
+    },
+    {
+      "topic": "sprzedaz na odleglosc",
+      "count": 1
+    },
+    {
+      "topic": "rozwarstwienie spoleczne",
+      "count": 1
+    },
+    {
+      "topic": "europa",
+      "count": 1
+    },
+    {
+      "topic": "podatki",
+      "count": 1
+    },
+    {
+      "topic": "podatek progresywny",
+      "count": 1
+    },
+    {
+      "topic": "skala podatkowa",
+      "count": 1
+    },
+    {
+      "topic": "wolnosci",
+      "count": 1
+    },
+    {
+      "topic": "plakat spoleczny",
+      "count": 1
+    },
+    {
+      "topic": "powszechna deklaracja praw czlowieka",
+      "count": 1
+    },
+    {
+      "topic": "uniwersalizm praw",
+      "count": 1
+    },
+    {
+      "topic": "oecd",
+      "count": 1
+    },
+    {
+      "topic": "czlonkostwo polski",
+      "count": 1
+    },
+    {
+      "topic": "rozpad jugoslawii",
+      "count": 1
+    },
+    {
+      "topic": "mapy historyczne",
+      "count": 1
+    },
+    {
+      "topic": "polityka bezpieczenstwa",
+      "count": 1
+    },
+    {
+      "topic": "sondaze cbos",
+      "count": 1
+    },
+    {
+      "topic": "ewwis",
+      "count": 1
+    },
+    {
+      "topic": "adenauer",
+      "count": 1
+    },
+    {
+      "topic": "traktat paryski",
+      "count": 1
+    },
+    {
+      "topic": "budzet ue",
+      "count": 1
+    },
+    {
+      "topic": "organy unii europejskiej",
+      "count": 1
+    },
+    {
+      "topic": "komisja",
+      "count": 1
+    },
+    {
+      "topic": "strefa schengen",
+      "count": 1
+    },
+    {
+      "topic": "eog",
+      "count": 1
+    },
+    {
+      "topic": "efta",
+      "count": 1
+    },
+    {
+      "topic": "swobody ue",
+      "count": 1
+    },
+    {
+      "topic": "konflikty zbrojne",
+      "count": 1
+    },
+    {
+      "topic": "sudan poludniowy",
+      "count": 1
+    },
+    {
+      "topic": "kontrurbanizacja",
+      "count": 1
+    },
+    {
+      "topic": "socjologia wsi",
+      "count": 1
+    },
+    {
+      "topic": "sprawiedliwy handel",
+      "count": 1
+    },
+    {
+      "topic": "etyczna konsumpcja",
+      "count": 1
+    },
+    {
+      "topic": "rozwoj",
+      "count": 1
+    },
+    {
+      "topic": "postepowanie kasacyjne",
+      "count": 1
+    },
+    {
+      "topic": "zimna wojna",
+      "count": 1
+    },
+    {
+      "topic": "wielokulturowosc",
+      "count": 1
+    },
+    {
+      "topic": "narod polityczny",
+      "count": 1
+    },
+    {
+      "topic": "tajlandia",
+      "count": 1
+    },
+    {
+      "topic": "mniejszosci narodowe i etniczne w polsce",
+      "count": 1
+    },
+    {
+      "topic": "ustawa o mniejszosciach",
+      "count": 1
+    },
+    {
+      "topic": "konfederacja",
+      "count": 1
+    },
+    {
+      "topic": "monarchia absolutna",
+      "count": 1
+    },
+    {
+      "topic": "niedemokratyczne systemy polityczne",
+      "count": 1
+    },
+    {
+      "topic": "ordynacja wyborcza",
+      "count": 1
+    },
+    {
+      "topic": "metoda d'hondta",
+      "count": 1
+    },
+    {
+      "topic": "wybory do sejmu",
+      "count": 1
+    },
+    {
+      "topic": "konformizm – skutki pozytywne i negatywne",
+      "count": 1
+    },
+    {
+      "topic": "koncepcje genezy państwa – umowa społeczna",
+      "count": 1
+    },
+    {
+      "topic": "arystotelesowska",
+      "count": 1
+    },
+    {
+      "topic": "marksistowska",
+      "count": 1
+    },
+    {
+      "topic": "frekwencja wyborcza vs demokratyczność reżimu w prl",
+      "count": 1
+    },
+    {
+      "topic": "system wyborczy fptp w wielkiej brytanii vs polska – bezpieczne okręgi",
+      "count": 1
+    },
+    {
+      "topic": "myśl polityczna – liberalizm i katolicka nauka społeczna",
+      "count": 1
+    },
+    {
+      "topic": "system polityczny szwajcarii – zgromadzenie federalne",
+      "count": 1
+    },
+    {
+      "topic": "rada federalna",
+      "count": 1
+    },
+    {
+      "topic": "mała konstytucja 1992 – kompetencje prezydenta",
+      "count": 1
+    },
+    {
+      "topic": "rok utraty mocy",
+      "count": 1
+    },
+    {
+      "topic": "funkcje sejmu – kontrolna",
+      "count": 1
+    },
+    {
+      "topic": "kreacyjna",
+      "count": 1
+    },
+    {
+      "topic": "ustawodawcza",
+      "count": 1
+    },
+    {
+      "topic": "organy gminy – wójt / burmistrz / prezydent oraz rada gminy",
+      "count": 1
+    },
+    {
+      "topic": "zdolność do czynności prawnych – kodeks cywilny",
+      "count": 1
+    },
+    {
+      "topic": "akt notarialny – charakter prawny",
+      "count": 1
+    },
+    {
+      "topic": "anomia społeczna – koncepcja émile'a durkheima",
+      "count": 1
+    },
+    {
+      "topic": "wniosek rpo – sąd najwyższy",
+      "count": 1
+    },
+    {
+      "topic": "pismo sądowe – sąd rejonowy",
+      "count": 1
+    },
+    {
+      "topic": "wniosek",
+      "count": 1
+    },
+    {
+      "topic": "kodeks postępowania karnego",
+      "count": 1
+    },
+    {
+      "topic": "podatek dochodowy od osób fizycznych (pit) – progresja a liniowość",
+      "count": 1
+    },
+    {
+      "topic": "konstytucja rp – prawa ekonomiczne",
+      "count": 1
+    },
+    {
+      "topic": "polityczne",
+      "count": 1
+    },
+    {
+      "topic": "osobiste",
+      "count": 1
+    },
+    {
+      "topic": "skarga do etpcz – wyczerpanie środków krajowych; rada europy",
+      "count": 1
+    },
+    {
+      "topic": "instytucje bretton woods – bank światowy",
+      "count": 1
+    },
+    {
+      "topic": "rada bezpieczeństwa onz – prawo weta",
+      "count": 1
+    },
+    {
+      "topic": "ład międzynarodowy",
+      "count": 1
+    },
+    {
+      "topic": "państwa bałkanów – chorwacja",
+      "count": 1
+    },
+    {
+      "topic": "czarnogóra",
+      "count": 1
+    },
+    {
+      "topic": "słowenia; mapa europy",
+      "count": 1
+    },
+    {
+      "topic": "procedura prawodawcza ue – komisja",
+      "count": 1
+    },
+    {
+      "topic": "porozumienia z oslo 1993 – autonomia palestyńska",
+      "count": 1
+    },
+    {
+      "topic": "nagroda nobla",
+      "count": 1
+    },
+    {
+      "topic": "autoidentyfikacje społeczne polaków – analiza wykresu cbos",
+      "count": 1
+    },
+    {
+      "topic": "wypracowanie maturalne – samorząd terytorialny",
+      "count": 1
+    },
+    {
+      "topic": "systemy parlamentarne",
+      "count": 1
+    },
+    {
+      "topic": "ustawa budżetowa/o zmianie konstytucji",
+      "count": 1
+    },
+    {
+      "topic": "mniejszości narodowe i etniczne w polsce – karaimi",
+      "count": 1
+    },
+    {
+      "topic": "struktura społeczna polski 1988–2003 – ruchliwość pionowa",
+      "count": 1
+    },
+    {
+      "topic": "prawo zrzeszania się – stowarzyszenia",
+      "count": 1
+    },
+    {
+      "topic": "osoby pełnoletnie a małoletnie",
+      "count": 1
+    },
+    {
+      "topic": "referenda – szkocja 2014 i brexit 2016",
+      "count": 1
+    },
+    {
+      "topic": "samorząd zawodowy – art. 17 konstytucji rp",
+      "count": 1
+    },
+    {
+      "topic": "dyskryminacja ze względu na wiek (ageizm)",
+      "count": 1
+    },
+    {
+      "topic": "konformizm",
+      "count": 1
+    },
+    {
+      "topic": "nonkonformizm",
+      "count": 1
+    },
+    {
+      "topic": "indywidualizm",
+      "count": 1
+    },
+    {
+      "topic": "anomia",
+      "count": 1
+    },
+    {
+      "topic": "vat",
+      "count": 1
+    },
+    {
+      "topic": "paragony fiskalne",
+      "count": 1
+    },
+    {
+      "topic": "podatki posrednie",
+      "count": 1
+    },
+    {
+      "topic": "wybory wiekszosciowe",
+      "count": 1
+    },
+    {
+      "topic": "organy panstwa",
+      "count": 1
+    },
+    {
+      "topic": "senat",
+      "count": 1
+    },
+    {
+      "topic": "wojt/burmistrz",
+      "count": 1
+    },
+    {
+      "topic": "system partyjny",
+      "count": 1
+    },
+    {
+      "topic": "wybory do sejmu 2011 i 2015",
+      "count": 1
+    },
+    {
+      "topic": "koalicja",
+      "count": 1
+    },
+    {
+      "topic": "inicjatywa ludowa",
+      "count": 1
+    },
+    {
+      "topic": "weto ludowe",
+      "count": 1
+    },
+    {
+      "topic": "recall",
+      "count": 1
+    },
+    {
+      "topic": "panstwa unitarne i federalne",
+      "count": 1
+    },
+    {
+      "topic": "monarchia",
+      "count": 1
+    },
+    {
+      "topic": "republika",
+      "count": 1
+    },
+    {
+      "topic": "system parlamentarno-komitetowy",
+      "count": 1
+    },
+    {
+      "topic": "supremacja parlamentu",
+      "count": 1
+    },
+    {
+      "topic": "konstruktywne wotum nieufnosci",
+      "count": 1
+    },
+    {
+      "topic": "konstytucja rp art. 158-159",
+      "count": 1
+    },
+    {
+      "topic": "zmiana konstytucji rp",
+      "count": 1
+    },
+    {
+      "topic": "art. 235",
+      "count": 1
+    },
+    {
+      "topic": "ustawa zwykla",
+      "count": 1
+    },
+    {
+      "topic": "referendum zatwierdzajace",
+      "count": 1
+    },
+    {
+      "topic": "zrodla prawa rp",
+      "count": 1
+    },
+    {
+      "topic": "prawo wtorne ue",
+      "count": 1
+    },
+    {
+      "topic": "wladza sadownicza",
+      "count": 1
+    },
+    {
+      "topic": "sad najwyzszy",
+      "count": 1
+    },
+    {
+      "topic": "trybunal stanu",
+      "count": 1
+    },
+    {
+      "topic": "socjalizacja",
+      "count": 1
+    },
+    {
+      "topic": "procesy spoleczne",
+      "count": 1
+    },
+    {
+      "topic": "a. giddens",
+      "count": 1
+    },
+    {
+      "topic": "najem",
+      "count": 1
+    },
+    {
+      "topic": "czynsz",
+      "count": 1
+    },
+    {
+      "topic": "mediacja",
+      "count": 1
+    },
+    {
+      "topic": "alternatywne metody rozwiazywania sporow",
+      "count": 1
+    },
+    {
+      "topic": "arbitraz",
+      "count": 1
+    },
+    {
+      "topic": "kodeksy obowiazujace w rp",
+      "count": 1
+    },
+    {
+      "topic": "kc",
+      "count": 1
+    },
+    {
+      "topic": "kk",
+      "count": 1
+    },
+    {
+      "topic": "kpk",
+      "count": 1
+    },
+    {
+      "topic": "kkw",
+      "count": 1
+    },
+    {
+      "topic": "prawa pozytywne",
+      "count": 1
+    },
+    {
+      "topic": "prawa ii generacji",
+      "count": 1
+    },
+    {
+      "topic": "prawa socjalne",
+      "count": 1
+    },
+    {
+      "topic": "ekonomiczne",
+      "count": 1
+    },
+    {
+      "topic": "kulturalne",
+      "count": 1
+    },
+    {
+      "topic": "organizacje regionalne",
+      "count": 1
+    },
+    {
+      "topic": "inicjatywa srodkowoeuropejska",
+      "count": 1
+    },
+    {
+      "topic": "cefta",
+      "count": 1
+    },
+    {
+      "topic": "obwe",
+      "count": 1
+    },
+    {
+      "topic": "wnp",
+      "count": 1
+    },
+    {
+      "topic": "europa srodkowa",
+      "count": 1
+    },
+    {
+      "topic": "pakt polnocnoatlantycki",
+      "count": 1
+    },
+    {
+      "topic": "zbiorowa obrona",
+      "count": 1
+    },
+    {
+      "topic": "korea polnocna",
+      "count": 1
+    },
+    {
+      "topic": "kim dzong un",
+      "count": 1
+    },
+    {
+      "topic": "krld",
+      "count": 1
+    },
+    {
+      "topic": "sankcje onz",
+      "count": 1
+    },
+    {
+      "topic": "kaszmir",
+      "count": 1
+    },
+    {
+      "topic": "konflikt indyjsko-pakistanski",
+      "count": 1
+    },
+    {
+      "topic": "podzial brytyjski 1947",
+      "count": 1
+    },
+    {
+      "topic": "chiny",
+      "count": 1
+    },
+    {
+      "topic": "mniejszosc muzulmanska",
+      "count": 1
+    },
+    {
+      "topic": "wspolnoty europejskie",
+      "count": 1
+    },
+    {
+      "topic": "traktaty z maastricht",
+      "count": 1
+    },
+    {
+      "topic": "amsterdamu",
+      "count": 1
+    },
+    {
+      "topic": "nicei",
+      "count": 1
+    },
+    {
+      "topic": "lizbony",
+      "count": 1
+    },
+    {
+      "topic": "rozszerzenia ue",
+      "count": 1
+    },
+    {
+      "topic": "traktat o ue",
+      "count": 1
+    },
+    {
+      "topic": "miedzy-/wewnatrz-pokoleniowa",
+      "count": 1
+    },
+    {
+      "topic": "dziedziczenie pozycji",
+      "count": 1
+    },
+    {
+      "topic": "relacje miedzynarodowe",
+      "count": 1
+    },
+    {
+      "topic": "polnoc-poludnie",
+      "count": 1
+    },
+    {
+      "topic": "neokolonializm",
+      "count": 1
+    },
+    {
+      "topic": "eksploatacja",
+      "count": 1
+    },
+    {
+      "topic": "bezrobocie w polsce",
+      "count": 1
+    },
+    {
+      "topic": "polityka spoleczna",
+      "count": 1
+    },
+    {
+      "topic": "usa system polityczny",
+      "count": 1
+    },
+    {
+      "topic": "decyzja administracyjna",
+      "count": 1
+    },
+    {
+      "topic": "mniejszosci narodowe i etniczne",
+      "count": 1
+    },
+    {
+      "topic": "gminy",
+      "count": 1
+    },
+    {
+      "topic": "trzeci sektor",
+      "count": 1
+    },
+    {
+      "topic": "organizacje pozarzadowe",
+      "count": 1
+    },
+    {
+      "topic": "ngo",
+      "count": 1
+    },
+    {
+      "topic": "kapital spoleczny",
+      "count": 1
+    },
+    {
+      "topic": "wykres",
+      "count": 1
+    },
+    {
+      "topic": "ocena pracy wojta/burmistrza/prezydenta",
+      "count": 1
+    },
+    {
+      "topic": "rada gminy/miasta",
+      "count": 1
+    },
+    {
+      "topic": "1% (obecnie 1",
+      "count": 1
+    },
+    {
+      "topic": "5%) podatku dla opp",
+      "count": 1
+    },
+    {
+      "topic": "ustawa o pozytku publicznym",
+      "count": 1
+    },
+    {
+      "topic": "szara strefa",
+      "count": 1
+    },
+    {
+      "topic": "grupy interesu",
+      "count": 1
+    },
+    {
+      "topic": "panstwo zawlaszczone",
+      "count": 1
+    },
+    {
+      "topic": "panstwo klanowe",
+      "count": 1
+    }
+  ]
+}

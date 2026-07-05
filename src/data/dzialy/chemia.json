@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "biomolekuly",
+    "nazwa": "Związki wielofunkcyjne i biocząsteczki: cukry, aminokwasy, peptydy",
+    "count": 11
+  },
+  {
+    "slug": "stereochemia-i-izomeria",
+    "nazwa": "Stereochemia i izomeria: enancjomery, chiralność, izomeria optyczna",
+    "count": 11
+  },
+  {
+    "slug": "polimery",
+    "nazwa": "Polimery i tworzywa sztuczne: polikondensacja, PVC, poliestry",
+    "count": 3
+  },
+  {
+    "slug": "pochodne-weglowodorow",
+    "nazwa": "Jednofunkcyjne pochodne węglowodorów: alkohole, aldehydy, ketony, kwasy, estry, aminy",
+    "count": 15
+  },
+  {
+    "slug": "weglowodory",
+    "nazwa": "Węglowodory i chemia organiczna: alkany, alkeny, alkiny, areny, mechanizmy reakcji",
+    "count": 35
+  },
+  {
+    "slug": "budowa-atomu",
+    "nazwa": "Budowa atomu i chemia jądrowa: konfiguracje elektronowe, promieniotwórczość",
+    "count": 7
+  },
+  {
+    "slug": "wiazania-chemiczne",
+    "nazwa": "Wiązania chemiczne i geometria cząsteczek: hybrydyzacja, VSEPR",
+    "count": 6
+  },
+  {
+    "slug": "kinetyka-i-rownowaga",
+    "nazwa": "Kinetyka, równowaga chemiczna i termochemia: szybkość reakcji, reguła Le Chateliera",
+    "count": 11
+  },
+  {
+    "slug": "kwasy-zasady-ph",
+    "nazwa": "Kwasy i zasady: pH, dysocjacja, hydroliza, miareczkowanie",
+    "count": 13
+  },
+  {
+    "slug": "redoks-i-elektrochemia",
+    "nazwa": "Reakcje redoks i elektrochemia: bilansowanie, ogniwa galwaniczne",
+    "count": 18
+  },
+  {
+    "slug": "stechiometria-i-obliczenia",
+    "nazwa": "Stechiometria i obliczenia chemiczne: mol, stężenia, wydajność reakcji",
+    "count": 15
+  },
+  {
+    "slug": "chemia-nieorganiczna",
+    "nazwa": "Chemia nieorganiczna: metale, tlenki, wodorotlenki, sole i identyfikacja substancji",
+    "count": 26
+  }
+]

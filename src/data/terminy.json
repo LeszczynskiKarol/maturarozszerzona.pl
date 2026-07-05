@@ -1,0 +1,121 @@
+{
+  "rok": 2027,
+  "oficjalna": false,
+  "startIso": "2027-05-04",
+  "koniecIso": "2027-05-21",
+  "poprawkowaIso": "2027-08-17",
+  "deklaracjaWstepna": "2026-09-30",
+  "deklaracjaOstateczna": "2027-02-07",
+  "egzaminyPR": [
+    {
+      "przedmiot": "Język polski",
+      "srcSlug": "polski",
+      "poziom": "PR",
+      "dataIso": "2027-05-07",
+      "godzina": "09:00",
+      "czasTrwania": 210,
+      "obowiazkowy": false,
+      "hubSlug": null
+    },
+    {
+      "przedmiot": "Matematyka",
+      "srcSlug": "matematyka",
+      "poziom": "PR",
+      "dataIso": "2027-05-10",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "matematyka"
+    },
+    {
+      "przedmiot": "Język angielski",
+      "srcSlug": "angielski",
+      "poziom": "PR",
+      "dataIso": "2027-05-11",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "jezyk-angielski"
+    },
+    {
+      "przedmiot": "Biologia",
+      "srcSlug": "biologia",
+      "poziom": "PR",
+      "dataIso": "2027-05-12",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "biologia"
+    },
+    {
+      "przedmiot": "Chemia",
+      "srcSlug": "chemia",
+      "poziom": "PR",
+      "dataIso": "2027-05-13",
+      "godzina": "14:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "chemia"
+    },
+    {
+      "przedmiot": "Historia",
+      "srcSlug": "historia",
+      "poziom": "PR",
+      "dataIso": "2027-05-14",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "historia"
+    },
+    {
+      "przedmiot": "WOS",
+      "srcSlug": "wos",
+      "poziom": "PR",
+      "dataIso": "2027-05-17",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "wos"
+    },
+    {
+      "przedmiot": "Geografia",
+      "srcSlug": "geografia",
+      "poziom": "PR",
+      "dataIso": "2027-05-18",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "geografia"
+    },
+    {
+      "przedmiot": "Informatyka",
+      "srcSlug": "informatyka",
+      "poziom": "PR",
+      "dataIso": "2027-05-19",
+      "godzina": "09:00",
+      "czasTrwania": 210,
+      "obowiazkowy": false,
+      "hubSlug": "informatyka"
+    },
+    {
+      "przedmiot": "Fizyka",
+      "srcSlug": "fizyka",
+      "poziom": "PR",
+      "dataIso": "2027-05-20",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": "fizyka"
+    },
+    {
+      "przedmiot": "Język niemiecki",
+      "srcSlug": "niemiecki",
+      "poziom": "PR",
+      "dataIso": "2027-05-21",
+      "godzina": "09:00",
+      "czasTrwania": 180,
+      "obowiazkowy": false,
+      "hubSlug": null
+    }
+  ]
+}

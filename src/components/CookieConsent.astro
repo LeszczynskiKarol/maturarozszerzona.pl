@@ -1,0 +1,61 @@
+---
+// RODO cookie banner sterujący Google Consent Mode v2.
+// Renderuje się TYLKO gdy siteConfig.features.ga4 ustawione (bez analityki → tylko cookies
+// niezbędne, które nie wymagają zgody).
+import { siteConfig } from "../config/site";
+const needsBanner = !!siteConfig.features.ga4;
+---
+
+{needsBanner && (
+  <div
+    id="cookie-banner"
+    class="fixed inset-x-0 bottom-0 z-50 hidden border-t border-slate-200 bg-white px-4 py-4 shadow-lg sm:px-6"
+    role="dialog"
+    aria-label="Zgoda na pliki cookie"
+    aria-live="polite"
+  >
+    <div class="mx-auto flex max-w-4xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <p class="text-sm text-slate-600">
+        Używamy plików cookie do anonimowej analityki ruchu. Nie zbieramy danych osobowych bez
+        Twojej zgody.{" "}
+        <a href="/polityka-prywatnosci/" class="font-medium text-indigo-700 underline">Polityka prywatności</a>.
+      </p>
+      <div class="flex shrink-0 flex-wrap gap-2">
+        <button type="button" id="cookie-decline" class="rounded-md border border-slate-200 px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50">
+          Tylko niezbędne
+        </button>
+        <button type="button" id="cookie-accept" class="rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700">
+          Akceptuję wszystkie
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var KEY = "cookie-consent";
+      var banner = document.getElementById("cookie-banner");
+      if (!banner) return;
+      var prior = null;
+      try { prior = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
+      if (!prior) banner.classList.remove("hidden");
+
+      function applyConsent(granted) {
+        var payload = {
+          analytics_storage: granted ? "granted" : "denied",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          ts: Date.now(),
+        };
+        localStorage.setItem(KEY, JSON.stringify(payload));
+        banner.classList.add("hidden");
+        if (typeof window.gtag === "function") {
+          window.gtag("consent", "update", payload);
+        }
+      }
+      document.getElementById("cookie-accept").addEventListener("click", function () { applyConsent(true); });
+      document.getElementById("cookie-decline").addEventListener("click", function () { applyConsent(false); });
+    })();
+  </script>
+)}

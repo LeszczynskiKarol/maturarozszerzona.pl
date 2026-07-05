@@ -1,0 +1,103 @@
+---
+import "../styles/global.css";
+import "katex/dist/katex.min.css";
+import { SITE, ECOSYSTEM } from "../config/site";
+import Analytics from "../components/Analytics.astro";
+import CookieConsent from "../components/CookieConsent.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  /** JSON-LD do wstrzyknięcia w <head> */
+  schema?: object[];
+  /** true → <meta robots noindex> (polityka prywatności, 404) */
+  noindex?: boolean;
+}
+
+const { title, description, schema = [], noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const ogImage = new URL("/og-image.jpg", SITE.url).href;
+---
+
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {schema.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+    <Analytics />
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-900 antialiased">
+    <header class="border-b border-slate-200 bg-white">
+      <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
+        <a href="/" class="text-lg font-extrabold tracking-tight text-indigo-700">
+          matura<span class="text-slate-900">rozszerzona</span>.pl
+        </a>
+        <nav class="flex items-center gap-4 text-sm font-medium text-slate-600">
+          <a href="/matematyka/zadania/" class="hover:text-indigo-700">Zadania</a>
+          <a href="/wybor-rozszerzen/" class="hover:text-indigo-700">Wybór rozszerzeń</a>
+          <a href="/terminy/" class="hover:text-indigo-700">Terminy</a>
+          <a
+            href={ECOSYSTEM.app}
+            class="rounded-lg bg-indigo-600 px-3 py-1.5 text-white hover:bg-indigo-700"
+            >Ćwicz w aplikacji</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-4xl px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="mt-12 border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-4xl px-4 py-8 text-sm text-slate-500">
+        <div class="mb-4 grid gap-6 sm:grid-cols-3">
+          <div>
+            <p class="mb-1 font-semibold text-slate-700">Ćwicz zadania</p>
+            <a href={ECOSYSTEM.app} class="hover:text-indigo-700"
+              >Matury-Online.pl — interaktywne arkusze i zadania</a
+            >
+          </div>
+          <div>
+            <p class="mb-1 font-semibold text-slate-700">Arkusze CKE</p>
+            <a href={ECOSYSTEM.arkusze} class="hover:text-indigo-700"
+              >Matura-Online.pl — arkusze z pełnymi rozwiązaniami</a
+            >
+          </div>
+          <div>
+            <p class="mb-1 font-semibold text-slate-700">Rekrutacja</p>
+            <a href={ECOSYSTEM.kalkulator} class="hover:text-indigo-700"
+              >Maturalnie.pl — kalkulator punktów na studia</a
+            >
+          </div>
+        </div>
+        <p>
+          © {new Date().getFullYear()} {SITE.name}. Zadania pochodzą z arkuszy CKE (domena publiczna).
+          <a href="/polityka-prywatnosci/" class="ml-2 hover:text-indigo-700">Polityka prywatności</a>
+        </p>
+      </div>
+    </footer>
+    <CookieConsent />
+  </body>
+</html>
