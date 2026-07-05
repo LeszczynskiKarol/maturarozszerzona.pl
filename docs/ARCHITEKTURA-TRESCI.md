@@ -227,11 +227,17 @@ extract-terminy 2026-07-05                       (harmonogram z maturalnie.pl)
 Zadania treningowe (`src/data/zadania-treningowe/`) i treść przedmiotów (`src/data/subjects/`)
 są utrzymywane osobno (generowane/kuratorskie), nie nadpisywane przez sync.
 
-### DO ZROBIENIA: deploy
+### DEPLOY — ZROBIONY (2026-07-05)
 
-- Decyzja hostingu: S3+CloudFront (jak maturalnie.pl, jest `aws-lambdas/` wzór) vs VPS `matury`.
-- Po wyborze: DNS domeny, TLS, upload `dist/`, zgłoszenie sitemap do GSC + Indexing API
-  (SA ma włączone `indexing`), 3–5 linków startowych z matury-online.pl / maturapolski.pl.
+Live: **https://www.maturarozszerzona.pl** (S3 + CloudFront, wzorzec claude-astro-generator).
+Szczegóły infrastruktury i pozostałe ręczne TODO: `LAUNCH-REPORT.md`.
+
+- Route53 + NS handover z Aftermarket, ACM cert (us-east-1), 2× S3, 2× CloudFront (www + naked 301),
+  security headers, GitHub Actions OIDC deploy on push.
+- Dodane: OG image, favicon, cookie banner + Consent Mode v2, GA4 (`G-BZG0CGX5BJ`),
+  polityka prywatności.
+- Pozostałe ręczne (patrz LAUNCH-REPORT): PSI manual, GSC sitemap submit (≥24h po NS),
+  wpis do seo_panel, linki startowe.
 
 ## 7. Decyzje podjęte / otwarte
 
