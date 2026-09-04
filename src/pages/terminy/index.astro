@@ -70,6 +70,19 @@ const schema = [
     </p>
   )}
 
+  {dane.oficjalna && (
+    <p class="mb-6 rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
+      <strong>Daty oficjalne.</strong> Harmonogram pochodzi z
+      <a
+        href="https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/komunikaty/2026_2027/20260820_E8_EM_Komunikat_o_harmonogramie_2027_fin.pdf"
+        rel="noopener"
+        class="mx-1 font-semibold underline hover:no-underline"
+        >komunikatu dyrektora CKE z 20 sierpnia 2026 r.</a
+      >
+      o harmonogramie egzaminów w {dane.rok} r.
+    </p>
+  )}
+
   <div class="mb-8 overflow-x-auto">
     <table class="w-full min-w-[36rem] border-collapse text-sm">
       <thead>
