@@ -1,0 +1,124 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE, SUBJECTS, ECOSYSTEM } from "../../config/site";
+
+// Hub „Zadania" dla wszystkich przedmiotów. Powstał, bo link „Zadania" w nagłówku
+// prowadził wprost do /matematyka/zadania/ — czyli sitewide (138 stron) spychał
+// każdego czytelnika i cały link juice nawigacji do jednego przedmiotu.
+const dzialyModules = import.meta.glob<{ default: { slug: string; nazwa: string; count: number }[] }>(
+  "../../data/dzialy/*.json",
+  { eager: true }
+);
+
+const subjects = Object.entries(dzialyModules)
+  .map(([path, mod]) => {
+    const slug = path.match(/\/([\w-]+)\.json$/)![1];
+    return { meta: SUBJECTS[slug], dzialy: mod.default.filter((d) => d.count > 0) };
+  })
+  .filter((s) => s.meta)
+  .sort((a, b) => a.meta.name.localeCompare(b.meta.name, "pl"));
+
+const totalZadan = subjects.reduce((s, x) => s + x.dzialy.reduce((a, d) => a + d.count, 0), 0);
+const totalDzialow = subjects.reduce((s, x) => s + x.dzialy.length, 0);
+
+const title = `Zadania z matur rozszerzonych CKE — ${subjects.length} przedmiotów`;
+const description = `${totalZadan} zadań z arkuszy CKE na poziomie rozszerzonym z ${subjects.length} przedmiotów, w ${totalDzialow} działach tematycznych. Każde z odpowiedzią, typową pułapką i linkiem do pełnego rozwiązania.`;
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Start", item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "Zadania", item: `${SITE.url}/zadania/` },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Zadania maturalne CKE według przedmiotu (poziom rozszerzony)",
+    numberOfItems: subjects.length,
+    itemListElement: subjects.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: `Zadania z ${s.meta.dopelniacz} — matura rozszerzona`,
+      url: `${SITE.url}/${s.meta.slug}/zadania/`,
+    })),
+  },
+];
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <nav class="mb-4 text-sm text-slate-500">
+    <a href="/" class="hover:text-indigo-700">Start</a> › Zadania
+  </nav>
+
+  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
+    Zadania z matur rozszerzonych CKE
+  </h1>
+
+  <p class="mb-4 max-w-2xl text-slate-600">
+    {totalZadan} zadań z oficjalnych arkuszy maturalnych CKE na poziomie rozszerzonym,
+    z {subjects.length} przedmiotów, pogrupowanych w {totalDzialow} działów tematycznych.
+    Przy każdym zadaniu znajdziesz odpowiedź, typową pułapkę punktową i link do pełnego
+    rozwiązania krok po kroku.
+  </p>
+
+  <p class="mb-8 max-w-2xl text-slate-600">
+    Układ według działów, a nie według roczników, jest celowy: na maturze rozszerzonej
+    powtarzają się <strong>typy zadań</strong>, nie konkretne treści. Rozwiązanie pięciu zadań
+    z tego samego działu z różnych sesji uczy rozpoznawać schemat i wymagania klucza znacznie
+    szybciej niż przerobienie jednego arkusza od deski do deski. Jeśli dopiero wybierasz
+    przedmioty, zacznij od <a href="/wybor-rozszerzen/" class="font-medium text-indigo-700 hover:underline">poradnika
+    wyboru rozszerzeń</a>, a daty sprawdź w <a href="/terminy/" class="font-medium text-indigo-700 hover:underline">harmonogramie
+    CKE</a>.
+  </p>
+
+  {subjects.map(({ meta, dzialy }) => {
+    const n = dzialy.reduce((a, d) => a + d.count, 0);
+    return (
+      <section class="mb-8 rounded-xl border border-slate-200 bg-white p-5">
+        <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="text-xl font-bold">
+            <a href={`/${meta.slug}/zadania/`} class="hover:text-indigo-700">
+              Zadania z {meta.dopelniacz}
+            </a>
+          </h2>
+          <p class="text-sm text-slate-500">
+            {n} zadań w {dzialy.length} działach ·
+            <a href={`/${meta.slug}/wymagania/`} class="ml-1 text-indigo-700 hover:underline">
+              wymagania
+            </a>
+          </p>
+        </div>
+        <ul class="flex flex-wrap gap-x-3 gap-y-1.5 text-sm">
+          {dzialy.map((d) => (
+            <li>
+              <a
+                href={`/${meta.slug}/zadania/${d.slug}/`}
+                class="text-slate-700 hover:text-indigo-700 hover:underline"
+              >
+                {d.nazwa.split(":")[0]}
+                <span class="text-slate-400"> ({d.count})</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+  })}
+
+  <section class="rounded-xl border border-indigo-200 bg-indigo-50 p-5">
+    <h2 class="mb-2 font-bold text-indigo-900">Chcesz rozwiązywać te zadania interaktywnie?</h2>
+    <p class="mb-3 text-sm text-indigo-800">
+      Tutaj masz zadania do przejrzenia i powtórki. W aplikacji rozwiążesz je z licznikiem czasu,
+      sprawdzaniem odpowiedzi otwartych i śledzeniem postępów działami.
+    </p>
+    <a
+      href={ECOSYSTEM.app}
+      class="inline-block rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700"
+    >
+      Przejdź do Matury-Online.pl →
+    </a>
+  </section>
+</BaseLayout>
