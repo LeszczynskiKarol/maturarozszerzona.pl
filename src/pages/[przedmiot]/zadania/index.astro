@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SubjectMark from "../../../components/SubjectMark.astro";
+import { fitTitle } from "../../../lib/seo";
 import { SITE, SUBJECTS, ECOSYSTEM } from "../../../config/site";
 
 export async function getStaticPaths() {
@@ -18,7 +20,12 @@ const { dzialy } = Astro.props;
 const meta = SUBJECTS[przedmiot!];
 const total = dzialy.reduce((s, d) => s + d.count, 0);
 
-const title = `Zadania z ${meta.dopelniacz} — matura rozszerzona (działy) | ${SITE.name}`;
+const title = fitTitle(
+  `Zadania CKE z ${meta.dopelniacz}`,
+  "— matura rozszerzona",
+  "(działy)",
+  `| ${SITE.name}`
+);
 const description = `Zadania z matur rozszerzonych CKE z ${meta.dopelniacz} pogrupowane działami: ${dzialy
   .slice(0, 4)
   .map((d) => d.nazwa.split(":")[0].toLowerCase())
@@ -42,9 +49,12 @@ const schema = [
     <a href={`/${meta.slug}/`} class="hover:text-indigo-700">{meta.name}</a> › Zadania
   </nav>
 
-  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
-    {meta.name} — zadania z matur rozszerzonych według działów
-  </h1>
+  <div class="mb-3 flex items-start gap-3">
+    <span class="mt-1 shrink-0 text-indigo-700"><SubjectMark slug={meta.slug} class="h-9 w-9" /></span>
+    <h1 class="text-3xl font-extrabold tracking-tight">
+      {meta.name} — zadania z matur rozszerzonych według działów
+    </h1>
+  </div>
   <p class="mb-8 max-w-2xl text-slate-600">
     {total} zadań z oficjalnych arkuszy CKE (poziom rozszerzony), pogrupowanych tematycznie.
     Każde z odpowiedzią, typową pułapką i linkiem do pełnego rozwiązania.

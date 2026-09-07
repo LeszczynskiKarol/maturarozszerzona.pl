@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import { SITE, SUBJECTS } from "../../../../config/site";
+import SubjectMark from "../../../../components/SubjectMark.astro";
+import { fitTitle, krotkaNazwaDzialu } from "../../../../lib/seo";
+import { SITE, SUBJECTS, DZIAL_SKROT } from "../../../../config/site";
 import { renderRichText, renderInlineMath } from "../../../../lib/render-math";
 
 interface Zadanie {
@@ -81,6 +83,14 @@ const meta = SUBJECTS[przedmiot!];
 
 const lata = [...new Set(zadania.map((z) => z.rok))].sort();
 const zakresLat = lata.length > 1 ? `${lata[0]}–${lata[lata.length - 1]}` : `${lata[0] ?? ""}`;
+
+// Matura 2023 była pierwszą w formule 2023. Zadania z wcześniejszych sesji pochodzą
+// z formuły 2015 — inny arkusz, inny rozkład punktów. Podawanie ich bez oznaczenia
+// jako „zadania z matur rozszerzonych CKE" wprowadza maturzystę w błąd.
+// Warunek liczony z danych, więc oznaczenie zniknie samo, gdy dojdą zadania
+// z formuły 2023 (dziś dotyczy wyłącznie WOS-u: 144 zadania z lat 2018–2022).
+const wszystkieZeStarejFormuly =
+  zadania.length > 0 && zadania.every((z) => z.rok < 2023);
 const sesjaLabel: Record<string, string> = {
   maj: "maj",
   czerwiec: "czerwiec (termin dodatkowy)",
@@ -89,7 +99,12 @@ const sesjaLabel: Record<string, string> = {
   probna: "próbna",
 };
 
-const title = `${dzialMeta.nazwa} — zadania z matur rozszerzonych CKE | ${meta.name}`;
+const skrotDzialu =
+  DZIAL_SKROT[`${przedmiot}/${dzialMeta.slug}`] ?? krotkaNazwaDzialu(dzialMeta.nazwa);
+const title = fitTitle(
+  `${skrotDzialu} — zadania CKE rozszerzone`,
+  `| ${meta.name}`
+);
 const description =
   zadania.length > 0
     ? `${zadania.length} zadań z działu „${dzialMeta.nazwa}" z arkuszy maturalnych CKE ${zakresLat} (${meta.name.toLowerCase()}, poziom rozszerzony) — z odpowiedziami i typowymi pułapkami.`
@@ -133,7 +148,10 @@ const schema = [
     {dzialMeta.nazwa}
   </nav>
 
-  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">{dzialMeta.nazwa}</h1>
+  <div class="mb-3 flex items-start gap-3">
+    <span class="mt-1 shrink-0 text-indigo-700"><SubjectMark slug={meta.slug} class="h-8 w-8" /></span>
+    <h1 class="text-3xl font-extrabold tracking-tight">{dzialMeta.nazwa}</h1>
+  </div>
   {zadania.length > 0 ? (
     <p class="mb-8 max-w-2xl text-slate-600">
       {zadania.length} zadań z oficjalnych arkuszy matury rozszerzonej z {meta.dopelniacz}
@@ -144,6 +162,16 @@ const schema = [
     <p class="mb-8 max-w-2xl text-slate-600">
       Ten dział nie ma jeszcze zadań wprost z arkuszy CKE — poniżej znajdziesz zadania treningowe
       w stylu matury rozszerzonej, z pełnym rozwiązaniem.
+    </p>
+  )}
+
+  {wszystkieZeStarejFormuly && (
+    <p class="mb-8 max-w-2xl rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+      <strong>Uwaga na formułę.</strong> Wszystkie zadania w tym dziale pochodzą z arkuszy
+      sprzed 2023 roku, czyli z <strong>formuły 2015</strong>. Od matury 2023 obowiązuje
+      formuła 2023 — inny układ arkusza i inny rozkład punktów. Same umiejętności i typy
+      rozumowania pozostają aktualne, ale nie traktuj tych arkuszy jako symulacji swojego
+      egzaminu.
     </p>
   )}
 

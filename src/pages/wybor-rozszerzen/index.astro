@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fitTitle } from "../../lib/seo";
 import { SITE, ECOSYSTEM } from "../../config/site";
 import kierunki from "../../data/kierunki.json";
 
@@ -32,7 +33,11 @@ const grupy = kategorie.map((kat) => ({
   kierunki: lista.filter((k) => k.kategoria === kat).sort((a, b) => a.name.localeCompare(b.name)),
 }));
 
-const title = `Jakie rozszerzenia wybrać na studia — poradnik według kierunku | ${SITE.name}`;
+const title = fitTitle(
+  "Jakie rozszerzenia wybrać na studia",
+  "— poradnik według kierunku",
+  `| ${SITE.name}`
+);
 const description =
   "Które przedmioty rozszerzone wybrać pod konkretny kierunek studiów: medycyna, prawo, informatyka, psychologia i inne. Wymagane rozszerzenia, alternatywy i link do kalkulatora punktów.";
 

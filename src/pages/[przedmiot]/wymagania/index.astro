@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SubjectMark from "../../../components/SubjectMark.astro";
+import { fitTitle } from "../../../lib/seo";
 import { SITE, SUBJECTS } from "../../../config/site";
 
 interface Wymaganie { pytanie: string; odpowiedz: string; dzial?: string }
@@ -28,7 +30,12 @@ const { content, dzialy } = Astro.props as { content: SubjectContent; dzialy: Dz
 const meta = SUBJECTS[przedmiot!];
 const dzialMap = new Map(dzialy.map((d) => [d.slug, d]));
 
-const title = `Co jest na maturze rozszerzonej z ${meta.dopelniacz}? Wymagania i zakres | ${SITE.name}`;
+const title = fitTitle(
+  `Co jest na maturze rozszerzonej z ${meta.dopelniacz}?`,
+  "Wymagania",
+  "i zakres",
+  `| ${SITE.name}`
+);
 const description = `Zakres wymagań na maturze rozszerzonej z ${meta.dopelniacz}: co obowiązuje, a czego nie ma. Odpowiedzi na najczęstsze pytania maturzystów.`;
 
 const schema = [
@@ -59,9 +66,12 @@ const schema = [
     <a href={`/${meta.slug}/`} class="hover:text-indigo-700">{meta.name}</a> › Wymagania
   </nav>
 
-  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
-    Co jest na maturze rozszerzonej z {meta.dopelniacz}?
-  </h1>
+  <div class="mb-3 flex items-start gap-3">
+    <span class="mt-1 shrink-0 text-indigo-700"><SubjectMark slug={meta.slug} class="h-9 w-9" /></span>
+    <h1 class="text-3xl font-extrabold tracking-tight">
+      Co jest na maturze rozszerzonej z {meta.dopelniacz}?
+    </h1>
+  </div>
   <p class="mb-8 max-w-2xl text-slate-600">
     Najczęstsze pytania o zakres wymagań na poziomie rozszerzonym — co obowiązuje, a czego nie ma.
     Przy pytaniach o konkretny dział znajdziesz link do zadań z arkuszy CKE.

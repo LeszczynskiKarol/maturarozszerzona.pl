@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import SubjectMark from "../../components/SubjectMark.astro";
+import { fitTitle } from "../../lib/seo";
 import { SITE, SUBJECTS, ECOSYSTEM } from "../../config/site";
 import terminy from "../../data/terminy.json";
 
@@ -39,7 +41,11 @@ const egz = (terminy.egzaminyPR as { hubSlug: string | null; dataIso: string }[]
 const MIES = ["stycznia","lutego","marca","kwietnia","maja","czerwca","lipca","sierpnia","września","października","listopada","grudnia"];
 const egzData = egz ? (() => { const d = new Date(`${egz.dataIso}T12:00:00`); return `${d.getDate()} ${MIES[d.getMonth()]} ${d.getFullYear()}`; })() : null;
 
-const title = `Matura rozszerzona z ${meta.dopelniacz} — zadania, wymagania, strategia | ${SITE.name}`;
+const title = fitTitle(
+  `Matura rozszerzona z ${meta.dopelniacz}`,
+  "— zadania i wymagania",
+  `| ${SITE.name}`
+);
 const description = content.intro.slice(0, 155);
 
 const schema = [
@@ -59,9 +65,12 @@ const schema = [
     <a href="/" class="hover:text-indigo-700">Start</a> › {meta.name}
   </nav>
 
-  <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
-    Matura rozszerzona z {meta.dopelniacz}
-  </h1>
+  <div class="mb-3 flex items-center gap-3">
+    <span class="text-indigo-700"><SubjectMark slug={meta.slug} class="h-9 w-9" /></span>
+    <h1 class="text-3xl font-extrabold tracking-tight">
+      Matura rozszerzona z {meta.dopelniacz}
+    </h1>
+  </div>
   <p class="mb-4 max-w-2xl text-lg text-slate-700">{content.intro}</p>
 
   {egzData && (

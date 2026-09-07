@@ -106,3 +106,37 @@ export const SUBJECTS: Record<string, SubjectMeta> = {
     appUrl: "https://www.matury-online.pl/jezyk-angielski",
   },
 };
+
+// Biernik nazw kierunków — do zdań typu „Jakie rozszerzenia na …?".
+// Bez tego tytuł, opis, H1 i pytania FAQ na 15 stronach kierunków brzmiały
+// „Jakie rozszerzenia na architektura?" zamiast „na architekturę".
+export const KIERUNEK_BIERNIK: Record<string, string> = {
+  ekonomia: "ekonomię",
+  "finanse-i-rachunkowosc": "finanse i rachunkowość",
+  zarzadzanie: "zarządzanie",
+  "filologia-angielska": "filologię angielską",
+  farmacja: "farmację",
+  fizjoterapia: "fizjoterapię",
+  "kierunek-lekarski": "kierunek lekarski",
+  "lekarsko-dentystyczny": "kierunek lekarsko-dentystyczny",
+  pielegniarstwo: "pielęgniarstwo",
+  weterynaria: "weterynarię",
+  prawo: "prawo",
+  psychologia: "psychologię",
+  biotechnologia: "biotechnologię",
+  informatyka: "informatykę",
+  architektura: "architekturę",
+};
+
+// Skróty nazw działów do <title>. Domyślnie bierzemy człon przed dwukropkiem
+// (87 z 91 nazw ma format „Krótka nazwa: rozwinięcie"), ale sześć nazw jest długich
+// samo w sobie albo nie ma dwukropka — dla nich skrót podajemy wprost.
+// Klucz: "<przedmiot>/<slug działu>". Pełna nazwa zostaje w <h1> i w treści.
+export const DZIAL_SKROT: Record<string, string> = {
+  "matematyka/rownania-i-nierownosci": "Równania i nierówności",
+  "matematyka/kombinatoryka-i-prawdopodobienstwo": "Kombinatoryka i prawdopodobieństwo",
+  "historia/i-wojna-i-dwudziestolecie": "I wojna i dwudziestolecie",
+  "chemia/kinetyka-i-rownowaga": "Kinetyka i równowaga",
+  "chemia/wiazania-chemiczne": "Wiązania chemiczne",
+  "informatyka/systemy-liczbowe": "Systemy liczbowe",
+};

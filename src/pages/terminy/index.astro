@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fitTitle } from "../../lib/seo";
 import { SITE } from "../../config/site";
 import terminy from "../../data/terminy.json";
 
@@ -34,7 +35,10 @@ function dzien(iso: string): string {
   return DNI[new Date(`${iso}T12:00:00`).getDay()];
 }
 
-const title = `Terminy matury rozszerzonej ${dane.rok} — harmonogram CKE | ${SITE.name}`;
+const title = fitTitle(
+  `Terminy matury rozszerzonej ${dane.rok} — harmonogram CKE`,
+  `| ${SITE.name}`
+);
 const description = `Kiedy jest matura rozszerzona ${dane.rok}? Harmonogram egzaminów CKE na poziomie rozszerzonym: daty, godziny i czas trwania każdego przedmiotu${dane.oficjalna ? "" : " (terminy orientacyjne)"}.`;
 
 const schema = [

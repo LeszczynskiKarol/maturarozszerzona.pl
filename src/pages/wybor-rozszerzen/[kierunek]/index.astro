@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { SITE, ECOSYSTEM, PRZEDMIOT_ZADANIA } from "../../../config/site";
+import { SITE, ECOSYSTEM, PRZEDMIOT_ZADANIA, KIERUNEK_BIERNIK } from "../../../config/site";
+import { fitTitle } from "../../../lib/seo";
 import kierunkiData from "../../../data/kierunki.json";
 import notesData from "../../../data/kierunki-notes.json";
 
@@ -48,18 +49,21 @@ const UCZELNIA_NAZWA: Record<string, string> = {
 };
 
 const rdzenNazwy = k.rdzen.map((p) => p.nazwa).join(" + ");
-const title =
-  k.rdzen.length > 0
-    ? `Jakie rozszerzenia na ${k.name.toLowerCase()}? Rdzeń: ${rdzenNazwy} | ${SITE.name}`
-    : `Jakie rozszerzenia na ${k.name.toLowerCase()}? Poradnik wyboru przedmiotów | ${SITE.name}`;
+// Biernik, nie mianownik: „na architekturę", nie „na architektura".
+const biernik = KIERUNEK_BIERNIK[k.slug] ?? k.name.toLowerCase();
+const title = fitTitle(
+  `Jakie rozszerzenia na ${biernik}?`,
+  k.rdzen.length > 0 ? `Rdzeń: ${rdzenNazwy}` : "Poradnik wyboru przedmiotów",
+  `| ${SITE.name}`
+);
 const description = note
   ? note.rekomendacja.slice(0, 155)
-  : `Które przedmioty rozszerzone wybrać na kierunek ${k.name.toLowerCase()} — wymagania i alternatywy.`;
+  : `Które przedmioty rozszerzone wybrać na ${biernik} — wymagania rekrutacyjne i alternatywy.`;
 
 const faq = [
   note && {
     "@type": "Question",
-    name: `Jakie rozszerzenia wybrać na ${k.name.toLowerCase()}?`,
+    name: `Jakie rozszerzenia wybrać na ${biernik}?`,
     acceptedAnswer: { "@type": "Answer", text: note.rekomendacja },
   },
   note && {
@@ -90,7 +94,7 @@ const schema = [
   </nav>
 
   <h1 class="mb-3 text-3xl font-extrabold tracking-tight">
-    Jakie rozszerzenia wybrać na {k.name.toLowerCase()}?
+    Jakie rozszerzenia wybrać na {biernik}?
   </h1>
 
   {note && <p class="mb-6 max-w-2xl text-lg text-slate-700">{note.rekomendacja}</p>}
@@ -174,7 +178,7 @@ const schema = [
 
   <!-- CTA kalkulator -->
   <aside class="mb-8 rounded-xl border border-indigo-200 bg-indigo-50 p-5">
-    <p class="font-semibold text-indigo-900">Policz swoje punkty na {k.name.toLowerCase()}</p>
+    <p class="font-semibold text-indigo-900">Policz swoje punkty na {biernik}</p>
     <p class="mt-1 text-sm text-indigo-800">
       Realne wzory różnią się między uczelniami. Kalkulator punktów na Maturalnie.pl przeliczy Twój
       wynik na punkty rekrutacyjne konkretnej uczelni i porówna z ostatnim progiem.

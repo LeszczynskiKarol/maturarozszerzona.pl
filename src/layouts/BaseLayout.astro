@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import "katex/dist/katex.min.css";
 import { SITE, ECOSYSTEM } from "../config/site";
+import { fitDescription } from "../lib/seo";
 import Analytics from "../components/Analytics.astro";
 import CookieConsent from "../components/CookieConsent.astro";
 
@@ -15,6 +16,10 @@ interface Props {
 }
 
 const { title, description, schema = [], noindex = false } = Astro.props;
+// Audyt 2026-09-04: 99 ze 138 opisów przekraczało 160 znaków (do 232), przez co
+// Google ucinał je w SERP-ie. Przycinamy centralnie, na granicy słowa. W og:description
+// zostaje pełny tekst — tam limit jest inny.
+const metaDescription = fitDescription(description);
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 const ogImage = new URL("/og-image.jpg", SITE.url).href;
 ---
@@ -24,7 +29,7 @@ const ogImage = new URL("/og-image.jpg", SITE.url).href;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
