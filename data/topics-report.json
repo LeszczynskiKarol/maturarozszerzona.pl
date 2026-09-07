@@ -7602,27 +7602,39 @@
   "wos|pr": [
     {
       "topic": "konstytucja rp",
-      "count": 7
+      "count": 8
     },
     {
       "topic": "socjologia",
       "count": 6
     },
     {
+      "topic": "prawa czlowieka",
+      "count": 5
+    },
+    {
+      "topic": "nato",
+      "count": 5
+    },
+    {
       "topic": "parlament",
       "count": 4
     },
     {
-      "topic": "prawa czlowieka",
-      "count": 4
-    },
-    {
-      "topic": "nato",
+      "topic": "instytucje ue",
       "count": 4
     },
     {
       "topic": "onz",
       "count": 4
+    },
+    {
+      "topic": "spoleczenstwo obywatelskie",
+      "count": 4
+    },
+    {
+      "topic": "zasady ustrojowe",
+      "count": 3
     },
     {
       "topic": "podzial wladz",
@@ -7637,11 +7649,19 @@
       "count": 3
     },
     {
+      "topic": "akty prawa miejscowego",
+      "count": 3
+    },
+    {
       "topic": "samorzad gminny",
       "count": 3
     },
     {
-      "topic": "instytucje ue",
+      "topic": "postepowanie cywilne",
+      "count": 3
+    },
+    {
+      "topic": "pismo procesowe",
       "count": 3
     },
     {
@@ -7653,7 +7673,7 @@
       "count": 3
     },
     {
-      "topic": "spoleczenstwo obywatelskie",
+      "topic": "systemy polityczne",
       "count": 3
     },
     {
@@ -7661,11 +7681,27 @@
       "count": 3
     },
     {
-      "topic": "rada ministrow",
-      "count": 2
+      "topic": "ruchliwosc spoleczna",
+      "count": 3
     },
     {
-      "topic": "zasady ustrojowe",
+      "topic": "demokracja bezposrednia",
+      "count": 3
+    },
+    {
+      "topic": "prog wyborczy",
+      "count": 3
+    },
+    {
+      "topic": "prezydent rp",
+      "count": 3
+    },
+    {
+      "topic": "socjalizacja",
+      "count": 3
+    },
+    {
+      "topic": "rada ministrow",
       "count": 2
     },
     {
@@ -7674,18 +7710,6 @@
     },
     {
       "topic": "samorzad terytorialny",
-      "count": 2
-    },
-    {
-      "topic": "akty prawa miejscowego",
-      "count": 2
-    },
-    {
-      "topic": "postepowanie cywilne",
-      "count": 2
-    },
-    {
-      "topic": "pismo procesowe",
       "count": 2
     },
     {
@@ -7737,6 +7761,10 @@
       "count": 2
     },
     {
+      "topic": "system wyborczy",
+      "count": 2
+    },
+    {
       "topic": "trybunal konstytucyjny",
       "count": 2
     },
@@ -7761,11 +7789,15 @@
       "count": 2
     },
     {
-      "topic": "systemy polityczne",
+      "topic": "panstwo unitarne",
       "count": 2
     },
     {
       "topic": "niemcy",
+      "count": 2
+    },
+    {
+      "topic": "demokracja przedstawicielska",
       "count": 2
     },
     {
@@ -7789,10 +7821,6 @@
       "count": 2
     },
     {
-      "topic": "ruchliwosc spoleczna",
-      "count": 2
-    },
-    {
       "topic": "globalizacja",
       "count": 2
     },
@@ -7801,23 +7829,15 @@
       "count": 2
     },
     {
-      "topic": "demokracja bezposrednia",
-      "count": 2
-    },
-    {
       "topic": "szwajcaria",
       "count": 2
     },
     {
-      "topic": "prog wyborczy",
-      "count": 2
-    },
-    {
-      "topic": "prezydent rp",
-      "count": 2
-    },
-    {
       "topic": "ustawa",
+      "count": 2
+    },
+    {
+      "topic": "mniejszosci narodowe i etniczne",
       "count": 2
     },
     {
@@ -8137,10 +8157,6 @@
       "count": 1
     },
     {
-      "topic": "system wyborczy",
-      "count": 1
-    },
-    {
       "topic": "frekwencja",
       "count": 1
     },
@@ -8445,10 +8461,6 @@
       "count": 1
     },
     {
-      "topic": "panstwo unitarne",
-      "count": 1
-    },
-    {
       "topic": "federalizm",
       "count": 1
     },
@@ -8458,10 +8470,6 @@
     },
     {
       "topic": "prawa wyborcze",
-      "count": 1
-    },
-    {
-      "topic": "demokracja przedstawicielska",
       "count": 1
     },
     {
@@ -9049,10 +9057,6 @@
       "count": 1
     },
     {
-      "topic": "socjalizacja",
-      "count": 1
-    },
-    {
       "topic": "procesy spoleczne",
       "count": 1
     },
@@ -9257,10 +9261,6 @@
       "count": 1
     },
     {
-      "topic": "mniejszosci narodowe i etniczne",
-      "count": 1
-    },
-    {
       "topic": "gminy",
       "count": 1
     },
@@ -9318,6 +9318,226 @@
     },
     {
       "topic": "panstwo klanowe",
+      "count": 1
+    },
+    {
+      "topic": "komunikacja niewerbalna",
+      "count": 1
+    },
+    {
+      "topic": "kampania spoleczna",
+      "count": 1
+    },
+    {
+      "topic": "mowa ciala",
+      "count": 1
+    },
+    {
+      "topic": "referendum lokalne",
+      "count": 1
+    },
+    {
+      "topic": "klauzula zaporowa",
+      "count": 1
+    },
+    {
+      "topic": "mniejszosci narodowe",
+      "count": 1
+    },
+    {
+      "topic": "belgia",
+      "count": 1
+    },
+    {
+      "topic": "francja",
+      "count": 1
+    },
+    {
+      "topic": "mandat wolny",
+      "count": 1
+    },
+    {
+      "topic": "wotum zaufania i nieufnosci",
+      "count": 1
+    },
+    {
+      "topic": "usilowanie",
+      "count": 1
+    },
+    {
+      "topic": "kradziez z wlamaniem",
+      "count": 1
+    },
+    {
+      "topic": "osoba najblizsza",
+      "count": 1
+    },
+    {
+      "topic": "kodeks karny",
+      "count": 1
+    },
+    {
+      "topic": "zasada rownosci",
+      "count": 1
+    },
+    {
+      "topic": "interpelacja poselska",
+      "count": 1
+    },
+    {
+      "topic": "dyskryminacja pozytywna",
+      "count": 1
+    },
+    {
+      "topic": "lad miedzynarodowy",
+      "count": 1
+    },
+    {
+      "topic": "usa i chiny",
+      "count": 1
+    },
+    {
+      "topic": "nowy jedwabny szlak",
+      "count": 1
+    },
+    {
+      "topic": "dwubiegunowosc",
+      "count": 1
+    },
+    {
+      "topic": "who",
+      "count": 1
+    },
+    {
+      "topic": "cele zrownowazonego rozwoju",
+      "count": 1
+    },
+    {
+      "topic": "globalne poludnie",
+      "count": 1
+    },
+    {
+      "topic": "pomoc rozwojowa",
+      "count": 1
+    },
+    {
+      "topic": "traktat lizbonski",
+      "count": 1
+    },
+    {
+      "topic": "procedura prawodawcza",
+      "count": 1
+    },
+    {
+      "topic": "uklad warszawski",
+      "count": 1
+    },
+    {
+      "topic": "partnerstwo dla pokoju",
+      "count": 1
+    },
+    {
+      "topic": "polityka bezpieczenstwa finlandii",
+      "count": 1
+    },
+    {
+      "topic": "pozew o zaplate",
+      "count": 1
+    },
+    {
+      "topic": "wlasciwosc sadu",
+      "count": 1
+    },
+    {
+      "topic": "konflikt rol spolecznych",
+      "count": 1
+    },
+    {
+      "topic": "internalizacja",
+      "count": 1
+    },
+    {
+      "topic": "kompetencje",
+      "count": 1
+    },
+    {
+      "topic": "system parlamentarno-gabinetowy",
+      "count": 1
+    },
+    {
+      "topic": "wypowiedz rozszerzona",
+      "count": 1
+    },
+    {
+      "topic": "funkcje rodziny",
+      "count": 1
+    },
+    {
+      "topic": "kapital kulturowy",
+      "count": 1
+    },
+    {
+      "topic": "zwiazki zawodowe",
+      "count": 1
+    },
+    {
+      "topic": "rada dialogu spolecznego",
+      "count": 1
+    },
+    {
+      "topic": "partycypacja wyborcza",
+      "count": 1
+    },
+    {
+      "topic": "poczucie wplywu",
+      "count": 1
+    },
+    {
+      "topic": "analiza danych cbos",
+      "count": 1
+    },
+    {
+      "topic": "opinia a fakt",
+      "count": 1
+    },
+    {
+      "topic": "media spolecznosciowe",
+      "count": 1
+    },
+    {
+      "topic": "prywatnosc",
+      "count": 1
+    },
+    {
+      "topic": "anonimowosc",
+      "count": 1
+    },
+    {
+      "topic": "wyznania",
+      "count": 1
+    },
+    {
+      "topic": "akcja wisla",
+      "count": 1
+    },
+    {
+      "topic": "urlop rodzicielski",
+      "count": 1
+    },
+    {
+      "topic": "model partnerski",
+      "count": 1
+    },
+    {
+      "topic": "solidarnosc miedzypokoleniowa",
+      "count": 1
+    },
+    {
+      "topic": "dyrektywa ue",
+      "count": 1
+    },
+    {
+      "topic": "federacja",
       "count": 1
     }
   ]

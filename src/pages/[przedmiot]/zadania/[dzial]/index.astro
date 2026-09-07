@@ -89,8 +89,9 @@ const zakresLat = lata.length > 1 ? `${lata[0]}–${lata[lata.length - 1]}` : `$
 // jako „zadania z matur rozszerzonych CKE" wprowadza maturzystę w błąd.
 // Warunek liczony z danych, więc oznaczenie zniknie samo, gdy dojdą zadania
 // z formuły 2023 (dziś dotyczy wyłącznie WOS-u: 144 zadania z lat 2018–2022).
-const wszystkieZeStarejFormuly =
-  zadania.length > 0 && zadania.every((z) => z.rok < 2023);
+const zeStarejFormuly = zadania.filter((z) => z.rok < 2023).length;
+const wszystkieZeStarejFormuly = zadania.length > 0 && zeStarejFormuly === zadania.length;
+const czescZeStarejFormuly = zeStarejFormuly > 0 && zeStarejFormuly < zadania.length;
 const sesjaLabel: Record<string, string> = {
   maj: "maj",
   czerwiec: "czerwiec (termin dodatkowy)",
@@ -172,6 +173,16 @@ const schema = [
       formuła 2023 — inny układ arkusza i inny rozkład punktów. Same umiejętności i typy
       rozumowania pozostają aktualne, ale nie traktuj tych arkuszy jako symulacji swojego
       egzaminu.
+    </p>
+  )}
+
+  {czescZeStarejFormuly && (
+    <p class="mb-8 max-w-2xl rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+      <strong>Uwaga na formułę.</strong> {zeStarejFormuly} z {zadania.length} zadań w tym dziale
+      pochodzi z arkuszy sprzed 2023 roku, czyli z <strong>formuły 2015</strong>. Rok każdego
+      zadania jest podany przy jego numerze — te z 2023 roku i późniejsze są w obowiązującej
+      formule 2023. Starsze nadal ćwiczą te same umiejętności, ale ich arkusz miał inny układ
+      i inny rozkład punktów.
     </p>
   )}
 
