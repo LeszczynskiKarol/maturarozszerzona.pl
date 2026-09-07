@@ -4301,6 +4301,94 @@
     "topic": "baza danych, SQL, JOIN, łaziki Mars, agregacja, filtracja zapytań, modelowanie danych"
   },
   {
+    "file": "informatyka-2026-maj-pr-1.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "1",
+    "punkty": "7",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "rekurencja, analiza algorytmu, zlozonosc logarytmiczna"
+  },
+  {
+    "file": "informatyka-2026-maj-pr-2.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "2",
+    "punkty": "5",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "4",
+    "topic": "algorytm, dodawanie pisemne, przeniesienia, pseudokod"
+  },
+  {
+    "file": "informatyka-2026-maj-pr-3.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "3",
+    "punkty": "9",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "przetwarzanie plikow, kody ASCII, prefiksosufiks, algorytmy na slowach"
+  },
+  {
+    "file": "informatyka-2026-maj-pr-4.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "4",
+    "punkty": "8",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "drzewo, hierarchia, przetwarzanie pliku, zliczanie podwladnych"
+  },
+  {
+    "file": "informatyka-2026-maj-pr-5.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "5",
+    "punkty": "2",
+    "typ": "otwarte-krotkie",
+    "difficulty": "3",
+    "topic": "systemy liczbowe, system piatkowy, system trojkowy, konwersja"
+  },
+  {
+    "file": "informatyka-2026-maj-pr-6.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "6",
+    "punkty": "1",
+    "typ": "otwarte-krotkie",
+    "difficulty": "1",
+    "topic": "adresacja IP, IPv4, IPv6, sieci komputerowe"
+  },
+  {
+    "file": "informatyka-2026-maj-pr-7.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "7",
+    "punkty": "9",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "arkusz kalkulacyjny, analiza danych, wykres kolumnowy, symulacja wzrostu"
+  },
+  {
+    "file": "informatyka-2026-maj-pr-8.mdx",
+    "subject": "informatyka",
+    "level": "pr",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "8",
+    "punkty": "9",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "bazy danych, SQL, JOIN, LIKE, analiza transakcji"
+  },
+  {
     "file": "jezyk-angielski-2023-maj-pp-1.mdx",
     "subject": "jezyk-angielski",
     "level": "pp",

@@ -4739,6 +4739,98 @@
     ]
   },
   {
+    "file": "informatyka-2026-maj-pr-1.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "1",
+    "punkty": "7",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "rekurencja, analiza algorytmu, zlozonosc logarytmiczna",
+    "dzial": "algorytmy",
+    "dzialyDodatkowe": []
+  },
+  {
+    "file": "informatyka-2026-maj-pr-2.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "2",
+    "punkty": "5",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "4",
+    "topic": "algorytm, dodawanie pisemne, przeniesienia, pseudokod",
+    "dzial": "systemy-liczbowe",
+    "dzialyDodatkowe": [
+      "algorytmy"
+    ]
+  },
+  {
+    "file": "informatyka-2026-maj-pr-3.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "3",
+    "punkty": "9",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "przetwarzanie plikow, kody ASCII, prefiksosufiks, algorytmy na slowach",
+    "dzial": "algorytmy",
+    "dzialyDodatkowe": [
+      "programowanie"
+    ]
+  },
+  {
+    "file": "informatyka-2026-maj-pr-4.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "4",
+    "punkty": "8",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "drzewo, hierarchia, przetwarzanie pliku, zliczanie podwladnych",
+    "dzial": "programowanie",
+    "dzialyDodatkowe": []
+  },
+  {
+    "file": "informatyka-2026-maj-pr-5.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "5",
+    "punkty": "2",
+    "typ": "otwarte-krotkie",
+    "difficulty": "3",
+    "topic": "systemy liczbowe, system piatkowy, system trojkowy, konwersja",
+    "dzial": "systemy-liczbowe",
+    "dzialyDodatkowe": []
+  },
+  {
+    "file": "informatyka-2026-maj-pr-6.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "6",
+    "punkty": "1",
+    "typ": "otwarte-krotkie",
+    "difficulty": "1",
+    "topic": "adresacja IP, IPv4, IPv6, sieci komputerowe",
+    "dzial": "sieci-i-bezpieczenstwo",
+    "dzialyDodatkowe": []
+  },
+  {
+    "file": "informatyka-2026-maj-pr-7.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "7",
+    "punkty": "9",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "arkusz kalkulacyjny, analiza danych, wykres kolumnowy, symulacja wzrostu",
+    "dzial": "arkusz-kalkulacyjny",
+    "dzialyDodatkowe": []
+  },
+  {
+    "file": "informatyka-2026-maj-pr-8.mdx",
+    "arkusz": "informatyka-2026-maj-pr",
+    "nr": "8",
+    "punkty": "9",
+    "typ": "otwarte-rozszerzone",
+    "difficulty": "5",
+    "topic": "bazy danych, SQL, JOIN, LIKE, analiza transakcji",
+    "dzial": "bazy-danych-sql",
+    "dzialyDodatkowe": []
+  },
+  {
     "file": "jezyk-angielski-2023-maj-pr-1.mdx",
     "arkusz": "jezyk-angielski-2023-maj-pr",
     "nr": "1",

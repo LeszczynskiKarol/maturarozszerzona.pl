@@ -5356,18 +5356,22 @@
   "informatyka|pr": [
     {
       "topic": "sql",
-      "count": 4
-    },
-    {
-      "topic": "baza danych",
-      "count": 3
+      "count": 5
     },
     {
       "topic": "join",
-      "count": 3
+      "count": 4
     },
     {
       "topic": "analiza algorytmu",
+      "count": 4
+    },
+    {
+      "topic": "arkusz kalkulacyjny",
+      "count": 3
+    },
+    {
+      "topic": "baza danych",
       "count": 3
     },
     {
@@ -5379,11 +5383,27 @@
       "count": 2
     },
     {
-      "topic": "arkusz kalkulacyjny",
+      "topic": "wykres kolumnowy",
       "count": 2
     },
     {
       "topic": "plik tekstowy",
+      "count": 2
+    },
+    {
+      "topic": "systemy liczbowe",
+      "count": 2
+    },
+    {
+      "topic": "analiza danych",
+      "count": 2
+    },
+    {
+      "topic": "pseudokod",
+      "count": 2
+    },
+    {
+      "topic": "dodawanie pisemne",
       "count": 2
     },
     {
@@ -5436,10 +5456,6 @@
     },
     {
       "topic": "przetwarzanie danych",
-      "count": 1
-    },
-    {
-      "topic": "wykres kolumnowy",
       "count": 1
     },
     {
@@ -5519,10 +5535,6 @@
       "count": 1
     },
     {
-      "topic": "systemy liczbowe",
-      "count": 1
-    },
-    {
       "topic": "system trójkowy",
       "count": 1
     },
@@ -5536,10 +5548,6 @@
     },
     {
       "topic": "odejmowanie",
-      "count": 1
-    },
-    {
-      "topic": "analiza danych",
       "count": 1
     },
     {
@@ -5560,10 +5568,6 @@
     },
     {
       "topic": "funkcja rekurencyjna",
-      "count": 1
-    },
-    {
-      "topic": "pseudokod",
       "count": 1
     },
     {
@@ -5639,10 +5643,6 @@
       "count": 1
     },
     {
-      "topic": "dodawanie pisemne",
-      "count": 1
-    },
-    {
       "topic": "system pozycyjny",
       "count": 1
     },
@@ -5680,6 +5680,98 @@
     },
     {
       "topic": "modelowanie danych",
+      "count": 1
+    },
+    {
+      "topic": "rekurencja",
+      "count": 1
+    },
+    {
+      "topic": "zlozonosc logarytmiczna",
+      "count": 1
+    },
+    {
+      "topic": "algorytm",
+      "count": 1
+    },
+    {
+      "topic": "przeniesienia",
+      "count": 1
+    },
+    {
+      "topic": "przetwarzanie plikow",
+      "count": 1
+    },
+    {
+      "topic": "kody ascii",
+      "count": 1
+    },
+    {
+      "topic": "prefiksosufiks",
+      "count": 1
+    },
+    {
+      "topic": "algorytmy na slowach",
+      "count": 1
+    },
+    {
+      "topic": "drzewo",
+      "count": 1
+    },
+    {
+      "topic": "hierarchia",
+      "count": 1
+    },
+    {
+      "topic": "przetwarzanie pliku",
+      "count": 1
+    },
+    {
+      "topic": "zliczanie podwladnych",
+      "count": 1
+    },
+    {
+      "topic": "system piatkowy",
+      "count": 1
+    },
+    {
+      "topic": "system trojkowy",
+      "count": 1
+    },
+    {
+      "topic": "konwersja",
+      "count": 1
+    },
+    {
+      "topic": "adresacja ip",
+      "count": 1
+    },
+    {
+      "topic": "ipv4",
+      "count": 1
+    },
+    {
+      "topic": "ipv6",
+      "count": 1
+    },
+    {
+      "topic": "sieci komputerowe",
+      "count": 1
+    },
+    {
+      "topic": "symulacja wzrostu",
+      "count": 1
+    },
+    {
+      "topic": "bazy danych",
+      "count": 1
+    },
+    {
+      "topic": "like",
+      "count": 1
+    },
+    {
+      "topic": "analiza transakcji",
       "count": 1
     }
   ],
