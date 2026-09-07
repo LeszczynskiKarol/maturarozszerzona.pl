@@ -1,0 +1,64 @@
+---
+// Własne znaki przedmiotów — rysowane ręcznie jako ścieżki SVG, nie z biblioteki ikon.
+// Każdy wyprowadzony z treści przedmiotu, nie z generycznego skojarzenia „szkoła":
+// chemia to pierścień aromatyczny, a nie probówka; fizyka to fala, a nie atom z orbitami.
+//
+// Wspólne założenia: viewBox 24×24, wyłącznie obrys (fill="none"), stroke="currentColor",
+// grubość 1.5, zaokrąglone końce. Dzięki currentColor znak dziedziczy kolor tekstu
+// rodzica i nie wymaga osobnego wariantu kolorystycznego.
+interface Props {
+  slug: string;
+  class?: string;
+}
+const { slug, class: klass = "h-6 w-6" } = Astro.props;
+
+const MARKS: Record<string, string> = {
+  // wykres funkcji: układ współrzędnych + krzywa rosnąca
+  matematyka: `<path d="M4 20h17M5 21V4"/><path d="M7 17c3.5 0 5-11 9-11 2 0 3 4 4 6"/>`,
+
+  // pierścień benzenowy: sześciokąt + okrąg aromatyczny
+  chemia: `<path d="M12 3.5 19 7.75v8.5L12 20.5 5 16.25v-8.5z"/><circle cx="12" cy="12" r="4"/>`,
+
+  // podwójna helisa: nici rozchodzą się na pełną szerokość, szczeble w miejscach
+  // największego rozejścia. Wcześniejsza, wąska wersja czytała się przy 24 px
+  // jako klepsydra — decyduje amplituda, nie liczba detali.
+  biologia: `<path d="M7.5 3c0 5 9 6 9 9s-9 4-9 9M16.5 3c0 5-9 6-9 9s9 4 9 9"/><path d="M8.4 7h7.2M8.4 17h7.2"/>`,
+
+  // fala harmoniczna + wektor kierunku
+  fizyka: `<path d="M2 12c2.5-7 5-7 7.5 0s5 7 7.5 0"/><path d="M18.5 9.5 21.5 12l-3 2.5"/>`,
+
+  // profil terenu: dwa szczyty nad linią gruntu. Dwie wcześniejsze próby rysowały
+  // poziomice — zagnieżdżone krzywe zamknięte przy 24 px nieodmiennie czytały się
+  // jako oko albo spirala. Sylwetka górska jest jednoznaczna w każdym rozmiarze.
+  geografia: `<path d="M2.5 18.5h19"/><path d="M4 18.5 9.5 8l3.6 6 3.4-5.2 4 9.7"/>`,
+
+  // kolumna: głowica, trzon z żłobieniami, baza. Oś czasu z cezurami nie działała
+  // w tym rozmiarze — przecinające się kreski dawały krzyżyki, a kreski pod osią
+  // sylwetkę kotwicy. Kolumna czyta się od razu i nie myli z żadnym innym znakiem.
+  historia: `<path d="M4.5 4.5h15M6.5 19h11M4.5 21h15"/><path d="M9 4.5V19M15 4.5V19"/>`,
+
+  // urna wyborcza z kartą do głosowania
+  wos: `<path d="M3.5 10.5h17v10h-17z"/><path d="M8 10.5V4h8v6.5"/><path d="M9.5 15.5l2 2 3.5-4"/>`,
+
+  // klamry kodu
+  informatyka: `<path d="M9.5 4.5C6.5 4.5 7 11 3.5 12c3.5 1 3 7.5 6 7.5"/><path d="M14.5 4.5c3 0 2.5 6.5 6 7.5-3.5 1-3 7.5-6 7.5"/>`,
+
+  // dymek wypowiedzi z linijkami tekstu
+  "jezyk-angielski": `<path d="M3.5 5h17v11H9.5l-4.5 4v-4H3.5z"/><path d="M7 9h10M7 12h6"/>`,
+};
+
+const d = MARKS[slug] ?? `<circle cx="12" cy="12" r="8"/>`;
+---
+
+<svg
+  class={klass}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  focusable="false"
+  set:html={d}
+/>
