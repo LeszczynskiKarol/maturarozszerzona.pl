@@ -3905,11 +3905,19 @@
       "count": 5
     },
     {
+      "topic": "zimna wojna",
+      "count": 5
+    },
+    {
       "topic": "prl",
       "count": 5
     },
     {
-      "topic": "zimna wojna",
+      "topic": "powstanie listopadowe",
+      "count": 4
+    },
+    {
+      "topic": "wypracowanie",
       "count": 4
     },
     {
@@ -3917,15 +3925,11 @@
       "count": 4
     },
     {
-      "topic": "powstanie listopadowe",
-      "count": 3
-    },
-    {
       "topic": "francja",
       "count": 3
     },
     {
-      "topic": "wypracowanie",
+      "topic": "traktat wersalski",
       "count": 3
     },
     {
@@ -3934,6 +3938,26 @@
     },
     {
       "topic": "barok",
+      "count": 3
+    },
+    {
+      "topic": "reformacja",
+      "count": 3
+    },
+    {
+      "topic": "jan iii sobieski",
+      "count": 3
+    },
+    {
+      "topic": "solidarnosc",
+      "count": 3
+    },
+    {
+      "topic": "rewolucja przemyslowa",
+      "count": 3
+    },
+    {
+      "topic": "ii rp",
       "count": 3
     },
     {
@@ -3961,15 +3985,7 @@
       "count": 2
     },
     {
-      "topic": "traktat wersalski",
-      "count": 2
-    },
-    {
-      "topic": "reformacja",
-      "count": 2
-    },
-    {
-      "topic": "jan iii sobieski",
+      "topic": "edykt nantejski",
       "count": 2
     },
     {
@@ -3977,11 +3993,47 @@
       "count": 2
     },
     {
-      "topic": "solidarnosc",
+      "topic": "zjednoczenie niemiec",
       "count": 2
     },
     {
-      "topic": "ii rp",
+      "topic": "stan wojenny",
+      "count": 2
+    },
+    {
+      "topic": "karykatura polityczna",
+      "count": 2
+    },
+    {
+      "topic": "pryncypat",
+      "count": 2
+    },
+    {
+      "topic": "wyprawy krzyzowe",
+      "count": 2
+    },
+    {
+      "topic": "egipt",
+      "count": 2
+    },
+    {
+      "topic": "krolestwo polskie",
+      "count": 2
+    },
+    {
+      "topic": "wojna secesyjna",
+      "count": 2
+    },
+    {
+      "topic": "wojna domowa w hiszpanii",
+      "count": 2
+    },
+    {
+      "topic": "ii wojna swiatowa",
+      "count": 2
+    },
+    {
+      "topic": "cezar",
       "count": 2
     },
     {
@@ -4333,10 +4385,6 @@
       "count": 1
     },
     {
-      "topic": "edykt nantejski",
-      "count": 1
-    },
-    {
       "topic": "hugenoci",
       "count": 1
     },
@@ -4398,10 +4446,6 @@
     },
     {
       "topic": "ameryka lacinska",
-      "count": 1
-    },
-    {
-      "topic": "zjednoczenie niemiec",
       "count": 1
     },
     {
@@ -4533,15 +4577,7 @@
       "count": 1
     },
     {
-      "topic": "stan wojenny",
-      "count": 1
-    },
-    {
       "topic": "jaruzelski",
-      "count": 1
-    },
-    {
-      "topic": "karykatura polityczna",
       "count": 1
     },
     {
@@ -4558,10 +4594,6 @@
     },
     {
       "topic": "oktawian august",
-      "count": 1
-    },
-    {
-      "topic": "pryncypat",
       "count": 1
     },
     {
@@ -4590,10 +4622,6 @@
     },
     {
       "topic": "krucjaty",
-      "count": 1
-    },
-    {
-      "topic": "wyprawy krzyzowe",
       "count": 1
     },
     {
@@ -4681,10 +4709,6 @@
       "count": 1
     },
     {
-      "topic": "egipt",
-      "count": 1
-    },
-    {
       "topic": "horus",
       "count": 1
     },
@@ -4705,10 +4729,6 @@
       "count": 1
     },
     {
-      "topic": "krolestwo polskie",
-      "count": 1
-    },
-    {
       "topic": "bank polski",
       "count": 1
     },
@@ -4718,10 +4738,6 @@
     },
     {
       "topic": "zloty polski",
-      "count": 1
-    },
-    {
-      "topic": "rewolucja przemyslowa",
       "count": 1
     },
     {
@@ -4746,10 +4762,6 @@
     },
     {
       "topic": "herby",
-      "count": 1
-    },
-    {
-      "topic": "wojna secesyjna",
       "count": 1
     },
     {
@@ -4841,10 +4853,6 @@
       "count": 1
     },
     {
-      "topic": "wojna domowa w hiszpanii",
-      "count": 1
-    },
-    {
       "topic": "totalitaryzmy",
       "count": 1
     },
@@ -4874,10 +4882,6 @@
     },
     {
       "topic": "sanacja",
-      "count": 1
-    },
-    {
-      "topic": "ii wojna swiatowa",
       "count": 1
     },
     {
@@ -5038,6 +5042,314 @@
     },
     {
       "topic": "bezkrolewie",
+      "count": 1
+    },
+    {
+      "topic": "cywilizacje starozytne",
+      "count": 1
+    },
+    {
+      "topic": "chiny",
+      "count": 1
+    },
+    {
+      "topic": "odkrycia archeologiczne",
+      "count": 1
+    },
+    {
+      "topic": "konfederacja warszawska",
+      "count": 1
+    },
+    {
+      "topic": "pokoj augsburski",
+      "count": 1
+    },
+    {
+      "topic": "unia brzeska",
+      "count": 1
+    },
+    {
+      "topic": "dualizm gospodarczy europy",
+      "count": 1
+    },
+    {
+      "topic": "gospodarka folwarczno-panszczyzniana",
+      "count": 1
+    },
+    {
+      "topic": "handel baltycki",
+      "count": 1
+    },
+    {
+      "topic": "odsiecz wiedenska",
+      "count": 1
+    },
+    {
+      "topic": "chocim",
+      "count": 1
+    },
+    {
+      "topic": "wojna o niepodleglosc usa",
+      "count": 1
+    },
+    {
+      "topic": "analiza zrodel ikonograficznych",
+      "count": 1
+    },
+    {
+      "topic": "statut organiczny",
+      "count": 1
+    },
+    {
+      "topic": "kongres wiedenski",
+      "count": 1
+    },
+    {
+      "topic": "depesza emska",
+      "count": 1
+    },
+    {
+      "topic": "wojna francusko-pruska",
+      "count": 1
+    },
+    {
+      "topic": "lodz",
+      "count": 1
+    },
+    {
+      "topic": "przemysl wlokienniczy",
+      "count": 1
+    },
+    {
+      "topic": "paternalizm fabryczny",
+      "count": 1
+    },
+    {
+      "topic": "zabor austriacki",
+      "count": 1
+    },
+    {
+      "topic": "autonomia galicji",
+      "count": 1
+    },
+    {
+      "topic": "zabor pruski",
+      "count": 1
+    },
+    {
+      "topic": "wrzesnia",
+      "count": 1
+    },
+    {
+      "topic": "konferencja poczdamska",
+      "count": 1
+    },
+    {
+      "topic": "granica na odrze i nysie",
+      "count": 1
+    },
+    {
+      "topic": "gabriel narutowicz",
+      "count": 1
+    },
+    {
+      "topic": "przewrot majowy",
+      "count": 1
+    },
+    {
+      "topic": "zgromadzenie narodowe",
+      "count": 1
+    },
+    {
+      "topic": "filozofia grecka",
+      "count": 1
+    },
+    {
+      "topic": "sokrates",
+      "count": 1
+    },
+    {
+      "topic": "metoda majeutyczna",
+      "count": 1
+    },
+    {
+      "topic": "anschluss",
+      "count": 1
+    },
+    {
+      "topic": "wielka czystka",
+      "count": 1
+    },
+    {
+      "topic": "de gaulle",
+      "count": 1
+    },
+    {
+      "topic": "mikolajczyk",
+      "count": 1
+    },
+    {
+      "topic": "roosevelt",
+      "count": 1
+    },
+    {
+      "topic": "plan marshalla",
+      "count": 1
+    },
+    {
+      "topic": "unrra",
+      "count": 1
+    },
+    {
+      "topic": "odbudowa powojenna",
+      "count": 1
+    },
+    {
+      "topic": "oredzie biskupow polskich",
+      "count": 1
+    },
+    {
+      "topic": "pojednanie polsko-niemieckie",
+      "count": 1
+    },
+    {
+      "topic": "wyszynski",
+      "count": 1
+    },
+    {
+      "topic": "propaganda prl",
+      "count": 1
+    },
+    {
+      "topic": "praska wiosna",
+      "count": 1
+    },
+    {
+      "topic": "interwencja 1968",
+      "count": 1
+    },
+    {
+      "topic": "breznjew",
+      "count": 1
+    },
+    {
+      "topic": "karykatura",
+      "count": 1
+    },
+    {
+      "topic": "porozumienia sierpniowe",
+      "count": 1
+    },
+    {
+      "topic": "ulotka",
+      "count": 1
+    },
+    {
+      "topic": "unia w krewie",
+      "count": 1
+    },
+    {
+      "topic": "kampania wrzesniowa",
+      "count": 1
+    },
+    {
+      "topic": "pompejusz",
+      "count": 1
+    },
+    {
+      "topic": "wojna domowa",
+      "count": 1
+    },
+    {
+      "topic": "akcjum",
+      "count": 1
+    },
+    {
+      "topic": "upadek konstantynopola",
+      "count": 1
+    },
+    {
+      "topic": "akka",
+      "count": 1
+    },
+    {
+      "topic": "handel lewantynski",
+      "count": 1
+    },
+    {
+      "topic": "lokacja na prawie niemieckim",
+      "count": 1
+    },
+    {
+      "topic": "zasadzca",
+      "count": 1
+    },
+    {
+      "topic": "renta feudalna",
+      "count": 1
+    },
+    {
+      "topic": "wolnizna",
+      "count": 1
+    },
+    {
+      "topic": "rurykowicze",
+      "count": 1
+    },
+    {
+      "topic": "andegawenowie",
+      "count": 1
+    },
+    {
+      "topic": "karol robert",
+      "count": 1
+    },
+    {
+      "topic": "ukladu sukcesyjne",
+      "count": 1
+    },
+    {
+      "topic": "rekonkwista",
+      "count": 1
+    },
+    {
+      "topic": "polwysep iberyjski",
+      "count": 1
+    },
+    {
+      "topic": "arabowie",
+      "count": 1
+    },
+    {
+      "topic": "szlachta zasciankowa",
+      "count": 1
+    },
+    {
+      "topic": "golota",
+      "count": 1
+    },
+    {
+      "topic": "stan szlachecki",
+      "count": 1
+    },
+    {
+      "topic": "prawa polityczne",
+      "count": 1
+    },
+    {
+      "topic": "luter",
+      "count": 1
+    },
+    {
+      "topic": "kalwin",
+      "count": 1
+    },
+    {
+      "topic": "sztuka sakralna",
+      "count": 1
+    },
+    {
+      "topic": "ikonoklazm",
       "count": 1
     }
   ],
